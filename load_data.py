@@ -55,7 +55,7 @@ costo = dict()
 plazo = dict()
 
 #Capacidad de generaci´on el´ectrica del proyecto ℓ en MW
-gen1 = dict()
+gen1 = {l : proyectos[l].Capacidad_MW for l in L}
 
 #Capacidad de generaci´on el´ectrica de los proyectos ℓ′ preexistentes en MW
 gen2 = dict()
