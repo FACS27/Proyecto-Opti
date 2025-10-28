@@ -54,7 +54,7 @@ with open("data_modules/bloated_data/bloated_gen_" \
     cont = 1
     for d in data:
         cont += 1
-        d = d.strip().split(";")
+        d = d.strip().replace("\"", "").replace("\\", "").split(";")
         try:
             if d[0] != "Interregional":
                 register = RegistroCompleto(*d)
@@ -79,7 +79,7 @@ even_more_reduced_data = set()
 
 for s in more_reduced_data:
     register = RegistroReducido(*s)
-    if isfloat(register.Capacidad_MW):
+    if isfloat(register.Capacidad_MW) and register.Capacidad_MW != "0.0" and float(register.Inversion_MMUS) > 0:
         formated_reduced_data.add(register)
 
 print(len(formated_reduced_data))
