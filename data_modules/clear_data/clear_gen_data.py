@@ -31,11 +31,11 @@ def simplify_tech(tech):
     Geotermica = ("Geotérmica")
     Eolico_Solar = ("eólico-solar fotovoltaico")
     Hidro_Solar = ("hidro-solar fotovoltaio")
-    if tech in Solar: return "Solar Fotovoltaica"
-    elif tech in Hidro: return "Hidráulica"
+    if tech in Solar: return "Solar"
+    elif tech in Hidro: return "Hidro"
     elif tech in Eolica: return "Eólica"
     elif tech in Geotermica: return "Geotérmica"
-    elif tech in Eolico_Solar: return "Eólico-Solar"
+    elif tech in Eolico_Solar: return "Eólica-Solar"
     elif tech in Hidro_Solar: return "Hidro-Solar"
     else: return False
 

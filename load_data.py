@@ -14,7 +14,7 @@ T = tuple( t for t in range(50) )
 L = set()
 
 #Tecnologías de generación de energía eléctrica ERNC
-G = set()
+G = {"Solar", "Hidro", "Eólica", "Geotérmica"}
 
 #Empresas o personas naturales que presentaron al menos un proyecto
 E = set()
@@ -67,7 +67,9 @@ emp = {(l, e) : 1 if proyectos[l].Titular == e else 0 for l in L for e in E}
 ubi = dict()
 
 #1 Si el proyecto ℓ utiliza la tecnolog´ıa de generaci´on g
-tec = {(l, g) : 1 if proyectos[l].Tecnologia == g else 0 for l in L for g in G}
+#! Debido a la cantidad de proyectos que tienen 2 tecnologias
+#! Voy a asumir que un proyecto puede usar mas de una tecnologia
+tec = {(l, g) : 1 if g in proyectos[l].Tecnologia else 0 for l in L for g in G}
 
 # Cantidad de proyectos que puede desarrollar la empresa e en cada semestre.
 cap = dict()
