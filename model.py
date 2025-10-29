@@ -44,10 +44,10 @@ def modelo():
 
     #6. Comportamiento de yℓ,t y de z
     model.addConstrs(x[l, t] <= y[l, t + t_prima] for l in L for t in range(T) for t_prima in range(plazo_g[l]) if t + t_prima < T) #revisar lo del if t + t_prima
-    model.addConstrs(quicksum(y[l, t] for t in range(T)) == x[l, t] * plazo_g[l] for l in L for t in range(T))  #falot el para todo t en modelación?
+    model.addConstrs(quicksum(y[l, t] for t in range(T)) == quicksum(x[l, t] * plazo_g[l] for t in range(T)) for l in L)
 
     model.addConstrs(w[n, t] <= z[n, t + t_prima] for n in N for t in range(T) for t_prima in range(plazo_n[n]) if t + t_prima < T) #revisar lo del if t + t_prima
-    model.addConstrs(quicksum(z[n, t] for t in range(T)) == w[n, t] * plazo_n[n] for n in N for t in range(T))  #falot el para todo t en modelación?
+    model.addConstrs(quicksum(z[n, t] for t in range(T)) == quicksum(w[n, t] * plazo_n[n] for t in range(T)) for n in N)  #falot el para todo t en modelación?
 
     #7. No construir más proyectos de cierta tecnología que los que te permite la regi´on
     model.addConstrs(quicksum(x[l, t] * tec[l, g] * ubi_g[l, p] for l in L for t in range(T) for p in P) <= max[r, g] for r in R for g in G)
