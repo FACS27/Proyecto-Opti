@@ -44,25 +44,28 @@ with open("data_modules/data/gen_data_reales.csv", "r", encoding="utf-8") as fil
         cont += 1
 
 
-
+#TODO 
 #! Tenemos que definir como manejamos los costos respecto al tiempo
 #Costo en UF de realizar el proyecto l del dia t
 costo = dict()
 
 
-
+#TODO 
 #Tiempo en semestres que el proyecto ℓ estar´ıa terminado desde el mes en que se inició
 plazo = dict()
 
+#TODO 
 #Capacidad de generaci´on el´ectrica del proyecto ℓ en MW
 gen1 = {l : proyectos[l].Capacidad_MW for l in L}
 
+#TODO 
 #Capacidad de generaci´on el´ectrica de los proyectos ℓ′ preexistentes en MW
 gen2 = dict()
 
 #1 Si el proyecto ℓ es propuesto por la empresa e
 emp = {(l, e) : 1 if proyectos[l].Titular == e else 0 for l in L for e in E}
 
+#TODO 
 #1 Si el proyecto ℓ esta ubicado en la posici´on p
 ubi = dict()
 
@@ -71,12 +74,15 @@ ubi = dict()
 #! Voy a asumir que un proyecto puede usar mas de una tecnologia
 tec = {(l, g) : 1 if g in proyectos[l].Tecnologia else 0 for l in L for g in G}
 
+#TODO 
 # Cantidad de proyectos que puede desarrollar la empresa e en cada semestre.
 cap = dict()
 
 #Capacidad de generaci´on el´ectrica requerida en MW para cumplir la demanda en el 2050
+#TODO 
 req = 0
 
+#TODO 
 #Cantidad m´axima de proyectos que utilizan la tecnolog´ıa g en la regi´on r.
 max = int("inf")
 
