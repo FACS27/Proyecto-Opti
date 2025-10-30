@@ -39,9 +39,11 @@ def simplify_tech(tech):
     elif tech in Hidro_Solar: return "Hidro-Solar"
     else: return False
 
+bloated_file = "bloated_gen_data.csv"
+new_file = "gen_data_reales.csv"
 
-with open("data_modules/bloated_data/bloated_gen_" \
-"data.csv", "r", encoding="utf-8") as file:
+
+with open(f"data_modules/bloated_data/{bloated_file}", "r", encoding="utf-8") as file:
     format = file.readline().strip().split(";")
     format[-1] = format[-1].replace(",", "")
     print("Formato de los datos completos:")
@@ -85,12 +87,12 @@ for s in more_reduced_data:
 print(len(formated_reduced_data))
 
 
-with open("data_modules/data/gen_data_reales_w_h.csv", "w", encoding="utf-8") as file:
+with open(f"data_modules/data/{new_file}_w_h.csv", "w", encoding="utf-8") as file:
     print('Region', 'Comuna', 'Titular', 'Nombre', 'Tecnologia', 'Inversion_MMUS', 'Capacidad_MW', "Latitud", "Longitud", sep =";", file=file)
     for f in formated_reduced_data:
         print(f.Region, f.Comuna, f.Titular, f.Nombre, f.Tecnologia, f.Inversion_MMUS, f.Capacidad_MW, f.Latitud, f.Longitud, sep=";", file=file)
 
-with open("data_modules/data/gen_data_reales.csv", "w", encoding="utf-8") as file:
+with open(f"data_modules/data/{new_file}.csv", "w", encoding="utf-8") as file:
     for f in formated_reduced_data:
         print(f.Region, f.Comuna, f.Titular, f.Nombre, f.Tecnologia, f.Inversion_MMUS, f.Capacidad_MW, f.Latitud, f.Longitud, sep=";", file=file)
 

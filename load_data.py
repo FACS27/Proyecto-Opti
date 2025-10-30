@@ -37,7 +37,7 @@ A = set() # ℓ′ ∈ A | A ∩ L = {∅}
 #Conjunto de proyectos de transmisión preexistentes, ya sea terminados o con licitación
 B = set() # ℓ′ ∈ B | B ∩ L = {∅}
 
-with open("data_modules/data/gen_data_reales.csv", "r", encoding="utf-8") as file:
+with open("data_modules/data/gen_data_sim.csv", "r", encoding="utf-8") as file:
     lines = file.readlines().strip().split(";")
     cont = 0
     for l in lines:
