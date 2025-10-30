@@ -190,7 +190,6 @@ for (r in names(n_region)) {
 
   # Para cada tecnología, re-muestrear filas REALES con reemplazo (pares Inv, Cap)
   sim_chunks <- list()
-
   for (i in seq_along(techs_r)) {
     tname <- techs_r[i]
     k <- n_tr[i]
@@ -201,51 +200,27 @@ for (r in names(n_region)) {
 
     idx <- sample.int(nrow(sub_rt), size = k, replace = TRUE)
 
-    # --- Valores base re-muestreados ---
-    inv0 <- as.numeric(sub_rt$Inversion_MMUS[idx])
-    cap0 <- as.numeric(sub_rt$Capacidad_MW[idx])
-
-    # --- Desviaciones estándar por Región×Tecnología (desde el subconjunto real) ---
-    sd_inv <- stats::sd(as.numeric(sub_rt$Inversion_MMUS), na.rm = TRUE)
-    sd_cap <- stats::sd(as.numeric(sub_rt$Capacidad_MW),   na.rm = TRUE)
-    if (!is.finite(sd_inv)) sd_inv <- 0
-    if (!is.finite(sd_cap)) sd_cap <- 0
-
-    # --- Ruido uniforme en [-1.5*sd, +1.5*sd] ---
-    inv_noise <- if (sd_inv > 0) runif(k, -1.5 * sd_inv,  1.5 * sd_inv) else rep(0, k)
-    cap_noise <- if (sd_cap > 0) runif(k, -1.5 * sd_cap,  1.5 * sd_cap) else rep(0, k)
-
-    # --- Aplicar y truncar a > 0 (evitar no-positivos) ---
-    inv_sim <- pmax(1e-8, inv0 + inv_noise)
-    cap_sim <- pmax(1e-8, cap0 + cap_noise)
-
-    # --- Construir chunk ya con los valores perturbados ---
-    df_chunk <- data.frame(
-      Id = paste0("sim_", gsub("\\s+", "_", r), "_", seq_len(k) + row_id - 1L),
+    sim_chunks[[length(sim_chunks) + 1L]] <- data.frame(
+      Id = paste0("sim_", r, "_", seq_len(k) + row_id - 1L),
       Region = r,
-      Comuna = NA_character_,
+      Comuna = NA_character_,              # se completa más abajo
       Titular = paste0("Titular", row_id + seq_len(k) - 1L),
       Nombre  = paste0("Nombre",  row_id + seq_len(k) - 1L),
       Tecnologia = tname,
-      Inversion_MMUS = inv_sim,   # <-- perturbado
-      Capacidad_MW  = cap_sim,    # <-- perturbado
+      Inversion_MMUS = sub_rt$Inversion_MMUS[idx],  # PAR EMPÍRICO REAL
+      Capacidad_MW  = sub_rt$Capacidad_MW[idx],     # PAR EMPÍRICO REAL
       Latitud  = NA_real_,
       Longitud = NA_real_,
-      is_simulated = TRUE,
-      stringsAsFactors = FALSE
+      is_simulated = TRUE
     )
-
-    sim_chunks[[length(sim_chunks) + 1L]] <- df_chunk
     row_id <- row_id + k
   }
 
-  # Apila los chunks de esta región dentro del contenedor global
   if (length(sim_chunks)) {
     rows_list[[length(rows_list) + 1L]] <- do.call(rbind, sim_chunks)
   }
 }
 
-# Construir el data.frame final de simulados
 simulated_data <- do.call(rbind, rows_list)
 
 summary(simulated_data)
