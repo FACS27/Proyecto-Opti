@@ -1,10 +1,64 @@
-#Load data
-real_data <- read.csv("data_modules\\data\\gen_data_reales_w_h.csv", sep = ";",
-                      colClasses = c("character", "character", "character", "character",
-                                     "character", "numeric", "numeric", "numeric", "numeric"))
+# === INPUT: interactivo, variable, o CLI ===
+get_arg <- function(flag, default = NULL) {
+  args <- commandArgs(trailingOnly = TRUE)
+  hit <- grep(paste0("^", flag, "="), args, value = TRUE)
+  if (length(hit)) return(sub(paste0("^", flag, "="), "", hit))
+  default
+}
 
-set.seed(123)
+# --- Semilla reproducible u "auto" (aleatoria) ---
+seed_arg <- get_arg("--seed", default = "auto")
+if (identical(tolower(seed_arg), "auto")) {
+  # semilla distinta cada corrida
+  seed_val <- as.integer((as.numeric(Sys.time()) * 1e6) %% .Machine$integer.max)
+  set.seed(seed_val)
+  message("Seed (auto) = ", seed_val)
+} else {
+  seed_val <- as.integer(seed_arg)
+  set.seed(seed_val)
+  message("Seed (fixed) = ", seed_val)
+}
 
+# Ruta del archivo
+input_path <- file.path(dirname(sys.frame(1)$ofile %||% "data_modules/sim.R"),
+                        "data", "gen_data_reales_w_h.csv")
+input_path <- normalizePath(input_path, winslash = "/", mustWork = TRUE)
+
+# === AUTO-DETECCIÓN DE FORMATO ===
+first_line <- readLines(input_path, n = 1)
+if (grepl(";", first_line)) {
+  sep_arg <- ";"
+} else {
+  sep_arg <- ","
+}
+
+# Si los números tienen punto decimal, usa dec="."
+sample_lines <- readLines(input_path, n = 5)
+if (any(grepl("[0-9]+\\.[0-9]+", sample_lines))) {
+  dec_arg <- "."
+} else {
+  dec_arg <- ","
+}
+
+message("Leyendo CSV con separador '", sep_arg, "' y decimal '", dec_arg, "'")
+
+# Lee el archivo
+real_data <- read.csv(
+  input_path,
+  sep = sep_arg,
+  dec = dec_arg,
+  na.strings = c("", "NA"),
+  colClasses = c("character","character","character","character",
+                 "character","numeric","numeric","numeric","numeric")
+)
+
+# =========================
+#  Simulación estratificada por REGIÓN
+#  (márgenes lognormales + cópula gaussiana)
+#  Mantiene Capacidad/Precio coherente por región
+# =========================
+
+# --------- PAQUETES REQUERIDOS ---------
 req_pkgs <- c("MASS","copula")
 to_install <- req_pkgs[!req_pkgs %in% installed.packages()[, "Package"]]
 if (length(to_install)) install.packages(to_install)
@@ -136,6 +190,7 @@ for (r in names(n_region)) {
 
   # Para cada tecnología, re-muestrear filas REALES con reemplazo (pares Inv, Cap)
   sim_chunks <- list()
+
   for (i in seq_along(techs_r)) {
     tname <- techs_r[i]
     k <- n_tr[i]
@@ -146,27 +201,51 @@ for (r in names(n_region)) {
 
     idx <- sample.int(nrow(sub_rt), size = k, replace = TRUE)
 
-    sim_chunks[[length(sim_chunks) + 1L]] <- data.frame(
-      Id = paste0("sim_", r, "_", seq_len(k) + row_id - 1L),
+    # --- Valores base re-muestreados ---
+    inv0 <- as.numeric(sub_rt$Inversion_MMUS[idx])
+    cap0 <- as.numeric(sub_rt$Capacidad_MW[idx])
+
+    # --- Desviaciones estándar por Región×Tecnología (desde el subconjunto real) ---
+    sd_inv <- stats::sd(as.numeric(sub_rt$Inversion_MMUS), na.rm = TRUE)
+    sd_cap <- stats::sd(as.numeric(sub_rt$Capacidad_MW),   na.rm = TRUE)
+    if (!is.finite(sd_inv)) sd_inv <- 0
+    if (!is.finite(sd_cap)) sd_cap <- 0
+
+    # --- Ruido uniforme en [-1.5*sd, +1.5*sd] ---
+    inv_noise <- if (sd_inv > 0) runif(k, -1.5 * sd_inv,  1.5 * sd_inv) else rep(0, k)
+    cap_noise <- if (sd_cap > 0) runif(k, -1.5 * sd_cap,  1.5 * sd_cap) else rep(0, k)
+
+    # --- Aplicar y truncar a > 0 (evitar no-positivos) ---
+    inv_sim <- pmax(1e-8, inv0 + inv_noise)
+    cap_sim <- pmax(1e-8, cap0 + cap_noise)
+
+    # --- Construir chunk ya con los valores perturbados ---
+    df_chunk <- data.frame(
+      Id = paste0("sim_", gsub("\\s+", "_", r), "_", seq_len(k) + row_id - 1L),
       Region = r,
-      Comuna = NA_character_,              # se completa más abajo
+      Comuna = NA_character_,
       Titular = paste0("Titular", row_id + seq_len(k) - 1L),
       Nombre  = paste0("Nombre",  row_id + seq_len(k) - 1L),
       Tecnologia = tname,
-      Inversion_MMUS = sub_rt$Inversion_MMUS[idx],  # PAR EMPÍRICO REAL
-      Capacidad_MW  = sub_rt$Capacidad_MW[idx],     # PAR EMPÍRICO REAL
+      Inversion_MMUS = inv_sim,   # <-- perturbado
+      Capacidad_MW  = cap_sim,    # <-- perturbado
       Latitud  = NA_real_,
       Longitud = NA_real_,
-      is_simulated = TRUE
+      is_simulated = TRUE,
+      stringsAsFactors = FALSE
     )
+
+    sim_chunks[[length(sim_chunks) + 1L]] <- df_chunk
     row_id <- row_id + k
   }
 
+  # Apila los chunks de esta región dentro del contenedor global
   if (length(sim_chunks)) {
     rows_list[[length(rows_list) + 1L]] <- do.call(rbind, sim_chunks)
   }
 }
 
+# Construir el data.frame final de simulados
 simulated_data <- do.call(rbind, rows_list)
 
 summary(simulated_data)
@@ -215,11 +294,27 @@ for (cc in setdiff(col_order_out, names(simulated_data))) {
 }
 simulated_out <- simulated_data[, col_order_out]
 
-# Diagnóstico breve (opcional)
-cat("\n--- TOTALES (solo simulados) ---\n")
-cat("n =", nrow(simulated_out), "\n")
-cat("\n--- Ejemplo de filas ---\n")
-print(utils::head(simulated_out, 3))
+# --- Agregar columna Plazo según cual sea la Tecnología, lo voy a agregar en la última columna ---
+tech <- trimws(simulated_out$Tecnologia)
+
+idx_eolica <- grepl("e[oó]lic", tech, ignore.case = TRUE)
+idx_solar  <- grepl("solar",    tech, ignore.case = TRUE)
+idx_hidro  <- grepl("hidro|hidra[uú]lic", tech, ignore.case = TRUE)
+
+Plazo <- rep(NA_integer_, nrow(simulated_out))
+
+# Prioridad: si es "Eólica-Solar", se usa el que demore más tiempo, es decir tratamos como Eólica
+Plazo[idx_eolica] <- sample(8:16,  sum(idx_eolica),  replace = TRUE)
+
+# Solar solo donde no quedó asignado por Eólica
+todo <- is.na(Plazo) & idx_solar
+Plazo[todo] <- sample(2:5,    sum(todo),       replace = TRUE)
+
+# Hidráulica / Hidro donde falte
+todo <- is.na(Plazo) & idx_hidro
+Plazo[todo] <- sample(2:6,    sum(todo),       replace = TRUE)
+
+simulated_out$Plazo <- Plazo
 
 # Exportar: MISMO LUGAR que antes, con encabezado y ; como separador
 write.table(
