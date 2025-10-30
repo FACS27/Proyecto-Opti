@@ -1,49 +1,7 @@
-# === INPUT: interactivo, variable, o CLI ===
-get_arg <- function(flag, default = NULL) {
-  args <- commandArgs(trailingOnly = TRUE)
-  hit <- grep(paste0("^", flag, "="), args, value = TRUE)
-  if (length(hit)) return(sub(paste0("^", flag, "="), "", hit))
-  default
-}
-
-# Ruta del archivo
-input_path <- file.path(dirname(sys.frame(1)$ofile %||% "data_modules/sim.R"),
-                        "data", "gen_data_reales_w_h.csv")
-input_path <- normalizePath(input_path, winslash = "/", mustWork = TRUE)
-
-# === AUTO-DETECCIÓN DE FORMATO ===
-first_line <- readLines(input_path, n = 1)
-if (grepl(";", first_line)) {
-  sep_arg <- ";"
-} else {
-  sep_arg <- ","
-}
-
-# Si los números tienen punto decimal, usa dec="."
-sample_lines <- readLines(input_path, n = 5)
-if (any(grepl("[0-9]+\\.[0-9]+", sample_lines))) {
-  dec_arg <- "."
-} else {
-  dec_arg <- ","
-}
-
-message("Leyendo CSV con separador '", sep_arg, "' y decimal '", dec_arg, "'")
-
-# Lee el archivo
-real_data <- read.csv(
-  input_path,
-  sep = sep_arg,
-  dec = dec_arg,
-  na.strings = c("", "NA"),
-  colClasses = c("character","character","character","character",
-                 "character","numeric","numeric","numeric","numeric")
-)
-
-# =========================
-#  Simulación estratificada por REGIÓN
-#  (márgenes lognormales + cópula gaussiana)
-#  Mantiene Capacidad/Precio coherente por región
-# =========================
+#Load data
+real_data <- read.csv("data_modules\\data\\gen_data_reales_w_h.csv", sep = ";",
+                      colClasses = c("character", "character", "character", "character",
+                                     "character", "numeric", "numeric", "numeric", "numeric"))
 
 set.seed(123)
 
@@ -210,6 +168,38 @@ for (r in names(n_region)) {
 }
 
 simulated_data <- do.call(rbind, rows_list)
+
+summary(simulated_data)
+
+#Real data
+#str(real_data)
+summary(real_data)
+
+
+hist(simulated_data$Inversion_MMUS, xlim=c(0,11000), freq = FALSE)
+hist(real_data$Inversion_MMUS, xlim=c(0,11000), freq=FALSE)
+
+hist(simulated_data$Capacidad_MW, xlim=c(0,1400), freq=FALSE)
+hist(real_data$Capacidad_MW, xlim=c(0,1400), freq=FALSE)
+
+plot(real_data$Capacidad_MW, real_data$Inversion_MMUS, xlim=c(0,1400), ylim=c(0,11000))
+plot(simulated_data$Capacidad_MW, simulated_data$Inversion_MMUS, xlim=c(0,1400), ylim=c(0,11000))
+
+# Check correlations
+
+#Correlacion capacidad-costo
+cor(real_data[, c("Capacidad_MW", "Inversion_MMUS")])
+cor(simulated_data[, c("Capacidad_MW", "Inversion_MMUS")])
+
+
+table(real_data$Region) / 1182
+table(simulated_data$Region) / 4000
+
+table(real_data$Tecnologia)  / 1182
+table(simulated_data$Tecnologia) / 4000
+
+
+#write.csv(simulated_data, "gen_data_simulada.csv", row.names = FALSE)
 
 # --- SOLO SIMULADOS: completar campos y exportar en formato original ---
 
