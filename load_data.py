@@ -1,8 +1,11 @@
 from collections import namedtuple, defaultdict
+import random
 
-Proyecto = namedtuple('Proyecto', ['Id', 'Region', 'Comuna', 'Titular', 'Nombre', 'Tecnologia', 'Inversion_MMUS', 'Capacidad_MW', "Latitud", "Longitud"])
-proyectos = dict()
+ProyectoGen = namedtuple('ProyectoGen', ['Id', 'Region', 'Comuna', 'Titular', 'Nombre', 'Tecnologia', 'Inversion_MUF', 'Capacidad_MW', Posicion])
+proyectos_g = dict()
 
+ProyectoTrans = namedtuple('ProyectoTrans', ['Id', 'Nombre', 'Titular', 'Region', 'Comuna', 'Inversion_MUF', 'Capacidad_MVA', 'Plazo_Semestres', Posicion])
+proyectos_t = dict()
 
 #! Regiones = dict()
 
@@ -17,7 +20,7 @@ L = set()
 N = set()
 
 #Tecnologías de generación de energía eléctrica ERNC
-G = {"Solar", "Hidro", "Eólica", "Geotérmica"}
+G = {"Solar", "Hidro", "Eólica"}
 
 #Empresas o personas naturales que presentaron al menos un proyecto
 E = set()
@@ -28,89 +31,85 @@ P = set()
 #Regiones de Chile que son a su vez subconjuntos de posiciones. r ∈ R ∧ r ⊆ P
 R = set()
 
-#Posiciones en las que ya existe una línea de transmisión
-P_prima = set()
-
-#Conjunto de proyectos de generación preexistentes, ya sea terminados o con licitación
-A = set() # ℓ′ ∈ A | A ∩ L = {∅}
-
-#Conjunto de proyectos de transmisión preexistentes, ya sea terminados o con licitación
-B = set() # ℓ′ ∈ B | B ∩ L = {∅}
-
-with open("data_modules/data/gen_data_reales.csv", "r", encoding="utf-8") as file:
-    lines = file.readlines().strip().split(";")
+with open("data_works/gen_data_simulados_2800.csv", "r", encoding="utf-8") as file:
+    lines = [line.strip().split(",") for line in file.readlines()]
     cont = 0
     for l in lines:
-        new_proyecto = Proyecto(cont, *l)
+        new_proyecto = ProyectoGen(cont, *l)
 
         L.add(new_proyecto.Id)
         G.add(new_proyecto.Tecnologia)
         E.add(new_proyecto.Titular)
+        R.add(new_proyecto.Region)
+        P.add(new_proyecto.Posicion)
 
-        #! REVISAR LAS POSICIONES, REGIONES Y COMUNAS
-        #! P 
-        #! R
-
-        proyectos[new_proyecto.Id] = new_proyecto
+        proyectos_g[new_proyecto.Id] = new_proyecto
         cont += 1
 
+with open("data_works/simulacion_1000_proyectos.csv", "r", encoding="utf-8") as file:
+    lines = [line.strip().split(",") for line in file.readlines()]
+    cont = 0
+    for l in lines:
+        new_proyecto = ProyectoTrans(cont, *l)
+
+        N.add(new_proyecto.Id)
+        E.add(new_proyecto.Titular)
+        R.add(new_proyecto.Region)
+        P.add(new_proyecto.Posicion)
+
+        proyectos_t[new_proyecto.Id] = new_proyecto
+        cont += 1
 
 #TODO 
 #! Tenemos que definir como manejamos los costos respecto al tiempo
 #Costo en UF de realizar el proyecto l del dia t
-costo_g = {l : proyectos[l].Inversion_MUF for l in L}
+costo_g = {l : proyectos_g[l].Inversion_MUF for l in L}
 
 
 #TODO 
 #Tiempo en semestres que el proyecto ℓ estar´ıa terminado desde el mes en que se inició
-plazo_g = dict()
+plazo_g = {l : proyectos_g[l].Region for l in L}
 
 #TODO 
 #Capacidad de generaci´on el´ectrica del proyecto ℓ en MW
-gen1 = {l : proyectos[l].Capacidad_MW for l in L}
-
-#TODO 
-#Capacidad de generaci´on el´ectrica de los proyectos ℓ′ preexistentes en MW
-gen2 = dict()
+gen1 = {l : proyectos_g[l].Capacidad_MW for l in L}
 
 #1 Si el proyecto ℓ es propuesto por la empresa e
-emp_g = {(l, e) : 1 if proyectos[l].Titular == e else 0 for l in L for e in E}
+emp_g = {(l, e) : 1 if proyectos_g[l].Titular == e else 0 for l in L for e in E}
 
 #TODO 
 #1 Si el proyecto ℓ esta ubicado en la posici´on p
-ubi_g = dict()
+ubi_g = {l : proyectos_g[l].Posicion for l in L}
 
 #1 Si el proyecto ℓ utiliza la tecnolog´ıa de generaci´on g
 #! Debido a la cantidad de proyectos que tienen 2 tecnologias
 #! Voy a asumir que un proyecto puede usar mas de una tecnologia
-tec = {(l, g) : 1 if g in proyectos[l].Tecnologia else 0 for l in L for g in G}
+tec = {(l, g) : 1 if g in proyectos_g[l].Tecnologia else 0 for l in L for g in G}
 
 #TODO 
 # Cantidad de proyectos que puede desarrollar la empresa e en cada semestre.
-cap = dict()
+cap = 1
 
 #Capacidad de generaci´on el´ectrica requerida en MW para cumplir la demanda en el 2050
 #TODO 
-req = 0
+req = 32350
 
 #TODO 
 #Cantidad m´axima de proyectos que utilizan la tecnolog´ıa g en la regi´on r.
 max = int("inf")
+#30 solar, 5 hidro, 15 eólico
 
 #Costo en UF de realizar el proyecto n en el semestre t
-costo_n = dict()
+costo_n = {n: proyectos_t[n].Inversion_MUF for n in N}
 
 #Tiempo en semestres que el proyecto n estar´ıa terminado desde el semestre en que se inició
-plazo_n = dict()
+plazo_n = {n: proyectos_t[n].Plazo_Semestres for n in N}
 
 #Capacidad de transmisi´on del proyecto n en MW
-trans1 = dict()
-
-#Capacidad de transmisi´on de los proyectos n′ preexistentes en MW
-trans2 = dict()
+trans1 = {n: proyectos_t[n].Capacidad_MVA for n in N}
 
 #1 Si el proyecto n es propuesto por la empresa e
-emp_n = dict()
+emp_n = {(n, e): 1 if proyectos_t[n].Titular == e else 0 for n in N for e in E}
 
 #1 Si el proyecto n esta ubicado en la posici´on p
-ubi_n = dict()
+ubi_n = {n: proyectos_t[n].Posicion for n in N}

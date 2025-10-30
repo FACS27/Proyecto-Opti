@@ -1,0 +1,1001 @@
+﻿N°;Nombre del Proyecto;Titular;Región;Comuna;Inversión MUF;Capacidad Máx. Estimada (MVA);Plazo Construcción (semestres)
+1;Proyecto Simulado #1 (110kV);Titular1;Arica y Parinacota;General Lagos;0,18;113;3
+2;Proyecto Simulado #2 (110kV);Titular2;Coquimbo;Coquimbo;0,16;80;3
+3;Proyecto Simulado #3 (110kV);Titular3;O'Higgins;Palmilla;0,04;76;2
+4;Proyecto Simulado #4 (66kV);Titular4;Biobío;Los Álamos;0,14;60;2
+5;Proyecto Simulado #5 (500kV);Titular5;Atacama;Chañaral;0,51;1427;6
+6;Proyecto Simulado #6 (66kV);Titular6;Magallanes;Cabo de Hornos (Ex-Navarino);0,02;76;2
+7;Proyecto Simulado #7 (220kV);Titular7;Valparaíso;Olmué;0,26;710;4
+8;Proyecto Simulado #8 (500kV);Titular8;O'Higgins;Pumanque;1,24;1396;4
+9;Proyecto Simulado #9 (220kV);Titular9;Atacama;Alto del Carmen;0,33;580;3
+10;Proyecto Simulado #10 (500kV);Titular10;Magallanes;Torres del Paine;1,04;1005;4
+11;Proyecto Simulado #11 (110kV);Titular11;Tarapacá;Colchane;0,08;108;3
+12;Proyecto Simulado #12 (110kV);Titular12;O'Higgins;San Vicente;0,17;107;3
+13;Proyecto Simulado #13 (500kV);Titular13;Los Lagos;Chaitén;1,2;1019;4
+14;Proyecto Simulado #14 (220kV);Titular14;Atacama;Copiapó;0,33;512;3
+15;Proyecto Simulado #15 (500kV);Titular15;Arica y Parinacota;General Lagos;0,66;1440;6
+16;Proyecto Simulado #16 (220kV);Titular16;O'Higgins;Lolol;0,58;355;3
+17;Proyecto Simulado #17 (66kV);Titular17;Tarapacá;Pozo Almonte;0,15;59;1
+18;Proyecto Simulado #18 (110kV);Titular18;Ñuble;Quillón;0,2;102;2
+19;Proyecto Simulado #19 (66kV);Titular19;Los Lagos;Chonchi;0,11;80;1
+20;Proyecto Simulado #20 (500kV);Titular20;Metropolitana;Buin;1,18;1908;6
+21;Proyecto Simulado #21 (220kV);Titular21;Los Lagos;Dalcahue;0,28;395;4
+22;Proyecto Simulado #22 (500kV);Titular22;Maule;Pelarco;1,55;1810;5
+23;Proyecto Simulado #23 (110kV);Titular23;Metropolitana;Renca;0,2;55;2
+24;Proyecto Simulado #24 (500kV);Titular24;Antofagasta;Ollagüe;1,23;1998;6
+25;Proyecto Simulado #25 (220kV);Titular25;O'Higgins;Peralillo;0,54;716;3
+26;Proyecto Simulado #26 (500kV);Titular26;Coquimbo;Ovalle;1,26;1784;5
+27;Proyecto Simulado #27 (220kV);Titular27;Biobío;Chiguayante;0,4;372;4
+28;Proyecto Simulado #28 (110kV);Titular28;Arica y Parinacota;General Lagos;0,31;103;2
+29;Proyecto Simulado #29 (110kV);Titular29;La Araucanía;Traiguén;0,04;51;3
+30;Proyecto Simulado #30 (110kV);Titular30;Valparaíso;San Felipe;0,27;95;3
+31;Proyecto Simulado #31 (110kV);Titular31;Metropolitana;Lampa;0,34;91;2
+32;Proyecto Simulado #32 (500kV);Titular32;Biobío;Arauco;1,42;1136;4
+33;Proyecto Simulado #33 (500kV);Titular33;Los Ríos;Río Bueno;1,68;1840;6
+34;Proyecto Simulado #34 (220kV);Titular34;Aysén;Lago Verde;0,35;254;4
+35;Proyecto Simulado #35 (110kV);Titular35;Antofagasta;Calama;0,34;150;3
+36;Proyecto Simulado #36 (110kV);Titular36;Metropolitana;Santiago;0,33;64;2
+37;Proyecto Simulado #37 (66kV);Titular37;Los Lagos;Chaitén;0,16;53;2
+38;Proyecto Simulado #38 (66kV);Titular38;O'Higgins;Peumo;0,1;87;2
+39;Proyecto Simulado #39 (500kV);Titular39;Coquimbo;Los Vilos;0,91;1114;6
+40;Proyecto Simulado #40 (110kV);Titular40;Los Ríos;Lago Ranco;0,14;139;3
+41;Proyecto Simulado #41 (220kV);Titular41;Metropolitana;Quilicura;0,62;385;3
+42;Proyecto Simulado #42 (220kV);Titular42;La Araucanía;Lumaco;0,38;491;4
+43;Proyecto Simulado #43 (220kV);Titular43;O'Higgins;Peralillo;0,37;235;4
+44;Proyecto Simulado #44 (220kV);Titular44;Arica y Parinacota;Arica;0,29;393;3
+45;Proyecto Simulado #45 (220kV);Titular45;Los Lagos;Ancud;0,36;852;4
+46;Proyecto Simulado #46 (500kV);Titular46;Antofagasta;Antofagasta;1,41;1279;5
+47;Proyecto Simulado #47 (110kV);Titular47;Maule;Retiro;0,04;125;2
+48;Proyecto Simulado #48 (110kV);Titular48;Los Lagos;Puerto Varas;0,25;115;2
+49;Proyecto Simulado #49 (220kV);Titular49;Valparaíso;Calle Larga;0,55;488;4
+50;Proyecto Simulado #50 (66kV);Titular50;Los Lagos;Futaleufú;0,01;31;2
+51;Proyecto Simulado #51 (220kV);Titular51;Maule;Curicó;0,62;800;4
+52;Proyecto Simulado #52 (66kV);Titular52;Atacama;Caldera;0,12;48;2
+53;Proyecto Simulado #53 (66kV);Titular53;Tarapacá;Iquique;0,24;80;1
+54;Proyecto Simulado #54 (66kV);Titular54;Los Lagos;Puerto Octay;0,04;48;1
+55;Proyecto Simulado #55 (110kV);Titular55;Magallanes;Laguna Blanca;0,29;60;3
+56;Proyecto Simulado #56 (110kV);Titular56;Metropolitana;San Bernardo;0,08;83;2
+57;Proyecto Simulado #57 (66kV);Titular57;Magallanes;Punta Arenas;0,21;49;2
+58;Proyecto Simulado #58 (110kV);Titular58;Coquimbo;La Higuera;0,28;111;2
+59;Proyecto Simulado #59 (66kV);Titular59;Valparaíso;Calera;0,01;87;2
+60;Proyecto Simulado #60 (66kV);Titular60;Valparaíso;Casablanca;0,12;72;3
+61;Proyecto Simulado #61 (220kV);Titular61;Tarapacá;Iquique;0,72;480;3
+62;Proyecto Simulado #62 (500kV);Titular62;Los Ríos;Paillaco;1,56;1790;5
+63;Proyecto Simulado #63 (110kV);Titular63;Ñuble;Ninhue;0,22;111;3
+64;Proyecto Simulado #64 (110kV);Titular64;Ñuble;Treguaco;0,06;115;3
+65;Proyecto Simulado #65 (220kV);Titular65;Maule;Río Claro;0,68;857;3
+66;Proyecto Simulado #66 (220kV);Titular66;La Araucanía;Perquenco;0,38;336;4
+67;Proyecto Simulado #67 (220kV);Titular67;Valparaíso;Concón;0,41;774;4
+68;Proyecto Simulado #68 (66kV);Titular68;Tarapacá;Pica;0,17;52;2
+69;Proyecto Simulado #69 (110kV);Titular69;Coquimbo;Paiguano;0,3;138;3
+70;Proyecto Simulado #70 (66kV);Titular70;Magallanes;Timaukel;0,09;85;1
+71;Proyecto Simulado #71 (66kV);Titular71;O'Higgins;Santa Cruz;0,15;55;2
+72;Proyecto Simulado #72 (220kV);Titular72;Aysén;Río Ibáñez;0,51;243;3
+73;Proyecto Simulado #73 (220kV);Titular73;Los Lagos;Calbuco;0,57;687;3
+74;Proyecto Simulado #74 (500kV);Titular74;Maule;San Rafael;0,99;1218;4
+75;Proyecto Simulado #75 (110kV);Titular75;Magallanes;Laguna Blanca;0,1;132;2
+76;Proyecto Simulado #76 (220kV);Titular76;La Araucanía;Vilcún;0,29;681;3
+77;Proyecto Simulado #77 (110kV);Titular77;Atacama;Huasco;0,27;113;2
+78;Proyecto Simulado #78 (66kV);Titular78;Biobío;Cabrero;0,13;70;1
+79;Proyecto Simulado #79 (500kV);Titular79;Metropolitana;Pirque;0,56;1148;5
+80;Proyecto Simulado #80 (66kV);Titular80;Ñuble;San Fabián;0,11;63;2
+81;Proyecto Simulado #81 (66kV);Titular81;Coquimbo;La Serena;0,04;89;2
+82;Proyecto Simulado #82 (110kV);Titular82;Tarapacá;Iquique;0,18;146;3
+83;Proyecto Simulado #83 (500kV);Titular83;Tarapacá;Iquique;2,08;1479;5
+84;Proyecto Simulado #84 (500kV);Titular84;Ñuble;Chillán;1,66;1540;5
+85;Proyecto Simulado #85 (500kV);Titular85;Antofagasta;Mejillones;1,99;1056;4
+86;Proyecto Simulado #86 (66kV);Titular86;Los Ríos;Paillaco;0,07;49;2
+87;Proyecto Simulado #87 (500kV);Titular87;O'Higgins;Pumanque;0,88;1633;4
+88;Proyecto Simulado #88 (500kV);Titular88;Maule;Constitución;0,63;1850;4
+89;Proyecto Simulado #89 (110kV);Titular89;Tarapacá;Pozo Almonte;0,16;54;2
+90;Proyecto Simulado #90 (220kV);Titular90;Antofagasta;Sierra Gorda;0,56;590;3
+91;Proyecto Simulado #91 (110kV);Titular91;Atacama;Vallenar;0,29;94;3
+92;Proyecto Simulado #92 (220kV);Titular92;Los Lagos;Hualaihué;0,66;269;4
+93;Proyecto Simulado #93 (66kV);Titular93;Biobío;Quilaco;0,02;68;2
+94;Proyecto Simulado #94 (110kV);Titular94;Maule;Talca;0,13;99;2
+95;Proyecto Simulado #95 (220kV);Titular95;Coquimbo;Paiguano;0,7;376;3
+96;Proyecto Simulado #96 (220kV);Titular96;Metropolitana;La Cisterna;0,64;682;4
+97;Proyecto Simulado #97 (220kV);Titular97;Aysén;Lago Verde;0,37;531;3
+98;Proyecto Simulado #98 (66kV);Titular98;Tarapacá;Pica;0,02;47;1
+99;Proyecto Simulado #99 (220kV);Titular99;Maule;Pelarco;0,57;826;4
+100;Proyecto Simulado #100 (66kV);Titular100;Los Ríos;Lanco;0,2;80;2
+101;Proyecto Simulado #101 (66kV);Titular101;Coquimbo;Paiguano;0,16;53;1
+102;Proyecto Simulado #102 (220kV);Titular102;Coquimbo;Andacollo;0,32;898;4
+103;Proyecto Simulado #103 (500kV);Titular103;Los Ríos;Valdivia;1,61;1994;5
+104;Proyecto Simulado #104 (110kV);Titular104;Magallanes;Porvenir;0,24;53;3
+105;Proyecto Simulado #105 (66kV);Titular105;Atacama;Caldera;0,13;44;2
+106;Proyecto Simulado #106 (66kV);Titular106;Valparaíso;Casablanca;0,07;37;1
+107;Proyecto Simulado #107 (66kV);Titular107;La Araucanía;Angol;0,06;47;2
+108;Proyecto Simulado #108 (220kV);Titular108;Los Lagos;Puyehue;0,33;896;2
+109;Proyecto Simulado #109 (500kV);Titular109;Biobío;Quilleco;2,01;1677;4
+110;Proyecto Simulado #110 (110kV);Titular110;Arica y Parinacota;Camarones;0,27;138;3
+111;Proyecto Simulado #111 (110kV);Titular111;Maule;Retiro;0,31;137;2
+112;Proyecto Simulado #112 (110kV);Titular112;La Araucanía;Pucón;0,35;142;3
+113;Proyecto Simulado #113 (500kV);Titular113;Biobío;Cabrero;0,68;1189;6
+114;Proyecto Simulado #114 (66kV);Titular114;Aysén;Cochrane;0,05;78;2
+115;Proyecto Simulado #115 (500kV);Titular115;Antofagasta;Sierra Gorda;1,04;1129;6
+116;Proyecto Simulado #116 (500kV);Titular116;Los Ríos;Corral;0,88;1432;5
+117;Proyecto Simulado #117 (220kV);Titular117;Ñuble;San Nicolás;0,32;339;3
+118;Proyecto Simulado #118 (110kV);Titular118;Magallanes;Natales;0,08;111;2
+119;Proyecto Simulado #119 (110kV);Titular119;Metropolitana;San Miguel;0,28;53;2
+120;Proyecto Simulado #120 (500kV);Titular120;Coquimbo;Los Vilos;0,61;1667;5
+121;Proyecto Simulado #121 (220kV);Titular121;Biobío;Chiguayante;0,52;649;4
+122;Proyecto Simulado #122 (66kV);Titular122;Atacama;Caldera;0,11;70;1
+123;Proyecto Simulado #123 (220kV);Titular123;Atacama;Alto del Carmen;0,35;312;2
+124;Proyecto Simulado #124 (220kV);Titular124;Maule;Pelarco;0,27;409;3
+125;Proyecto Simulado #125 (500kV);Titular125;Maule;Vichuquén;0,65;1231;4
+126;Proyecto Simulado #126 (220kV);Titular126;Magallanes;San Gregorio;0,28;633;3
+127;Proyecto Simulado #127 (110kV);Titular127;Valparaíso;Concón;0,06;122;2
+128;Proyecto Simulado #128 (66kV);Titular128;Aysén;Guaitecas;0,23;79;1
+129;Proyecto Simulado #129 (66kV);Titular129;Maule;Chanco;0,09;68;2
+130;Proyecto Simulado #130 (66kV);Titular130;Atacama;Vallenar;0,09;78;2
+131;Proyecto Simulado #131 (66kV);Titular131;Metropolitana;Lo Espejo;0,2;43;2
+132;Proyecto Simulado #132 (220kV);Titular132;La Araucanía;Gorbea;0,39;551;2
+133;Proyecto Simulado #133 (500kV);Titular133;Arica y Parinacota;General Lagos;2,11;1008;5
+134;Proyecto Simulado #134 (220kV);Titular134;Ñuble;Cobquecura;0,68;838;4
+135;Proyecto Simulado #135 (110kV);Titular135;Maule;Río Claro;0,32;137;3
+136;Proyecto Simulado #136 (220kV);Titular136;Coquimbo;Vicuña;0,62;430;4
+137;Proyecto Simulado #137 (500kV);Titular137;Arica y Parinacota;Camarones;1,54;1586;4
+138;Proyecto Simulado #138 (220kV);Titular138;Magallanes;San Gregorio;0,44;272;3
+139;Proyecto Simulado #139 (66kV);Titular139;Maule;Curicó;0,14;44;2
+140;Proyecto Simulado #140 (220kV);Titular140;Arica y Parinacota;Camarones;0,54;732;3
+141;Proyecto Simulado #141 (500kV);Titular141;Antofagasta;Ollagüe;1,92;1330;4
+142;Proyecto Simulado #142 (220kV);Titular142;Biobío;Santa Juana;0,52;311;3
+143;Proyecto Simulado #143 (500kV);Titular143;Coquimbo;Andacollo;0,86;1610;5
+144;Proyecto Simulado #144 (500kV);Titular144;Ñuble;San Carlos;1,16;1440;5
+145;Proyecto Simulado #145 (66kV);Titular145;Valparaíso;San Antonio;0,12;53;2
+146;Proyecto Simulado #146 (500kV);Titular146;Tarapacá;Pozo Almonte;1,52;1145;5
+147;Proyecto Simulado #147 (66kV);Titular147;Biobío;Nacimiento;0,13;45;2
+148;Proyecto Simulado #148 (110kV);Titular148;Coquimbo;Coquimbo;0,16;121;3
+149;Proyecto Simulado #149 (220kV);Titular149;Valparaíso;San Felipe;0,65;423;3
+150;Proyecto Simulado #150 (220kV);Titular150;Tarapacá;Colchane;0,7;577;4
+151;Proyecto Simulado #151 (66kV);Titular151;Coquimbo;Coquimbo;0,19;57;2
+152;Proyecto Simulado #152 (66kV);Titular152;La Araucanía;Lumaco;0,13;81;1
+153;Proyecto Simulado #153 (220kV);Titular153;Arica y Parinacota;General Lagos;0,54;633;4
+154;Proyecto Simulado #154 (500kV);Titular154;O'Higgins;Pumanque;0,81;1730;4
+155;Proyecto Simulado #155 (220kV);Titular155;Valparaíso;Casablanca;0,36;380;3
+156;Proyecto Simulado #156 (110kV);Titular156;Los Ríos;Corral;0,23;149;3
+157;Proyecto Simulado #157 (220kV);Titular157;Metropolitana;San José de Maipo;0,36;723;4
+158;Proyecto Simulado #158 (220kV);Titular158;Los Lagos;Puerto Montt;0,45;773;3
+159;Proyecto Simulado #159 (110kV);Titular159;Magallanes;Laguna Blanca;0,07;92;3
+160;Proyecto Simulado #160 (500kV);Titular160;Los Ríos;Panguipulli;0,92;1254;4
+161;Proyecto Simulado #161 (110kV);Titular161;Los Ríos;Corral;0,28;63;3
+162;Proyecto Simulado #162 (66kV);Titular162;La Araucanía;Padre Las Casas;0,13;89;1
+163;Proyecto Simulado #163 (110kV);Titular163;O'Higgins;La Estrella;0,06;136;3
+164;Proyecto Simulado #164 (500kV);Titular164;Arica y Parinacota;Putre;1,17;1989;6
+165;Proyecto Simulado #165 (110kV);Titular165;Magallanes;Cabo de Hornos (Ex-Navarino);0,31;70;2
+166;Proyecto Simulado #166 (500kV);Titular166;Antofagasta;Tocopilla;1,78;1128;4
+167;Proyecto Simulado #167 (110kV);Titular167;Maule;Empedrado;0,1;65;3
+168;Proyecto Simulado #168 (500kV);Titular168;Los Ríos;La Unión;1,28;1063;4
+169;Proyecto Simulado #169 (500kV);Titular169;Maule;San Rafael;2,07;1085;6
+170;Proyecto Simulado #170 (66kV);Titular170;Aysén;Cisnes;0,16;81;2
+171;Proyecto Simulado #171 (220kV);Titular171;Maule;Talca;0,34;570;4
+172;Proyecto Simulado #172 (220kV);Titular172;Maule;Parral;0,32;222;4
+173;Proyecto Simulado #173 (110kV);Titular173;Valparaíso;Puchuncaví;0,15;138;2
+174;Proyecto Simulado #174 (220kV);Titular174;Arica y Parinacota;Arica;0,61;465;3
+175;Proyecto Simulado #175 (66kV);Titular175;Ñuble;San Fabián;0,23;89;1
+176;Proyecto Simulado #176 (110kV);Titular176;Maule;Longaví;0,19;66;3
+177;Proyecto Simulado #177 (220kV);Titular177;Metropolitana;El Monte;0,29;715;3
+178;Proyecto Simulado #178 (66kV);Titular178;Atacama;Diego de Almagro;0,15;40;2
+179;Proyecto Simulado #179 (220kV);Titular179;Magallanes;Porvenir;0,32;566;3
+180;Proyecto Simulado #180 (110kV);Titular180;Coquimbo;Vicuña;0,35;143;3
+181;Proyecto Simulado #181 (110kV);Titular181;Arica y Parinacota;Camarones;0,05;87;3
+182;Proyecto Simulado #182 (500kV);Titular182;Magallanes;Timaukel;0,79;1231;4
+183;Proyecto Simulado #183 (220kV);Titular183;Maule;Empedrado;0,68;390;4
+184;Proyecto Simulado #184 (110kV);Titular184;Valparaíso;Cabildo;0,18;94;3
+185;Proyecto Simulado #185 (110kV);Titular185;Arica y Parinacota;General Lagos;0,21;122;3
+186;Proyecto Simulado #186 (500kV);Titular186;Ñuble;Pinto;2,19;1157;6
+187;Proyecto Simulado #187 (66kV);Titular187;Magallanes;Torres del Paine;0,01;88;2
+188;Proyecto Simulado #188 (220kV);Titular188;Magallanes;Natales;0,32;259;4
+189;Proyecto Simulado #189 (500kV);Titular189;Coquimbo;Ovalle;1,4;1745;5
+190;Proyecto Simulado #190 (66kV);Titular190;Los Ríos;Panguipulli;0,12;46;2
+191;Proyecto Simulado #191 (220kV);Titular191;Tarapacá;Iquique;0,29;503;4
+192;Proyecto Simulado #192 (66kV);Titular192;Valparaíso;Rinconada;0,22;44;2
+193;Proyecto Simulado #193 (110kV);Titular193;Metropolitana;Curacaví;0,33;75;3
+194;Proyecto Simulado #194 (500kV);Titular194;La Araucanía;Los Sauces;1,9;1261;6
+195;Proyecto Simulado #195 (500kV);Titular195;Aysén;Río Ibáñez;1,57;1266;5
+196;Proyecto Simulado #196 (66kV);Titular196;Magallanes;Primavera;0,21;59;1
+197;Proyecto Simulado #197 (500kV);Titular197;Los Lagos;Chonchi;0,69;1259;5
+198;Proyecto Simulado #198 (220kV);Titular198;Atacama;Diego de Almagro;0,7;706;3
+199;Proyecto Simulado #199 (500kV);Titular199;O'Higgins;Palmilla;0,6;1118;5
+200;Proyecto Simulado #200 (66kV);Titular200;Maule;San Rafael;0,24;89;1
+201;Proyecto Simulado #201 (110kV);Titular201;Maule;Linares;0,04;101;3
+202;Proyecto Simulado #202 (500kV);Titular202;Maule;Vichuquén;1,61;1810;4
+203;Proyecto Simulado #203 (110kV);Titular203;Arica y Parinacota;Putre;0,05;142;3
+204;Proyecto Simulado #204 (500kV);Titular204;Antofagasta;Tocopilla;1,89;1957;4
+205;Proyecto Simulado #205 (66kV);Titular205;Los Ríos;Lanco;0,19;87;1
+206;Proyecto Simulado #206 (66kV);Titular206;Magallanes;Cabo de Hornos (Ex-Navarino);0,12;90;2
+207;Proyecto Simulado #207 (500kV);Titular207;Coquimbo;Coquimbo;1,37;1183;4
+208;Proyecto Simulado #208 (110kV);Titular208;Magallanes;Laguna Blanca;0,17;129;2
+209;Proyecto Simulado #209 (110kV);Titular209;Los Lagos;Quinchao;0,3;100;3
+210;Proyecto Simulado #210 (66kV);Titular210;La Araucanía;Freire;0,21;31;2
+211;Proyecto Simulado #211 (220kV);Titular211;Atacama;Chañaral;0,34;551;4
+212;Proyecto Simulado #212 (220kV);Titular212;Maule;Licantén;0,55;542;4
+213;Proyecto Simulado #213 (220kV);Titular213;Los Lagos;Futaleufú;0,43;336;3
+214;Proyecto Simulado #214 (220kV);Titular214;La Araucanía;Pitrufquén;0,56;272;4
+215;Proyecto Simulado #215 (110kV);Titular215;Atacama;Copiapó;0,19;56;2
+216;Proyecto Simulado #216 (110kV);Titular216;Arica y Parinacota;Camarones;0,22;93;3
+217;Proyecto Simulado #217 (66kV);Titular217;Atacama;Tierra Amarilla;0,01;84;1
+218;Proyecto Simulado #218 (220kV);Titular218;Los Ríos;Corral;0,56;721;3
+219;Proyecto Simulado #219 (66kV);Titular219;Los Lagos;Maullín;0,15;58;2
+220;Proyecto Simulado #220 (220kV);Titular220;Maule;Molina;0,3;803;3
+221;Proyecto Simulado #221 (500kV);Titular221;Biobío;Contulmo;0,87;1526;4
+222;Proyecto Simulado #222 (110kV);Titular222;La Araucanía;Traiguén;0,11;54;3
+223;Proyecto Simulado #223 (500kV);Titular223;Tarapacá;Camiña;0,63;1782;6
+224;Proyecto Simulado #224 (220kV);Titular224;Maule;Yerbas Buenas;0,28;657;4
+225;Proyecto Simulado #225 (110kV);Titular225;Biobío;Negrete;0,18;68;2
+226;Proyecto Simulado #226 (500kV);Titular226;Arica y Parinacota;Arica;1,29;1439;5
+227;Proyecto Simulado #227 (500kV);Titular227;Ñuble;Cobquecura;1,57;1108;5
+228;Proyecto Simulado #228 (220kV);Titular228;La Araucanía;Perquenco;0,38;466;3
+229;Proyecto Simulado #229 (220kV);Titular229;Metropolitana;Lo Espejo;0,46;784;4
+230;Proyecto Simulado #230 (500kV);Titular230;Magallanes;Timaukel;1,54;1967;6
+231;Proyecto Simulado #231 (110kV);Titular231;Los Ríos;Lanco;0,33;53;2
+232;Proyecto Simulado #232 (110kV);Titular232;Los Lagos;Chonchi;0,21;102;3
+233;Proyecto Simulado #233 (500kV);Titular233;Aysén;Guaitecas;0,53;1288;5
+234;Proyecto Simulado #234 (220kV);Titular234;Maule;Curicó;0,28;410;3
+235;Proyecto Simulado #235 (66kV);Titular235;Ñuble;San Fabián;0,05;34;2
+236;Proyecto Simulado #236 (500kV);Titular236;Arica y Parinacota;General Lagos;0,91;1820;4
+237;Proyecto Simulado #237 (500kV);Titular237;Magallanes;San Gregorio;1,95;1904;5
+238;Proyecto Simulado #238 (220kV);Titular238;Biobío;Chiguayante;0,5;654;3
+239;Proyecto Simulado #239 (220kV);Titular239;Antofagasta;San Pedro de Atacama;0,41;884;4
+240;Proyecto Simulado #240 (66kV);Titular240;Metropolitana;Macul;0,13;82;2
+241;Proyecto Simulado #241 (220kV);Titular241;Los Ríos;La Unión;0,37;669;2
+242;Proyecto Simulado #242 (500kV);Titular242;Arica y Parinacota;Arica;0,54;1614;5
+243;Proyecto Simulado #243 (500kV);Titular243;Magallanes;Cabo de Hornos (Ex-Navarino);0,53;1056;4
+244;Proyecto Simulado #244 (110kV);Titular244;Ñuble;Portezuelo;0,24;98;3
+245;Proyecto Simulado #245 (66kV);Titular245;Antofagasta;Taltal;0,16;54;2
+246;Proyecto Simulado #246 (220kV);Titular246;Antofagasta;Tocopilla;0,51;464;4
+247;Proyecto Simulado #247 (500kV);Titular247;Maule;Sagrada Familia;1,83;1796;4
+248;Proyecto Simulado #248 (110kV);Titular248;Ñuble;San Fabián;0,31;92;3
+249;Proyecto Simulado #249 (66kV);Titular249;Los Ríos;Paillaco;0,18;66;2
+250;Proyecto Simulado #250 (500kV);Titular250;Ñuble;Pemuco;0,71;1425;5
+251;Proyecto Simulado #251 (66kV);Titular251;Ñuble;Portezuelo;0,08;66;2
+252;Proyecto Simulado #252 (220kV);Titular252;Biobío;Concepción;0,33;544;3
+253;Proyecto Simulado #253 (110kV);Titular253;Aysén;Cochrane;0,19;127;2
+254;Proyecto Simulado #254 (66kV);Titular254;Magallanes;Porvenir;0,18;50;2
+255;Proyecto Simulado #255 (220kV);Titular255;Antofagasta;Tocopilla;0,24;535;3
+256;Proyecto Simulado #256 (66kV);Titular256;Maule;Río Claro;0,04;85;2
+257;Proyecto Simulado #257 (500kV);Titular257;Coquimbo;Salamanca;2,01;1827;5
+258;Proyecto Simulado #258 (66kV);Titular258;Valparaíso;Puchuncaví;0,02;48;2
+259;Proyecto Simulado #259 (220kV);Titular259;Coquimbo;Monte Patria;0,48;778;3
+260;Proyecto Simulado #260 (500kV);Titular260;Los Ríos;Paillaco;1,43;1223;4
+261;Proyecto Simulado #261 (110kV);Titular261;Los Ríos;La Unión;0,22;125;2
+262;Proyecto Simulado #262 (220kV);Titular262;Metropolitana;El Bosque;0,52;497;3
+263;Proyecto Simulado #263 (66kV);Titular263;Aysén;Río Ibáñez;0,16;69;2
+264;Proyecto Simulado #264 (110kV);Titular264;Aysén;Guaitecas;0,08;139;3
+265;Proyecto Simulado #265 (66kV);Titular265;Los Lagos;Hualaihué;0,21;34;2
+266;Proyecto Simulado #266 (500kV);Titular266;Los Lagos;Quemchi;1,85;1730;5
+267;Proyecto Simulado #267 (500kV);Titular267;La Araucanía;Angol;2,2;1457;5
+268;Proyecto Simulado #268 (500kV);Titular268;Atacama;Huasco;1,07;1497;5
+269;Proyecto Simulado #269 (110kV);Titular269;Ñuble;Pinto;0,18;61;3
+270;Proyecto Simulado #270 (110kV);Titular270;Tarapacá;Huara;0,03;133;2
+271;Proyecto Simulado #271 (110kV);Titular271;La Araucanía;Carahue;0,26;111;3
+272;Proyecto Simulado #272 (220kV);Titular272;Antofagasta;María Elena;0,6;212;3
+273;Proyecto Simulado #273 (110kV);Titular273;O'Higgins;Malloa;0,23;120;2
+274;Proyecto Simulado #274 (66kV);Titular274;Antofagasta;Taltal;0,23;75;2
+275;Proyecto Simulado #275 (220kV);Titular275;Coquimbo;Punitaqui;0,47;574;4
+276;Proyecto Simulado #276 (220kV);Titular276;Ñuble;Chillán;0,36;488;3
+277;Proyecto Simulado #277 (220kV);Titular277;Valparaíso;San Esteban;0,42;267;3
+278;Proyecto Simulado #278 (500kV);Titular278;Metropolitana;San Ramón;0,96;1973;5
+279;Proyecto Simulado #279 (110kV);Titular279;Maule;Curepto;0,06;77;3
+280;Proyecto Simulado #280 (110kV);Titular280;Valparaíso;Nogales;0,34;57;3
+281;Proyecto Simulado #281 (66kV);Titular281;Los Lagos;Fresia;0,04;63;2
+282;Proyecto Simulado #282 (220kV);Titular282;La Araucanía;Lautaro;0,34;871;3
+283;Proyecto Simulado #283 (500kV);Titular283;Los Lagos;Quemchi;1,59;1985;5
+284;Proyecto Simulado #284 (66kV);Titular284;Biobío;Quilleco;0,07;59;2
+285;Proyecto Simulado #285 (500kV);Titular285;La Araucanía;Vilcún;0,76;1085;4
+286;Proyecto Simulado #286 (500kV);Titular286;Aysén;Aysén;1,21;1065;4
+287;Proyecto Simulado #287 (66kV);Titular287;Atacama;Chañaral;0,13;82;2
+288;Proyecto Simulado #288 (110kV);Titular288;La Araucanía;Pitrufquén;0,13;59;3
+289;Proyecto Simulado #289 (500kV);Titular289;Magallanes;Timaukel;0,86;1244;6
+290;Proyecto Simulado #290 (220kV);Titular290;Maule;Cauquenes;0,52;877;3
+291;Proyecto Simulado #291 (220kV);Titular291;Ñuble;Cobquecura;0,6;311;2
+292;Proyecto Simulado #292 (500kV);Titular292;Magallanes;Cabo de Hornos (Ex-Navarino);2,23;1589;5
+293;Proyecto Simulado #293 (110kV);Titular293;Antofagasta;San Pedro de Atacama;0,09;59;3
+294;Proyecto Simulado #294 (110kV);Titular294;Los Ríos;Los Lagos;0,05;70;3
+295;Proyecto Simulado #295 (500kV);Titular295;Aysén;Chile Chico;1,29;1097;5
+296;Proyecto Simulado #296 (110kV);Titular296;Los Ríos;Máfil;0,04;92;3
+297;Proyecto Simulado #297 (110kV);Titular297;Magallanes;Cabo de Hornos (Ex-Navarino);0,28;108;3
+298;Proyecto Simulado #298 (220kV);Titular298;Magallanes;Torres del Paine;0,67;739;3
+299;Proyecto Simulado #299 (66kV);Titular299;Magallanes;Porvenir;0,03;50;2
+300;Proyecto Simulado #300 (66kV);Titular300;Los Lagos;Puerto Octay;0,2;63;2
+301;Proyecto Simulado #301 (66kV);Titular301;Maule;Vichuquén;0,19;73;2
+302;Proyecto Simulado #302 (500kV);Titular302;Coquimbo;Combarbalá;1,32;1863;6
+303;Proyecto Simulado #303 (66kV);Titular303;Aysén;Guaitecas;0,09;75;2
+304;Proyecto Simulado #304 (220kV);Titular304;Los Ríos;Lanco;0,3;896;3
+305;Proyecto Simulado #305 (220kV);Titular305;Coquimbo;Canela;0,54;292;4
+306;Proyecto Simulado #306 (220kV);Titular306;Atacama;Freirina;0,49;810;3
+307;Proyecto Simulado #307 (110kV);Titular307;Arica y Parinacota;Camarones;0,16;114;3
+308;Proyecto Simulado #308 (66kV);Titular308;Antofagasta;Mejillones;0,17;56;1
+309;Proyecto Simulado #309 (220kV);Titular309;Antofagasta;Sierra Gorda;0,31;332;3
+310;Proyecto Simulado #310 (110kV);Titular310;Los Lagos;Los Muermos;0,12;94;3
+311;Proyecto Simulado #311 (66kV);Titular311;La Araucanía;Gorbea;0,09;46;2
+312;Proyecto Simulado #312 (500kV);Titular312;Los Ríos;Máfil;1,74;1868;5
+313;Proyecto Simulado #313 (500kV);Titular313;Antofagasta;Tocopilla;1,27;1918;5
+314;Proyecto Simulado #314 (220kV);Titular314;La Araucanía;Galvarino;0,59;461;3
+315;Proyecto Simulado #315 (500kV);Titular315;La Araucanía;Loncoche;1,17;1499;5
+316;Proyecto Simulado #316 (220kV);Titular316;Los Ríos;Lago Ranco;0,26;674;3
+317;Proyecto Simulado #317 (500kV);Titular317;Valparaíso;Calle Larga;1,35;1392;5
+318;Proyecto Simulado #318 (220kV);Titular318;Tarapacá;Colchane;0,39;322;4
+319;Proyecto Simulado #319 (110kV);Titular319;Ñuble;Chillán;0,28;115;2
+320;Proyecto Simulado #320 (500kV);Titular320;Ñuble;El Carmen;0,68;1340;4
+321;Proyecto Simulado #321 (66kV);Titular321;Aysén;O'Higgins;0,19;38;2
+322;Proyecto Simulado #322 (110kV);Titular322;Biobío;Santa Bárbara;0,06;53;2
+323;Proyecto Simulado #323 (66kV);Titular323;Biobío;Los Ángeles;0,03;74;2
+324;Proyecto Simulado #324 (110kV);Titular324;Arica y Parinacota;Putre;0,17;105;3
+325;Proyecto Simulado #325 (110kV);Titular325;Tarapacá;Pozo Almonte;0,31;108;2
+326;Proyecto Simulado #326 (110kV);Titular326;Coquimbo;Paiguano;0,24;123;2
+327;Proyecto Simulado #327 (66kV);Titular327;La Araucanía;Melipeuco;0,18;50;2
+328;Proyecto Simulado #328 (220kV);Titular328;Magallanes;Timaukel;0,48;424;3
+329;Proyecto Simulado #329 (110kV);Titular329;Metropolitana;Paine;0,09;92;2
+330;Proyecto Simulado #330 (66kV);Titular330;Los Lagos;Quemchi;0,16;42;2
+331;Proyecto Simulado #331 (110kV);Titular331;Metropolitana;Vitacura;0,35;100;2
+332;Proyecto Simulado #332 (110kV);Titular332;Maule;Hualañé;0,12;128;3
+333;Proyecto Simulado #333 (220kV);Titular333;Los Ríos;Valdivia;0,57;636;3
+334;Proyecto Simulado #334 (110kV);Titular334;Antofagasta;Taltal;0,04;54;3
+335;Proyecto Simulado #335 (110kV);Titular335;O'Higgins;Pumanque;0,28;129;3
+336;Proyecto Simulado #336 (500kV);Titular336;Magallanes;Natales;1,62;1287;5
+337;Proyecto Simulado #337 (110kV);Titular337;La Araucanía;Vilcún;0,15;89;3
+338;Proyecto Simulado #338 (110kV);Titular338;Aysén;O'Higgins;0,22;116;3
+339;Proyecto Simulado #339 (500kV);Titular339;Los Lagos;Queilén;1,98;1022;5
+340;Proyecto Simulado #340 (220kV);Titular340;Magallanes;Porvenir;0,51;465;3
+341;Proyecto Simulado #341 (110kV);Titular341;Maule;San Rafael;0,14;146;3
+342;Proyecto Simulado #342 (220kV);Titular342;Valparaíso;Quillota;0,32;524;3
+343;Proyecto Simulado #343 (110kV);Titular343;Antofagasta;Calama;0,19;90;3
+344;Proyecto Simulado #344 (500kV);Titular344;Arica y Parinacota;Arica;1,25;1884;4
+345;Proyecto Simulado #345 (110kV);Titular345;Biobío;Quilaco;0,25;125;3
+346;Proyecto Simulado #346 (500kV);Titular346;Tarapacá;Alto Hospicio;1,55;1556;4
+347;Proyecto Simulado #347 (66kV);Titular347;O'Higgins;Peralillo;0,08;77;2
+348;Proyecto Simulado #348 (66kV);Titular348;La Araucanía;Loncoche;0,06;67;2
+349;Proyecto Simulado #349 (220kV);Titular349;Maule;Curepto;0,44;665;4
+350;Proyecto Simulado #350 (220kV);Titular350;Coquimbo;Monte Patria;0,48;591;4
+351;Proyecto Simulado #351 (220kV);Titular351;Antofagasta;Taltal;0,7;850;3
+352;Proyecto Simulado #352 (110kV);Titular352;Valparaíso;San Esteban;0,32;149;2
+353;Proyecto Simulado #353 (66kV);Titular353;Aysén;Río Ibáñez;0,05;47;1
+354;Proyecto Simulado #354 (500kV);Titular354;Arica y Parinacota;General Lagos;0,93;1809;5
+355;Proyecto Simulado #355 (110kV);Titular355;Valparaíso;Putaendo;0,33;65;3
+356;Proyecto Simulado #356 (500kV);Titular356;Tarapacá;Alto Hospicio;2,16;1669;5
+357;Proyecto Simulado #357 (500kV);Titular357;Los Ríos;La Unión;1,28;1203;4
+358;Proyecto Simulado #358 (220kV);Titular358;Los Lagos;Puqueldón;0,58;411;4
+359;Proyecto Simulado #359 (110kV);Titular359;La Araucanía;Victoria;0,26;81;2
+360;Proyecto Simulado #360 (220kV);Titular360;Biobío;Yumbel;0,42;677;3
+361;Proyecto Simulado #361 (500kV);Titular361;Maule;San Javier;2,16;1128;5
+362;Proyecto Simulado #362 (500kV);Titular362;O'Higgins;Navidad;1,75;1372;5
+363;Proyecto Simulado #363 (66kV);Titular363;Maule;Villa Alegre;0,07;86;2
+364;Proyecto Simulado #364 (66kV);Titular364;La Araucanía;Traiguén;0,2;86;2
+365;Proyecto Simulado #365 (500kV);Titular365;Coquimbo;Combarbalá;0,92;1727;5
+366;Proyecto Simulado #366 (110kV);Titular366;O'Higgins;Navidad;0,26;95;2
+367;Proyecto Simulado #367 (110kV);Titular367;Antofagasta;Calama;0,11;79;3
+368;Proyecto Simulado #368 (500kV);Titular368;Los Lagos;Ancud;1,67;1442;4
+369;Proyecto Simulado #369 (110kV);Titular369;Valparaíso;Cartagena;0,3;94;2
+370;Proyecto Simulado #370 (110kV);Titular370;Los Lagos;Puerto Octay;0,07;93;3
+371;Proyecto Simulado #371 (220kV);Titular371;Atacama;Huasco;0,47;389;3
+372;Proyecto Simulado #372 (66kV);Titular372;Maule;Pelluhue;0,11;41;2
+373;Proyecto Simulado #373 (110kV);Titular373;Maule;San Javier;0,14;102;3
+374;Proyecto Simulado #374 (500kV);Titular374;Antofagasta;Ollagüe;2,16;1696;5
+375;Proyecto Simulado #375 (110kV);Titular375;Antofagasta;Antofagasta;0,03;143;3
+376;Proyecto Simulado #376 (66kV);Titular376;Aysén;Río Ibáñez;0,07;45;2
+377;Proyecto Simulado #377 (66kV);Titular377;Magallanes;Laguna Blanca;0,19;79;2
+378;Proyecto Simulado #378 (500kV);Titular378;Aysén;Río Ibáñez;1,63;1347;5
+379;Proyecto Simulado #379 (110kV);Titular379;O'Higgins;Santa Cruz;0,18;84;3
+380;Proyecto Simulado #380 (500kV);Titular380;Biobío;Nacimiento;1,22;1750;5
+381;Proyecto Simulado #381 (110kV);Titular381;La Araucanía;Toltén;0,31;89;2
+382;Proyecto Simulado #382 (110kV);Titular382;Metropolitana;Peñalolén;0,03;89;3
+383;Proyecto Simulado #383 (220kV);Titular383;Maule;Romeral;0,31;493;2
+384;Proyecto Simulado #384 (500kV);Titular384;Ñuble;El Carmen;1,38;1079;5
+385;Proyecto Simulado #385 (500kV);Titular385;Maule;Villa Alegre;0,95;1384;4
+386;Proyecto Simulado #386 (110kV);Titular386;Metropolitana;San Ramón;0,28;83;3
+387;Proyecto Simulado #387 (500kV);Titular387;Magallanes;Río Verde;0,53;1263;4
+388;Proyecto Simulado #388 (220kV);Titular388;Los Ríos;Futrono;0,7;378;4
+389;Proyecto Simulado #389 (66kV);Titular389;Los Ríos;Río Bueno;0,22;63;1
+390;Proyecto Simulado #390 (220kV);Titular390;Atacama;Freirina;0,42;715;3
+391;Proyecto Simulado #391 (110kV);Titular391;Aysén;O'Higgins;0,33;76;2
+392;Proyecto Simulado #392 (66kV);Titular392;Los Ríos;Valdivia;0,24;34;2
+393;Proyecto Simulado #393 (110kV);Titular393;Antofagasta;Antofagasta;0,16;66;3
+394;Proyecto Simulado #394 (220kV);Titular394;Los Lagos;Curaco de Vélez;0,53;239;4
+395;Proyecto Simulado #395 (500kV);Titular395;Maule;Empedrado;1,53;1884;6
+396;Proyecto Simulado #396 (500kV);Titular396;Metropolitana;Colina;2,19;1721;4
+397;Proyecto Simulado #397 (220kV);Titular397;O'Higgins;Litueche;0,58;680;3
+398;Proyecto Simulado #398 (500kV);Titular398;Magallanes;Laguna Blanca;1,79;1887;5
+399;Proyecto Simulado #399 (110kV);Titular399;Maule;Maule;0,11;122;3
+400;Proyecto Simulado #400 (110kV);Titular400;Tarapacá;Alto Hospicio;0,17;61;3
+401;Proyecto Simulado #401 (220kV);Titular401;Metropolitana;San Joaquín;0,69;697;2
+402;Proyecto Simulado #402 (66kV);Titular402;Arica y Parinacota;Arica;0,01;74;2
+403;Proyecto Simulado #403 (66kV);Titular403;Aysén;Guaitecas;0,14;62;1
+404;Proyecto Simulado #404 (66kV);Titular404;Ñuble;San Carlos;0,03;67;2
+405;Proyecto Simulado #405 (220kV);Titular405;O'Higgins;San Fernando;0,6;751;3
+406;Proyecto Simulado #406 (66kV);Titular406;Antofagasta;Calama;0,12;44;2
+407;Proyecto Simulado #407 (110kV);Titular407;Los Ríos;Valdivia;0,14;111;3
+408;Proyecto Simulado #408 (66kV);Titular408;Magallanes;Torres del Paine;0,05;40;2
+409;Proyecto Simulado #409 (500kV);Titular409;Atacama;Huasco;0,63;1617;6
+410;Proyecto Simulado #410 (66kV);Titular410;Tarapacá;Pozo Almonte;0,03;49;2
+411;Proyecto Simulado #411 (66kV);Titular411;Biobío;Mulchén;0,09;78;2
+412;Proyecto Simulado #412 (66kV);Titular412;Los Lagos;Dalcahue;0,19;87;2
+413;Proyecto Simulado #413 (500kV);Titular413;Los Lagos;Río Negro;1,23;1631;5
+414;Proyecto Simulado #414 (500kV);Titular414;Maule;Linares;1,21;1983;6
+415;Proyecto Simulado #415 (66kV);Titular415;Los Ríos;Lago Ranco;0,17;43;2
+416;Proyecto Simulado #416 (220kV);Titular416;La Araucanía;Gorbea;0,36;378;3
+417;Proyecto Simulado #417 (220kV);Titular417;Tarapacá;Iquique;0,34;344;3
+418;Proyecto Simulado #418 (110kV);Titular418;Coquimbo;Los Vilos;0,03;76;3
+419;Proyecto Simulado #419 (220kV);Titular419;Aysén;Cochrane;0,3;808;4
+420;Proyecto Simulado #420 (500kV);Titular420;Los Lagos;Ancud;1,83;1794;6
+421;Proyecto Simulado #421 (220kV);Titular421;Los Ríos;Mariquina;0,43;240;3
+422;Proyecto Simulado #422 (500kV);Titular422;Aysén;O'Higgins;1,71;1446;4
+423;Proyecto Simulado #423 (500kV);Titular423;Magallanes;Cabo de Hornos (Ex-Navarino);1,62;1377;5
+424;Proyecto Simulado #424 (66kV);Titular424;La Araucanía;Freire;0,16;39;2
+425;Proyecto Simulado #425 (500kV);Titular425;Maule;Villa Alegre;0,88;1429;5
+426;Proyecto Simulado #426 (220kV);Titular426;Ñuble;Quillón;0,34;541;4
+427;Proyecto Simulado #427 (220kV);Titular427;Los Ríos;Corral;0,32;488;4
+428;Proyecto Simulado #428 (500kV);Titular428;Los Lagos;Quellón;0,63;1442;4
+429;Proyecto Simulado #429 (500kV);Titular429;Biobío;Curanilahue;1,95;1963;4
+430;Proyecto Simulado #430 (500kV);Titular430;Maule;Licantén;1,05;1264;4
+431;Proyecto Simulado #431 (220kV);Titular431;O'Higgins;Nancagua;0,6;809;3
+432;Proyecto Simulado #432 (220kV);Titular432;Metropolitana;Tiltil;0,69;549;3
+433;Proyecto Simulado #433 (110kV);Titular433;Tarapacá;Pozo Almonte;0,14;95;3
+434;Proyecto Simulado #434 (110kV);Titular434;Maule;Parral;0,34;63;3
+435;Proyecto Simulado #435 (66kV);Titular435;Coquimbo;La Higuera;0,22;79;1
+436;Proyecto Simulado #436 (110kV);Titular436;Maule;Hualañé;0,16;115;2
+437;Proyecto Simulado #437 (220kV);Titular437;Antofagasta;Sierra Gorda;0,64;243;3
+438;Proyecto Simulado #438 (66kV);Titular438;Maule;San Rafael;0,12;74;1
+439;Proyecto Simulado #439 (66kV);Titular439;Magallanes;Porvenir;0,02;49;1
+440;Proyecto Simulado #440 (110kV);Titular440;Ñuble;Yungay;0,08;61;2
+441;Proyecto Simulado #441 (500kV);Titular441;La Araucanía;Nueva Imperial;0,55;1854;5
+442;Proyecto Simulado #442 (66kV);Titular442;Los Lagos;Quinchao;0,11;44;2
+443;Proyecto Simulado #443 (220kV);Titular443;Atacama;Vallenar;0,52;608;3
+444;Proyecto Simulado #444 (110kV);Titular444;Arica y Parinacota;Putre;0,22;109;3
+445;Proyecto Simulado #445 (220kV);Titular445;Valparaíso;Valparaíso;0,37;278;3
+446;Proyecto Simulado #446 (500kV);Titular446;Coquimbo;Salamanca;1,49;1703;5
+447;Proyecto Simulado #447 (220kV);Titular447;Ñuble;San Carlos;0,59;289;3
+448;Proyecto Simulado #448 (66kV);Titular448;Coquimbo;Salamanca;0,19;50;2
+449;Proyecto Simulado #449 (110kV);Titular449;Valparaíso;Isla de Pascua;0,06;76;3
+450;Proyecto Simulado #450 (66kV);Titular450;Valparaíso;Quintero;0,13;49;2
+451;Proyecto Simulado #451 (500kV);Titular451;Valparaíso;Zapallar;1,4;1484;6
+452;Proyecto Simulado #452 (66kV);Titular452;O'Higgins;Rengo;0,19;57;1
+453;Proyecto Simulado #453 (500kV);Titular453;Aysén;Guaitecas;1,17;1802;4
+454;Proyecto Simulado #454 (220kV);Titular454;Arica y Parinacota;Arica;0,57;522;3
+455;Proyecto Simulado #455 (500kV);Titular455;Atacama;Copiapó;0,61;1537;5
+456;Proyecto Simulado #456 (66kV);Titular456;O'Higgins;Las Cabras;0,1;51;2
+457;Proyecto Simulado #457 (500kV);Titular457;Metropolitana;Lo Prado;2,19;1666;5
+458;Proyecto Simulado #458 (66kV);Titular458;Los Ríos;Máfil;0,22;70;2
+459;Proyecto Simulado #459 (500kV);Titular459;Antofagasta;Ollagüe;1,22;1139;5
+460;Proyecto Simulado #460 (500kV);Titular460;Magallanes;Cabo de Hornos (Ex-Navarino);0,6;1118;5
+461;Proyecto Simulado #461 (500kV);Titular461;Coquimbo;Andacollo;1,29;1530;5
+462;Proyecto Simulado #462 (110kV);Titular462;Valparaíso;Cabildo;0,36;113;3
+463;Proyecto Simulado #463 (110kV);Titular463;Los Lagos;Maullín;0,07;77;3
+464;Proyecto Simulado #464 (220kV);Titular464;Atacama;Caldera;0,37;760;3
+465;Proyecto Simulado #465 (66kV);Titular465;Arica y Parinacota;General Lagos;0,2;51;2
+466;Proyecto Simulado #466 (110kV);Titular466;Magallanes;Río Verde;0,06;95;2
+467;Proyecto Simulado #467 (500kV);Titular467;La Araucanía;Gorbea;0,62;1152;5
+468;Proyecto Simulado #468 (66kV);Titular468;Metropolitana;Renca;0,01;59;2
+469;Proyecto Simulado #469 (66kV);Titular469;Los Lagos;Los Muermos;0,1;64;2
+470;Proyecto Simulado #470 (220kV);Titular470;Magallanes;Torres del Paine;0,45;592;4
+471;Proyecto Simulado #471 (66kV);Titular471;Valparaíso;Viña del Mar;0,02;68;2
+472;Proyecto Simulado #472 (66kV);Titular472;Atacama;Freirina;0,19;89;2
+473;Proyecto Simulado #473 (66kV);Titular473;Tarapacá;Iquique;0,16;75;1
+474;Proyecto Simulado #474 (220kV);Titular474;Coquimbo;Salamanca;0,67;263;4
+475;Proyecto Simulado #475 (500kV);Titular475;Coquimbo;Vicuña;1,3;1266;6
+476;Proyecto Simulado #476 (110kV);Titular476;Los Lagos;San Juan de la Costa;0,32;86;2
+477;Proyecto Simulado #477 (110kV);Titular477;Maule;Sagrada Familia;0,29;104;3
+478;Proyecto Simulado #478 (500kV);Titular478;Atacama;Huasco;1,56;1258;4
+479;Proyecto Simulado #479 (110kV);Titular479;Tarapacá;Colchane;0,32;53;2
+480;Proyecto Simulado #480 (110kV);Titular480;O'Higgins;San Fernando;0,31;128;3
+481;Proyecto Simulado #481 (66kV);Titular481;Maule;Retiro;0,02;30;2
+482;Proyecto Simulado #482 (110kV);Titular482;Ñuble;Quillón;0,26;82;3
+483;Proyecto Simulado #483 (110kV);Titular483;Los Ríos;Valdivia;0,11;150;3
+484;Proyecto Simulado #484 (500kV);Titular484;Maule;San Rafael;1,06;1046;4
+485;Proyecto Simulado #485 (110kV);Titular485;Atacama;Tierra Amarilla;0,25;69;3
+486;Proyecto Simulado #486 (500kV);Titular486;Tarapacá;Alto Hospicio;2,27;1578;6
+487;Proyecto Simulado #487 (110kV);Titular487;Los Lagos;Puerto Montt;0,17;78;3
+488;Proyecto Simulado #488 (220kV);Titular488;Arica y Parinacota;Putre;0,31;383;2
+489;Proyecto Simulado #489 (500kV);Titular489;Coquimbo;Vicuña;1,87;1798;4
+490;Proyecto Simulado #490 (66kV);Titular490;O'Higgins;Navidad;0,14;90;2
+491;Proyecto Simulado #491 (66kV);Titular491;O'Higgins;Mostazal;0,1;67;2
+492;Proyecto Simulado #492 (220kV);Titular492;Antofagasta;Ollagüe;0,67;807;3
+493;Proyecto Simulado #493 (220kV);Titular493;Antofagasta;María Elena;0,7;504;4
+494;Proyecto Simulado #494 (500kV);Titular494;Metropolitana;Conchalí;2,04;1452;4
+495;Proyecto Simulado #495 (110kV);Titular495;Magallanes;Laguna Blanca;0,1;112;3
+496;Proyecto Simulado #496 (110kV);Titular496;Coquimbo;Punitaqui;0,3;101;2
+497;Proyecto Simulado #497 (500kV);Titular497;Metropolitana;Renca;1,41;1280;6
+498;Proyecto Simulado #498 (500kV);Titular498;Valparaíso;Concón;1,48;1608;5
+499;Proyecto Simulado #499 (220kV);Titular499;Biobío;Curanilahue;0,6;686;3
+500;Proyecto Simulado #500 (220kV);Titular500;Atacama;Freirina;0,67;729;3
+501;Proyecto Simulado #501 (110kV);Titular501;Antofagasta;Sierra Gorda;0,03;66;2
+502;Proyecto Simulado #502 (110kV);Titular502;Ñuble;Ñiquén;0,12;92;2
+503;Proyecto Simulado #503 (66kV);Titular503;Maule;Yerbas Buenas;0,23;81;2
+504;Proyecto Simulado #504 (500kV);Titular504;Valparaíso;Santo Domingo;0,94;1601;5
+505;Proyecto Simulado #505 (66kV);Titular505;Maule;Parral;0,13;60;2
+506;Proyecto Simulado #506 (110kV);Titular506;Atacama;Caldera;0,23;77;2
+507;Proyecto Simulado #507 (220kV);Titular507;Arica y Parinacota;Camarones;0,35;687;4
+508;Proyecto Simulado #508 (220kV);Titular508;Ñuble;Chillán Viejo;0,53;560;3
+509;Proyecto Simulado #509 (220kV);Titular509;Valparaíso;San Esteban;0,63;700;3
+510;Proyecto Simulado #510 (110kV);Titular510;Metropolitana;Recoleta;0,29;67;2
+511;Proyecto Simulado #511 (500kV);Titular511;Maule;Villa Alegre;0,97;1013;6
+512;Proyecto Simulado #512 (110kV);Titular512;Ñuble;Pinto;0,07;137;2
+513;Proyecto Simulado #513 (110kV);Titular513;Maule;Licantén;0,34;144;3
+514;Proyecto Simulado #514 (110kV);Titular514;Arica y Parinacota;General Lagos;0,31;111;2
+515;Proyecto Simulado #515 (220kV);Titular515;La Araucanía;Padre Las Casas;0,43;412;3
+516;Proyecto Simulado #516 (220kV);Titular516;Antofagasta;María Elena;0,64;752;4
+517;Proyecto Simulado #517 (110kV);Titular517;Maule;Molina;0,25;65;3
+518;Proyecto Simulado #518 (110kV);Titular518;Aysén;Cisnes;0,22;70;2
+519;Proyecto Simulado #519 (66kV);Titular519;Los Ríos;La Unión;0,14;66;1
+520;Proyecto Simulado #520 (66kV);Titular520;Arica y Parinacota;Putre;0,15;41;2
+521;Proyecto Simulado #521 (66kV);Titular521;Tarapacá;Huara;0,19;83;2
+522;Proyecto Simulado #522 (110kV);Titular522;Arica y Parinacota;Arica;0,31;121;2
+523;Proyecto Simulado #523 (66kV);Titular523;Valparaíso;El Tabo;0,19;44;2
+524;Proyecto Simulado #524 (220kV);Titular524;Los Ríos;Máfil;0,26;779;3
+525;Proyecto Simulado #525 (220kV);Titular525;Maule;San Javier;0,7;540;3
+526;Proyecto Simulado #526 (66kV);Titular526;Atacama;Alto del Carmen;0,15;73;2
+527;Proyecto Simulado #527 (220kV);Titular527;O'Higgins;Litueche;0,66;789;3
+528;Proyecto Simulado #528 (110kV);Titular528;Maule;Molina;0,1;128;3
+529;Proyecto Simulado #529 (500kV);Titular529;Tarapacá;Colchane;1,57;1965;5
+530;Proyecto Simulado #530 (220kV);Titular530;La Araucanía;Cunco;0,32;624;4
+531;Proyecto Simulado #531 (66kV);Titular531;O'Higgins;Chépica;0,15;78;2
+532;Proyecto Simulado #532 (110kV);Titular532;Coquimbo;Los Vilos;0,16;113;3
+533;Proyecto Simulado #533 (66kV);Titular533;La Araucanía;Purén;0,02;51;2
+534;Proyecto Simulado #534 (66kV);Titular534;Aysén;Cochrane;0,2;68;2
+535;Proyecto Simulado #535 (110kV);Titular535;Metropolitana;Santiago;0,25;50;2
+536;Proyecto Simulado #536 (66kV);Titular536;Tarapacá;Colchane;0,18;82;1
+537;Proyecto Simulado #537 (66kV);Titular537;Tarapacá;Pozo Almonte;0,19;33;2
+538;Proyecto Simulado #538 (500kV);Titular538;Valparaíso;Calera;0,92;1771;4
+539;Proyecto Simulado #539 (66kV);Titular539;Maule;Licantén;0,09;88;1
+540;Proyecto Simulado #540 (66kV);Titular540;La Araucanía;Lautaro;0,1;61;2
+541;Proyecto Simulado #541 (66kV);Titular541;Magallanes;Timaukel;0,13;66;1
+542;Proyecto Simulado #542 (110kV);Titular542;Coquimbo;La Serena;0,25;61;3
+543;Proyecto Simulado #543 (500kV);Titular543;Atacama;Huasco;1,76;1536;5
+544;Proyecto Simulado #544 (220kV);Titular544;Maule;Romeral;0,66;422;4
+545;Proyecto Simulado #545 (110kV);Titular545;Valparaíso;Casablanca;0,09;139;2
+546;Proyecto Simulado #546 (500kV);Titular546;La Araucanía;Curacautín;1,72;1540;6
+547;Proyecto Simulado #547 (220kV);Titular547;Metropolitana;La Granja;0,55;333;3
+548;Proyecto Simulado #548 (110kV);Titular548;Biobío;Negrete;0,06;125;2
+549;Proyecto Simulado #549 (110kV);Titular549;Magallanes;Antártica;0,33;56;3
+550;Proyecto Simulado #550 (110kV);Titular550;Los Ríos;Futrono;0,33;110;3
+551;Proyecto Simulado #551 (220kV);Titular551;O'Higgins;Quinta de Tilcoco;0,47;317;3
+552;Proyecto Simulado #552 (110kV);Titular552;Aysén;Aysén;0,27;75;2
+553;Proyecto Simulado #553 (220kV);Titular553;Metropolitana;Recoleta;0,28;613;3
+554;Proyecto Simulado #554 (66kV);Titular554;Magallanes;Río Verde;0,06;59;2
+555;Proyecto Simulado #555 (500kV);Titular555;Los Lagos;Futaleufú;1,23;1416;5
+556;Proyecto Simulado #556 (500kV);Titular556;Valparaíso;Cabildo;1,78;1097;4
+557;Proyecto Simulado #557 (500kV);Titular557;Atacama;Freirina;0,58;1546;5
+558;Proyecto Simulado #558 (110kV);Titular558;Los Lagos;Puerto Octay;0,18;71;3
+559;Proyecto Simulado #559 (220kV);Titular559;La Araucanía;Lautaro;0,45;483;3
+560;Proyecto Simulado #560 (66kV);Titular560;Antofagasta;Taltal;0,01;85;1
+561;Proyecto Simulado #561 (110kV);Titular561;Aysén;Guaitecas;0,22;127;3
+562;Proyecto Simulado #562 (220kV);Titular562;Magallanes;Primavera;0,38;825;4
+563;Proyecto Simulado #563 (66kV);Titular563;Los Lagos;San Pablo;0,2;48;1
+564;Proyecto Simulado #564 (66kV);Titular564;Atacama;Diego de Almagro;0,03;85;2
+565;Proyecto Simulado #565 (110kV);Titular565;Arica y Parinacota;Putre;0,24;129;4
+566;Proyecto Simulado #566 (500kV);Titular566;Metropolitana;Recoleta;1,65;1185;6
+567;Proyecto Simulado #567 (500kV);Titular567;Biobío;Mulchén;1,85;1617;6
+568;Proyecto Simulado #568 (220kV);Titular568;Los Lagos;Fresia;0,31;631;3
+569;Proyecto Simulado #569 (110kV);Titular569;Antofagasta;Mejillones;0,25;115;2
+570;Proyecto Simulado #570 (220kV);Titular570;Tarapacá;Alto Hospicio;0,28;560;3
+571;Proyecto Simulado #571 (66kV);Titular571;O'Higgins;Marchihue;0,22;32;2
+572;Proyecto Simulado #572 (110kV);Titular572;Coquimbo;Salamanca;0,24;127;2
+573;Proyecto Simulado #573 (66kV);Titular573;Valparaíso;Concón;0,03;39;2
+574;Proyecto Simulado #574 (220kV);Titular574;Valparaíso;Putaendo;0,45;574;3
+575;Proyecto Simulado #575 (220kV);Titular575;Coquimbo;Los Vilos;0,72;576;3
+576;Proyecto Simulado #576 (66kV);Titular576;Tarapacá;Pica;0,08;55;2
+577;Proyecto Simulado #577 (66kV);Titular577;Los Ríos;Lago Ranco;0,19;87;2
+578;Proyecto Simulado #578 (66kV);Titular578;Biobío;Cabrero;0,12;81;1
+579;Proyecto Simulado #579 (500kV);Titular579;Metropolitana;Cerro Navia;1,07;1922;5
+580;Proyecto Simulado #580 (220kV);Titular580;Antofagasta;Taltal;0,43;598;4
+581;Proyecto Simulado #581 (500kV);Titular581;Antofagasta;Tocopilla;1,98;1723;4
+582;Proyecto Simulado #582 (66kV);Titular582;Atacama;Caldera;0,02;38;2
+583;Proyecto Simulado #583 (110kV);Titular583;Valparaíso;Los Andes;0,14;128;3
+584;Proyecto Simulado #584 (500kV);Titular584;O'Higgins;Requínoa;0,96;1851;4
+585;Proyecto Simulado #585 (220kV);Titular585;Los Lagos;Quinchao;0,62;250;3
+586;Proyecto Simulado #586 (110kV);Titular586;Tarapacá;Huara;0,33;129;3
+587;Proyecto Simulado #587 (220kV);Titular587;Atacama;Tierra Amarilla;0,26;571;3
+588;Proyecto Simulado #588 (220kV);Titular588;Los Lagos;Hualaihué;0,4;850;2
+589;Proyecto Simulado #589 (220kV);Titular589;Atacama;Caldera;0,68;713;3
+590;Proyecto Simulado #590 (220kV);Titular590;Coquimbo;Canela;0,71;328;2
+591;Proyecto Simulado #591 (66kV);Titular591;Atacama;Chañaral;0,23;57;2
+592;Proyecto Simulado #592 (66kV);Titular592;Los Lagos;Frutillar;0,02;89;1
+593;Proyecto Simulado #593 (110kV);Titular593;Tarapacá;Colchane;0,21;106;3
+594;Proyecto Simulado #594 (500kV);Titular594;Valparaíso;Rinconada;1,89;1271;5
+595;Proyecto Simulado #595 (500kV);Titular595;Valparaíso;Concón;0,98;1201;5
+596;Proyecto Simulado #596 (110kV);Titular596;Antofagasta;San Pedro de Atacama;0,36;61;2
+597;Proyecto Simulado #597 (500kV);Titular597;Los Ríos;Lago Ranco;2,25;1839;6
+598;Proyecto Simulado #598 (66kV);Titular598;Magallanes;Natales;0,1;69;2
+599;Proyecto Simulado #599 (220kV);Titular599;Metropolitana;Estación Central;0,71;883;4
+600;Proyecto Simulado #600 (66kV);Titular600;Antofagasta;Taltal;0,17;64;2
+601;Proyecto Simulado #601 (220kV);Titular601;Arica y Parinacota;Putre;0,65;239;4
+602;Proyecto Simulado #602 (110kV);Titular602;Arica y Parinacota;Camarones;0,09;129;3
+603;Proyecto Simulado #603 (500kV);Titular603;Aysén;Río Ibáñez;1,15;1869;5
+604;Proyecto Simulado #604 (500kV);Titular604;Magallanes;Río Verde;1,31;1348;5
+605;Proyecto Simulado #605 (220kV);Titular605;La Araucanía;Melipeuco;0,59;213;4
+606;Proyecto Simulado #606 (220kV);Titular606;Arica y Parinacota;General Lagos;0,28;756;4
+607;Proyecto Simulado #607 (66kV);Titular607;La Araucanía;Perquenco;0,08;47;2
+608;Proyecto Simulado #608 (500kV);Titular608;Arica y Parinacota;Arica;2,11;1481;5
+609;Proyecto Simulado #609 (500kV);Titular609;Aysén;O'Higgins;2,03;1537;5
+610;Proyecto Simulado #610 (110kV);Titular610;Tarapacá;Iquique;0,22;50;3
+611;Proyecto Simulado #611 (110kV);Titular611;Biobío;Tirúa;0,33;125;3
+612;Proyecto Simulado #612 (66kV);Titular612;Atacama;Diego de Almagro;0,1;50;1
+613;Proyecto Simulado #613 (220kV);Titular613;Atacama;Huasco;0,38;647;3
+614;Proyecto Simulado #614 (500kV);Titular614;Arica y Parinacota;Arica;0,8;1303;5
+615;Proyecto Simulado #615 (110kV);Titular615;Atacama;Diego de Almagro;0,14;106;3
+616;Proyecto Simulado #616 (220kV);Titular616;Aysén;Guaitecas;0,65;546;4
+617;Proyecto Simulado #617 (500kV);Titular617;Arica y Parinacota;General Lagos;1,1;1011;5
+618;Proyecto Simulado #618 (66kV);Titular618;O'Higgins;Pumanque;0,21;65;2
+619;Proyecto Simulado #619 (500kV);Titular619;Valparaíso;Olmué;0,79;1180;6
+620;Proyecto Simulado #620 (220kV);Titular620;Aysén;Lago Verde;0,57;351;3
+621;Proyecto Simulado #621 (500kV);Titular621;Atacama;Freirina;1,16;1961;6
+622;Proyecto Simulado #622 (500kV);Titular622;O'Higgins;Mostazal;2,27;1499;5
+623;Proyecto Simulado #623 (110kV);Titular623;La Araucanía;Padre Las Casas;0,21;61;3
+624;Proyecto Simulado #624 (110kV);Titular624;Maule;Curicó;0,3;126;3
+625;Proyecto Simulado #625 (220kV);Titular625;La Araucanía;Ercilla;0,57;661;3
+626;Proyecto Simulado #626 (500kV);Titular626;Atacama;Copiapó;0,58;1932;6
+627;Proyecto Simulado #627 (110kV);Titular627;Los Ríos;Mariquina;0,24;132;3
+628;Proyecto Simulado #628 (220kV);Titular628;La Araucanía;Lumaco;0,28;262;4
+629;Proyecto Simulado #629 (220kV);Titular629;Los Lagos;Llanquihue;0,36;856;3
+630;Proyecto Simulado #630 (110kV);Titular630;Ñuble;Yungay;0,15;135;3
+631;Proyecto Simulado #631 (110kV);Titular631;Antofagasta;Ollagüe;0,03;52;2
+632;Proyecto Simulado #632 (110kV);Titular632;Maule;Rauco;0,1;146;3
+633;Proyecto Simulado #633 (220kV);Titular633;Metropolitana;Talagante;0,57;507;2
+634;Proyecto Simulado #634 (220kV);Titular634;Atacama;Copiapó;0,51;791;3
+635;Proyecto Simulado #635 (110kV);Titular635;Los Lagos;Llanquihue;0,08;102;3
+636;Proyecto Simulado #636 (110kV);Titular636;Arica y Parinacota;General Lagos;0,25;145;3
+637;Proyecto Simulado #637 (500kV);Titular637;Arica y Parinacota;Camarones;0,87;1131;5
+638;Proyecto Simulado #638 (110kV);Titular638;Maule;San Rafael;0,36;71;3
+639;Proyecto Simulado #639 (500kV);Titular639;Metropolitana;La Reina;0,92;1517;4
+640;Proyecto Simulado #640 (110kV);Titular640;O'Higgins;Codegua;0,3;98;2
+641;Proyecto Simulado #641 (110kV);Titular641;Metropolitana;Curacaví;0,23;78;3
+642;Proyecto Simulado #642 (220kV);Titular642;Ñuble;El Carmen;0,59;379;4
+643;Proyecto Simulado #643 (110kV);Titular643;La Araucanía;Carahue;0,29;126;3
+644;Proyecto Simulado #644 (500kV);Titular644;Coquimbo;La Higuera;0,8;1214;4
+645;Proyecto Simulado #645 (66kV);Titular645;Antofagasta;María Elena;0,06;77;1
+646;Proyecto Simulado #646 (66kV);Titular646;Coquimbo;Punitaqui;0,03;40;2
+647;Proyecto Simulado #647 (110kV);Titular647;Valparaíso;Valparaíso;0,29;74;2
+648;Proyecto Simulado #648 (66kV);Titular648;Antofagasta;Tocopilla;0,02;71;1
+649;Proyecto Simulado #649 (110kV);Titular649;La Araucanía;Lautaro;0,19;60;3
+650;Proyecto Simulado #650 (110kV);Titular650;Ñuble;Portezuelo;0,14;140;3
+651;Proyecto Simulado #651 (110kV);Titular651;Antofagasta;Antofagasta;0,03;132;3
+652;Proyecto Simulado #652 (220kV);Titular652;Antofagasta;Tocopilla;0,33;206;3
+653;Proyecto Simulado #653 (66kV);Titular653;Metropolitana;La Cisterna;0,15;70;2
+654;Proyecto Simulado #654 (66kV);Titular654;Valparaíso;Viña del Mar;0,12;79;2
+655;Proyecto Simulado #655 (66kV);Titular655;La Araucanía;Renaico;0,14;50;2
+656;Proyecto Simulado #656 (500kV);Titular656;Maule;Constitución;1,96;1413;4
+657;Proyecto Simulado #657 (500kV);Titular657;Maule;Chanco;0,63;1508;6
+658;Proyecto Simulado #658 (66kV);Titular658;Magallanes;Laguna Blanca;0,11;88;1
+659;Proyecto Simulado #659 (500kV);Titular659;Metropolitana;La Granja;1,17;1337;5
+660;Proyecto Simulado #660 (220kV);Titular660;Atacama;Vallenar;0,25;656;3
+661;Proyecto Simulado #661 (220kV);Titular661;Metropolitana;Maipú;0,41;444;3
+662;Proyecto Simulado #662 (500kV);Titular662;Coquimbo;Salamanca;0,85;1342;4
+663;Proyecto Simulado #663 (66kV);Titular663;Aysén;Guaitecas;0,11;32;2
+664;Proyecto Simulado #664 (110kV);Titular664;Biobío;Mulchén;0,2;100;2
+665;Proyecto Simulado #665 (110kV);Titular665;Aysén;Cochrane;0,1;100;3
+666;Proyecto Simulado #666 (110kV);Titular666;Tarapacá;Pozo Almonte;0,05;149;2
+667;Proyecto Simulado #667 (220kV);Titular667;Arica y Parinacota;Putre;0,53;603;3
+668;Proyecto Simulado #668 (66kV);Titular668;Maule;Cauquenes;0,14;74;2
+669;Proyecto Simulado #669 (220kV);Titular669;Magallanes;Porvenir;0,36;443;3
+670;Proyecto Simulado #670 (66kV);Titular670;Metropolitana;Padre Hurtado;0,04;40;2
+671;Proyecto Simulado #671 (66kV);Titular671;Antofagasta;San Pedro de Atacama;0,15;73;1
+672;Proyecto Simulado #672 (66kV);Titular672;Metropolitana;La Reina;0,1;40;2
+673;Proyecto Simulado #673 (500kV);Titular673;Coquimbo;Coquimbo;1,66;1337;6
+674;Proyecto Simulado #674 (110kV);Titular674;Magallanes;Antártica;0,33;141;3
+675;Proyecto Simulado #675 (500kV);Titular675;Atacama;Huasco;1,15;1093;5
+676;Proyecto Simulado #676 (110kV);Titular676;Ñuble;Coelemu;0,11;125;3
+677;Proyecto Simulado #677 (220kV);Titular677;Los Lagos;Curaco de Vélez;0,34;745;3
+678;Proyecto Simulado #678 (66kV);Titular678;Maule;Linares;0,16;89;2
+679;Proyecto Simulado #679 (110kV);Titular679;Aysén;O'Higgins;0,36;120;3
+680;Proyecto Simulado #680 (110kV);Titular680;La Araucanía;Padre Las Casas;0,19;80;3
+681;Proyecto Simulado #681 (110kV);Titular681;Ñuble;Ránquil;0,16;77;2
+682;Proyecto Simulado #682 (66kV);Titular682;Valparaíso;Panquehue;0,09;84;2
+683;Proyecto Simulado #683 (66kV);Titular683;Los Lagos;Dalcahue;0,24;64;2
+684;Proyecto Simulado #684 (66kV);Titular684;Aysén;Cochrane;0,12;81;2
+685;Proyecto Simulado #685 (110kV);Titular685;Los Lagos;Maullín;0,2;50;2
+686;Proyecto Simulado #686 (66kV);Titular686;Valparaíso;La Ligua;0,06;61;2
+687;Proyecto Simulado #687 (110kV);Titular687;Tarapacá;Pozo Almonte;0,35;89;3
+688;Proyecto Simulado #688 (500kV);Titular688;Magallanes;Laguna Blanca;0,93;1409;4
+689;Proyecto Simulado #689 (110kV);Titular689;Atacama;Vallenar;0,23;145;3
+690;Proyecto Simulado #690 (66kV);Titular690;Biobío;Santa Bárbara;0,1;86;2
+691;Proyecto Simulado #691 (66kV);Titular691;Atacama;Alto del Carmen;0,02;49;2
+692;Proyecto Simulado #692 (66kV);Titular692;Biobío;Tomé;0,12;71;2
+693;Proyecto Simulado #693 (500kV);Titular693;O'Higgins;San Vicente;2;1342;4
+694;Proyecto Simulado #694 (110kV);Titular694;Los Lagos;Puyehue;0,36;66;3
+695;Proyecto Simulado #695 (220kV);Titular695;Los Ríos;Lago Ranco;0,56;729;3
+696;Proyecto Simulado #696 (500kV);Titular696;Coquimbo;Andacollo;1,41;1027;5
+697;Proyecto Simulado #697 (66kV);Titular697;Atacama;Caldera;0,02;62;3
+698;Proyecto Simulado #698 (220kV);Titular698;Atacama;Chañaral;0,7;430;3
+699;Proyecto Simulado #699 (500kV);Titular699;Los Ríos;Corral;0,88;1834;5
+700;Proyecto Simulado #700 (66kV);Titular700;Los Ríos;La Unión;0,2;79;2
+701;Proyecto Simulado #701 (500kV);Titular701;Los Ríos;Máfil;2,03;1138;5
+702;Proyecto Simulado #702 (110kV);Titular702;Magallanes;Primavera;0,33;75;3
+703;Proyecto Simulado #703 (66kV);Titular703;Arica y Parinacota;Camarones;0,03;38;3
+704;Proyecto Simulado #704 (110kV);Titular704;Coquimbo;Combarbalá;0,34;116;3
+705;Proyecto Simulado #705 (66kV);Titular705;Antofagasta;María Elena;0,05;45;2
+706;Proyecto Simulado #706 (220kV);Titular706;Aysén;Aysén;0,63;491;3
+707;Proyecto Simulado #707 (66kV);Titular707;Atacama;Chañaral;0,18;75;2
+708;Proyecto Simulado #708 (110kV);Titular708;Coquimbo;Monte Patria;0,33;51;2
+709;Proyecto Simulado #709 (220kV);Titular709;Los Ríos;Máfil;0,59;497;3
+710;Proyecto Simulado #710 (500kV);Titular710;Coquimbo;Ovalle;0,97;1019;4
+711;Proyecto Simulado #711 (500kV);Titular711;Los Ríos;Corral;1,71;1888;6
+712;Proyecto Simulado #712 (220kV);Titular712;Magallanes;Río Verde;0,65;891;4
+713;Proyecto Simulado #713 (500kV);Titular713;Antofagasta;Calama;2,16;1363;4
+714;Proyecto Simulado #714 (500kV);Titular714;La Araucanía;Cunco;1,53;1925;5
+715;Proyecto Simulado #715 (110kV);Titular715;Los Ríos;Panguipulli;0,2;141;2
+716;Proyecto Simulado #716 (110kV);Titular716;Aysén;Lago Verde;0,24;142;3
+717;Proyecto Simulado #717 (500kV);Titular717;Maule;Sagrada Familia;1,28;1061;5
+718;Proyecto Simulado #718 (500kV);Titular718;Valparaíso;Juan Fernández;0,72;1703;5
+719;Proyecto Simulado #719 (110kV);Titular719;Atacama;Vallenar;0,27;66;3
+720;Proyecto Simulado #720 (66kV);Titular720;Aysén;Cochrane;0,02;56;2
+721;Proyecto Simulado #721 (500kV);Titular721;Coquimbo;Illapel;0,97;1121;4
+722;Proyecto Simulado #722 (220kV);Titular722;Los Ríos;Los Lagos;0,51;681;4
+723;Proyecto Simulado #723 (110kV);Titular723;Valparaíso;Nogales;0,29;148;2
+724;Proyecto Simulado #724 (220kV);Titular724;Tarapacá;Colchane;0,6;536;3
+725;Proyecto Simulado #725 (66kV);Titular725;Arica y Parinacota;General Lagos;0,15;34;2
+726;Proyecto Simulado #726 (110kV);Titular726;Ñuble;Ninhue;0,14;68;2
+727;Proyecto Simulado #727 (220kV);Titular727;Atacama;Caldera;0,38;628;3
+728;Proyecto Simulado #728 (110kV);Titular728;Los Lagos;Curaco de Vélez;0,13;107;2
+729;Proyecto Simulado #729 (220kV);Titular729;La Araucanía;Vilcún;0,71;238;3
+730;Proyecto Simulado #730 (220kV);Titular730;Tarapacá;Camiña;0,32;863;3
+731;Proyecto Simulado #731 (500kV);Titular731;Magallanes;Porvenir;1,56;1538;5
+732;Proyecto Simulado #732 (220kV);Titular732;Los Lagos;Chonchi;0,42;520;4
+733;Proyecto Simulado #733 (220kV);Titular733;Atacama;Freirina;0,56;787;3
+734;Proyecto Simulado #734 (220kV);Titular734;La Araucanía;Villarrica;0,3;306;4
+735;Proyecto Simulado #735 (220kV);Titular735;Maule;Chanco;0,53;740;3
+736;Proyecto Simulado #736 (110kV);Titular736;Los Ríos;Los Lagos;0,04;142;3
+737;Proyecto Simulado #737 (220kV);Titular737;Aysén;Coyhaique;0,56;404;3
+738;Proyecto Simulado #738 (500kV);Titular738;Los Ríos;Paillaco;2,36;1548;6
+739;Proyecto Simulado #739 (66kV);Titular739;Metropolitana;Recoleta;0,23;50;2
+740;Proyecto Simulado #740 (220kV);Titular740;Maule;Sagrada Familia;0,3;307;4
+741;Proyecto Simulado #741 (110kV);Titular741;Ñuble;Yungay;0,2;98;3
+742;Proyecto Simulado #742 (66kV);Titular742;Los Lagos;Dalcahue;0,11;77;2
+743;Proyecto Simulado #743 (110kV);Titular743;Los Lagos;Queilén;0,16;94;2
+744;Proyecto Simulado #744 (220kV);Titular744;O'Higgins;Navidad;0,63;566;4
+745;Proyecto Simulado #745 (110kV);Titular745;Atacama;Caldera;0,22;101;3
+746;Proyecto Simulado #746 (110kV);Titular746;Ñuble;San Ignacio;0,22;126;3
+747;Proyecto Simulado #747 (220kV);Titular747;Metropolitana;Huechuraba;0,65;322;4
+748;Proyecto Simulado #748 (220kV);Titular748;La Araucanía;Ercilla;0,48;846;3
+749;Proyecto Simulado #749 (66kV);Titular749;Valparaíso;Olmué;0,05;66;2
+750;Proyecto Simulado #750 (500kV);Titular750;Los Lagos;San Juan de la Costa;0,86;1239;4
+751;Proyecto Simulado #751 (220kV);Titular751;Los Lagos;Puerto Octay;0,62;881;3
+752;Proyecto Simulado #752 (500kV);Titular752;Valparaíso;Cartagena;1,76;1734;4
+753;Proyecto Simulado #753 (66kV);Titular753;Maule;San Javier;0,04;69;2
+754;Proyecto Simulado #754 (220kV);Titular754;Atacama;Vallenar;0,59;854;3
+755;Proyecto Simulado #755 (66kV);Titular755;Ñuble;San Ignacio;0,07;41;2
+756;Proyecto Simulado #756 (220kV);Titular756;Magallanes;Antártica;0,57;723;4
+757;Proyecto Simulado #757 (220kV);Titular757;Los Lagos;Cochamó;0,72;375;4
+758;Proyecto Simulado #758 (500kV);Titular758;Maule;Chanco;1,9;1746;4
+759;Proyecto Simulado #759 (66kV);Titular759;Los Ríos;Corral;0,01;52;1
+760;Proyecto Simulado #760 (66kV);Titular760;Tarapacá;Colchane;0,02;90;2
+761;Proyecto Simulado #761 (66kV);Titular761;Coquimbo;Coquimbo;0,18;71;2
+762;Proyecto Simulado #762 (220kV);Titular762;Magallanes;San Gregorio;0,42;845;3
+763;Proyecto Simulado #763 (500kV);Titular763;Coquimbo;Salamanca;1,12;1827;5
+764;Proyecto Simulado #764 (500kV);Titular764;Los Ríos;Lago Ranco;0,7;1337;4
+765;Proyecto Simulado #765 (500kV);Titular765;Tarapacá;Colchane;1,81;1554;5
+766;Proyecto Simulado #766 (110kV);Titular766;Ñuble;El Carmen;0,12;134;3
+767;Proyecto Simulado #767 (220kV);Titular767;Maule;Romeral;0,64;390;4
+768;Proyecto Simulado #768 (110kV);Titular768;O'Higgins;Pichidegua;0,24;79;3
+769;Proyecto Simulado #769 (66kV);Titular769;Maule;Cauquenes;0,1;46;2
+770;Proyecto Simulado #770 (500kV);Titular770;Magallanes;Cabo de Hornos (Ex-Navarino);2,3;1493;5
+771;Proyecto Simulado #771 (500kV);Titular771;Aysén;Lago Verde;0,55;1608;4
+772;Proyecto Simulado #772 (220kV);Titular772;Valparaíso;Quintero;0,29;330;4
+773;Proyecto Simulado #773 (66kV);Titular773;Los Lagos;Quinchao;0,05;64;2
+774;Proyecto Simulado #774 (110kV);Titular774;Antofagasta;Taltal;0,06;103;2
+775;Proyecto Simulado #775 (500kV);Titular775;La Araucanía;Lonquimay;1,3;1068;4
+776;Proyecto Simulado #776 (110kV);Titular776;Coquimbo;La Higuera;0,2;145;2
+777;Proyecto Simulado #777 (220kV);Titular777;Atacama;Alto del Carmen;0,55;451;2
+778;Proyecto Simulado #778 (220kV);Titular778;Metropolitana;Las Condes;0,64;367;2
+779;Proyecto Simulado #779 (220kV);Titular779;Tarapacá;Camiña;0,35;788;4
+780;Proyecto Simulado #780 (220kV);Titular780;Ñuble;Ninhue;0,54;459;4
+781;Proyecto Simulado #781 (66kV);Titular781;Valparaíso;Calera;0,19;63;2
+782;Proyecto Simulado #782 (66kV);Titular782;Magallanes;Laguna Blanca;0,06;39;3
+783;Proyecto Simulado #783 (110kV);Titular783;La Araucanía;Gorbea;0,21;128;3
+784;Proyecto Simulado #784 (500kV);Titular784;Arica y Parinacota;Arica;1,45;1872;5
+785;Proyecto Simulado #785 (500kV);Titular785;La Araucanía;Toltén;0,86;1121;5
+786;Proyecto Simulado #786 (220kV);Titular786;Antofagasta;Taltal;0,68;617;3
+787;Proyecto Simulado #787 (500kV);Titular787;La Araucanía;Collipulli;1,54;1316;5
+788;Proyecto Simulado #788 (110kV);Titular788;Coquimbo;Coquimbo;0,05;55;3
+789;Proyecto Simulado #789 (110kV);Titular789;Coquimbo;Monte Patria;0,26;130;2
+790;Proyecto Simulado #790 (220kV);Titular790;Los Lagos;Quemchi;0,49;665;3
+791;Proyecto Simulado #791 (220kV);Titular791;Atacama;Diego de Almagro;0,71;391;3
+792;Proyecto Simulado #792 (500kV);Titular792;Aysén;Cochrane;1,05;1244;5
+793;Proyecto Simulado #793 (110kV);Titular793;Coquimbo;Andacollo;0,06;120;3
+794;Proyecto Simulado #794 (66kV);Titular794;Arica y Parinacota;Putre;0,08;69;2
+795;Proyecto Simulado #795 (220kV);Titular795;Antofagasta;Tocopilla;0,5;267;4
+796;Proyecto Simulado #796 (220kV);Titular796;Magallanes;Natales;0,5;221;3
+797;Proyecto Simulado #797 (110kV);Titular797;Arica y Parinacota;Arica;0,09;96;3
+798;Proyecto Simulado #798 (110kV);Titular798;Tarapacá;Colchane;0,31;87;3
+799;Proyecto Simulado #799 (110kV);Titular799;Arica y Parinacota;General Lagos;0,09;123;2
+800;Proyecto Simulado #800 (500kV);Titular800;O'Higgins;Graneros;2,4;1116;4
+801;Proyecto Simulado #801 (500kV);Titular801;Biobío;Coronel;0,93;1595;4
+802;Proyecto Simulado #802 (66kV);Titular802;Antofagasta;Tocopilla;0,19;63;2
+803;Proyecto Simulado #803 (110kV);Titular803;Coquimbo;Coquimbo;0,13;74;2
+804;Proyecto Simulado #804 (66kV);Titular804;Ñuble;San Fabián;0,13;44;1
+805;Proyecto Simulado #805 (220kV);Titular805;La Araucanía;Renaico;0,34;649;4
+806;Proyecto Simulado #806 (500kV);Titular806;Valparaíso;San Antonio;1,55;1542;4
+807;Proyecto Simulado #807 (110kV);Titular807;Magallanes;Río Verde;0,1;137;3
+808;Proyecto Simulado #808 (110kV);Titular808;Biobío;San Rosendo;0,1;60;3
+809;Proyecto Simulado #809 (110kV);Titular809;La Araucanía;Curacautín;0,19;101;3
+810;Proyecto Simulado #810 (500kV);Titular810;Maule;San Rafael;0,64;1705;4
+811;Proyecto Simulado #811 (110kV);Titular811;Tarapacá;Pozo Almonte;0,23;99;3
+812;Proyecto Simulado #812 (110kV);Titular812;Los Lagos;Hualaihué;0,05;58;3
+813;Proyecto Simulado #813 (220kV);Titular813;Magallanes;Torres del Paine;0,57;306;3
+814;Proyecto Simulado #814 (110kV);Titular814;O'Higgins;Litueche;0,18;92;3
+815;Proyecto Simulado #815 (66kV);Titular815;La Araucanía;Teodoro Schmidt;0,21;72;3
+816;Proyecto Simulado #816 (66kV);Titular816;Metropolitana;San Miguel;0,05;73;2
+817;Proyecto Simulado #817 (220kV);Titular817;Los Ríos;Valdivia;0,34;260;3
+818;Proyecto Simulado #818 (220kV);Titular818;Aysén;Tortel;0,71;651;4
+819;Proyecto Simulado #819 (110kV);Titular819;Antofagasta;Calama;0,24;76;2
+820;Proyecto Simulado #820 (500kV);Titular820;Maule;San Javier;0,9;1262;5
+821;Proyecto Simulado #821 (500kV);Titular821;Ñuble;San Ignacio;0,73;1913;5
+822;Proyecto Simulado #822 (500kV);Titular822;Magallanes;Primavera;1,69;1540;5
+823;Proyecto Simulado #823 (220kV);Titular823;Tarapacá;Iquique;0,27;273;3
+824;Proyecto Simulado #824 (500kV);Titular824;Aysén;Chile Chico;1,13;1453;6
+825;Proyecto Simulado #825 (110kV);Titular825;Ñuble;Quirihue;0,04;76;3
+826;Proyecto Simulado #826 (66kV);Titular826;La Araucanía;Vilcún;0,14;88;3
+827;Proyecto Simulado #827 (500kV);Titular827;Maule;Pelarco;1,17;1268;5
+828;Proyecto Simulado #828 (110kV);Titular828;Aysén;Río Ibáñez;0,35;75;2
+829;Proyecto Simulado #829 (220kV);Titular829;Biobío;Tomé;0,28;669;3
+830;Proyecto Simulado #830 (110kV);Titular830;Maule;San Javier;0,25;84;3
+831;Proyecto Simulado #831 (220kV);Titular831;Antofagasta;María Elena;0,47;637;4
+832;Proyecto Simulado #832 (220kV);Titular832;Valparaíso;Limache;0,54;381;3
+833;Proyecto Simulado #833 (500kV);Titular833;Arica y Parinacota;Putre;1,74;1522;6
+834;Proyecto Simulado #834 (66kV);Titular834;Los Lagos;Purranque;0,13;84;2
+835;Proyecto Simulado #835 (500kV);Titular835;Los Lagos;Castro;0,53;1761;4
+836;Proyecto Simulado #836 (220kV);Titular836;Maule;Talca;0,58;588;4
+837;Proyecto Simulado #837 (220kV);Titular837;Aysén;Guaitecas;0,33;751;3
+838;Proyecto Simulado #838 (66kV);Titular838;Ñuble;Bulnes;0,21;62;2
+839;Proyecto Simulado #839 (110kV);Titular839;O'Higgins;Quinta de Tilcoco;0,25;57;2
+840;Proyecto Simulado #840 (66kV);Titular840;Magallanes;Timaukel;0,14;82;2
+841;Proyecto Simulado #841 (500kV);Titular841;La Araucanía;Padre Las Casas;1,45;1893;4
+842;Proyecto Simulado #842 (110kV);Titular842;Magallanes;Cabo de Hornos (Ex-Navarino);0,36;57;3
+843;Proyecto Simulado #843 (110kV);Titular843;O'Higgins;San Fernando;0,25;73;3
+844;Proyecto Simulado #844 (220kV);Titular844;Metropolitana;Huechuraba;0,46;562;3
+845;Proyecto Simulado #845 (500kV);Titular845;Biobío;Quilaco;1,58;1659;6
+846;Proyecto Simulado #846 (110kV);Titular846;Magallanes;Natales;0,07;55;2
+847;Proyecto Simulado #847 (110kV);Titular847;Antofagasta;María Elena;0,2;112;3
+848;Proyecto Simulado #848 (500kV);Titular848;Biobío;Los Ángeles;0,67;1135;4
+849;Proyecto Simulado #849 (110kV);Titular849;Los Ríos;Corral;0,32;141;3
+850;Proyecto Simulado #850 (500kV);Titular850;Valparaíso;Casablanca;1,51;1121;5
+851;Proyecto Simulado #851 (110kV);Titular851;O'Higgins;Pichidegua;0,21;92;2
+852;Proyecto Simulado #852 (66kV);Titular852;Ñuble;Yungay;0,11;56;2
+853;Proyecto Simulado #853 (66kV);Titular853;Los Lagos;San Pablo;0,12;89;2
+854;Proyecto Simulado #854 (110kV);Titular854;O'Higgins;Santa Cruz;0,29;82;2
+855;Proyecto Simulado #855 (500kV);Titular855;O'Higgins;Marchihue;1,42;1534;5
+856;Proyecto Simulado #856 (66kV);Titular856;Los Lagos;Calbuco;0,1;31;2
+857;Proyecto Simulado #857 (110kV);Titular857;Magallanes;Natales;0,3;58;3
+858;Proyecto Simulado #858 (66kV);Titular858;Tarapacá;Camiña;0,01;66;1
+859;Proyecto Simulado #859 (500kV);Titular859;Maule;Parral;0,62;1872;5
+860;Proyecto Simulado #860 (500kV);Titular860;O'Higgins;Olivar;1,48;1192;5
+861;Proyecto Simulado #861 (110kV);Titular861;Los Ríos;Los Lagos;0,13;75;3
+862;Proyecto Simulado #862 (220kV);Titular862;Los Lagos;Puerto Montt;0,57;460;3
+863;Proyecto Simulado #863 (220kV);Titular863;Biobío;Yumbel;0,69;467;3
+864;Proyecto Simulado #864 (500kV);Titular864;Ñuble;Ránquil;1,42;1255;6
+865;Proyecto Simulado #865 (110kV);Titular865;Biobío;Penco;0,29;111;3
+866;Proyecto Simulado #866 (110kV);Titular866;Coquimbo;Coquimbo;0,29;141;3
+867;Proyecto Simulado #867 (500kV);Titular867;La Araucanía;Padre Las Casas;2,01;1655;6
+868;Proyecto Simulado #868 (66kV);Titular868;Atacama;Tierra Amarilla;0,05;34;2
+869;Proyecto Simulado #869 (220kV);Titular869;Magallanes;Porvenir;0,3;342;3
+870;Proyecto Simulado #870 (66kV);Titular870;O'Higgins;Mostazal;0,07;64;2
+871;Proyecto Simulado #871 (220kV);Titular871;Los Ríos;Máfil;0,29;814;3
+872;Proyecto Simulado #872 (110kV);Titular872;Los Lagos;Palena;0,22;89;3
+873;Proyecto Simulado #873 (66kV);Titular873;La Araucanía;Padre Las Casas;0,21;63;1
+874;Proyecto Simulado #874 (110kV);Titular874;Aysén;Tortel;0,3;97;2
+875;Proyecto Simulado #875 (500kV);Titular875;Biobío;Tucapel;1,63;1524;5
+876;Proyecto Simulado #876 (220kV);Titular876;Magallanes;Porvenir;0,65;388;4
+877;Proyecto Simulado #877 (66kV);Titular877;Los Lagos;Purranque;0,08;73;2
+878;Proyecto Simulado #878 (500kV);Titular878;Biobío;Curanilahue;1,96;1087;5
+879;Proyecto Simulado #879 (66kV);Titular879;Los Lagos;Río Negro;0,08;85;2
+880;Proyecto Simulado #880 (110kV);Titular880;Ñuble;Portezuelo;0,06;121;3
+881;Proyecto Simulado #881 (66kV);Titular881;Valparaíso;San Felipe;0,13;61;2
+882;Proyecto Simulado #882 (500kV);Titular882;Metropolitana;Isla de Maipo;2,25;1141;5
+883;Proyecto Simulado #883 (500kV);Titular883;Maule;Empedrado;1,75;1877;5
+884;Proyecto Simulado #884 (220kV);Titular884;Valparaíso;Cabildo;0,38;499;3
+885;Proyecto Simulado #885 (500kV);Titular885;Magallanes;Antártica;0,78;1911;4
+886;Proyecto Simulado #886 (110kV);Titular886;Aysén;Cisnes;0,14;111;3
+887;Proyecto Simulado #887 (220kV);Titular887;Los Lagos;Calbuco;0,66;876;4
+888;Proyecto Simulado #888 (66kV);Titular888;Aysén;Cisnes;0,22;66;2
+889;Proyecto Simulado #889 (66kV);Titular889;Valparaíso;Calera;0,02;54;1
+890;Proyecto Simulado #890 (500kV);Titular890;Magallanes;Primavera;1,91;1068;6
+891;Proyecto Simulado #891 (110kV);Titular891;Biobío;Quilleco;0,16;119;2
+892;Proyecto Simulado #892 (220kV);Titular892;Atacama;Freirina;0,36;801;3
+893;Proyecto Simulado #893 (500kV);Titular893;Atacama;Caldera;2,29;1754;5
+894;Proyecto Simulado #894 (500kV);Titular894;Tarapacá;Colchane;0,8;1204;5
+895;Proyecto Simulado #895 (66kV);Titular895;Biobío;Cabrero;0,17;34;1
+896;Proyecto Simulado #896 (500kV);Titular896;O'Higgins;Mostazal;1,82;1781;5
+897;Proyecto Simulado #897 (220kV);Titular897;Coquimbo;La Serena;0,57;820;3
+898;Proyecto Simulado #898 (220kV);Titular898;Aysén;Tortel;0,5;248;3
+899;Proyecto Simulado #899 (220kV);Titular899;Arica y Parinacota;Putre;0,64;388;3
+900;Proyecto Simulado #900 (500kV);Titular900;Antofagasta;Tocopilla;1,18;1972;4
+901;Proyecto Simulado #901 (220kV);Titular901;Metropolitana;Peñaflor;0,68;821;4
+902;Proyecto Simulado #902 (220kV);Titular902;Maule;Romeral;0,27;891;3
+903;Proyecto Simulado #903 (110kV);Titular903;Atacama;Alto del Carmen;0,15;96;3
+904;Proyecto Simulado #904 (500kV);Titular904;Los Ríos;Paillaco;2;1160;4
+905;Proyecto Simulado #905 (66kV);Titular905;Ñuble;San Carlos;0,14;31;2
+906;Proyecto Simulado #906 (110kV);Titular906;O'Higgins;Navidad;0,25;131;3
+907;Proyecto Simulado #907 (500kV);Titular907;Valparaíso;Llaillay;0,84;1635;5
+908;Proyecto Simulado #908 (220kV);Titular908;Los Lagos;Hualaihué;0,66;704;4
+909;Proyecto Simulado #909 (110kV);Titular909;Magallanes;Torres del Paine;0,3;110;3
+910;Proyecto Simulado #910 (66kV);Titular910;Coquimbo;La Higuera;0,19;83;2
+911;Proyecto Simulado #911 (220kV);Titular911;Valparaíso;Putaendo;0,39;468;3
+912;Proyecto Simulado #912 (66kV);Titular912;Valparaíso;Villa Alemana;0,11;76;2
+913;Proyecto Simulado #913 (66kV);Titular913;Aysén;Cochrane;0,21;50;2
+914;Proyecto Simulado #914 (110kV);Titular914;Tarapacá;Colchane;0,3;86;3
+915;Proyecto Simulado #915 (220kV);Titular915;Coquimbo;Los Vilos;0,51;392;3
+916;Proyecto Simulado #916 (500kV);Titular916;Arica y Parinacota;Arica;2,08;1111;6
+917;Proyecto Simulado #917 (220kV);Titular917;Los Ríos;Mariquina;0,56;655;3
+918;Proyecto Simulado #918 (220kV);Titular918;Los Ríos;Lanco;0,68;401;3
+919;Proyecto Simulado #919 (110kV);Titular919;Arica y Parinacota;General Lagos;0,21;62;2
+920;Proyecto Simulado #920 (110kV);Titular920;O'Higgins;Peralillo;0,22;87;2
+921;Proyecto Simulado #921 (66kV);Titular921;Los Lagos;Calbuco;0,21;33;2
+922;Proyecto Simulado #922 (110kV);Titular922;Ñuble;Pemuco;0,18;50;3
+923;Proyecto Simulado #923 (500kV);Titular923;Maule;Rauco;2,28;1882;4
+924;Proyecto Simulado #924 (110kV);Titular924;Aysén;Cochrane;0,06;133;3
+925;Proyecto Simulado #925 (110kV);Titular925;Maule;Hualañé;0,28;50;3
+926;Proyecto Simulado #926 (500kV);Titular926;Magallanes;Torres del Paine;1,22;1308;5
+927;Proyecto Simulado #927 (220kV);Titular927;Metropolitana;La Cisterna;0,56;768;4
+928;Proyecto Simulado #928 (500kV);Titular928;Antofagasta;Taltal;1,68;1813;5
+929;Proyecto Simulado #929 (500kV);Titular929;Valparaíso;El Quisco;1,02;1144;5
+930;Proyecto Simulado #930 (66kV);Titular930;Atacama;Alto del Carmen;0,13;57;2
+931;Proyecto Simulado #931 (66kV);Titular931;Metropolitana;Talagante;0,1;46;2
+932;Proyecto Simulado #932 (66kV);Titular932;Aysén;O'Higgins;0,15;50;2
+933;Proyecto Simulado #933 (110kV);Titular933;Coquimbo;Río Hurtado;0,12;122;2
+934;Proyecto Simulado #934 (110kV);Titular934;Aysén;Cochrane;0,29;114;3
+935;Proyecto Simulado #935 (110kV);Titular935;Metropolitana;Curacaví;0,31;120;2
+936;Proyecto Simulado #936 (110kV);Titular936;Metropolitana;San Miguel;0,33;144;2
+937;Proyecto Simulado #937 (500kV);Titular937;Arica y Parinacota;Putre;1,6;1586;4
+938;Proyecto Simulado #938 (110kV);Titular938;Valparaíso;Calera;0,08;124;3
+939;Proyecto Simulado #939 (500kV);Titular939;Coquimbo;Vicuña;0,78;1820;5
+940;Proyecto Simulado #940 (110kV);Titular940;Ñuble;Chillán;0,11;143;3
+941;Proyecto Simulado #941 (110kV);Titular941;O'Higgins;Doñihue;0,03;142;3
+942;Proyecto Simulado #942 (220kV);Titular942;Biobío;Lebu;0,27;252;3
+943;Proyecto Simulado #943 (220kV);Titular943;Ñuble;Coelemu;0,56;671;4
+944;Proyecto Simulado #944 (110kV);Titular944;Atacama;Vallenar;0,11;106;3
+945;Proyecto Simulado #945 (500kV);Titular945;Maule;Colbún;1,25;1365;5
+946;Proyecto Simulado #946 (500kV);Titular946;La Araucanía;Purén;0,55;1276;5
+947;Proyecto Simulado #947 (220kV);Titular947;Coquimbo;Punitaqui;0,56;847;3
+948;Proyecto Simulado #948 (110kV);Titular948;Los Ríos;Valdivia;0,22;150;3
+949;Proyecto Simulado #949 (66kV);Titular949;Ñuble;Chillán;0,15;40;2
+950;Proyecto Simulado #950 (66kV);Titular950;Aysén;Guaitecas;0,19;30;2
+951;Proyecto Simulado #951 (500kV);Titular951;Los Lagos;Maullín;0,83;1707;5
+952;Proyecto Simulado #952 (500kV);Titular952;Magallanes;Porvenir;0,83;1384;4
+953;Proyecto Simulado #953 (66kV);Titular953;Maule;Maule;0,05;83;2
+954;Proyecto Simulado #954 (500kV);Titular954;Ñuble;Quirihue;0,9;1056;6
+955;Proyecto Simulado #955 (110kV);Titular955;Coquimbo;Punitaqui;0,18;52;2
+956;Proyecto Simulado #956 (110kV);Titular956;Los Lagos;Dalcahue;0,03;76;3
+957;Proyecto Simulado #957 (220kV);Titular957;Magallanes;Natales;0,35;586;4
+958;Proyecto Simulado #958 (110kV);Titular958;Atacama;Chañaral;0,08;57;3
+959;Proyecto Simulado #959 (220kV);Titular959;Aysén;Tortel;0,27;793;3
+960;Proyecto Simulado #960 (110kV);Titular960;Aysén;Lago Verde;0,16;53;3
+961;Proyecto Simulado #961 (66kV);Titular961;Valparaíso;Concón;0,07;36;2
+962;Proyecto Simulado #962 (500kV);Titular962;O'Higgins;Machalí;0,81;1857;5
+963;Proyecto Simulado #963 (66kV);Titular963;Metropolitana;Paine;0,06;72;3
+964;Proyecto Simulado #964 (220kV);Titular964;Arica y Parinacota;Arica;0,36;798;3
+965;Proyecto Simulado #965 (500kV);Titular965;Valparaíso;San Felipe;1,51;1642;5
+966;Proyecto Simulado #966 (66kV);Titular966;Ñuble;Quillón;0,11;57;2
+967;Proyecto Simulado #967 (66kV);Titular967;Atacama;Freirina;0,07;87;2
+968;Proyecto Simulado #968 (220kV);Titular968;Aysén;Lago Verde;0,64;761;4
+969;Proyecto Simulado #969 (110kV);Titular969;Metropolitana;María Pinto;0,06;146;3
+970;Proyecto Simulado #970 (110kV);Titular970;Arica y Parinacota;Putre;0,22;126;3
+971;Proyecto Simulado #971 (66kV);Titular971;La Araucanía;Victoria;0,09;74;2
+972;Proyecto Simulado #972 (110kV);Titular972;O'Higgins;Pumanque;0,13;84;3
+973;Proyecto Simulado #973 (110kV);Titular973;Ñuble;Quillón;0,23;133;2
+974;Proyecto Simulado #974 (500kV);Titular974;Ñuble;Ninhue;0,81;1642;5
+975;Proyecto Simulado #975 (110kV);Titular975;Los Ríos;Los Lagos;0,26;140;3
+976;Proyecto Simulado #976 (66kV);Titular976;Tarapacá;Pica;0,03;37;2
+977;Proyecto Simulado #977 (110kV);Titular977;Magallanes;Cabo de Hornos (Ex-Navarino);0,22;149;2
+978;Proyecto Simulado #978 (110kV);Titular978;Los Ríos;Máfil;0,07;112;3
+979;Proyecto Simulado #979 (66kV);Titular979;Atacama;Vallenar;0,23;78;2
+980;Proyecto Simulado #980 (220kV);Titular980;La Araucanía;Purén;0,32;337;4
+981;Proyecto Simulado #981 (220kV);Titular981;Biobío;Penco;0,69;737;3
+982;Proyecto Simulado #982 (220kV);Titular982;Antofagasta;Sierra Gorda;0,53;410;4
+983;Proyecto Simulado #983 (500kV);Titular983;Ñuble;Yungay;1,49;1805;6
+984;Proyecto Simulado #984 (66kV);Titular984;Aysén;Aysén;0,18;78;2
+985;Proyecto Simulado #985 (66kV);Titular985;Metropolitana;Lo Barnechea;0,06;78;2
+986;Proyecto Simulado #986 (66kV);Titular986;Arica y Parinacota;Camarones;0,11;77;2
+987;Proyecto Simulado #987 (110kV);Titular987;O'Higgins;La Estrella;0,08;71;2
+988;Proyecto Simulado #988 (220kV);Titular988;Magallanes;Primavera;0,68;512;4
+989;Proyecto Simulado #989 (66kV);Titular989;Los Ríos;Paillaco;0,04;34;2
+990;Proyecto Simulado #990 (110kV);Titular990;O'Higgins;Graneros;0,29;90;2
+991;Proyecto Simulado #991 (220kV);Titular991;O'Higgins;Chépica;0,26;586;3
+992;Proyecto Simulado #992 (66kV);Titular992;Ñuble;San Nicolás;0,01;52;1
+993;Proyecto Simulado #993 (500kV);Titular993;O'Higgins;Pichilemu;1,96;1201;5
+994;Proyecto Simulado #994 (110kV);Titular994;Ñuble;Quirihue;0,09;126;3
+995;Proyecto Simulado #995 (500kV);Titular995;Coquimbo;Río Hurtado;0,55;1631;5
+996;Proyecto Simulado #996 (500kV);Titular996;Antofagasta;San Pedro de Atacama;1,53;1888;5
+997;Proyecto Simulado #997 (220kV);Titular997;Los Ríos;Panguipulli;0,26;845;2
+998;Proyecto Simulado #998 (110kV);Titular998;Maule;Retiro;0,12;143;3
+999;Proyecto Simulado #999 (500kV);Titular999;Ñuble;Chillán;0,59;1049;4
+1000;Proyecto Simulado #1000 (66kV);Titular1000;Maule;Villa Alegre;0,23;37;2
