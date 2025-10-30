@@ -19,10 +19,28 @@ if (identical(tolower(seed_arg), "auto")) {
   message("Seed (fixed) = ", seed_val)
 }
 
-# Ruta del archivo
-input_path <- file.path(dirname(sys.frame(1)$ofile %||% "data_modules/sim.R"),
-                        "data", "gen_data_reales_w_h.csv")
-input_path <- normalizePath(input_path, winslash = "/", mustWork = TRUE)
+# --- Localizador robusto del CSV ---
+find_input <- function() {
+  # nombres posibles (ajusta si corresponde)
+  names <- c("gen_data_reales_w_h.csv", "gen_data_real_wh.csv",
+             "gen_data_reales.csv", "gen_data_real.csv")
+  # lugares posibles dentro del proyecto
+  bases <- c(getwd(),
+             file.path(getwd(), "data"),
+             file.path(getwd(), "data_modules", "data"))
+
+  cands <- unlist(lapply(bases, function(b)
+    file.path(b, names)
+  ), use.names = FALSE)
+
+  hit <- cands[file.exists(cands)]
+  if (length(hit) == 0)
+    stop("No encuentro el CSV. Probé:\n", paste(cands, collapse = "\n"))
+  normalizePath(hit[1], winslash = "/", mustWork = TRUE)
+}
+
+input_path <- find_input()
+message("Usando archivo: ", input_path)
 
 # === AUTO-DETECCIÓN DE FORMATO ===
 first_line <- readLines(input_path, n = 1)
@@ -290,6 +308,25 @@ todo <- is.na(Plazo) & idx_hidro
 Plazo[todo] <- sample(2:6,    sum(todo),       replace = TRUE)
 
 simulated_out$Plazo <- Plazo
+
+# --- Nueva columna: numero aleatorio por banda de 50 segun region ---
+# Orden de regiones (estable y reproducible)
+regiones_orden <- sort(unique(simulated_out$Region))
+
+# vector inicial
+NumeroBanda <- integer(nrow(simulated_out))
+
+for (i in seq_along(regiones_orden)) {
+  r <- regiones_orden[i]
+  idx <- which(simulated_out$Region == r)
+  low  <- (i - 1) * 50 + 1
+  high <- i * 50
+  # muestreo con reemplazo dentro de la banda de esa región
+  NumeroBanda[idx] <- sample(seq.int(low, high), length(idx), replace = TRUE)
+}
+
+# anexar al output (última columna nueva)
+simulated_out$NumeroBanda <- NumeroBanda
 
 # Exportar: MISMO LUGAR que antes, con encabezado y ; como separador
 write.table(
