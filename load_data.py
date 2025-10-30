@@ -58,7 +58,7 @@ with open("data_modules/data/gen_data_reales.csv", "r", encoding="utf-8") as fil
 #TODO 
 #! Tenemos que definir como manejamos los costos respecto al tiempo
 #Costo en UF de realizar el proyecto l del dia t
-costo_g = dict()
+costo_g = {l : proyectos[l].Inversion_MUF for l in L}
 
 
 #TODO 
