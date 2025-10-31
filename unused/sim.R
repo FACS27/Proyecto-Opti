@@ -70,6 +70,8 @@ real_data <- read.csv(
                  "character","numeric","numeric","numeric","numeric")
 )
 
+real_data$Inversion_MUF <- real_data$Inversion_MMUS * 0.024
+
 # =========================
 #  Simulación estratificada por REGIÓN
 #  (márgenes lognormales + cópula gaussiana)
@@ -96,7 +98,7 @@ invisible(lapply(req_pkgs, library, character.only = TRUE))
 # Requerimos positivos para lognormal y sin NA en Región/Tecnología
 df <- subset(
   real_data,
-  is.finite(Inversion_MMUS) & Inversion_MMUS > 0 &
+  is.finite(Inversion_MUF)  & Inversion_MUF  > 0 &
   is.finite(Capacidad_MW)   & Capacidad_MW   > 0 &
   !is.na(Region) & !is.na(Tecnologia)
 )
@@ -145,14 +147,14 @@ sim_bivar_empirical <- function(n, model, jitter_sd = JITTER_SD) {
     inv <- inv * exp(rnorm(n, 0, jitter_sd))
     cap <- cap * exp(rnorm(n, 0, jitter_sd))
   }
-  cbind(Inversion_MMUS = inv, Capacidad_MW = cap)
+  cbind(Inversion_MUF = inv, Capacidad_MW = cap)
 }
 
 # --------- MODELOS: Global y por Región (empíricos) ---------
 n_min_region <- 25
 
 # Global empírico (fallback)
-model_global <- build_empirical_model(df$Inversion_MMUS, df$Capacidad_MW)
+model_global <- build_empirical_model(df$Inversion_MUF, df$Capacidad_MW)
 
 regions <- sort(unique(df$Region))
 models_by_region <- setNames(vector("list", length(regions)), regions)
@@ -160,7 +162,7 @@ models_by_region <- setNames(vector("list", length(regions)), regions)
 for (r in regions) {
   dfr <- df[df$Region == r, ]
   if (nrow(dfr) >= n_min_region) {
-    models_by_region[[r]] <- build_empirical_model(dfr$Inversion_MMUS, dfr$Capacidad_MW)
+    models_by_region[[r]] <- build_empirical_model(dfr$Inversion_MUF, dfr$Capacidad_MW)
   } else {
     models_by_region[[r]] <- model_global
   }
@@ -225,7 +227,7 @@ for (r in names(n_region)) {
       Titular = paste0("Titular", row_id + seq_len(k) - 1L),
       Nombre  = paste0("Nombre",  row_id + seq_len(k) - 1L),
       Tecnologia = tname,
-      Inversion_MMUS = sub_rt$Inversion_MMUS[idx],  # PAR EMPÍRICO REAL
+      Inversion_MUF = sub_rt$Inversion_MUF[idx],  # PAR EMPÍRICO REAL
       Capacidad_MW  = sub_rt$Capacidad_MW[idx],     # PAR EMPÍRICO REAL
       Latitud  = NA_real_,
       Longitud = NA_real_,
@@ -248,20 +250,20 @@ summary(simulated_data)
 summary(real_data)
 
 
-hist(simulated_data$Inversion_MMUS, xlim=c(0,11000), freq = FALSE)
-hist(real_data$Inversion_MMUS, xlim=c(0,11000), freq=FALSE)
+hist(simulated_data$Inversion_MUF, xlim=c(0,11000), freq = FALSE)
+hist(real_data$Inversion_MUF, xlim=c(0,11000), freq=FALSE)
 
 hist(simulated_data$Capacidad_MW, xlim=c(0,1400), freq=FALSE)
 hist(real_data$Capacidad_MW, xlim=c(0,1400), freq=FALSE)
 
-plot(real_data$Capacidad_MW, real_data$Inversion_MMUS, xlim=c(0,1400), ylim=c(0,11000))
-plot(simulated_data$Capacidad_MW, simulated_data$Inversion_MMUS, xlim=c(0,1400), ylim=c(0,11000))
+plot(real_data$Capacidad_MW, real_data$Inversion_MUF, xlim=c(0,1400), ylim=c(0,11000))
+plot(simulated_data$Capacidad_MW, simulated_data$Inversion_MUF, xlim=c(0,1400), ylim=c(0,11000))
 
 # Check correlations
 
 #Correlacion capacidad-costo
-cor(real_data[, c("Capacidad_MW", "Inversion_MMUS")])
-cor(simulated_data[, c("Capacidad_MW", "Inversion_MMUS")])
+cor(real_data[, c("Capacidad_MW", "Inversion_MUF")])
+cor(simulated_data[, c("Capacidad_MW", "Inversion_MUF")])
 
 
 table(real_data$Region) / 1182
@@ -278,7 +280,7 @@ table(simulated_data$Tecnologia) / 4000
 # Orden y columnas EXACTAS del dataset original
 col_order_out <- c(
   "Region","Comuna","Titular","Nombre","Tecnologia",
-  "Inversion_MMUS","Capacidad_MW","Latitud","Longitud"
+  "Inversion_MUF","Capacidad_MW","Latitud","Longitud"
 )
 
 # Asegurar que existan todas las columnas y en el orden correcto
