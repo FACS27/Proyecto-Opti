@@ -1,5 +1,4 @@
 from collections import namedtuple, defaultdict
-import random
 
 ProyectoGen = namedtuple('ProyectoGen', ["Id", 'Region', 'Comuna', 'Titular', 'Nombre', 'Tecnologia', 'Inversion_MUF', 'Capacidad_MW', "Latitud", "Longitud", "Plazo", "NumeroBanda"])
 proyectos_g = dict()
