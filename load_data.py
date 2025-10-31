@@ -1,7 +1,7 @@
 from collections import namedtuple, defaultdict
 import random
 
-ProyectoGen = namedtuple('ProyectoGen', ['Id', 'Region', 'Comuna', 'Titular', 'Nombre', 'Tecnologia', 'Inversion_MUF', 'Capacidad_MW', "Latitud", "Longitud", "Plazo", "NumeroBanda"])
+ProyectoGen = namedtuple('ProyectoGen', ["Id", 'Region', 'Comuna', 'Titular', 'Nombre', 'Tecnologia', 'Inversion_MUF', 'Capacidad_MW', "Latitud", "Longitud", "Plazo", "NumeroBanda"])
 proyectos_g = dict()
 
 ProyectoTrans = namedtuple('ProyectoTrans', ['Id', 'Nombre', 'Titular', 'Region', 'Comuna', 'Inversion_MUF', 'Capacidad_MVA', 'Plazo_Semestres', "Posicion"])
@@ -32,7 +32,7 @@ P = set()
 R = set()
 
 with open("data_modules/data_works/gen_data_simulados_2800.csv", "r", encoding="utf-8") as file:
-    lines = [line.strip().split(",") for line in file.readlines()]
+    lines = [line.strip().split(";") for line in file.readlines()]
     cont = 0
     for l in lines:
         new_proyecto = ProyectoGen(cont, *l)
@@ -47,7 +47,7 @@ with open("data_modules/data_works/gen_data_simulados_2800.csv", "r", encoding="
         cont += 1
 
 with open("data_modules/data_works/simulacion_1000_proyectos.csv", "r", encoding="utf-8") as file:
-    lines = [line.strip().split(",") for line in file.readlines()]
+    lines = [line.strip().split(";") for line in file.readlines()]
     cont = 0
     for l in lines:
         new_proyecto = ProyectoTrans(cont, *l)
