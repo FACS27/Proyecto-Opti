@@ -1,4 +1,3 @@
-
 import numpy as np
 from gurobipy import Model, GRB, quicksum
 from load_data import L, N, G, E, P, R, T, costo_g, plazo_g, gen1, emp_g, ubi_g, tec, cap, req, max, costo_n, plazo_n, trans1, emp_n, ubi_n
@@ -7,10 +6,6 @@ from load_data import L, N, G, E, P, R, T, costo_g, plazo_g, gen1, emp_g, ubi_g,
 #TODO Revisar datos para las fechas y costos
 #TODO Buscar datos faltantes
 #TODO Crear los arrays o diccionarios necesarios para los parámetros
-
-#G Conjunto L listo
-#G Conjunto G listo
-#G Conjunto E listo
 
 
 def modelo():
@@ -47,7 +42,7 @@ def modelo():
     model.addConstrs(quicksum(y[l, t] for t in T) == quicksum(x[l, t] * plazo_g[l] for t in T) for l in L)
 
     model.addConstrs(w[n, t] <= z[n, t + t_prima] for n in N for t in T for t_prima in range(plazo_n[n]) if t + t_prima < len(T)) #revisar lo del if t + t_prima
-    model.addConstrs(quicksum(z[n, t] for t in T) == quicksum(w[n, t] * plazo_n[n] for t in T) for n in N)  #falot el para todo t en modelación?
+    model.addConstrs(quicksum(z[n, t] for t in T) == quicksum(w[n, t] * plazo_n[n] for t in T) for n in N) 
 
     #7. No construir más proyectos de cierta tecnología que los que te permite la regi´on
     model.addConstrs(quicksum(x[l, t] * tec[l, g] * ubi_g[l, p] for l in L for t in T for p in P) <= max[r, g] for r in R for g in G)
@@ -59,9 +54,56 @@ def modelo():
     model.setObjective(quicksum(costo_g[l] * x[l, t] for l in L for t in T) + quicksum(w[n, t] * costo_n[n] for n in N for t in T), GRB.MINIMIZE)
     
     model.update()
-    model.optimize()
-
-    if model.status == GRB.OPTIMAL: return model
+    model.optimize()          
+    return model                 
 
 model = modelo()
 
+proyectos_gen = []
+proyectos_trans = []
+
+for l in L:
+    for t in T:
+        var = model.getVarByName(f"x[{l},{t}]")
+        if var is not None and var.X > 0.5:
+            print(f"El proyecto de generacion {l} se inicia en el semestre {t}")
+            proyectos_gen.append((l, t))
+
+for n in N:
+    for t in T:
+        var = model.getVarByName(f"w[{n},{t}]")
+        if var is not None and var.X > 0.5:
+            print(f"El proyecto de transmision {n} se inicia en el semestre {t}")
+            proyectos_trans.append((n, t))
+
+print(f"Proyectos de Generación: {len(proyectos_gen)}")
+print(f"Proyectos de Transmisión: {len(proyectos_trans)}")
+
+empresas_gen = set()
+empresas_trans = set()
+for l, t in proyectos_gen:
+    for e in E:
+        if emp_g[l, e] == 1:
+            empresas_gen.add(e)
+
+for n, t in proyectos_trans:
+    for e in E:
+        if emp_n[n, e] == 1:
+            empresas_trans.add(e)
+
+empresas_totales = empresas_gen.union(empresas_trans)
+print(f"\n{'Empresas totales contratadas:'} {len(empresas_totales)}")
+print(f"Empresas de Generación: {len(empresas_gen)}")
+print(f"Empresas de Transmisión: {len(empresas_trans)}")
+
+print(f"\n{'Proyectos según la región:':}")
+region_count = {}
+for l, t in proyectos_gen:
+    for r in R:
+        for p in P:
+            if ubi_g[l, p] == 1:
+                region_count[r] = region_count.get(r, 0) + 1
+                break
+
+for r in sorted(region_count.keys()):
+    print(f"  {r}: {region_count[r]} proyectos")
