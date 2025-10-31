@@ -330,18 +330,6 @@ for (i in seq_along(regiones_orden)) {
 # anexar al output (última columna nueva)
 simulated_out$NumeroBanda <- NumeroBanda
 
-# --- Nueva columna: numero aleatorio por banda de 50 segun region (Transmision) ---
-Transmision <- integer(nrow(simulated_out))
-for (i in seq_along(regiones_orden)) {
-  r   <- regiones_orden[i]
-  idx <- which(simulated_out$Region == r)
-  low  <- (i - 1) * 50 + 1
-  high <- i * 50
-  Transmision[idx] <- sample(seq.int(low, high), length(idx), replace = TRUE)
-}
-# anexar al output (última columna nueva)
-simulated_out$Transmision <- Transmision
-
 # Exportar: MISMO LUGAR que antes, con encabezado y ; como separador
 write.table(
   simulated_out,
