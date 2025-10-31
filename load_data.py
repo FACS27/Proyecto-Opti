@@ -1,10 +1,10 @@
 from collections import namedtuple, defaultdict
 import random
 
-ProyectoGen = namedtuple('ProyectoGen', ['Id', 'Region', 'Comuna', 'Titular', 'Nombre', 'Tecnologia', 'Inversion_MUF', 'Capacidad_MW', Posicion])
+ProyectoGen = namedtuple('ProyectoGen', ['Id', 'Region', 'Comuna', 'Titular', 'Nombre', 'Tecnologia', 'Inversion_MUF', 'Capacidad_MW', "Latitud", "Longitud", "Plazo", "NumeroBanda"])
 proyectos_g = dict()
 
-ProyectoTrans = namedtuple('ProyectoTrans', ['Id', 'Nombre', 'Titular', 'Region', 'Comuna', 'Inversion_MUF', 'Capacidad_MVA', 'Plazo_Semestres', Posicion])
+ProyectoTrans = namedtuple('ProyectoTrans', ['Id', 'Nombre', 'Titular', 'Region', 'Comuna', 'Inversion_MUF', 'Capacidad_MVA', 'Plazo_Semestres', "Posicion"])
 proyectos_t = dict()
 
 #! Regiones = dict()
@@ -41,7 +41,7 @@ with open("data_works/gen_data_simulados_2800.csv", "r", encoding="utf-8") as fi
         G.add(new_proyecto.Tecnologia)
         E.add(new_proyecto.Titular)
         R.add(new_proyecto.Region)
-        P.add(new_proyecto.Posicion)
+        P.add(new_proyecto.Plazo)
 
         proyectos_g[new_proyecto.Id] = new_proyecto
         cont += 1
@@ -68,7 +68,7 @@ costo_g = {l : proyectos_g[l].Inversion_MUF for l in L}
 
 #TODO 
 #Tiempo en semestres que el proyecto ℓ estar´ıa terminado desde el mes en que se inició
-plazo_g = {l : proyectos_g[l].Region for l in L}
+plazo_g = {l : proyectos_g[l].Plazo for l in L}
 
 #TODO 
 #Capacidad de generaci´on el´ectrica del proyecto ℓ en MW
@@ -79,7 +79,7 @@ emp_g = {(l, e) : 1 if proyectos_g[l].Titular == e else 0 for l in L for e in E}
 
 #TODO 
 #1 Si el proyecto ℓ esta ubicado en la posici´on p
-ubi_g = {l : proyectos_g[l].Posicion for l in L}
+ubi_g = {(l, p) : proyectos_g[l].Plazo for l in L for p in P}
 
 #1 Si el proyecto ℓ utiliza la tecnolog´ıa de generaci´on g
 #! Debido a la cantidad de proyectos que tienen 2 tecnologias
@@ -96,8 +96,22 @@ req = 32350
 
 #TODO 
 #Cantidad m´axima de proyectos que utilizan la tecnolog´ıa g en la regi´on r.
-max = int("inf")
-#30 solar, 5 hidro, 15 eólico
+
+i = 0
+j = 0
+k = 0
+max = {}
+for r in R:
+    for g in G:
+        if g == "Solar":
+            max[r, g] = 30 - i
+        elif g == "Hidro":
+            max[r, g] = 5 + j
+        else:
+            max[r, g] = 15 + k
+    i+=2
+    j+=1
+    k+=1
 
 #Costo en UF de realizar el proyecto n en el semestre t
 costo_n = {n: proyectos_t[n].Inversion_MUF for n in N}
@@ -112,4 +126,4 @@ trans1 = {n: proyectos_t[n].Capacidad_MVA for n in N}
 emp_n = {(n, e): 1 if proyectos_t[n].Titular == e else 0 for n in N for e in E}
 
 #1 Si el proyecto n esta ubicado en la posici´on p
-ubi_n = {n: proyectos_t[n].Posicion for n in N}
+ubi_n = {(n, p): proyectos_t[n].Posicion for n in N for p in P}
