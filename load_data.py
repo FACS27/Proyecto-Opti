@@ -31,7 +31,7 @@ P = set()
 #Regiones de Chile que son a su vez subconjuntos de posiciones. r ∈ R ∧ r ⊆ P
 R = set()
 
-with open("data_works/gen_data_simulados_2800.csv", "r", encoding="utf-8") as file:
+with open("data_modules/data_works/gen_data_simulados_2800.csv", "r", encoding="utf-8") as file:
     lines = [line.strip().split(",") for line in file.readlines()]
     cont = 0
     for l in lines:
@@ -46,7 +46,7 @@ with open("data_works/gen_data_simulados_2800.csv", "r", encoding="utf-8") as fi
         proyectos_g[new_proyecto.Id] = new_proyecto
         cont += 1
 
-with open("data_works/simulacion_1000_proyectos.csv", "r", encoding="utf-8") as file:
+with open("data_modules/data_works/simulacion_1000_proyectos.csv", "r", encoding="utf-8") as file:
     lines = [line.strip().split(",") for line in file.readlines()]
     cont = 0
     for l in lines:
