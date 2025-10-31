@@ -64,3 +64,4 @@ def modelo():
     if model.status == GRB.OPTIMAL: return model
 
 model = modelo()
+
