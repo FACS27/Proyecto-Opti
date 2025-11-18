@@ -1,10 +1,10 @@
 from collections import namedtuple, defaultdict
 import random
 
-ProyectoGen = namedtuple('ProyectoGen', ['Id', 'Region', 'Comuna', 'Titular', 'Nombre', 'Tecnologia', 'Inversion_MUF', 'Capacidad_MW', Posicion])
+ProyectoGen = namedtuple('ProyectoGen', ['Id', 'Region', 'Comuna', 'Titular', 'Nombre', 'Tecnologia', 'Inversion_MUF', 'Capacidad_MW', 'Posicion'])
 proyectos_g = dict()
 
-ProyectoTrans = namedtuple('ProyectoTrans', ['Id', 'Nombre', 'Titular', 'Region', 'Comuna', 'Inversion_MUF', 'Capacidad_MVA', 'Plazo_Semestres', Posicion])
+ProyectoTrans = namedtuple('ProyectoTrans', ['Id', 'Nombre', 'Titular', 'Region', 'Comuna', 'Inversion_MUF', 'Capacidad_MVA', 'Plazo_Semestres', 'Posicion'])
 proyectos_t = dict()
 
 #! Regiones = dict()
@@ -31,34 +31,33 @@ P = set()
 #Regiones de Chile que son a su vez subconjuntos de posiciones. r ∈ R ∧ r ⊆ P
 R = set()
 
-with open("data_works/gen_data_simulados_2800.csv", "r", encoding="utf-8") as file:
-    lines = [line.strip().split(",") for line in file.readlines()]
+with open("data_modules/data/gen_data_real.csv", "r", encoding="utf-8") as file:
+    lines = [line.strip().split(";") for line in file.readlines()]
     cont = 0
     for l in lines:
         new_proyecto = ProyectoGen(cont, *l)
 
         L.add(new_proyecto.Id)
-        G.add(new_proyecto.Tecnologia)
         E.add(new_proyecto.Titular)
         R.add(new_proyecto.Region)
-        P.add(new_proyecto.Posicion)
+        P.add(int(new_proyecto.Posicion))
 
         proyectos_g[new_proyecto.Id] = new_proyecto
         cont += 1
 
-with open("data_works/simulacion_1000_proyectos.csv", "r", encoding="utf-8") as file:
-    lines = [line.strip().split(",") for line in file.readlines()]
-    cont = 0
-    for l in lines:
-        new_proyecto = ProyectoTrans(cont, *l)
+#with open("data_modules_data/data/gen_data_real.csv", "r", encoding="utf-8") as file:
+#    lines = [line.strip().split(";") for line in file.readlines()]
+#    cont = 0
+#    for l in lines:
+#        new_proyecto = ProyectoTrans(cont, *l)
 
-        N.add(new_proyecto.Id)
-        E.add(new_proyecto.Titular)
-        R.add(new_proyecto.Region)
-        P.add(new_proyecto.Posicion)
+#        N.add(new_proyecto.Id)
+#        E.add(new_proyecto.Titular)
+#        R.add(new_proyecto.Region)
+#        P.add(new_proyecto.Posicion)
 
-        proyectos_t[new_proyecto.Id] = new_proyecto
-        cont += 1
+#        proyectos_t[new_proyecto.Id] = new_proyecto
+#        cont += 1
 
 #TODO 
 #! Tenemos que definir como manejamos los costos respecto al tiempo
@@ -68,7 +67,7 @@ costo_g = {l : proyectos_g[l].Inversion_MUF for l in L}
 
 #TODO 
 #Tiempo en semestres que el proyecto ℓ estar´ıa terminado desde el mes en que se inició
-plazo_g = {l : proyectos_g[l].Region for l in L}
+plazo_g = {l : 1 for l in L}
 
 #TODO 
 #Capacidad de generaci´on el´ectrica del proyecto ℓ en MW
@@ -79,7 +78,7 @@ emp_g = {(l, e) : 1 if proyectos_g[l].Titular == e else 0 for l in L for e in E}
 
 #TODO 
 #1 Si el proyecto ℓ esta ubicado en la posici´on p
-ubi_g = {l : proyectos_g[l].Posicion for l in L}
+ubi_g = {(l, p) : 1 if proyectos_g[l].Posicion == p else 0 for p in P for l in L}
 
 #1 Si el proyecto ℓ utiliza la tecnolog´ıa de generaci´on g
 #! Debido a la cantidad de proyectos que tienen 2 tecnologias
@@ -96,7 +95,7 @@ req = 32350
 
 #TODO 
 #Cantidad m´axima de proyectos que utilizan la tecnolog´ıa g en la regi´on r.
-max = int("inf")
+max = {(r, g) : float("inf") for r in R for g in G}
 #30 solar, 5 hidro, 15 eólico
 
 #Costo en UF de realizar el proyecto n en el semestre t
