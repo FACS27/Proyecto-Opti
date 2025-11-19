@@ -1,13 +1,10 @@
 from collections import namedtuple, defaultdict
-import random
 
 ProyectoGen = namedtuple('ProyectoGen', ['Id', 'Region', 'Comuna', 'Titular', 'Nombre', 'Tecnologia', 'Inversion_MUF', 'Capacidad_MW', 'Posicion'])
 proyectos_g = dict()
 
 ProyectoTrans = namedtuple('ProyectoTrans', ['Id', 'Nombre', 'Titular', 'Region', 'Comuna', 'Inversion_MUF', 'Capacidad_MVA', 'Plazo_Semestres', 'Posicion'])
 proyectos_t = dict()
-
-#! Regiones = dict()
 
 
 #Horizonte de planificaci´on T en semestres
@@ -34,7 +31,7 @@ R = set()
 with open("data_modules/data/gen_data_real.csv", "r", encoding="utf-8") as file:
     lines = [line.strip().split(";") for line in file.readlines()]
     cont = 0
-    for l in lines:
+    for l in lines[1:]:
         new_proyecto = ProyectoGen(cont, *l)
 
         L.add(new_proyecto.Id)
@@ -62,7 +59,7 @@ with open("data_modules/data/gen_data_real.csv", "r", encoding="utf-8") as file:
 #TODO 
 #! Tenemos que definir como manejamos los costos respecto al tiempo
 #Costo en UF de realizar el proyecto l del dia t
-costo_g = {l : proyectos_g[l].Inversion_MUF for l in L}
+costo_g = {l : float(proyectos_g[l].Inversion_MUF) for l in L}
 
 
 #TODO 
@@ -71,7 +68,7 @@ plazo_g = {l : 1 for l in L}
 
 #TODO 
 #Capacidad de generaci´on el´ectrica del proyecto ℓ en MW
-gen1 = {l : proyectos_g[l].Capacidad_MW for l in L}
+gen1 = {l : float(proyectos_g[l].Capacidad_MW) for l in L}
 
 #1 Si el proyecto ℓ es propuesto por la empresa e
 emp_g = {(l, e) : 1 if proyectos_g[l].Titular == e else 0 for l in L for e in E}
@@ -99,13 +96,13 @@ max = {(r, g) : float("inf") for r in R for g in G}
 #30 solar, 5 hidro, 15 eólico
 
 #Costo en UF de realizar el proyecto n en el semestre t
-costo_n = {n: proyectos_t[n].Inversion_MUF for n in N}
+costo_n = {n: float(proyectos_t[n].Inversion_MUF) for n in N}
 
 #Tiempo en semestres que el proyecto n estar´ıa terminado desde el semestre en que se inició
-plazo_n = {n: proyectos_t[n].Plazo_Semestres for n in N}
+plazo_n = {n: int(proyectos_t[n].Plazo_Semestres) for n in N}
 
 #Capacidad de transmisi´on del proyecto n en MW
-trans1 = {n: proyectos_t[n].Capacidad_MVA for n in N}
+trans1 = {n: int(proyectos_t[n].Capacidad_MVA) for n in N}
 
 #1 Si el proyecto n es propuesto por la empresa e
 emp_n = {(n, e): 1 if proyectos_t[n].Titular == e else 0 for n in N for e in E}
