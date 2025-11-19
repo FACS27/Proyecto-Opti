@@ -1,7 +1,7 @@
 #%%
 import numpy as np
 from gurobipy import Model, GRB, quicksum
-from load_data import L, N, G, E, P, R, T, costo_g, plazo_g, gen1, emp_g, ubi_g, tec, cap, req, max, costo_n, plazo_n, trans1, emp_n, ubi_n, 
+from load_data import L, N, G, E, P, R, T, costo_g, plazo_g, gen1, emp_g, ubi_g, tec, cap, req, max, costo_n, plazo_n, trans1, emp_n, ubi_n
 
 #TODO Revisar que todo esté bien indexado
 #TODO Revisar datos para las fechas y costos
@@ -15,17 +15,17 @@ from load_data import L, N, G, E, P, R, T, costo_g, plazo_g, gen1, emp_g, ubi_g,
 
 def modelo():
 
-model = Model("GeneracionElectrica")
-model.setParam('TimeLimit', 1800)
+    model = Model("GeneracionElectrica")
+    model.setParam('TimeLimit', 1800)
 
-x = model.addVars(L, T, vtype=GRB.BINARY, name="x")
-y = model.addVars(L, T, vtype=GRB.BINARY, name="y")
-w = model.addVars(N, T, vtype=GRB.BINARY, name="w")
-z = model.addVars(N, T, vtype=GRB.BINARY, name="z")
+    x = model.addVars(L, T, vtype=GRB.BINARY, name="x")
+    y = model.addVars(L, T, vtype=GRB.BINARY, name="y")
+    w = model.addVars(N, T, vtype=GRB.BINARY, name="w")
+    z = model.addVars(N, T, vtype=GRB.BINARY, name="z")
 
-model.update()
+    model.update()
 
-#Restricciones
+    #Restricciones
 
     #1. La capacidad de generaci´on el´ectrica total es suficiente para satisfacer la demanda energ´etica proyectada para el 2050
     model.addConstr(quicksum((x[l, t] * gen1[l]) for l in L for t in T) >= req)
@@ -58,6 +58,7 @@ model.update()
     model.addConstrs(quicksum(w[n, t] * trans1[n] * ubi_n[n, p] for t in range(T) for p in range(P)) >= quicksum(gen1[l] * ubi_g[l, p] for l in range(L) for p in range(P)) for n in N)
 
     #Función objetivo
+    #¬ model.setObjective(quicksum(costo_g[l, t] * x[l, t] for l in L for t in T) + quicksum(w[n, t] * costo_g[n, t] for n in N for t in T), GRB.MINIMIZE)
     model.setObjective(quicksum(costo_g[l, t] * x[l, t] for l in L for t in range(T)) + quicksum(w[n, t] * costo_n[n, t] for n in N for t in range(T)), GRB.MINIMIZE)
     
     model.update()
@@ -66,3 +67,13 @@ model.update()
     if model.status == GRB.OPTIMAL: return model
 
 model = modelo()
+
+#%%
+
+model = modelo()
+
+#%%
+#with open("vars_que_valen_1.txt", "w") as file:
+#    for a in model.getVars():
+#        if int(a.x) != 0:
+#            print(f"{a.VarName}", file=file)

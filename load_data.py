@@ -1,4 +1,4 @@
-from collections import namedtuple, defaultdict
+from collections import namedtuple
 
 ProyectoGen = namedtuple('ProyectoGen', ['Id', 'Region', 'Comuna', 'Titular', 'Nombre', 'Tecnologia', 'Inversion_MUF', 'Capacidad_MW', 'Posicion'])
 proyectos_g = dict()
@@ -28,7 +28,8 @@ P = set()
 #Regiones de Chile que son a su vez subconjuntos de posiciones. r ∈ R ∧ r ⊆ P
 R = set()
 
-with open("data_modules/data/gen_data_real.csv", "r", encoding="utf-8") as file:
+
+with open("data_modules/data/gen_data_real_wh.csv", "r", encoding="utf-8") as file:
     lines = [line.strip().split(";") for line in file.readlines()]
     cont = 0
     for l in lines[1:]:
@@ -42,6 +43,8 @@ with open("data_modules/data/gen_data_real.csv", "r", encoding="utf-8") as file:
         proyectos_g[new_proyecto.Id] = new_proyecto
         cont += 1
 
+
+#! Faltan los datos de transmision
 #with open("data_modules_data/data/gen_data_real.csv", "r", encoding="utf-8") as file:
 #    lines = [line.strip().split(";") for line in file.readlines()]
 #    cont = 0
@@ -56,44 +59,41 @@ with open("data_modules/data/gen_data_real.csv", "r", encoding="utf-8") as file:
 #        proyectos_t[new_proyecto.Id] = new_proyecto
 #        cont += 1
 
+
+#* PARAMETROS GENERACION
+#* ==============================================
+
 #TODO 
 #! Tenemos que definir como manejamos los costos respecto al tiempo
 #Costo en UF de realizar el proyecto l del dia t
-costo_g = {l : float(proyectos_g[l].Inversion_MUF) for l in L}
-
+costo_l = {l : float(proyectos_g[l].Inversion_MUF) for l in L}
 
 #TODO 
 #Tiempo en semestres que el proyecto ℓ estar´ıa terminado desde el mes en que se inició
-plazo_g = {l : 1 for l in L}
+plazo_l = {l : 1 for l in L}
 
-#TODO 
 #Capacidad de generaci´on el´ectrica del proyecto ℓ en MW
-gen1 = {l : float(proyectos_g[l].Capacidad_MW) for l in L}
+gen_l = {l : float(proyectos_g[l].Capacidad_MW) for l in L}
 
 #1 Si el proyecto ℓ es propuesto por la empresa e
-emp_g = {(l, e) : 1 if proyectos_g[l].Titular == e else 0 for l in L for e in E}
+emp_l = {(l, e) : 1 if proyectos_g[l].Titular == e else 0 for l in L for e in E}
 
-#TODO 
 #1 Si el proyecto ℓ esta ubicado en la posici´on p
-ubi_g = {(l, p) : 1 if proyectos_g[l].Posicion == p else 0 for p in P for l in L}
+ubi_l = {(l, p) : 1 if proyectos_g[l].Posicion == p else 0 for l in L for p in P}
 
-#1 Si el proyecto ℓ utiliza la tecnolog´ıa de generaci´on g
-#! Debido a la cantidad de proyectos que tienen 2 tecnologias
-#! Voy a asumir que un proyecto puede usar mas de una tecnologia
-tec = {(l, g) : 1 if g in proyectos_g[l].Tecnologia else 0 for l in L for g in G}
-
-#TODO 
-# Cantidad de proyectos que puede desarrollar la empresa e en cada semestre.
-cap = 1
-
-#Capacidad de generaci´on el´ectrica requerida en MW para cumplir la demanda en el 2050
-#TODO 
-req = 32350
+#1 Si el proyecto ℓ utiliza la tecnolog´ıa de generaci´on g (puede ocupar más de una)
+tec_l = {(l, g) : 1 if g in proyectos_g[l].Tecnologia else 0 for l in L for g in G}
 
 #TODO 
 #Cantidad m´axima de proyectos que utilizan la tecnolog´ıa g en la regi´on r.
 max = {(r, g) : float("inf") for r in R for g in G}
+
 #30 solar, 5 hidro, 15 eólico
+
+
+
+#* PARAMETROS TRANSMISION
+#* ==============================================
 
 #Costo en UF de realizar el proyecto n en el semestre t
 costo_n = {n: float(proyectos_t[n].Inversion_MUF) for n in N}
@@ -102,10 +102,21 @@ costo_n = {n: float(proyectos_t[n].Inversion_MUF) for n in N}
 plazo_n = {n: int(proyectos_t[n].Plazo_Semestres) for n in N}
 
 #Capacidad de transmisi´on del proyecto n en MW
-trans1 = {n: int(proyectos_t[n].Capacidad_MVA) for n in N}
+trans_n = {n: int(proyectos_t[n].Capacidad_MVA) for n in N}
 
 #1 Si el proyecto n es propuesto por la empresa e
 emp_n = {(n, e): 1 if proyectos_t[n].Titular == e else 0 for n in N for e in E}
 
 #1 Si el proyecto n esta ubicado en la posici´on p
-ubi_n = {n: proyectos_t[n].Posicion for n in N}
+ubi_n = {(n, p): 1 if proyectos_t[n].Posicion == p else 0 for n in N for p in P}
+
+#* PARAMETROS GENERALES
+#* ==============================================
+
+#TODO 
+# Cantidad de proyectos que puede desarrollar la empresa e en cada semestre.
+cap_e = {e : 1 for e in E}
+
+#Capacidad de generaci´on el´ectrica requerida en MW para cumplir la demanda en el 2050
+#TODO 
+REQ = 32350
