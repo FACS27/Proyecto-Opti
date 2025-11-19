@@ -84,12 +84,6 @@ ubi_l = {(l, p) : 1 if proyectos_g[l].Posicion == p else 0 for l in L for p in P
 #1 Si el proyecto ℓ utiliza la tecnolog´ıa de generaci´on g (puede ocupar más de una)
 tec_l = {(l, g) : 1 if g in proyectos_g[l].Tecnologia else 0 for l in L for g in G}
 
-#TODO 
-#Cantidad m´axima de proyectos que utilizan la tecnolog´ıa g en la regi´on r.
-max = {(r, g) : float("inf") for r in R for g in G}
-
-#30 solar, 5 hidro, 15 eólico
-
 
 
 #* PARAMETROS TRANSMISION
@@ -120,3 +114,9 @@ cap_e = {e : 1 for e in E}
 #Capacidad de generaci´on el´ectrica requerida en MW para cumplir la demanda en el 2050
 #TODO 
 REQ = 32350
+
+#TODO 
+#Cantidad m´axima de proyectos que utilizan la tecnolog´ıa g en la regi´on r.
+max = {(r, g) : float("inf") for r in R for g in G}
+
+#30 solar, 5 hidro, 15 eólico

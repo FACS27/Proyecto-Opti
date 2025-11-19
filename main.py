@@ -1,16 +1,11 @@
 #%%
 import numpy as np
 from gurobipy import Model, GRB, quicksum
-from load_data import L, N, G, E, P, R, T, costo_g, plazo_g, gen1, emp_g, ubi_g, tec, cap, req, max, costo_n, plazo_n, trans1, emp_n, ubi_n
+from load_data import L, N, G, E, P, R, T, costo_l, plazo_l, gen_l, emp_l, ubi_l, tec_l, cap_e, REQ, max, costo_n, plazo_n, trans_n, emp_n, ubi_n
 
 #TODO Revisar que todo esté bien indexado
 #TODO Revisar datos para las fechas y costos
 #TODO Buscar datos faltantes
-#TODO Crear los arrays o diccionarios necesarios para los parámetros
-
-#G Conjunto L listo
-#G Conjunto G listo
-#G Conjunto E listo
 
 
 def modelo():
