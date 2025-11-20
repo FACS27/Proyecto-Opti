@@ -13,6 +13,7 @@ def modelo():
     model = Model("GeneracionElectrica")
     model.setParam('TimeLimit', 1800)
 
+
     x = model.addVars(L, T, vtype=GRB.BINARY, name="x")
     y = model.addVars(L, T, vtype=GRB.BINARY, name="y")
     w = model.addVars(N, T, vtype=GRB.BINARY, name="w")
@@ -23,14 +24,14 @@ def modelo():
     #Restricciones
 
     #1. La capacidad de generaci´on el´ectrica total es suficiente para satisfacer la demanda energ´etica proyectada para el 2050
-    model.addConstr(quicksum((x[l, t] * gen1[l]) for l in L for t in T) >= req)
+    model.addConstr(quicksum((x[l, t] * gen_l[l]) for l in L for t in T) >= req)
 
     #2. Todos lo proyectos deben terminarse a mas tardar en diciembre de 2049
-    model.addConstrs(x[l, t] + plazo_g[l] <= 50 for l in L for t in T)
+    model.addConstrs(x[l, t] + plazo_l[l] <= 50 for l in L for t in T)
     model.addConstrs(w[n, t] + plazo_n[n] <= 50 for n in N for t in T)
 
     #3. Una empresa solo puede desarrollar tantos proyectos paralelamente como le permite su capacidad.
-    model.addConstrs(quicksum(y[l, t] * emp_g[l, e] for l in L) + quicksum(z[n, t] * emp_n[n, e] for n in N) <= cap for e in E for t in T)
+    model.addConstrs(quicksum(y[l, t] * emp_l[l, e] for l in L) + quicksum(z[n, t] * emp_n[n, e] for n in N) <= cap for e in E for t in T)
 
     #4. No pueden realizarse 2 proyectos en la misma ubicaci´on. N´otese que esto evita que un proyecto se construya 2 veces
     model.addConstrs(quicksum(x[l, t] * ubi_g[l, p] for l in L for t in T) <= 1 for p in P)
