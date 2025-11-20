@@ -1,10 +1,10 @@
 from collections import namedtuple
 from random import randint
 
-ProyectoGen = namedtuple('ProyectoGen', ['Id', 'Region', 'Comuna', 'Titular', 'Nombre', 'Tecnologia', 'Inversion_MUF', 'Capacidad_MW', 'Posicion'])
+ProyectoGen = namedtuple('ProyectoGen', ['Id', 'Region', 'Comuna', 'Titular', 'Nombre', 'Tecnologia', 'Inversion_MUF', 'Capacidad_MW', 'Posicion', 'Plazo'])
 proyectos_g = dict()
 
-ProyectoTrans = namedtuple('ProyectoTrans', ['Id', 'Nombre', 'Titular', 'Region', 'Comuna', 'Inversion_MUF', 'Capacidad_MVA', 'Plazo_Semestres', 'Posicion'])
+ProyectoTrans = namedtuple('ProyectoTrans', ['Id', 'Region', 'Comuna', 'Titular', 'Nombre', 'Inversion_MUF', 'Posicion', 'Plazo'])
 proyectos_t = dict()
 
 
@@ -34,7 +34,7 @@ with open("data_modules/data/gen_data_real_wh.csv", "r", encoding="utf-8") as fi
     lines = [line.strip().split(";") for line in file.readlines()]
     cont = 0
     for l in lines[1:]:
-        new_proyecto = ProyectoGen(cont, *l)
+        new_proyecto = ProyectoGen(cont, *l, None)
 
         L.add(new_proyecto.Id)
         E.add(new_proyecto.Titular)
@@ -44,19 +44,19 @@ with open("data_modules/data/gen_data_real_wh.csv", "r", encoding="utf-8") as fi
         proyectos_g[new_proyecto.Id] = new_proyecto
         cont += 1
 
-#with open("data_modules/data/gen_data_real_wh.csv", "r", encoding="utf-8") as file:
-#    lines = [line.strip().split(";") for line in file.readlines()]
-#    cont = 0
-#    for l in lines[1:]:
-#        new_proyecto = ProyectoGen(cont, *l)
+with open("data_modules/data/trans_data_real_wh.csv", "r", encoding="utf-8") as file:
+    lines = [line.strip().split(";") for line in file.readlines()]
+    cont = 0
+    for l in lines[1:]:
+        new_proyecto = ProyectoGen(cont, *l, None)
 
-#        L.add(new_proyecto.Id)
-#        E.add(new_proyecto.Titular)
-#        R.add(new_proyecto.Region)
-#        P.add(int(new_proyecto.Posicion))
+        L.add(new_proyecto.Id)
+        E.add(new_proyecto.Titular)
+        R.add(new_proyecto.Region)
+        P.add(new_proyecto.Posicion)
 
-#        proyectos_g[new_proyecto.Id] = new_proyecto
-#        cont += 1
+        proyectos_g[new_proyecto.Id] = new_proyecto
+        cont += 1
 
 
 #! Faltan los datos de transmision
