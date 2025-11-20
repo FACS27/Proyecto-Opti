@@ -1,5 +1,6 @@
 from collections import namedtuple
 from functools import reduce
+from random import randint
 
 
 #* Este codigo es una verguenza
@@ -23,7 +24,7 @@ def isfloat(string):
 def conyunction(x):
     return bool(reduce(lambda a, b: a and b, x))
 
-Regs = set()
+Regiones = set()
 
 
 def simplify_tech(tech):
@@ -59,12 +60,12 @@ with open("data_modules/bloated_data/bloated_gen_" \
         d = d.strip().replace("\"", "").replace("\\", "").split(";")
         try:
             if d[0] != "Interregional":
-                Regs.add(d[0])
+                Regiones.add(d[0])
                 register = RegistroCompleto(*d)
                 formated_full_data.add(register)
         except Exception as e: #Ni ahi con adaptar los datos que estan mal subidos
             print(f"Algo salio mal en la linea {cont}") 
-    Regs = tuple(Regs)
+    Regiones = tuple(Regiones)
 
 formated_reduced_data = set()
 RegistroReducido = namedtuple('Reducido', ['Region', 'Comuna', 'Titular', 'Nombre', 'Tecnologia', 'Inversion_MMUS', 'Capacidad_MW', 'Posicion'])
@@ -73,7 +74,7 @@ RegistroReducido = namedtuple('Reducido', ['Region', 'Comuna', 'Titular', 'Nombr
 data_ernc = set(filter(lambda x: x.categoria_electrica in ["ERNC", "ER", "Hidroeléctrica convencional", "Renovable convencional"], formated_full_data))
 
 #? Se queda solo con los datos que interesan
-semi_reduced_data = set(map(lambda x: (x.region_nombre, x.comuna, x.titular_proyecto, x.nombre_proyecto, simplify_tech(x.tipo_tecnologia), x.inversion_mmus.replace(",", "."), x.capacidad_mw.replace(",", "."), x.latitud.replace(",", "."), x.longitud.replace(",", ".")), data_ernc))
+semi_reduced_data = set(map(lambda x: (x.region_nombre, x.region_cod, x.comuna, x.titular_proyecto, x.nombre_proyecto, simplify_tech(x.tipo_tecnologia), x.inversion_mmus.replace(",", "."), x.capacidad_mw.replace(",", ".")), data_ernc))
 
 #? Se queda solo con los datos que tienen todos los campos completos
 more_reduced_data = set(filter(lambda x : conyunction(x), semi_reduced_data))
@@ -81,8 +82,9 @@ more_reduced_data = set(filter(lambda x : conyunction(x), semi_reduced_data))
 even_more_reduced_data = set()
 
 for s in more_reduced_data:
-    x = Regs.index(s[0])
-    register = RegistroReducido(*(s[:-2]), x)
+    posicion = randint(1, 50) * int(s[1])
+    register = RegistroReducido(s[0], *(s[2:]), posicion)
+    #print(register)
     if isfloat(register.Capacidad_MW) and register.Capacidad_MW != "0.0" and float(register.Inversion_MMUS) > 0:
         formated_reduced_data.add(register)
 
