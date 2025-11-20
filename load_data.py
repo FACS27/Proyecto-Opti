@@ -1,4 +1,5 @@
 from collections import namedtuple
+from random import randint
 
 ProyectoGen = namedtuple('ProyectoGen', ['Id', 'Region', 'Comuna', 'Titular', 'Nombre', 'Tecnologia', 'Inversion_MUF', 'Capacidad_MW', 'Posicion'])
 proyectos_g = dict()
@@ -43,6 +44,20 @@ with open("data_modules/data/gen_data_real_wh.csv", "r", encoding="utf-8") as fi
         proyectos_g[new_proyecto.Id] = new_proyecto
         cont += 1
 
+#with open("data_modules/data/gen_data_real_wh.csv", "r", encoding="utf-8") as file:
+#    lines = [line.strip().split(";") for line in file.readlines()]
+#    cont = 0
+#    for l in lines[1:]:
+#        new_proyecto = ProyectoGen(cont, *l)
+
+#        L.add(new_proyecto.Id)
+#        E.add(new_proyecto.Titular)
+#        R.add(new_proyecto.Region)
+#        P.add(int(new_proyecto.Posicion))
+
+#        proyectos_g[new_proyecto.Id] = new_proyecto
+#        cont += 1
+
 
 #! Faltan los datos de transmision
 #with open("data_modules_data/data/gen_data_real.csv", "r", encoding="utf-8") as file:
@@ -63,8 +78,7 @@ with open("data_modules/data/gen_data_real_wh.csv", "r", encoding="utf-8") as fi
 #* PARAMETROS GENERACION
 #* ==============================================
 
-#TODO 
-#! Tenemos que definir como manejamos los costos respecto al tiempo
+
 #Costo en UF de realizar el proyecto l del dia t
 costo_l = {l : float(proyectos_g[l].Inversion_MUF) for l in L}
 
@@ -109,10 +123,9 @@ ubi_n = {(n, p): 1 if proyectos_t[n].Posicion == p else 0 for n in N for p in P}
 
 #TODO 
 # Cantidad de proyectos que puede desarrollar la empresa e en cada semestre.
-cap_e = {e : 1 for e in E}
+cap_e = {e : randint(1, 5) for e in E}
 
 #Capacidad de generaci´on el´ectrica requerida en MW para cumplir la demanda en el 2050
-#TODO 
 REQ = 32350
 
 #TODO 
