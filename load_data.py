@@ -34,7 +34,7 @@ with open("data_modules/data/gen_data_real_wh.csv", "r", encoding="utf-8") as fi
     lines = [line.strip().split(";") for line in file.readlines()]
     cont = 0
     for l in lines[1:]:
-        new_proyecto = ProyectoGen(cont, *l, None)
+        new_proyecto = ProyectoGen(cont, *l)
 
         L.add(new_proyecto.Id)
         E.add(new_proyecto.Titular)
@@ -48,7 +48,7 @@ with open("data_modules/data/trans_data_real_wh.csv", "r", encoding="utf-8") as 
     lines = [line.strip().split(";") for line in file.readlines()]
     cont = 0
     for l in lines[1:]:
-        new_proyecto = ProyectoTrans(cont, *l, 0)
+        new_proyecto = ProyectoTrans(cont, *l)
 
         N.add(new_proyecto.Id)
         E.add(new_proyecto.Titular)
@@ -66,10 +66,6 @@ with open("data_modules/data/trans_data_real_wh.csv", "r", encoding="utf-8") as 
 #Costo en UF de realizar el proyecto l del dia t
 costo_l = {l : float(proyectos_g[l].Inversion_MUF) for l in L}
 
-#TODO 
-#Tiempo en semestres que el proyecto ℓ estar´ıa terminado desde el mes en que se inició
-plazo_l = {l : 1 for l in L}
-
 #Capacidad de generaci´on el´ectrica del proyecto ℓ en MW
 gen_l = {l : float(proyectos_g[l].Capacidad_MW) for l in L}
 
@@ -82,6 +78,8 @@ ubi_l = {(l, p) : 1 if proyectos_g[l].Posicion == p else 0 for l in L for p in P
 #1 Si el proyecto ℓ utiliza la tecnolog´ıa de generaci´on g (puede ocupar más de una)
 tec_l = {(l, g) : 1 if g in proyectos_g[l].Tecnologia else 0 for l in L for g in G}
 
+#Tiempo en semestres que el proyecto ℓ estar´ıa terminado desde el mes en que se inició
+plazo_l =  {l: int(proyectos_g[l].Plazo) for l in L}
 
 
 #* PARAMETROS TRANSMISION
@@ -92,9 +90,6 @@ costo_n = {n: float(proyectos_t[n].Inversion_MUF) for n in N}
 
 #Tiempo en semestres que el proyecto n estar´ıa terminado desde el semestre en que se inició
 plazo_n = {n: int(proyectos_t[n].Plazo) for n in N}
-
-##Capacidad de transmisi´on del proyecto n en MW
-#trans_n = {n: int(proyectos_t[n].Capacidad_MVA) for n in N}
 
 #1 Si el proyecto n es propuesto por la empresa e
 emp_n = {(n, e): 1 if proyectos_t[n].Titular == e else 0 for n in N for e in E}

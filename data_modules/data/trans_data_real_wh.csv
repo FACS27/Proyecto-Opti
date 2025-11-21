@@ -1,678 +1,678 @@
-Region;Comuna;Titular;Nombre;Inversion_MMUS;Posicion
-Región de Antofagasta;Antofagasta;Transemel S.A.;Sistema de Transmisión Eléctrica a Antofagasta 110 kV (Segunda Presentación);2.2;44
-Región del Maule;Colbún-San Clemente;Colbún S.A.;Línea de Transmisión Eléctrica San Clemente-Chiburgo (e-seia);1;238
-Región de Los Lagos;Osorno;SISTEMA DE TRANSMISIÓN DEL SUR S.A.;Subestación Nueva Barro Blanco 220/66 kV (e-seia);14.8;410
-Región de Valparaíso;Quillota;SOCIEDAD AUSTRAL DE TRANSMISION TRONCAL S.A.;SUBESTACIÓN TAP OFF LAS GARZAS;3.2;165
-Región del Biobío;Cabrero;EMPRESA ELECTRICA DE LA FRONTERA S.A.;Modificación Línea Existente 66 Kv. Charrua-Cabrero (e-seia);1.4;400
-Región de Atacama;Copiapó;TRANSNET S.A.;Linea 2 (110 KV) Cardones- Los Lirios;0.3;129
-Región del Maule;San Clemente;Colbún S.A.;Línea de Alta Tensión La Mina - Loma Alta y Subestaciones;12.9;21
-Región del Libertador Gral. Bernardo O’Higgins;San Fernando;HIDROELECTRICA LA CONFLUENCIA S.A.;Línea de Transmisión de  alta Tensión 2 x 220 Kv, La Confluencia-La Higuera (e-seia);5.5;30
-Región de Tarapacá;Colchane;GGE CHILE SpA;EXPLORACIÓN GEOTERMICA PUCHULDIZA SUR 2;35;24
-Región de Los Ríos;Valdivia;Sistema de Transmisión del Sur S.A.;Modificación del Trazado Línea A. T. 66 Kv. La Unión Picarte Sector Huachocopihue;0.1;154
-Región del Libertador Gral. Bernardo O’Higgins;San Fernando;Hydrochile S.A;Sistema de Transmisión Eléctrica San Andrés (e-seia);7.7;222
-Región del Libertador Gral. Bernardo O’Higgins;Placilla-San Fernando;Hidroeléctrica La Higuera S.A.;Línea de Transmisión Eléctrica TAP-OFF San Fernando (e-seia);0.2;240
-Región de Los Lagos;Castro;SISTEMA DE TRANSMISIÓN DEL SUR S.A.;Construcción y Operación Subestación Eléctrica Pid Pid;0.8;310
-Región Metropolitana de Santiago;Cerro Navia;TRANSELEC S.A.;Instalación de Equipos de Compensación de Energía Eléctrica en Subestaciones Cerro Navia y Polpaico (e-seia);50;403
-Región de Atacama;Tierra Amarilla;ORION POWER SpA;Sistema de Almacenamiento de Energía Alianza;95;132
-Región de Valparaíso;Puchuncaví-Quintero;GNL Quintero S.A.;Línea de Transmisión Subterránea de 110 KV entre GNL Quintero y AES Gener (e-seia);10.6;110
-Región Metropolitana de Santiago;Cerro Navia;TRANSELEC S.A.;Ampliación S/E Cerro Navia 220 Kv;3;65
-Región de Antofagasta;Taltal;GUANACO COMPAÑÍA MINERA LIMITADA;Modificación Mina Guanaco - Línea Eléctrica 33 kV;18;32
-Región de Antofagasta;Antofagasta;MINERA ESCONDIDA LIMITADA;Trazado de Línea de Alta Tensión y Subestación, Área Faena Mina;13.2;22
-Región de Antofagasta;Antofagasta-San Pedro de Atacama;Norgener S.A.;S/E Laberinto. Sistema de Transmisión S/E Oeste - S/E Atacama - S/E Nueva Zaldivar;32.5;44
-Región de Coquimbo;Salamanca;TRANSNET S.A.;Subestación de Poder 110/23 kV Salamanca (e-seia);1.7;64
-Región del Libertador Gral. Bernardo O’Higgins;Malloa;TRANSNET S.A.;SUBESTACIÓN DE PODER 220-154/66/15 kV MALLOA (e-seia);13.7;192
-Región Metropolitana de Santiago;Melipilla;Emelectric S.A.;Ampliación Potencia Subestación Eléctrica Melipilla (e-seia);1.3;195
-Región de Antofagasta;Antofagasta;Atacama Minerals Chile SCM;Línea de transmisión Eléctrica 69 KV S/E Atacama Minerals a S/E Aguas Blancas (e-seia);8.2;78
-Región de Antofagasta;Calama;E-CL S.A.;Variante del Trazado Línea de Transmisión Chuquicamata - Calama;0.9;78
-Región de Antofagasta;María Elena-Sierra Gorda;Minera Spence S.A;Nueva Línea de Alta Tensión 1x220 kV para Soporte de Suministro Eléctrico Minera Spence;51.5;100
-Región de Antofagasta;Antofagasta-Maria Elena;ABENGOA CHILE;LTE 2X220kV Encuentro - Sierra Gorda;43;18
-Región del Libertador Gral. Bernardo O’Higgins;San Fernando;Compañía General de Electricidad S.A.;Reforzamiento LT 66 KV San Fernando-Placilla;2.1;102
-Región de Tarapacá;Pozo Almonte;Andes Mainstream SpA;Modificación Línea 110 kV Parque Solar Almonte – S/E Pozo Almonte;35;26
-Región de Arica y Parinacota;General Lagos-Putre;COOPERATIVA DE ABASTECIMIENTO DE ENERGIA ELECTRICA SOCOROMA LTDA,;CONSTRUCCION ELECTRIFICACION SING COMUNA DE GENERAL LAGOS (e-seia);1.5;315
-Región Metropolitana de Santiago;San José de Maipo;AES GENER S.A;Líneas de Transmisión Eléctrica S/E Maitenes-S/E Alfalfal y Central Alfalfal II-S/E Alfalfal;13;221
-Región de Valparaíso;Panquehue;Chilquinta Energía S.A.;Subestación Panquehue 44/12kV (e-seia);0.7;35
-Región de Atacama;Copiapó-Freirina-Vallenar;TRANSELEC S.A.;Aumento de capacidad de Línea Maitencillo Cardones 1x220 kV;3.9;96
-Región de Antofagasta;Antofagasta;AES GENER S.A;Ampliación Subestación Eléctrica Nueva Zaldivar (e-seia);9;78
-Región de Ñuble;Ninhue-Quirihue-San Carlos-San Nicolás;Empresa Eléctrica de Melipilla Colchagua y Maule S.A.;Transformación de Línea de Transmisión Eléctrica y Subestaciones Eléctricas VIII Región;0.7;192
-Región Metropolitana de Santiago;Alhué y San Pedro;Emelectric S.A.;Subestación y Tendido Eléctrico Sector Alhué (e-seia);3.5;234
-Región de Atacama;Copiapó;TRANSNET S.A.;Sistema de Transmisión 220/110 kV Copayapu-Galleguillos;55;3
-Región de Antofagasta;Antofagasta;E-CL S.A.;Línea de Transmisión y Subestación El Negro (e-seia);0.2;80
-Región de Antofagasta;Taltal;Pampa Solar Norte Cuatro SpA;Línea de Alta Tensión 1x220 kV,Nueva Subestación FV Elevadora Pampa Solar Norte– Tap Off Pampa Solar Norte;23;96
-Región de Atacama;Copiapó;Compañía General de Electricidad S.A.;Ampliación en S/E Plantas;10.4;54
-Región de Valparaíso;Algarrobo;COMPAÑIA TRANSMISORA DEL NORTE GRANDE S.A.;Nueva S/E Seccionadora Los Poetas y Nueva Línea 1x66 Kv Algarrobo -  Los Poetas;5.5;95
-Región del Biobío;Yumbel, Cabrero, Coronel, Hualqui;Colbún S.A.;Línea de Alta Tensión Coronel-Charrua 2*220 Kv;43;48
-Región de Antofagasta;María Elena-Mejillones;Minera Antucoya;Línea de Transmisión Eléctrica Minera Antucoya;10;76
-Región de Coquimbo;Los Vilos-Salamanca;Minera Los Pelambres;Proyecto Línea Tap Off Mauro 1x220 kV (e-seia);12;120
-Región de Valparaíso;Los Andes;Besalco Energía Renovable S.A.;Subestación Seccionadora Nueva San Rafael 110 kV;10.1;210
-Región Metropolitana de Santiago;San Bernardo;CHILECTRA S.A.;Subestación 220/110 kV Chena Instalación de Banco de Transformadores Nª2;13;130
-Región de La Araucanía;Loncoche;TRANSELEC S.A.;Subestación Seccionadora Lastarria 220/66 kV;8.2;324
-Región del Biobío;Nacimiento;CMPC Pulp SpA;Nueva S/E Seccionadora Nacimiento y Reconfiguración de las Conexiones del Nodo Nacimiento 220 kV;6.6;232
-Región del Libertador Gral. Bernardo O’Higgins;Codegua-Machalí-Mostazal;Colbún S.A.;Línea de Transmisión Eléctrica Candelaria Minero 2x220kV;36;276
-Región de Valparaíso;Viña del Mar-Quilpué-Villa Alemana;Metro Regional de Valparaíso S.A.;Línea de Respaldo de 44 kV Metro de Valparaíso;4.5;65
-Región de Atacama;Copiapó;TRANSELEC S.A.;LINEA MAITENCILLO-CARDONES 1x220 kV: BARRA DE TRANSFERENCIA EN CARDONES (e-seia);3.1;75
-Región Metropolitana de Santiago;Huechuraba;CHILECTRA S.A.;MODIFICACIÓN DE LAS LÍNEAS 110 kV LOS ALMENDROS  EL SALTO Y EL SALTO  SAN CRISTÓBAL Exp. Nº 112/06 (e-seia);2;182
-Región de Antofagasta;Sierra Gorda;Helio Atacama Tres SpA;Proyecto Ampliación Línea de Alta Tensión 1x220 kV, Nueva Subestación Laberinto FV - Subestación Laberinto;5;20
-Región de Coquimbo;Combarbalá;TRANSNET S.A.;S/E Seccionadora Lilén 110/23 kV;5.8;24
-Región Metropolitana de Santiago;Puente Alto;CHILECTRA S.A.;Refuerzo Línea 110 kV Buín - Florida, Tramo La Pintana - Santa Rosa Sur (e-seia);1.3;169
-Región de Antofagasta;Mejillones;Empresa Eléctrica Cochrane S.A;Modificación de Subestación Eléctricay Sistema de Almacenamiento de Energía de Central Termoeléctrica Cochrane;24.5;76
-Región de Antofagasta;Antofagasta;Engie Energía Chile S.A.;Subestación Seccionadora Nueva La Negra 110/220 kV;17.8;66
-Región de Arica y Parinacota;Arica;Empresa de Tansmisión Eléctrica TRANSEMEL S.A;Subestación Seccionadora Azapa y Línea de Seccionamiento 220 kV;12;735
-Región de Los Lagos;Ancud;Transmisora del Pacífico S.A.;Subestación Seccionadora Nueva Ancud 220 kV;12;460
-Región de Los Lagos;Osorno;SISTEMA DE TRANSMISIÓN DEL SUR S.A.;Línea de Transmisión 66 kV Pilauco-Pichil;2;20
-Región de Atacama;Copiapó-Tierra Amarilla;Transmisora Eléctrica del Norte S.A.;Trazado Alternativo Sector Tierra Amarilla para Proyecto Sistema de Transmisión 500 kV Mejillones - Cardones;516;45
-Región de Atacama;Vallenar;Eléctrica de Vallenar SpA;Proyecto Subestación Morrillos;4.6;108
-Región de Atacama;Copiapó;TRANSNET S.A.;Subestación Hernán Fuentes Merino (e-seia);0.8;96
-Región de Antofagasta;Sierra Gorda;E-CL S.A.;LÍNEA DE TRANSMISIÓN LABERINTO  GABY (e-seia);11.5;94
-Región de Antofagasta;Sierra Gorda;Codelco Chile División Gabriela Mistral;SUBESTACIÓN GABY (e-seia);8;58
-Región de Antofagasta;María Elena;TSGF SpA;Ampliación en SE Ana María y Seccionamiento Línea 2x220 kV Frontera-María Elena;12;72
-Región de Arica y Parinacota;Camarones;Engie Energía Chile S.A.;Proyecto Nueva Subestación Seccionadora Roncacho;8.5;315
-Región de Antofagasta;Mejillones;TRANSMISORA BAQUEDANO S.A;LTE 1X220KV NUEVA MEJILLONES;9.3;12
-Región de Antofagasta;Antofagasta;MINERA ESCONDIDA LIMITADA;Modificaciones Operacionales en Planta Concentradora Laguna Seca y Nueva Línea Eléctrica Asociada, al Interior de Minera Escondida;2351;52
-Región de Los Ríos;Los Lagos;Eletrans S.A;Nueva Subestación Seccionadora Cerros de Huichahue;10.8;616
-Región de Los Ríos;Valdivia;EMPRESA SOCIEDAD AUSTRAL DE TRANSMISION TRONCAL S.A.;Nueva linea 2X66 kV Nueva Valdivia- Picarte, Tendido del Primer Circuito;6.3;630
-Región del Libertador Gral. Bernardo O’Higgins;Machalí;Pacific Hydro Chacayes S.A.;Optimización de la Línea de Transmisión Eléctrica Existente entre Central Coya - Subestación Tap Off Pangal (e-seia);0.2;162
-Región de Valparaíso;Valparaíso;Chilquinta Energía S.A.;Sistema Eléctrico Viña del Mar;14.3;120
-Región de Antofagasta;Antofagasta;Domeyko Oeste Cinco SpA;Proyecto “Subestación Hades y Línea de Alta Tensión 1X220 KV- Conexión Subestación Puri”.;14.1;94
-Región de Valparaíso;Concón;ENAP Refinerías S.A.;Subestación de Seccionamiento Torquemada para Abastecimiento de Energía Eléctrica a Enap Refinerías Aconcagua (e-seia);5.8;155
-Región de Atacama;Vallenar-Freirina;TRANSELEC S.A.;Nueva Línea 1x110 kV Maitencillo-Vallenar;8.6;60
-Región de Los Lagos;Llanquihue;Sistema de Transmisión del Sur S.A.;Subestación Llanquihue;13.4;290
-Región de Los Lagos;Osorno-San Pablo;Empresa Eléctrica Pilmaiquén S.A.;LÍNEA DE TRANSMISIÓN ELÉCTRICA  2x220 kV OSORNOBARRO BLANCO (e-seia);4.6;480
-Región del Maule;Curicó;Compañía Nacional de Fuerza Eléctrica, CONAFE;Subestación Rauquén;1;154
-Región de Los Ríos;Río Bueno;Sistema de Transmisión del Sur S.A.;Subestación Mantilhue;1.4;392
-Región del Biobío;Arauco;TRANSNET S.A.;Subestación de Maniobras y Transformación Horcones 66/15 Kv;2.4;248
-Región de Tarapacá;Huara;Engie Energía Chile S.A.;Seccionamiento Línea 1x110 kV Arica-Pozo Almonte en Subestación Dolores;3;30
-Región de Atacama;Tierra Amarilla;ESEDEI Ingenieros S.A.;Variante Suministro Eléctrico en 110 kV Refugio (e-seia);2;96
-Región de La Araucanía;Victoria;Hector Adrian Hernandez Bustos;Declaración de impacto ambiental Subestación Pua;0.8;18
-Región Metropolitana de Santiago;Paine;TRANSNET S.A.;Ampliación S/E Fátima 220/66 kV;27.8;273
-Región de Atacama;Diego de Almagro;Diego de Almagro Transmisora de Energía S.A.;Línea Nueva Diego de Almagro - Cumbres 2x220 kV;59.5;24
-Región de Atacama;Diego de Almagro;BESS Halcón 5 SpA;Línea de Transmisión y Central BESS Halcón 5;104.9;15
-Región de Arica y Parinacota;Arica;Solar Sky 2 SpA;LÍNEA DE ALTA TENSIÓN 66 KV PAMPA DOS CRUCES;2.4;90
-Región de Atacama;Tierra Amarilla;ESEDEI Ingenieros S.A.;SUMINISTRO ELÉCTRICO EN 110 kV - REFUGIO (e-seia);2;84
-Región Metropolitana de Santiago;Renca;CHILECTRA S.A.;Línea de Alimentación (110 KV ) A Sub-Estación de Distribución Brasil;2.5;13
-Región del Libertador Gral. Bernardo O’Higgins;Litueche;Statkraft eólico S.A.;Subestación eléctrica y línea de transmisión 1x110 kV Cardonal-Quelentaro;11.5;84
-Región de Ñuble;Chillán;TRANSNET S.A.;Interconexión del sistema eléctrico de subtransmisión Chillán;3.2;672
-Región de Los Ríos;Río Bueno;SISTEMA DE TRANSMISION DEL SUR S.A.;Línea de Transmisión 110 kV Casualidad-Licán (e-seia);2.8;532
-Región de Los Lagos;Ancud-Calbuco;Sistema de Transmisión del Sur S.A.;Cruce Chiloé;19.6;490
-Región de Atacama;Chañaral-Diego de Almagro;TRANSELEC S.A.;Línea de Transmisión Eléctrica 1x110 kV Diego de Almagro-El Salado-Chañaral y Obras Complementarias (e-seia);10.6;12
-Región Metropolitana de Santiago;Buin-San Bernardo;TRANSELEC S.A.;LÍNEA DE ENTRADA A ALTO JAHUEL 2X500 kV Exp. 017/2010;9.3;572
-Región Metropolitana de Santiago;Macul-Peñalolén;CHILECTRA S.A.;Potenciación de Línea de Transmisión Eléctrica 110 kV Ochagavía - Florida, Tramo TAP Santa Elena – TAP Macul;2.3;455
-Región de Tarapacá;Pozo Almonte;El Solar SpA;Sistema de Transmisión Eléctrica El Solar;11.8;30
-Región de Atacama;Freirina-Vallenar;Desarrollo Energético Solar Chile SpA;Subestación eléctrica y Línea de Transmisión Denersol 110KV desde Plantas Fotovoltaicas Canto del Agua (21 MW), Denersol II (7,5 MW) y Denersol III (30 MW), a Subestación Maitencillo, Provincia de Huasco, Comunas de Vallenar y Freirina, Región de Atacama;4.5;108
-Región Metropolitana de Santiago;Cerro Navia- Renca;CHILECTRA S.A.;Refuerzo Línea 110 Kv San Cristóbal- Cerro Navia: Tramo Lo Boza-Cerro Navia;0.2;39
-Región de Valparaíso;La Calera-Puchuncaví-Quintero-Concón;GNL QUINTERO S.A.;Hidrógeno Verde Bahía de Quintero;30;105
-Región de Antofagasta;Calama;CODELCO Chile, División Radomiro Tomic;Traslado y Reposición Subestación Eléctrica Chamy, División Radomiro Tomic;25;34
-Región de Valparaíso;Viña del Mar;TRANSNET S.A.;Línea de Transmisión Subterránea 110kV Miraflores - Marga Marga, segundo Circuito (e-seia);3.5;205
-Región de Coquimbo;Coquimbo;TRANSNET S.A.;Subestación 66/13.2 kV San Juan (e-seia);0.9;184
-Región Metropolitana de Santiago;Maipú;CHILECTRA S.A.;Refuerzo Tap 110 kV Pajaritos (e-seia);0.7;637
-Región Metropolitana de Santiago;Buin;SOCIEDAD AUSTRAL DE TRANSMISION TRONCAL S.A.;Subestacion Electrica Seccionadora Linderos;16.6;546
-Región de Los Lagos;Ancud-Calbuco-Maullín;SISTEMA DE TRANSMISIÓN DEL SUR S.A.;Construcción Sistema de Transmisión en 220 KV. Puerto Montt  Chiloé. 3era etapa Colaco  Degañ (e-seia);11;160
-Región de Valparaíso;Olmué;Chilquinta Energia S.A.;Suministro de Energía Eléctrica Comuna de Olmué;0.8;45
-Región de Atacama;Copiapó;TRANSELEC S.A.;Ampliación Subestación Carrera Pinto;5.7;105
-Región de Antofagasta;Tocopilla;COMPAÑIA MINERA MANTOS DE LA LUNA S.A.;Sistema de transmisión Electrica Acometida Mantos de la Luna (e-seia);1.5;78
-Región del Biobío;Yumbel-Cabrero-Florida-Hualqui;Compañía Nacional de Transmisión Eléctrica S.A., Transelec;Modificación Línea Eléctrica Charrúa-Concepción de 154 Kv;4.2;112
-Región Metropolitana de Santiago;San Bernardo;TRANSELEC S.A.;NORMALIZACIÓN S/ECHENA 220 kV;13.4;624
-Región de Los Lagos;Calbuco-Maullín-Puerto Montt;SISTEMA DE TRANSMISIÓN DEL SUR S.A.;Refuerzo Sistema de Transmisión a 220 Kv. Puerto Montt - Chiloé. 1era y 2da Etapa Melipulli - Colaco (e-seia);8.4;140
-Región Metropolitana de Santiago;Pudahuel;ENDESA S.A.;Modificación de Línea de Alta Tensión de 2 x 220kV de ENDESA  Rapel - Cerro Navia;0.3;78
-Región de Tarapacá;Pozo Almonte;AIBOA SOLAR SPA;Modificación de la línea eléctrica de evacuación del Parque Solar Fotovoltaico Arrebol;1;16
-Región Metropolitana de Santiago;Til-Til;TRANSELEC S.A.;AMPLIACIÓN PATIO 220 kV S/E POLPAICO (e-seia);12;91
-Región de Antofagasta;María Elena;TRANSELEC NORTE S.A.;Subestación Seccionadora Miraje;11.8;38
-Región del Libertador Gral. Bernardo O’Higgins;Litueche-La Estrella-Marchihue;Colbún S.A.;NUEVA SUBESTACIÓN SECCIONADORA LOICA Y NUEVA LÍNEA 2X220 KV LOICA-PORTEZUELO;31.7;144
-Región de Antofagasta;María Elena;Abengoa Solar Chile SpA.;Subestación Electrica Atacama 1;17;62
-Región de Antofagasta;Antofagasta;Engie Energía Chile S.A.;Línea Eléctrica Bypass Antofagasta;13;88
-Región de Antofagasta;Taltal;Transmisora Tal Tal SpA;Línea de Alta Tensión Pampas Parinas;18;96
-Región de Tarapacá;Colchane;Empresa Eléctrica de Iquique S.A. (ELIQSA);Construcción Red Eléctrica en Parque Nacional Volcán Isluga, Ruta A-95;1.3;24
-Región de Los Lagos;Frutillar;AR Puelche Sur SpA;Extensión Línea de Transmisión Eléctrica Parque Eólico Puelche Sur;0.7;350
-Región de Atacama;Copiapó;Empresa Eléctrica Guacolda S.A.;60 MW Sistema de Almacenamiento de Energía BESS-Guacolda;70;147
-Región de Los Ríos;San José de la Mariquina;TRANSELEC NORTE S.A.;Subestación Enlace Ciruelos;215;196
-Región de Coquimbo;Ovalle;SONNEDIX DON GOYO TRANSMISION S.A.;Ampliación en SE Don Goyo, Seccionamiento Línea Nueva Pan de Azúcar-Punta Sierra y Bypass Línea 2x220 kV Pan de Azúcar -La Cebada;11.8;148
-Región de La Araucanía;Temuco-Freire-Nueva Imperial-Padre Las Casas;Besalco Transmisión SPA;Línea 2x66 kV Nueva Metrenco-Enlace Imperial;6.8;288
-Región de Los Lagos;Puerto Montt;TRANSELEC S.A.;Instalación de Equipo de Compensación Estática de Reactivos (CER) en S/E Puerto Montt CER Transelec Puerto Montt (e-seia);8;100
-Región de Los Lagos;Puerto Varas-Puerto Montt-Calbuco-Maullín-Llanquihue-Ancud;Transmisora del Pacífico S.A.;Sistema de Transmisión S/E Tineo - S/E Nueva Ancud;107;260
-Región de Los Lagos;Puyehue;Empresa Eléctrica Capullo S.A.;Aumento de tensión de 66 kV a 110 kV de Linea de Transmisión SE Copihue - SE Aihuapi, Comuna de Puyehue, Región de Los Lagos;0.8;210
-Región del Biobío;Mulchén-Quilaco-Santa Bárbara;Colbún S.A.;LTE Angostura Mulchén;28.9;360
-Región de Tarapacá;Pica;Compañia Minera Teck Quebrada Blanca S.A;Interconexión al SING en 14 MW (Segunda Presentación);3;35
-Región del Libertador Gral. Bernardo O’Higgins;Litueche-La Estrella-Marchihue;Colbún S.A.;Nueva S/E Seccionadora Loica y Nueva Línea 2x220 kV Loica - Portezuelo;31.7;264
-Región de Antofagasta;María Elena;TRANSELEC S.A.;Extensión Líneas 2x220 kV Crucero – Lagunas;2;4
-Región del Biobío;Los Alamos;TRANSNET S.A.;Construcción Patio de Maniobras en S/E Tres Pinos;2.1;392
-Región de La Araucanía;Victoria;TRANSNET S.A.;S/E Los Peumos 220/66 kV;9.5;117
-Región Metropolitana de Santiago;Puente Alto;Transmisora Eléctrica Cordillera SpA;Construcción Línea de Transmisión 1x110 kV Bajos de Mena-Costanera;7.9;221
-Región de Los Lagos;Osorno;SISTEMA DE TRANSMISION DEL SUR S.A.;Subestación Pilauco 220/66 kV;14.8;480
-Región de Los Lagos;Chonchi;SISTEMA DE TRANSMISIÓN DEL SUR S.A.;Construcción y Operación Subestación Eléctrica Chonchi;0.7;230
-Región Metropolitana de Santiago;San Pedro;Empresa Eléctrica de Melipilla, Colchagua y Maule S.A.;Línea de Subtransmisión Eléctrica de 66 kV y Subestación Santa Rosa;1;377
-Región del Biobío;Yumbel-Cabrero-Coronel-Hualqui;TRANSELEC S.A.;Línea de Transmisión Eléctrica 2 x 220 kV Charrúa-Lagunillas y obras asociadas;42.9;272
-Región de La Araucanía;Pitrufquén;Transmisora Valle Allipén S.A.;Ampliación de Subestación Río Toltén;17;36
-Región de Antofagasta;Antofagasta;TRANSEMEL S.A.;Sistema de Transmisión Eléctrica a Antofagasta 110 kV;2.2;26
-Región de Atacama;Caldera;Empresa Eléctrica Cordillera SpA;Nueva Línea 2x110 kV desde S/E Caldera a Línea 1x110 kV Cardones-Punta Padrones;0.4;141
-Región de La Araucanía;Padre Las Casas;Besalco Energía Renovable S.A.;Subestación Nueva Metrenco 220/66 kV;13.2;450
-Región de Antofagasta;Mejillones;Caitan SpA;Obra Complementaria a la RCA N° 0217/2017: Subestación Eléctrica Caitan;9.8;54
-Región de Arica y Parinacota;Arica;Empresa de Transmisión Electrica - TransEmel S.A.;Sistema de Transmisión Eléctrica a Arica 66 KV;1.4;30
-Región de Ñuble;Pinto;Empresa Nacional de Geotermia S.A.;EXPLORACION GEOTERMICA PROFUNDA NEVADOS DE CHILLAN SECTOR VALLE DE LAS NIEBLAS;9;416
-Región de Antofagasta;María Elena;TRANSELEC S.A.;Ampliación en Subestación Frontera y Seccionamiento Línea 2x220 Encuentro-Laguna;13;70
-Región de Atacama;Copiapó;Transmisora Eléctrica del Norte S.A.;Conexión Cardones;84;111
-Región Metropolitana de Santiago;Estación Central-Lo Prado-Maipú;CHILECTRA S.A.;POTENCIACIÓN DE LÍNEA DE TRANSMISIÓN ELÉCTRICA DE 110 kV CHENA - CERRO NAVIA, TRAMO TAP PAJARITOS - TAP SAN JOSÉ;2.1;546
-Región de Ñuble;San Carlos;Empresa de Tansmisión Eléctrica TRANSEMEL S.A;Nueva Subestación Seccionadora Buli;18.9;208
-Región de La Araucanía;Padre Las Casas;Hernán Casar Collazo;Seccionamiento de Líneas 220 kV Temuco-Ciruelos y Temuco-Puerto Montt (e-seia);11.4;45
-Región de Antofagasta;Mejillones;E-CL S.A.;AMPLIACIÓN S/E CHACAYA 110 kV y 220 kV (e-seia);12;46
-Región del Biobío;Tucapel;Cholguán Transmisión S.A;Línea de Transmisión 1x154 kV Molino - Tap Off Huépil;6.9;80
-Región de Atacama;Freirina-Vallenar;DESARROLLO ENERGÉTICO SOLAR CHILE SPA;Subestación Eléctrica y Línea de Transmisión 110 KV desde S/E propia a S/E Maitencillo;4.5;126
-Región de Los Ríos;Río Bueno;Sistema de Transmisión del Sur S.A.;Subestación El Mocho;4.5;308
-Región de Antofagasta;Calama;E-CL S.A.;Línea Eléctrica a Planta de Biolixiviación;0.8;6
-Región Metropolitana de Santiago;Buin;TRANSELEC;Tercer Banco de Autotransformadores 500/220 kV de 750 MVA, en la S/E Alto Jahuel;44.7;520
-Región de Valparaíso;Concón;Chilquinta Energía S.A;Proyecto Línea de Transmisión 110 kV Concón - Montemar y Subestación 110/23-12Kv Montemar;0.5;150
-Región de Valparaíso;Catemu;Chilquinta Energía S.A;Nueva Subestación Seccionadora Chagres 44 kV;5;200
-Región de Valparaíso;Los Andes-Calle Larga;Besalco Energía Renovable S.A.;By Pass 2 X 110 kV San Rafael;3.8;200
-Región de Valparaíso;Los Andes;Hidroeléctrica Guardia Vieja S.A.;Línea de Transmisión Eléctrica 2x220 KV Los Maquis - Saladillo;11;180
-Región de Coquimbo;Ovalle-Coquimbo;GOYO TRANSMISORA DE ENERGIA S.A.;Nueva Línea 2x220 kV Don Goyo - La Ruca;21.9;180
-Región del Libertador Gral. Bernardo O’Higgins;Las Cabras;CGE Transmisión S.A.;Subestación de Transformación de 66/kV El Manzano;1.3;18
-Región de Tarapacá;Iquique;Empresa Eléctrica Iquique S.A. ELIQSA;Subestación Eléctrica Palafitos (segunda presentación);1.6;29
-Región de Antofagasta;Mejillones;ENGIE Energía Chile S.A.;Conexión Unidades CTM-2 y CTM-3 a GIS en S/E Chacaya;3;12
-Región de Tarapacá;Iquique;Empresa Eléctrica Iquique S.A. ELIQSA;Subestación Eléctrica Cerro Dragón;1.2;17
-Región de Los Lagos;Osorno;Empresa Eléctrica Pilmaiquén S.A.;TAP OFF PICHIRREHUE;19.8;310
-Región de Antofagasta;Antofagasta;Empresa Eléctrica de Antofagasta S.A ELECDA;Subestación Eléctrica Centro;2.5;26
-Región de Los Ríos;Futrono-La Unión-Paillaco;STAR Transmisión SpA;Sistema de Transmisión Adicional de los Ríos;33;140
-Región de Antofagasta;Antofagasta;MINERA ESCONDIDA LIMITADA;Implementación de Nuevas Obras Eléctricas;12.4;28
-Región de Antofagasta;Calama;ACCIONA ENERGÍA CHILE SpA;Línea de Transmisión 1X110 kV, Planta Fotovoltaica Usya a Parque Eólico Valle de los Vientos;2.6;18
-Región Metropolitana de Santiago;Padre Hurtado;Electrica Padre hurtado SpA;Línea de Alta Tensión Padre Hurtado;1;338
-Región de Ñuble;Chillán;TRANSNET S.A.;Subestación 220/66 kV Monterrico (e-seia);4;368
-Región del Libertador Gral. Bernardo O’Higgins;Litueche-La Estrella-Marchihue;Colbún S.A.;Nueva Subestación Seccionadora Loica y Nueva Línea 2x220 Kv Loica - Portezuelo;31.7;300
-Región de Ñuble;Ninhue;Gerardo Illanes Carrasco;S/E Hualte 66/33/13,8 kV;2.8;144
-Región de Antofagasta;Taltal;Minera Las Cenizas S.A.;Subestación Eléctrica y Línea de 33 kV Planta de Óxidos Taltal (e-seia);2.6;92
-Región de Tarapacá;Pozo Almonte;COPEC;Modificación Proyecto Fotovoltaico Granja Solar;7.9;35
-Región Metropolitana de Santiago;Cerro Navia;TRANSELEC S.A.;S/E CERRO NAVIA 220 [KV]: INSTALACIÓN DE EQUIPOS DE CONTROL DE FLUJOS;31;65
-Región del Libertador Gral. Bernardo O’Higgins;Marchihue;Empresa Eléctrica Cordillera SpA;Nueva Línea 1x66 kV Portezuelo-Alcones;4.2;294
-Región de Tarapacá;Pozo Almonte;Engie Energía Chile S.A.;Ampliación Subestación Tamarugal;3.2;39
-Región de Antofagasta;María Elena;Generación Solar S.p.A.;Proyecto Ampliación Subestación María Elena;7.7;50
-Región de Valparaíso;Puchuncaví-Quintero;Aguas PAcifico SpA;Subestación Puchuncaví 110 kV;8;50
-Región del Biobío;Hualqui;Mataquito Transmisora de Energía S.A.;Nueva Subestación Seccionadora Hualqui 220/66 kV;14.6;32
-Región de Antofagasta;Mejillones;CENTRAL ILLAPA S.A.;DIA Modificacion de la Linea de Transmision Central Illapa;4.5;60
-Región del Biobío;Los Angeles;Besalco Energía Renovable S.A.;Nueva Subestación Los Varones 220/66 kV;18.1;136
-Región de Antofagasta;Taltal;Colbún S.A.;Ajuste Línea de Transmisión Eléctrica Norte Parque Eólico Horizonte;8.3;58
-Región del Libertador Gral. Bernardo O’Higgins;San Fernando-Chimbarongo-Placilla;TRANSELEC S.A;Ampliación Subestación Eléctrica (S/E) Tinguiririca, Segundo Tendido 2x154 kV Tinguiririca-San Fernando, construcción de Paños en S/E San Fernando y Adecuación Línea de Transmisión Eléctrica 2x154 kV Punta de Cortés-Tinguiririca;18.9;90
-Región de Antofagasta;Antofagasta-Mejillones;Nor Oeste Pacífico Generación de Energía Limitada, NOPEL;Transmisión Eléctrica Central Atacama - Subestación Nueva Antofagasta;10.4;36
-Región de Valparaíso;Los Andes-Calle Larga;Besalco Energía Renovable S.A.;By Pass 2 x 110 kV San Rafael;3.8;10
-Región de Antofagasta;Antofagasta;Empresa Eléctrica de Antofagasta S.A ELECDA;Proyecto Subestación Eléctrica La Portada;1.7;6
-Región de Antofagasta;Calama;Engie Energía Chile S.A.;Tendido segundo circuito Línea 2x220 kV Nueva Chuquicamata - Calama;6.5;40
-Región de Ñuble;Bulnes;Cooperativa de consumo de energía eléctrica Chillan;Subestacion Electrica Los Tilos;0.8;80
-Región de Tarapacá;Iquique-Pozo Almonte;Río Seco S.A.;Línea de Transmisión Eléctrica 2x220 Kv CT Pacífico-S/E Lagunas;30;19
-Región del Maule;Yerbas Buenas;Juan Carlos Baeza Muñoz;Subestación Eléctrica Yerbas Buenas 154/13,2 KV de 20 MVA;2.3;119
-Región del Biobío;Laja;SOCIEDAD AUSTRAL DE TRANSMISION TRONCAL S.A.;Subestación La Señoraza 220/66 kV;9.8;240
-Región de Antofagasta;Calama;Empresa Geotérmica del Norte S.A;Perforación Geotérmica Profunda El Tatio Fase I;20;36
-Región de La Araucanía;Collipulli;TRANSELEC S.A.;Subestación Eléctrica Río Malleco 220 kV;8.2;63
-Región de Antofagasta;María Elena;ANDES MAINSTREAM SPA;Extensión LAT Parque Eólico Tchamma;3;60
-Región de Arica y Parinacota;Camarones;ENORCHILE S.A.;Subestación Eléctrica Camarones (e-seia);0.4;30
-Región de Ñuble;Chillán;Hernán Casar Collazo;DECLARACIÓN DE IMPACTO AMBIENTAL EXTENSIÓN LÍNEA ELÉCTRICA 1 X 220 KV CHARRÚA - CHILLÁN / TRAMO ARRANQUE A CHILLÁN - S/E MONTERRICO (e-seia);1;128
-Región Metropolitana de Santiago;Cerro Navia-Pudahuel;TRANSELEC S.A.;LÍNEA ALTA TENSIÓN LO AGUIRRE-CERRO NAVIA 2X220 kV “MODERNIZACIÓN SISTEMA TRANSMISIÓN”;100;221
-Región Metropolitana de Santiago;Maipú;TRANSELEC S.A.;Relocalización de Línea de Alta Tensión 2x220 kV Rapel - Cerro Navia, Sector ENEA;3.4;273
-Región del Biobío;Mulchén;Alfa Transmisora de Energía S.A.;Proyecto Ampliación S/E Mulchén y Seccionamiento de la Línea 1x220 kV Duqueco- Los Peumos;5.2;152
-Región del Libertador Gral. Bernardo O’Higgins;Mostazal;AES GENER S.A;Línea de Transmisión Eléctrica San Francisco de Mostazal;1.9;102
-Región de Antofagasta;Sierra Gorda;Minera Esperanza;LÍNEA  1 x 220 kV S/E TESORO  S/E ESPERANZA (e-seia);3;18
-Región de Valparaíso;San Antonio;Empresa Eléctrica de Melipilla Colchagua y Maule S.A.;SUBESTACIÓN ELECTRICA, LEYDA (e-seia);2.6;15
-Región Metropolitana de Santiago;La Reina-Las Condes;ENEL DISTRIBUCIÓN S.A.;Potenciación de Línea de Transmisión Eléctrica 110 kV Los Almendros - El Salto, Tramo Los Almendros - Tap Los Domínicos;1.7;26
-Región de Atacama;FreirinaHuasco;Empresa Eléctrica Guacolda S.A.;Línea de Transmisión 2*220 kv Guacolda Maitencillo;11;39
-Región de Atacama;Tierra Amarilla;Compañía Minera Maricunga;Línea de Transmisión Eléctrica 110 kV Proyecto Refugio (e-seia);10;147
-Región del Libertador Gral. Bernardo O’Higgins;Rancagua;Compañía General de Electricidad S.A.;“AMPLIACIÓN S/E PUNTA DE CORTÉS”;1;150
-Región de Atacama;Freirina-Huasco;Empresa Nacional de Electricidad S.A.;Línea de Transmisión Eléctrica S/E Punta Alcalde - S/E Maitencillo LTE S/E Punta Alcalde- S/E Maitencillo;43;36
-Región Metropolitana de Santiago;Til-Til;TRANSELEC S.A.;Ampliación Subestación Polpaico;6;481
-Región Metropolitana de Santiago;Paine;TRANSNET S.A.;Arranque Fátima a Línea 66 kV Paine - Buin (e-seia);0.5;39
-Región del Libertador Gral. Bernardo O’Higgins;Machalí;TRANSNET S.A.;SUBESTACIÓN 66/15 kV MACHALÍ (e-seia);2.3;156
-Región de Antofagasta;Calama-María Elena;Corporación del Cobre de Chile;Línea de Transmisión Eléctrica 220 kv Encuentro - MH;45;92
-Región de Ñuble;Bulnes-Chillán-Chillán Viejo-Quillón-Ranquil;TRANSNET S.A.;Línea de Transmisión 66kV Santa Elvira - Nueva Aldea (e-seia);3.1;448
-Región Metropolitana de Santiago;La Cisterna;CHILECTRA S.A.;Refuerzo Línea Tap 110 KV La Cisterna (e-seia);0.4;26
-Región de Antofagasta;María Elena;Codelco Chile Tocopilla;Tendido Eléctrico Crucero-El Abra;9.5;52
-Región de Atacama;Diego de Almagro-Copiapó;Redabast Chile SpA;ENAPAC Distribución Norte;350;99
-Región de Antofagasta;Calama-Ollagüe;GEOTERMICA DEL NORTE S.A.;Proyecto Línea de Transmisión Eléctrica Cerro Pabellón;20;52
-Región de Los Lagos;Cochamó-Puerto Montt;Eléctrica Los Andes S.A.;Cambio de Conductor Línea Existente 2x220 kV Canutillar - Puerto Montt;15;400
-Región de La Araucanía;Villarrica-Loncoche;TRANSNET S.A.;Línea de Transmisión 110 kV Loncoche - Villarrica, Segundo Circuito;5.7;315
-Región de Coquimbo;Vicuña;CGE Transmisión S.A.;Subestación de Poder Eléctrica Sector La Compañía Vicuña IV Región;0.7;136
-Región de Atacama;Vallenar;SCM MINERA LUMINA COPPER CHILE;Modificación Línea de Transmisión 2x220 kV Maitencillo – Caserones, Variante Maitencillo Norte;14.4;144
-Región de Valparaíso;Algarrobo-El Quisco;Marcelo Hernán Luengo Amar;Línea de Transmisión de 66 kV y Subestacíón El Totoral (e-seia);0.7;170
-Región de Los Ríos;Los Lagos-Máfil-San José de la Mariquina;Colbún S.A.;Línea de Alta Tensión San Pedro - S/E Ciruelos (e-seia);22;350
-Región del Biobío;Mulchén;Parque Eólico Renaico S.p.A;Línea de Transmisión Eléctrica Bureo - Mulchén;6;160
-Región del Biobío;Laja;CMPC PULP SpA;Nueva Conexión y Ampliación S/E Celulosa Laja;1.6;264
-Región de Atacama;Tierra Amarilla-Copiapó-Vallenar;COPIAPO SOLAR SpA;Modificación de la LAT del proyecto Central Desierto de Atacama;6.2;144
-Región del Biobío;Los Angeles;wpd Duqueco S.p.A.;LTE Los Ángeles Sur - Duqueco;2.8;72
-Región de Valparaíso;Quillota;Transmisora Eléctrica de Quillota Ltda.;Ampliación de la Capacidad de Transmisión  de la Subestación Eléctrica San Luis;43;50
-Región de Atacama;Tierra Amarilla;TRANSNET S.A.;Traslado Parcial Línea 110 kV Sector Relaves Candelaria (e-seia);0.1;150
-Región del Maule;San Clemente;Hidromaule S.A.;Línea Transmisión Lircay- Maule 1 x 66 kV (e-seia);2.6;238
-Región de La Araucanía;Collipulli;wpd Malleco SPA;Aumento de Tensión Línea Subterránea y Obras Complementarias – Parque Eólico Malleco;500;234
-Región Metropolitana de Santiago;Peñalolén;CHILECTRA S.A.;Refuerzo Tap La Reina 110 KV;1.5;546
-Región de Atacama;Tierra Amarilla-Diego de Almagro-Copiapó;Redabast Chile SpA;ENAPAC Distribución Este;600;90
-Región Metropolitana de Santiago;Renca;CHILECTRA S.A.;Potenciación de Línea de Transmisión Eléctrica 110 kV TAP Lo Boza;0.7;416
-Región de La Araucanía;Pucón;TRANSNET S.A.;Subestación de Poder 66/23 kV Pucón;1.5;153
-Región de Tarapacá;Pozo Almonte;ENGIE Energía Chile S.A.;Ampliación y Cambio de Configuración en S/E Pozo Almonte 200 kV;14;33
-Región de Los Ríos;La Unión;Sistema de Transmisión del Sur S.A;Línea Interconexión 2x66 kV Los Tambores;2.1;658
-Región de Los Lagos;Puyehue;SISTEMA DE TRANSMISIÓN DEL SUR S.A.;LÍnea de Tansmisión 2 x 110 kV Aihuapi - Antillanca (e-seia);2.7;320
-Región del Biobío;Quilleco-Santa Bárbara;Iberoamericana de Energía ,IBENER S.A.;Sistema de Transmisión Central Peuchén - Central Mampil-S/E Rucue;3.6;184
-Región de Valparaíso;Los Andes;Codelco División Andina;Ampliación de Línea de Transmisión Eléctrica de División Andina Línea Transmisión Eléctrica División Andina (e-seia);26;235
-Región de Arica y Parinacota;Arica;INVERSIONES FOTOVOLTAICAS SpA;Línea de Conexión Parque Fotovoltaico Willka;20;480
-Región Metropolitana de Santiago;Colina-Til-Til;Anglo American Sur S.A.;Modificación de Línea de Transmisión Eléctrica 220 kV Polpaico- Confluencia, tramo entre torres E-45 y E-63;10.5;520
-Región de Antofagasta;Antofagasta-Mejillones;MINERA ESCONDIDA LIMITADA;Modificación Sistema de Transmisión Eléctrica Minera Escondida;100;72
-Región de Antofagasta;María Elena-Mejillones-Sierra Gorda;E-CL S.A.;Línea de Alta Tensión S/E Chacaya – S/E Crucero;70.5;20
-Región de Valparaíso;Viña del Mar-Valparaíso;Chilquinta Energía S.A.;Línea de Transmisión 110 kV Agua Santa - Placilla y Subestación 110/12 kV Placilla (e-seia);2.8;65
-Región de Antofagasta;Antofagasta;Engie Energía Chile S.A.;Modificación de Alimentación Eléctrica a Planta Desaladora Norte y Nueva S/E Desalant;8.5;76
-Región de Atacama;Copiapó;Transmisora Eléctrica del Norte S.A.;Trazado Alternativo sector Río Copiapó para Proyecto Sistema de Transmisión de 500 kV Mejillones-Cardones;6;45
-Región Metropolitana de Santiago;Cerrillos-Lo Espejo;Chilectra S.A.;Potenciación de Línea de Transmisión Eléctrica 110 kV Espejo – Ochagavía, tramo Espejo – Tap Cisterna;1.4;117
-Región de Atacama;Copiapó;Eletrans S.A;Seccionamiento Circuito Nº1 LAT Cardones-Diego de Almagro en Subestación Carrera Pinto;5.5;36
-Región de Antofagasta;Taltal;Sistema de Transmisión del Sur S.A.;Suministro Eléctrico Complejo Astronómico Paranal – Armazones;12.5;82
-Región de Atacama;Freirina;Agrocomercial AS Limitada;Subestación Eléctrica Proyecto Norte Huasco Subestación Eléctrica Proyecto Norte Huasco (e-seia);8;111
-Región Metropolitana de Santiago;Curacaví;N/D;Línea de Alimentación (110 kv) a S/E Chacabuco;1.1;598
-Región de Antofagasta;Sierra Gorda;MINERA QUADRA CHILE LIMITADA;TAP OFF SIERRA GORDA;4.6;6
-Región del Biobío;Los Angeles-Mulchén;Empresa Electrica de la Frontera S.A.;Línea de Transmisión 66 kV Duqueco - Mulchén;1.9;144
-Región de Antofagasta;Sierra Gorda;CENTINELA TRANSMISION S.A.;Subestación Centinela;11.7;46
-Región de Valparaíso;Los Andes;Minera Valparaíso S.A.;Proyecto Subestación Eléctrica Totoralillo y Línea de Alta Tensión;2;35
-Región de Atacama;Diego de Almagro;Empresa de Desarrollo de Energías Renovables Alen Walung S.A.;LAT 1x220kV  Bella Mónica-Illapa y Conexión de Campos del Sol Norte y Centro a SE Bella Mónica;9;27
-Región de La Araucanía;Pucón;TRANSNET S.A.;Subestación de Poder 66/23 KV Pucón (Modificación Línea de Transmisión 66 K/V, Tramo Volcán) (e-seia);1;63
-Región del Libertador Gral. Bernardo O’Higgins;Placilla;TRANSELEC S.A.;Instalación de Nuevo Banco de Autotransformadores y Unidad de Reserva en S/E Tinguiririca;14.4;78
-Región de Los Lagos;Frutillar;TRANSELEC S.A.;Subestación Seccionadora Frutillar Norte 220 kV;10;360
-Región Metropolitana de Santiago;La Florida-Peñalolén;CHILECTRA S.A.;Modificación de Línea de Transmisión Eléctrica de 110 kV Florida- Los Almendros, Tramo Torre N° 32 a Torre N° 37, Sector Quebrada de Macul;1.2;312
-Región de Valparaíso;Nogales;TRANSELEC S.A.;Subestación Seccionadora Nogales 220 kV (e-seia);13.3;135
-Región de Valparaíso;Concón;Termoeléctrica Colmito Limitada;DIA Obras complementarias a la central de respaldo Colmito (e-seia);0.3;250
-Región del Libertador Gral. Bernardo O’Higgins;San Fernando;HYDROCHILE SA;Sistema de Transmisión Eléctrica San Andrés;8.7;96
-Región de Atacama;Copiapó-Diego de Almagro-Tierra Amarilla;Eletrans S.A;Tendido de Segundo Circuito, Línea Cardones Diego de Almagro con Seccionamiento en Subestación Carrera Pinto;20;39
-Región del Biobío;Lebu;Cristalerías Toro S.A.I.C.;Subestación Eléctrica Parque Eólico Cristoro, Lebu;1;48
-Región Metropolitana de Santiago;Maipú;CHILECTRA S.A.;Línea de Alimentación (110 Kv)a S/E distribución Santa Marta;2;91
-Región de Antofagasta;Antofagasta;E-CL S.A.;Línea Capricornio-Refimet Sector Salar del Carmen - Refimet;2.1;46
-Región del Libertador Gral. Bernardo O’Higgins;Machalí;Eléctrica Cipresillos SpA;Subestación Eléctrica Alto Cachapoal 66/23 kV;1.5;150
-Región de Atacama;Copiapó-Diego de Almagro-Tierra Amarilla;Eletrans S.A;Línea 2x 220 kV Cardones- Diego de Almagro;70;36
-Región de Atacama;Vallenar;ACCIONA ENERGÍA CHILE SpA;Línea de Interconexión 220 kV, entre los Proyectos Fotovoltaicos El Pelícano y El Romero Solar;1;99
-Región Metropolitana de Santiago;Huechuraba;Electrica Huechuraba SpA;Línea de Alta Tensión Huechuraba;5;585
-Región de Antofagasta;María Elena-Mejillones-Sierra Gorda;E-CL S.A.;Línea de Alta Tensión S/E Chacaya. S/E Crucero;42;82
-Región Metropolitana de Santiago;Pudahuel;CHILECTRA S.A.;Modificación de Alta Tensión 110 KV.Cerro Navia-Lo Aguirre;0.3;104
-Región de Los Ríos;Paillaco;Sistema de Transmisión del Sur S.A.;Proyecto Llollelhue;15;280
-Región de La Araucanía;Temuco;TRANSNET S.A.;Subestación de Transformación de 66/15 kV Las Encinas;2.5;333
-Región de Antofagasta;María Elena-Mejillones-Sierra Gorda;Nor Oeste Pacífico Generación de Energía Limitada, NOPEL;Línea de Transmisión Eléctrica Central Atacama S/E Encuentro;30;90
-Región de Antofagasta;Antofagasta;Geotérmica del Norte S.A.;Línea de Transmisión Electrica Cerro Pabellón;20;28
-Región Metropolitana de Santiago;Cerro Navia-Lo Prado;CHILECTRA S.A.;POTENCIACIÓN LÍNEA DE TRANSMISIÓN ELÉCTRICA 110 kV CHENA – CERRO NAVIA TRAMO TAP SAN JOSÉ – TAP PUDAHUEL;3.1;650
-Región de Atacama;Diego de Almagro;AGUAS CHAÑAR S.A.;Suministro de Energía Eléctrica Pozos Emssat Quebrada de Asientos;0.2;150
-Región de Antofagasta;Calama;Planta Solar Calama Sur S.A.;Modificación del proyecto Planta Fotovoltaica Calama Sur;105;94
-Región de Coquimbo;Ovalle;Sociedad Austral de Transmisión Troncal S.A.;Nueva Subestación Seccionadora La Ruca 110 kV;9.5;168
-Región del Libertador Gral. Bernardo O’Higgins;Malloa-Quinta de Tilcoco;TRANSNET S.A.;Proyecto Línea de Transmision 66 kv Malloa - Quinta de Tilcoco y Subestación Transformadora 66/15 KV Quinta de Tilcoco;1.7;102
-Región del Libertador Gral. Bernardo O’Higgins;Chimbarongo;TRANSNET S.A.;Modificación de la línea 66 kV Teno - San Fernando, Sector Quinta, VI Region (e-seia);0.9;162
-Región del Maule;Molina;I. Municipalidad de Molina;Instalación de Suministro Energía Eléctrica El Portón-Radal;0.3;182
-Región de Los Lagos;Calbuco;SISTEMA DE TRANSMISIÓN DEL SUR S.A.;Construccion y Operacion Subestacion Calbuco (e-seia);1.3;160
-Región de Antofagasta;Antofagasta;Domeyko Oeste Cinco SpA;Proyecto Subestación Hades y Línea de Seccionamiento en Alta Tensión 2x220 kV;20.2;20
-Región de Antofagasta;María Elena;EOSOL NEW ENERGY S.A.;Modificación Línea de Alta Tensión Parque Fotovoltaico Tocopilla;1.7;16
-Región de Atacama;Copiapó;TRANSELEC S.A.;Incorporación de Barra de Transferencia en 220 kV en S/E Carrera Pinto;6.5;24
-Región del Biobío;Los Angeles;ENGIE Energía Chile S.A.;Subestación Seccionadora El Rosal 220 kV;7.1;208
-Región de Tarapacá;Pica-Pozo Almonte;Planta Solar Pica S.A.;Línea Eléctrica de Alta Tensión PFV Pica - PFV Pintados;3.5;3
-Región del Libertador Gral. Bernardo O’Higgins;Machalí;Corporacion Nacional del Cobre;Mejoramiento Líneas de Transmisión 110kV Sauzal-Minero;35;114
-Región Metropolitana de Santiago;Puente Alto;Transmisora Eléctrica Cordillera SpA;Aumento capacidad LAT 1x110 Costanera-Puente Alto;2.4;637
-Región de Antofagasta;Antofagasta;Empresa de Transmisión Eléctrica Transemel S.A.;Regularización y Mejoramiento Tap-Off en 110 KV Respaldo Uribe;0.9;82
-Región de La Araucanía;Melipeuco;Empresa Eléctrica CAREN S.A.;Linea de Transmision Caren Bajo- Melipeuco;3.6;324
-Región Metropolitana de Santiago;Melipilla;Empresa Eléctrica de Melipilla, Colchagua y Maule S.A.;Línea de Subtransmisión Eléctrica de 110 KV y Subestación Bollenar;0.8;247
-Región de Valparaíso;Llay Llay;TRANSELEC S.A.;Subestación Seccionadora Río Aconcagua 220/110 kV;8.2;140
-Región de Coquimbo;Coquimbo;TRANSELEC S.A.;Incorporación de Barra de Transferencia en 220 kV en S/E Los Vilos;9;112
-Región Metropolitana de Santiago;Huechuraba;CHILECTRA S.A.;Refuerzo Línea 110kVLos Almendros el Salto, Tramo Tap a S/E La Dehhesa - S/E El Salto (e-seia);0.8;429
-Región Metropolitana de Santiago;Melipilla;Transquinta S.A.;Nueva Línea 2x110 Kv Alto Melipilla-Bajo Melipilla Tendido del Primer Circuito;3;195
-Región de Ñuble;Chillán Viejo;Cooperativa de consumo de energía eléctrica Chillan;Subestación Eléctrica Quilmo II;0.9;448
-Región de Los Lagos;Puerto Montt;SISTEMA DE TRANSMISIÓN DEL SUR S.A.;Construcción y Operación de  S/E Melipulli;3.6;350
-Región de Valparaíso;La Cruz-Nogales-Puchuncaví;AES GENER S.A;Línea de Transmisión Ventanas-Nogales 2x220 kV (e-seia);7.9;130
-Región Metropolitana de Santiago;Colina;CHILECTRA S.A.;Línea de Transmisión Eléctrica de 220 kV Tap a Subestación Chicureo;7.5;546
-Región de La Araucanía;Lautaro;TRANSNET S.A.;Modificación Subestación Eléctrica Lautaro;0.9;378
-Región de Antofagasta;María Elena;Nor Oeste Pacífico Generación de Energía Limitada, NOPEL;Línea de Transmisión Eléctrica S/E Encuentro-S/E Crucero;2.4;58
-Región de Los Lagos;Castro;Sistema de Transmisión del Sur S.A.;Subestación Nueva Gamboa;19;310
-Región de Los Lagos;Puyehue;SISTEMA DE TRANSMISION DEL SUR S.A.;Subestación El Encanto;2.6;200
-Región del Biobío;Coronel;TRANSNET S.A.;Subestación Seccionadora 66 kV El Manco y Arranque 2x66 kV a Subestación Seccionadora El Manco . (e-seia);3.5;368
-Región de Atacama;Copiapó;Transmisora Eléctrica del Norte S.A.;Reforzamiento Cardones;40;33
-Región del Maule;Colbún-Linares;Hidroeléctrica Centinela Limitada;Línea de Transmisión 1x220 KV Centinela - Panimávida;16.5;91
-Región de Antofagasta;Antofagasta;Sociedad Austral de Transmisión Troncal S.A.;Nueva Subestación Guardiamarina 110/23 - 13 kV;14;14
-Región de Antofagasta;Calama;E-CL S.A.;Proyecto Ampliación Subestación Calama (e-seia);0.3;86
-Región de Los Lagos;Llanquihue;TRANSELEC S.A.;Reemplazo Tap-Off Aurora por Línea de Transmisión 1x220 kV para conexión con Subestación Nueva Puerto Montt;7.1;170
-Región de Coquimbo;Salamanca;Centella Transmisión S.A.;Nueva línea 4x220 kV desde S/E Centella a Seccionamiento del segmento de la Línea 2x220 kV Los Piuquenes - Tap Mauro;15;148
-Región Metropolitana de Santiago;La Florida-Peñalolén;CHILECTRA S.A.;Modificación Línea 110 kV S/E Ochagavía-S/E Florida Tramo Derivación Tap S/E Macul-S/E Florida;2;195
-Región de Antofagasta;Sierra Gorda;Enel Green Power Chile Limitada;Modificación de la línea de transmisión eléctrica del proyecto Parque Eólico Sierra Gorda Este;3;92
-Región Metropolitana de Santiago;Huechuraba y Recoleta;CHILECTRA S.A.;Refuerzo Líneas 110 kV San Cristóbal  Cerro Navia, tramo San Cristóbal  Tap Recoleta y El Salto  San Cristóbal, tramo Torre T28  San Cristóbal (e-seia);6.7;429
-Región del Libertador Gral. Bernardo O’Higgins;Machalí-Rancagua;TRANSNET S.A.;Línea de Transmisión 66kV Cachapoal - Machalí (e-seia);0.8;180
-Región de Antofagasta;Antofagasta;E-CL S.A.;LÍNEA DE TRANSMISIÓN CAPRICORNIO - SIERRA MIRANDA (e-seia);4.4;18
-Región de Antofagasta;Sierra Gorda;Compañía Minera Xstrata Lomas Bayas;Proyecto Obras Complementarias Lomas Bayas;29.1;56
-Región del Maule;Curicó;Empresa de Tansmisión Eléctrica TRANSEMEL S.A;Nueva Subestación Seccionadora Buenavista y Líneas de Seccionamiento 154 kV y 66 kV;31;350
-Región de Valparaíso;Papudo;QUINQUIMO SOLAR SPA;Modificación de Línea de Transmisión Eléctrica Proyecto Quinquimo Solar;85;170
-Región de Tarapacá;Iquique;Empresa Eléctrica Iquique S.A. ELIQSA;Subestación Eléctrica Pacífico;1.2;37
-Región de Antofagasta;Antofagasta-Taltal;Transelec Holdings Rentas Ltda.;Subestación eléctrica Monte Mina y línea de transmisión eléctrica Parinas - Monte Mina;105.6;82
-Región del Libertador Gral. Bernardo O’Higgins;Santa Cruz-Placilla-Nancagua;ALTO HUEMUL TRANSMISION SPA;NUEVA LÍNEA DE TRANSMISIÓN ELÉCTRICA 2X154 KV TINGUIRIRICA-SANTA CRUZ;28;138
-Región de Los Lagos;Puerto Octay;SISTEMA DE TRANSMISION DEL SUR S.A.;Subestación Río Bonito 23/66/110 kV;14.8;240
-Región del Biobío;Florida-Quillón;Cooperativa de Consumo de Energía Eléctrica Chillán Ltda.;Construcción de Subestación Eléctrica Sector Confluencia;0.1;24
-Región de Antofagasta;Tocopilla;E-CL S.A.;Línea 2x110 kV Tocopilla – Tamaya, Circuitos N°2 y N°3;9.8;90
-Región de Atacama;Copiapó-Tierra Amarilla;Sociedad de Transmision Campos del Sol;Sistema de Transmisión Campos del Sol;67.5;141
-Región de Antofagasta;Antofagasta;E-CL S.A.;Línea de Alimentación a Planta Desaladora de Antofagasta;0.8;82
-Región Metropolitana de Santiago;San Bernardo, Cerrillos y Lo Espejo;CHILECTRA S.A.;PROYECTO MODIFICACIÓN LÍNEA 110 KV ESPEJO - OCHAGAVÍA TRAMO TORRES N°10 A N°15 044 (e-seia);0.9;442
-Región del Libertador Gral. Bernardo O’Higgins;Chimbarongo;Hidroeléctrica La Higuera S.A.;Subestación Adicional Puente Negro;14;24
-Región del Libertador Gral. Bernardo O’Higgins;Chimbarongo;Colbún Transmisión SA;Subestación Puente Negro;12.1;210
-Región Metropolitana de Santiago;San Joaquín;ENEL DISTRIBUCIÓN S.A.;Modificación Línea de Transmisión Eléctrica 110 kV  Ochagavía – Florida, Trazado Torres N° 26 a 29  Interferencia Parque La Aguada;0.8;130
-Región del Maule;San Clemente;Hidroeléctrica Río Colorado S.A.;Optimización Proyecto Central Hidroeléctrica Río Colorado;4.8;147
-Región del Biobío;Quilleco;Abengoa Chile S.A.;Pangue Línea de Alta Tensión 2 x 220 Kv Santa Bárbara Trupán;5.5;88
-Región de Antofagasta;Sierra Gorda;Red Eléctrica del Norte 2 S.A;Seccionamiento Línea 2x220 kV El Cobre - Esperanza y Adecuaciones en S/E Centinela;13;24
-Región de Los Lagos;Osorno;Sistema de Transmisión de Los Lagos S.A.;Línea de Transmisión Los Negros-Barro Blanco (e-seia);2.7;470
-Región de Valparaíso;Concón;ENAP Refinerías S.A.;Subestación Mauco y Línea de Transmisión 110 kV para Enap Refinerías Aconcagua (e-seia);10.6;240
-Región de Los Lagos;Castro-Chonchi;SOCIEDAD AUSTRAL DE TRANSMISION TRONCAL S.A.;Nueva Línea 2x220 kV Gamboa-Chonchi;26.4;450
-Región de Valparaíso;Villa Alemana-Limache;Chilquinta Energia S.A.;Línea de Transmisión 2 X 110 Kv a S/E Villa Alemana y S/E Villa Alemana;2.1;50
-Región de Los Lagos;Puerto Montt;Sistema de Transmisión del Sur S.A.;Línea Transmisión 220 kV Melipulli – Plaza de Peajes;1.1;20
-Región Metropolitana de Santiago;La Florida y Puente Alto;CHILECTRA S.A.;Refuerzo Línea 110 kV Tap a S/E Santa Raquel Exp. Nº071 (e-seia);1.3;52
-Región de La Araucanía;Collipulli-Renaico;Tolpán Transmisión SpA.;Línea de Transmisión Tolpán - Pacífico;17;396
-Región de Antofagasta;San Pedro de Atacama;Chilgener S.A. (hoy GENER);Sistema de Transmisión Eléctrica SICO-S/E Atacama;46;58
-Región Metropolitana de Santiago;Pudahuel y Curacaví;CHILECTRA S.A.;Segundo Circuito Línea 44 kV Lo Prado - Curacaví;0.8;286
-Región Metropolitana de Santiago;Las Condes y Vitacura;CHILECTRA S.A.;Refuerzo Línea 110 kV Los Almendros  El Salto, tramo Tap a S/E Dominicos  Tap a S/E Vitacura (e-seia);4.9;13
-Región de Tarapacá;Alto Hospicio;TRANSELEC S.A.;Ampliación y Cambio de Configuración en S/E Cóndores 220 kV;13.3;22
-Región de Antofagasta;Tocopilla;Compañía  Minera Mantos de la Luna S.A;Sistema de Transmisión Eléctrica Mantos de la Luna;1;54
-Región de La Araucanía;Angol;TRASNET S.A.;S/E Angol-Construcción Nuevo Patio Maniobras 66 kV;1.9;441
-Región de Arica y Parinacota;Putre;Gobierno Regional de Arica y Parinacota;LÍNEA SOTERRADA DEL SING GENERAL LAGOS;443.5;435
-Región del Biobío;Talcahuano;TRANSNET S.A.;Línea de Transmisión 66 KV Talcahuano - Latorre Nº 2;0.5;200
-Región del Maule;Talca;TRANSNET S.A.;Ampliación S/E Panguilemo 66/15 kV;4.2;203
-Región de La Araucanía;Angol-Los Sauces;EMPRESA ELECTRICA DE LA FRONTERA S.A.;Línea de Transmisión 66 kV Angol – Los Sauces;3.4;387
-Región de Valparaíso;La Ligua;Engie Energía Chile S.A.;Nueva S/E La Ligua;24;90
-Región Metropolitana de Santiago;Lampa;ELECTRICA SANTA TERESA SPA;Proyecto Línea de Alta Tensión y Subestación Santa Teresa;30.5;429
-Región de Antofagasta;Antofagasta;E-CL S.A.;Sub Estación Capricornio y Línea de Transmisión Capricornio - Antofagasta;5.6;92
-Región de Atacama;Diego de Almagro;Codelco Chile División Salvador;Modificación Línea 110 kv Diego de Almagro - Potrerillos;4.8;138
-Región de Arica y Parinacota;Arica;Empresa de Tansmisión Eléctrica TRANSEMEL S.A;Ampliación y cambio de configuración en S/E Parinacota 220 kV;11.6;165
-Región de Atacama;Copiapó;ABC Solar 10 SpA;Modificación línea de transmisión Carrera Pinto – Campos del Sol Sur Oeste;17;30
-Región de Arica y Parinacota;Putre;I. Municipalidad de Putre;Electrificación Poblado de Parinacota;0.1;420
-Región de Arica y Parinacota;Arica;SOLVENTUS CHILE Spa;Línea de Alta Tensión 2X66 kV S/E PV Dos Cruces – S/E Parinacota;5.6;390
-Región de Atacama;Freirina-Vallenar;AM Eolica Sarco SpA;LÍNEA DE TRANSMISIÓN ELÉCTRICA 2 X 220 kV, TRAMO SARCO – MAITENCILLO, COMUNAS DE FREIRINA Y VALLENAR, PROVINCIA DEL HUASCO, REGIÓN DE ATACAMA;25;51
-Región de Antofagasta;María Elena-Mejillones-Sierra Gorda;Interconexión Los Changos S.A;LÍNEA DE ALTA TENSIÓN 2x500 kV, LOS CHANGOS - KIMAL;160;44
-Región de Los Lagos;Puyehue;SISTEMA DE TRANSMISION DEL SUR S.A.;Línea de Transmisión 110 kV Correntoso – S/E Aihuapi;2.9;340
-Región de Antofagasta;María Elena;Crucero Oeste Cinco SpA;Línea de Alta Tensión 1x220 kV Nueva SE Crucero FV– SE Encuentro;12.1;16
-Región Metropolitana de Santiago;Pedro Aguirre Cerda-San Joaquín-San Miguel;CHILECTRA S.A.;POTENCIACIÓN LÍNEA DE TRANSMISIÓN ELÉCTRICA 110 kV OCHAGAVÍA – FLORIDA TRAMO TAP CLUB HÍPICO – TAP SAN JOAQUÍN;1.7;507
-Región del Libertador Gral. Bernardo O’Higgins;Rancagua;TRANSELEC S.A.;Línea de Transmisión Eléctrica Punta de Cortes – Tuniche;3.5;78
-Región de Coquimbo;Coquimbo;TRANSNET S.A.;Nuevo transformador 110/66 kV 30 MVA S/E El Peñón;2;76
-Región de Los Lagos;Ancud-Dalcahue;ALBA S.A.;Línea de Alta Tensión S/E San Pedro - S/E Chiloé;5;260
-Región de Antofagasta;Antofagasta;MINERA ESCONDIDA LIMITADA;Nuevas Obras Eléctricas y Sanitarias de Minera Escondida;35;6
-Región de Tarapacá;Pozo Almonte;TRANSELEC S.A.;Nueva Línea 2x220 kV Lagunas Nueva Pozo Almonte, Tendido Primer Circuito;19;32
-Región de Antofagasta;Sierra Gorda;Minera Esperanza;Línea 2x 220 kV S/E El Cobre  S/E Esperanza (e-seia);21.7;28
-Región Metropolitana de Santiago;Lampa, Til-Til, Colina y Lo Barnechea;Angloamerican Sur S.A.;Línea de Transmisión Eléctrica 220 kV Polpaico  Confluencia;20;546
-Región de Atacama;Caldera-Copiapó;Compañía Minera del Pacífico S.A.;LTE Suministro Cerro Negro Norte y Desalinizadora Pta. Totoralillo;33;132
-Región de Antofagasta;Mejillones;Transmisora Baquedano Sociedad Anonima;MODIFICACION LTE DE 1X110 KV MEJILLONES;21;14
-Región del Biobío;Cabrero-Chillán-Chillán Viejo-El Carmen-Pemuco-San Ignacio;TRANSELEC S.A.;Línea de Transmisión Eléctrica 1x220 kV S/E Charrúa-Chillán;9.2;272
-Región de Antofagasta;Antofagasta;Aguas de Antofagasta S.A.;Construcción Línea de Transmisión Eléctrica Soterrada Alternativa para la Planta Desaladora Antofagasta;0.2;86
-Región de Atacama;Copiapó;Sociedad Austral de Transmisión Troncal S.A.;SECCIONAMIENTO DE LA LÍNEA 2 X 220 KV CARDONES – CARRERA PINTO – DIEGO DE ALMAGRO Y NUEVA SUBESTACIÓN SAN ANDRÉS;10.9;78
-Región de Los Lagos;Ancud;SISTEMA DE TRANSMISIÓN DEL SUR S.A.;Construcción y Operación Subestación Chiloé (e-seia);9;480
-Región de Tarapacá;Huara;Red Eléctrica del Norte S.A.;Variante Sector de Huara para el Proyecto Nuevas Líneas 2x220 entre Parinacota y Cóndores;3.1;35
-Región de Tarapacá;Pozo Almonte;Compañía Eléctrica Tarapaca S.A.;Línea de Distribución Eléctrica Subestaciones Lagunas Minera ACF;0.6;31
-Región Metropolitana de Santiago;Cerro Navia;CHILECTRA S.A.;Línea 110 kV Cerro Navia - Lo Aguirre, Ref. Sector Cerro Navia -Torre 21 (e-seia);1;195
-Región de Antofagasta;Calama;ENGIE Energía Chile S.A.;Nueva Línea 2x220 kV S/E Nueva Chuquicamata – S/E Calama, tendido del primer circuito;5.1;18
-Región Metropolitana de Santiago;Maipú y Cerrillos;CHILECTRA S.A.;Refuerzo Línea de Transmisión 110 kV Chena - Cerro Navia, S/E Maipú - Tap S/E Pajaritos 001/2006. (e-seia);1.9;26
-Región de La Araucanía;Renaico-Angol;Enel Green Power Chile S.A.;LAT DE INTERCONEXIÓN S/E LA CABAÑA - S/E RENAICO;5;432
-Región de Antofagasta;Calama;Empresa de Transmisión Eléctrica Transemel S.A.;Línea de Transmisión 220 kV S/E Salar - S/E Calama;3.8;94
-Región de Tarapacá;Iquique;TRANSEMEL;Ampliación del SING-Sistema de Transmisión de 110 kv Iquique;16.3;22
-Región de Coquimbo;Coquimbo;Plus Energia Spa;Sistema de Almacenamiento de Energía Eléctrica Tipo BESS. Camarones;350;24
-Región de Coquimbo;Los Vilos;CGE Transmisión S.A.;Subestación de Transformación de 220/110 KV Choapa;3.5;28
-Región de Los Ríos;Los Lagos-Máfil-Paillaco-San José de la Mariquina;Eletrans S.A;Línea 2x220 kV Ciruelos-Pichirropulli;77;420
-Región de Tarapacá;Pozo Almonte;Augusto Smith Marín;CONSTRUCCION SISTEMA ELECTRIFICACION COLONIA AGRICOLA DE PINTADOS (e-seia);25.4;38
-Región de Antofagasta;Antofagasta-Mejillones;Electroandina S.A.;Línea de Transmisión Chacaya - La Negra;22.9;100
-Región del Maule;Cauquenes-Chanco-San Clemente-San Javier;TRANSNET S.A.;Línea de Transmisión Eléctrica y Subestaciones Eléctricas VII Región;1;315
-Región de Arica y Parinacota;Arica;Juan  Clavería Aliste;Línea de Transmisión Arica - Parinacota (e-seia);0.8;630
-Región del Maule;San Javier;SAE Volcán Tupungatito SpA;Sistema de Almacenamiento de Energía (SAE) Volcán Tupungatito;45;273
-Región Metropolitana de Santiago;Puente Alto-La Florida;Empresa Eléctrica Cordillera SpA;Nueva Subestación Seccionadora Baja Cordillera;35.2;442
-Región de Antofagasta;María Elena;Parque Solar Fotovoltaico Sol del Desierto SpA;Modificación Línea de Transmisión Parque Solar Fotovoltaico Sol del Desierto;1;88
-Región de Antofagasta;María Elena-Sierra Gorda;Empresa Nacional de Electricidad S.A. ENDESA;Línea de Transmisión Eléctrica Encuentro El Tesoro;25;2
-Región de Atacama;Huasco;Compañía Minera del Pacífico S.A.;Ampliación Subestación Eléctrica Los Colorados;5.3;105
-Región de Antofagasta;Sierra Gorda;AES GENER S.A;Ampliación Subestación Eléctrica Laberinto (e-seia);9.8;44
-Región de Los Lagos;Calbuco-Maullín-Puerto Montt;SISTEMA DE TRANSMISIÓN DEL SUR S.A.;Modificación Línea existente Melipulli - El Empalme 66 Kv. a 110 Kv. (e-seia);1.8;90
-Región de Los Ríos;Los Lagos-Máfil-San José de la Mariquina-Paillaco;Eletrans S.A;Obras Complementarias Línea 2x220 kV Ciruelos-Pichirropulli;11.3;406
-Región de Los Lagos;Chonchi-Quellón;SAESA;Modificación Linea Existente Chonchi-Quellón 23 Kv a 110 Kv;1.9;220
-Región Metropolitana de Santiago;Puente Alto-San Bernardo;empresa electrica puente alto s.a.;Seccionamiento Línea Alto Jahuel-Florida a Nueva Subestación Bajos de Mena 110/12 kV;5.9;494
-Región Metropolitana de Santiago;Las Condes-Providencia;Sociedad Transmisora Metropolitana II S.A.;Nueva Subestación Providencia, Nueva Línea de Transmisión Subterránea 2x110 kV Vitacura - Providencia y Modificaciones en Subestación Vitacura;43.7;78
-Región de Los Lagos;Castro-Chonchi;SOCIEDAD AUSTRAL DE TRANSMISION TRONCAL S.A.;Nueva Línea 2x220 kV Gamboa - Chonchi;26.4;470
-Región del Biobío;Concepción-Penco;TRANSNET S.A.;Línea de Transporte 66 KV Alonso de Ribera - Penco;1;192
-Región del Maule;Constitución;TRANSNET S.A.;Conexión Central Viñales - S/E Constitución;1.5;63
-Región del Biobío;Cabrero;TRANSELEC S.A.;BANCO AUTOTRANSFORMADOR S/E CHARRÚA 500/220 KV, 750 MVA;35.4;240
-Región de Atacama;Copiapó-Freirina-Tierra Amarilla-Vallenar;SCM MINERA LUMINA COPPER CHILE;Línea de Transmisión 2x220 kV Maitencillo – Caserones;80;66
-Región de Antofagasta;Antofagasta;Nor Oeste Pacífico Generación de Energía Limitada, NOPEL;Alimentación Eléctrica a La Compañía Minera El Peñón;6.2;36
-Región de Los Lagos;Osorno-Puyehue;SISTEMA DE TRANSMISIÓN DEL SUR S.A.;Línea de Alta Tensión Antillanca - Nueva Barro Blanco (e-seia);8;340
-Región de Antofagasta;Calama;Codelco Chile, División Chuquicamata;Instalación Tercer Autotransformador 220/100 KV Sistema Eléctrico de Distribución Chuquicamata (e-seia);10.7;8
-Región de Atacama;Freirina-Vallenar;Ibereólica Cabo Leones I S.A.;Línea de Transmisión Eléctrica de Doble Circuito de 220 kV Cabo Leonés y Subestación Eléctrica Domeyko;23.1;138
-Región del Libertador Gral. Bernardo O’Higgins;Machalí;Pacific Hydro Chile S.A.;LÍNEA DE TRANSMISIÓN ELÉCTRICA 2 x 220 kV CHACAYES – MAITENES;25.5;96
-Región de Antofagasta;Antofagasta;Empresa Eléctrica de Antofagasta S.A ELECDA;Subestación Eléctrica Uribe;1.7;4
-Región del Biobío;Coronel-Lota;TRANSNET S.A.;Subestación Seccionadora Lota;1.9;248
-Región del Maule;San Rafael;CGE Transmisión S.A.;Subestación San Rafael e Interconexión Líneas de Transmisión Itahue -Talca con San Rafael-Hualañe;1.1;112
-Región Metropolitana de Santiago;Buin-San Bernardo;CHILECTRA S.A.;Proyecto Línea 110 kV Buin-Chena, Refuerzo sector Buin-San Bernardo. (e-seia);3;286
-Región del Libertador Gral. Bernardo O’Higgins;Malloa-Olivar-Rancagua-Rengo-Requinoa-San Fernando;TRANSELEC S.A.;Cambio de Conductor y Mantención General para Operación en 220 kV de Línea de Transmisión Eléctrica Tinguiririca- Punta de Cortes Mantención y Cambio de Conductor LTEAT 220 kV;10;174
-Región de Ñuble;Bulnes;EMPRESA ELECTRICA DE LA FRONTERA S.A.;Proyecto Larqui;12.1;192
-Región del Biobío;Arauco-Coronel-Lota;Parque Eólico Arauco S.A.;Línea de Alta Tensión 1x220 kV, Tubul-Lagunillas;15.4;368
-Región Metropolitana de Santiago;Quilicura;AES GENER S.A;Traslado de Cuatro Torres de Alta Tensión a Zona de Protección Ecológica Fundo San Ignacio (e-seia);0.1;585
-Región de Valparaíso;Quintero;ENAP REFINERIAS S.A;SUBESTACIÓN ELÉCTRICA EL BATO (e-seia);3.7;95
-Región del Libertador Gral. Bernardo O’Higgins;Codegua;Colbún S.A.;Nueva Subestación Seccionadora Codegua 110/66 kV;13.2;30
-Región del Biobío;Los Angeles;CMPC PULP SpA;Normalización y Ampliación en Subestación María Dolores 220kV;4.5;184
-Región de La Araucanía;Villarrica-Loncoche;TRANSNET S.A.;Modificación Línea de Transmisión 110 kV Loncoche-Villarrica, Segundo Circuito;5.7;198
-Región de Los Lagos;Calbuco;SISTEMA DE TRANSMISIÓN DEL SUR S.A.;Construcción Línea  El Empalme - Calbuco 110 kV. (e-seia);1.2;130
-Región Metropolitana de Santiago;Maipú y Padre Hurtado;TRANSNET S.A.;Línea de transmisión 110 kV Santa Marta- Padre Hurtado y Subestación eléctrica 110/12-23 kV Padre Hurtado (e-seia);13.5;39
-Región de Antofagasta;Taltal;Transelec Holdings Rentas Ltda.;Subestación eléctrica Parinas y línea de transmisión eléctrica Parinas-Taltal;51.3;10
-Región de Ñuble;Chillán-Chillán Viejo;cooperativa eléctrica chillan ltda;Línea de transmisión eléctrica de 33 KV Santa Elisa-Confluencia;1.3;432
-Región de Antofagasta;María Elena;E-CL S.A.;Subestación Eléctrica Rica Aventura;86;72
-Región Metropolitana de Santiago;Buin;ALEXANDROS GEORGIOS SEMERTZAKIS PANDOLFI;Ampliación de la Subestación Alto Jahuel;9;364
-Región Metropolitana de Santiago;Lo Barnechea;Angloamerican Sur S.A.;Línea de Transmisión Eléctrica 220 KV Maitenes-Confluencia (e-seia);7;637
-Región de Atacama;Copiapó;ABC Solar 10 SpA;Proyecto Línea de Transmisión Carrera Pinto - Campos del Sol Sur Oeste;1.8;99
-Región de Antofagasta;Calama;CODELCO CHILE;Proyecto Línea de Transmisión Eléctrica 220 kV S/E Salar - S/E RT Principal;18.4;2
-Región de Antofagasta;Antofagasta;EMPRESA ELECTRICA ANGAMOS S.A.;LÍNEA DE ALTA TENSIÓN ANGAMOS - ATACAMA (e-seia);4;24
-Región Metropolitana de Santiago;Buin-Pirque-Puente Alto;CPMC S.A.;Aumento de Voltaje Línea de Transmisión (66kV a 110kV) desde S/E Maipo a S/E CMPC/Puente Alto y Construcción de Nueva S/E CMPC/Puente Alto;2.4;624
-Región de Atacama;Tierra Amarilla;Empresa Eléctrica Cordillera SpA;Nueva Línea 110 kV Cerrillos-Atacama Kozán;2.2;27
-Región del Maule;Teno;PANELES ARAUCO S. A.;Modificación de Línea de Transmisión Eléctrica para Planta Paneles MDP Teno;0.8;154
-Región de Los Ríos;Corral;Sistema de Transmisión del Sur S.A.;Construcción S/E Corral 16 MVA 66/13.2 Kv;0.5;294
-Región de Coquimbo;La Serena;CGE Transmisión S.A.;Construcción Línea 110 KV entre Subestación San Joaquín y Subestación Marquesa;2;44
-Región de Antofagasta;Taltal;Minera Las Cenizas S.A.;Campamento Minera Las Cenizas - Taltal;5;18
-Región del Biobío;Chillán Viejo;Cooperativa de consumo de energía eléctrica Chillan;Subestación Eléctrica Quilmo II;0.9;120
-Región de La Araucanía;Pucón;TRANSNET S.A.;SUBESTACIÓN DE PODER 66/23 kV PUCÓN (e-seia);1.5;207
-Región de Antofagasta;Mejillones;SOCIEDAD GNL MEJILLONES S.A.;LÍNEAS DE TRANSMISIÓN DE 110 kV Y 220 kV S/E CHACAYA - GNLM (e-seia);3.5;64
-Región de Valparaíso;Puchuncaví;TRANSNET S.A.;SUBESTACIÓN MARBELLA 110/13,2 kV (e-seia);2.7;130
-Región de La Araucanía;Curacautín;Corporación Nacional Forestal, Región de la Araucanía;Electrificación Reserva Nacional Malalcahuello (e-seia);0.4;189
-Región de Los Lagos;Dalcahue;SOCIEDAD AUSTRAL DE ELECTRICIDAD S.A.;Traslado línea AT 110 kV para el nuevo aeródromo de la Isla De Chiloé (e-seia);0.4;170
-Región de Antofagasta;Taltal;Transmisora Tal Tal SpA;Línea de Alta Tensión Terra Parinas;40;16
-Región del Maule;Constitución;Arauco Generación S.A.;Aumento de Generación Eléctrica en Planta de Celulosa Constitución  Subestación y Linea de Transmisión de Alta Tensión;1;350
-Región de Los Lagos;Puerto Octay-Pullehue;SISTEMA DE TRANSMISION DEL SUR S.A.;Línea de Transmisión 110 kV Nalcas-S/E Aihuapi;3.9;450
-Región del Biobío;San Pedro de la Paz;Besalco Energía Renovable S.A.;Nueva Subestación Seccionadora Guindo 220/66 kV;13.2;48
-Región de Antofagasta;Mejillones;ABENGOA CHILE;LTE de 1x110kv Mejillones;27;96
-Región de Tarapacá;Iquique;Nor Oeste Pacífico Generación de Energía Limitada, NOPEL;Ampliación de la S/E Tarapacá I Región;2;10
-Región de Coquimbo;Ovalle;Terrazas Solar SpA;Optimización Línea de Transmisión y Nueva Subestación Seccionadora del Parque Fotovoltaico Las Terrazas;290;80
-Región de Antofagasta;Taltal;Colbún S.A.;Nueva Subestación Eléctrica Seccionadora Llullaillaco y Línea de Seccionamiento, Ruta 5 Norte Km 1.207;25;72
-Región del Maule;Colbún;TRANSELEC S.A.;Restitución Banco de Autotransformadores en S/E Ancoa;21;154
-Región del Libertador Gral. Bernardo O’Higgins;Rengo;Engie Energía Chile S.A.;Nueva S/E Seccionadora Totihue y Nueva Línea 2x66 kV Totihue - Rosario;20.5;132
-Región de Ñuble;San Ignacio;Sistema de Transmisión del Sur S.A.;Subestación seccionadora Montenegro 220-154/66/13,2 kV;10.9;624
-Región del Maule;Colbún;TRANSELEC S.A.;Restitución banco de autotransformadores en Subestación Ancoa;21;21
-Región del Maule;Yerbas Buenas-Colbún-Linares;TRANSELEC S.A.;Proyecto San Ambrosio;46.3;259
-Región de Los Lagos;Osorno;TRANSELEC S.A.;S/E Seccionadora Rahue 220 kV;14;270
-Región del Libertador Gral. Bernardo O’Higgins;San Fernando;HYDROCHILE SA;Línea de Transmisión Eléctrica El Paso;7.8;36
-Región de Atacama;Copiapó-Freirina-Vallenar;Empresa Eléctrica Guacolda S.A.;Segundo Circuito 220 kV Línea Maitencillo - Cardones (e-seia);9;120
-Región de Antofagasta;Antofagasta;Juan  Clavería Aliste;Subestación Salar del Carmen 110 kV (tercera presentación) SUB ESTACION 110 KV (e-seia);1.2;34
-Región de Atacama;Vallenar;Eléctrica de Vallenar SpA;Subestación Eléctrica Las Campanas;6;129
-Región del Biobío;Coronel;Empresa Nacional de Electricidad S.A. ENDESA;Ampliación Subestación Bocamina (e-seia);5.4;304
-Región Metropolitana de Santiago;Buin-Til Til;TRANSELEC S.A.;LINEA ANCOA-POLPAICO 1X500 kV: SECCIONAMIENTO (e-seia);153;611
-Región de Atacama;Copiapó-Tierra Amarilla;Compañía Minera del Pacífico S.A.;Línea Eléctrica 110 kV Cardones - Planta de Magnetita Línea Eléctrica 110 KV Planta Magnetita (e-seia);1.2;66
-Región de La Araucanía;Collipulli;wpd Malleco Transmisión SpA;Línea de Alta Tensión 1x220 S/E Agua Buena- S/E El Salto;13.8;36
-Región de Atacama;Vallenar;Transquinta S.A.;Subestación Seccionadora Agua Amarga 220 KV;10.4;135
-Región de Antofagasta;Antofagasta;MINERA ESCONDIDA LIMITADA;Ampliación Sistema de Transmisión Eléctrico Minera Escondida (e-seia);412;4
-Región de La Araucanía;Angol;EMPRESA ELECTRICA DE LA FRONTERA S.A.;LÍNEA DE TRANSMISIÓN 66 kV CENTRAL HIDROELÉCTRICA PICOIQUÉN – CRUCE HUEQUÉN;3.4;405
-Región de Atacama;Copiapó;Transmisora Eléctrica del Norte S.A.;Regularización Ambiental de Torres Aprobadas;6.5;90
-Región Metropolitana de Santiago;Renca;Chilectra S.A.;Potenciación de Línea de Transmisión Eléctrica 110 kV Tap Altamirano;0.2;169
-Región del Maule;Constitución-San Javier;Nirivilo Transmisora de Energía S.A.;Nueva Línea 2x66 KV Nueva Nirivilo - Constitución;11.4;322
-Región de Antofagasta;Calama;Empresa Eléctrica de Antofagasta S.A ELECDA;Subestación Eléctrica Topater;0.6;82
-Región de Valparaíso;San Antonio;Solek Chile Services SpA;Modificación Parque Fotovoltaico Leyda;3;80
-Región de Atacama;Freirina;San Juan S.A.;Proyecto Línea de Transmisión Eléctrica San Juan conexión Sarco;3.4;126
-Región Metropolitana de Santiago;Pudahuel;TRANSELEC S.A.;Subestación Seccionadora Lo Aguirre Etapa I;69;104
-Región del Biobío;Los Angeles;TRANSNET S.A.;MODIFICACIÓN SUBESTACIÓN 66/23 kV EL AVELLANO (e-seia);1;224
-Región del Biobío;Arauco-Curanilahue-Los Alamos;TRANSNET S.A.;Fortalecimiento del Sistema Eléctrico de la Provincia de Arauco;16.2;96
-Región de Los Lagos;Puerto Varas;Austrum Energía SpA;Subestación Reductora Crell;0.1;440
-Región Metropolitana de Santiago;Colina-Lampa-Lo Barnechea-Til Til;COLBÚN-MACHICURA S.A.;Línea de Transmisión Polpaico Maitenes 220 kV;15;286
-Región de Antofagasta;Taltal;Pampa Solar Sur Cinco SpA;Proyecto “Línea de Alta Tensión 1x220 kV, S/E Elevadora Pampa Solar Sur – S/E Seccionadora Pampa Solar Sur;16.6;66
-Región de Tarapacá;Pozo Almonte;Engie Energía Chile S.A.;Proyecto Ampliación Subestación Tamarugal;3.2;34
-Región de Antofagasta;María Elena;ATLAS Transmisión;Línea de Transmisión Eléctrica entre Subestación Sol del Desierto y Crucero;2;18
-Región de Los Ríos;Río Bueno;Sistema de Transmisión del Sur S.A.;Modificación Línea de Transmisión 110 kV Casualidad - Licán;8;490
-Región Metropolitana de Santiago;Colina;EdgeConnex Chile V SpA;Subestación Electrica SCL99;15;273
-Región del Biobío;Cabrero;TRANSELEC S.A.;Ampliación de la S/E Charrúa y construcción de 1.000 m de la Línea de Transmisión Eléctrica 500 kV Charrúa - Ancoa 1 y 2 (e-seia);34.7;272
-Región de Coquimbo;Ovalle;SOCIEDAD AUSTRAL DE TRANSMISION TRONCAL S.A.;Ampliación en S/E La Ruca 110 kV (BPS+BT), Nuevo Patio 220 kV (IM) y Nuevo Transformador (ATAT);8;24
-Región de Ñuble;Ninhue-Quirihue;Empresa Eléctrica de Melipilla Colchagua y Maule S.A.;NUEVA LÍNEA DE SUBTRANSMISIÓN ELÉCTRICA DE 66 KV NINHUE - QUIRIHUE (e-seia);1.5;208
-Región de Los Ríos;Valdivia;Sistema de Transmisión del Sur S.A.;S/E California  2x60 MVA 220/66 Kv.;2.5;196
-Región de Valparaíso;La Calera;SOCIEDAD AUSTRAL DE TRANSMISION TRONCAL S.A.;Subestación Eléctrica Seccionadora Pachacama;19.8;165
-Región del Biobío;Mulchén;EMPRESA ELECTRICA DE LA FRONTERA S.A.;LÍNEA INTERCONEXIÓN 220 KV S/E MULCHÉN – S/E PICOLTUÉ;0.3;8
-Región del Biobío;Cañete-Los Alamos;EMPRESA ELECTRICA DE LA FRONTERA S.A.;Línea de Transmisión 66 kV Tres Pinos – Cañete;2.5;344
-Región de Antofagasta;Mejillones;E-CL S.A.;Ampliación Subestación Mejillones 220/23 kV;5.1;82
-Región de Antofagasta;Mejillones;E-CL S.A.;Suministro Eléctrico a Molycop, Mejillones (e-seia);1.9;92
-Región de Antofagasta;Calama;E-CL S.A.;Cambio de Trazado Línea de Transmisión Nº4;1.2;94
-Región de Coquimbo;Ovalle;Parque Eólico El Arrayán SPA;Ampliación Subestación Eléctrica Don Goyo;8.1;8
-Región del Biobío;Mulchén;Inversiones La Frontera Del Bio Bio SpA;LAT San Carlos – S/E Mulchén;7;88
-Región de Coquimbo;Andacollo-Coquimbo;Compañía Minera Carmen de Andacollo;Línea de Transmisión Eléctrica y Subestación de Distribución (e-seia);16.4;196
-Región del Libertador Gral. Bernardo O’Higgins;Machalí;Pacific Hydro Chacayes S.A.;Proyecto Camino Operación Bocatoma Cipreses;0.5;24
-Región de Valparaíso;Viña del Mar-Concón;CHILQUINTA TRANSMISION S.A.;Línea 1x110 KV Bosquemar - Tap Reñaca - Reñaca;6.4;210
-Región de Antofagasta;Antofagasta-Mejillones;MINERA ESCONDIDA LIMITADA;Proyecto Línea de Transmisión Doble Circuito 2x220 kV Central Angamos a S/E Likanatai  (N) (e-seia);17.3;100
-Región de Arica y Parinacota;Arica;Transemel S.A.;Subestación de Poder Eléctrica Principal Arica Arica I Región;5.5;180
-Región Metropolitana de Santiago;Colina-Huechuraba-Lo Barnechea;CHILECTRA S.A.;Línea de Transmisión 220 kv a subestación de Transmisión El Salto;8.9;13
-Región de Antofagasta;Mejillones;Eléctrica Angamos S.p.A.;Independencia Operacional y Mejoramiento Línea de Transmisión Eléctrica Angamos - Kapatur;1.3;28
-Región del Maule;Colbún-Molina-Pelarco-Río Claro-San Clemente;TRANSELEC S.A.;Línea de Transmisión Eléctrica de 2x220 KV S/E Ancoa - S/E Itahue (Primera Presentación);14.1;294
-Región del Libertador Gral. Bernardo O’Higgins;Graneros-Mostazal-Codegua;TRANSELEC S.A.;Nueva Línea 2x220 kV Candelaria - Nueva Tuniche y SE Nueva Tuniche 220 kV;19.5;228
-Región Metropolitana de Santiago;Cerro Navia;Enel Distribución Chile S.A..;Ampliación en S/E Cerro Navia;20;442
-Región del Maule;Maule-Pencahue;Empresa Eléctrica de Melipilla Colchagua y Maule S.A.;Línea de Transmisión Eléctrica Talca - Pencahue (e-seia);0.7;147
-Región Metropolitana de Santiago;La Reina- Peñalolén;CHILECTRA S.A.;POTENCIACIÓN LÍNEA DE TRANSMISIÓN ELÉCTRICA 110 kV FLORIDA - LOS ALMENDROS TRAMO TAP LA REINA - TAP ANDES;2.2;351
-Región del Libertador Gral. Bernardo O’Higgins;Marchihue;Compañía General de Electricidad S.A.;Ampliación en subestación Portezuelo;13;126
-Región de Ñuble;Coihueco-San Fabián;Astaldi Concessioni S.R.L. Agencia en Chile;Línea de transmisión 1x220 kV Punilla - San Fabián;9.2;336
-Región de Coquimbo;Andacollo-Coquimbo;TRANSELEC S.A.;LÍNEA DE TRANSMISIÓN ELECTRICA 1X220 KV PAN DE AZUCAR ANDACOLLO (e-seia);8.3;8
-Región de Antofagasta;Calama;ENGIE Energía Chile S.A.;Subestación Seccionadora Nueva Chuquicamata 220 kV;11.7;24
-Región de Antofagasta;Calama;Engie Energía Chile S.A.;Modificación Línea de Transmisión 2 X 220 kV Crucero - El Abra;15;56
-Región del Libertador Gral. Bernardo O’Higgins;San Fernando;Hidroeléctrica La Higuera S.A.;Línea 154 kV Transformable a 220 kV entre S/E La Higuera y S/E Tinguiririca cercana a San Fernando (e-seia);7.9;222
-Región de Arica y Parinacota;Arica;Reinaldo  Delgadillo Vera;CONSTRUCCION SUBESTACION ESSAT Y LINEAS DE MEDIA TENSION AZAPA  LLUTA, ARICA, PRIMERA REGION (e-seia);0.5;435
-Región de Antofagasta;Antofagasta;Engie Energía Chile S.A.;Línea Eléctrica Bypass Antofagasta;13.4;60
-Región del Libertador Gral. Bernardo O’Higgins;Marchihue;LENERGIA CHILE SpA;Subestación Eléctrica LNRG1 23/66 kV;10;150
-Región de Atacama;Vallenar;TRANSELEC S.A;Modificación a la posición de las estructuras T18 a T69 del Proyecto Nueva Línea 1x110 kV  Maitencillo - Vallenar;0.1;33
-Región de Valparaíso;Quilpué;MERVAL S.A.;Subestación Eléctrica El Sol;3.1;60
-Región de Antofagasta;Calama;Electroandina S.A.;Reubicación Líneas Eléctricas de Chuquicamata (e-seia);8.6;92
-Región de Atacama;Diego de Almagro;TRANSELEC S.A.;Instalación de Equipos de Compensación de Potencia Reactiva en Subestación Diego de Almagro;20;42
-Región de Los Lagos;Ancud-Castro-Dalcahue;Sistema de Transmisión del Sur S.A.;Línea Transmisión 220 kV Chiloé - Gamboa;41;500
-Región de Antofagasta;Antofagasta;AR Pampa SpA;Modificación Parque Fotovoltaico Tigre;8;40
-Región de Tarapacá;Pica;Compañia Minera Teck Quebrada Blanca S.A.;Interconexión Eléctrica al SING en 14 MW;3;5
-Región del Maule;San Clemente;Enel Generación Chile S.A;Interconexión Internacional de Interés Privado Los Cóndores (CL) - Río Diamante (AR);36;336
-Región del Biobío;Los Angeles;Compañía General de Electricidad S.A.;Ampliación en S/E El Avellano;3.4;88
-Región del Libertador Gral. Bernardo O’Higgins;Machalí;CODELCO CHILE DIVISIÓN EL TENIENTE;Levantamiento Vulnerabilidades S/E El Cobre (e-seia);17;168
-Región Metropolitana de Santiago;Estación Central y Lo Prado;TRANSELEC NORTE S.A.;Línea de arranque y Subestación eléctrica Neptuno;21;585
-Región de Antofagasta;Antofagasta;Fotovoltaica Norte Grande 7 SPA;Proyecto Ampliación Subestación Uribe;6;86
-Región del Biobío;Los Angeles;AR Alena SpA;Modificación Canalización Subterránea  Parque Eólico Alena;10;392
-Región de Arica y Parinacota;Arica;Empresa de Transmisión Electrica - TransEmel S.A.;Modificación del Sistema de Transmisión Eléctrica a Arica 66kV. Arica-I Región (e-seia);1.2;735
-Región de Antofagasta;Sierra Gorda;Norgener S.A.;Sistema de Transmisión Lomas Bayas;1.2;66
-Región del Maule;Colbún;TRANSELEC S.A.;Ampliación de la Subestación Ancoa;11.5;217
-Región de Valparaíso;Llay Llay;Chilquinta Energía S.A.;PROYECTO LÍNEA DE TRANSMISIÓN DE 110 KV LAS VEGAS - LLAY LLAY (e-seia);1.1;130
-Región de Los Lagos;Puerto Montt-Puerto Varas;HIDROELÉCTRICA ENSENADA S. A.;Línea de Transmisión de 110/66 kV, Ensenada-Melipulli;4;450
-Región de Los Ríos;Valdivia;TRANSELEC S.A.;Subestación Seccionadora Nueva Valdivia;11.8;70
-Región del Biobío;Cabrero-Pemuco;TRANSELEC CONCESIONES S.A.;Subestación Nueva Charrúa’;70;136
-Región Metropolitana de Santiago;Lampa;ENEL DISTRIBUCIÓN S.A.;S/E Seccionadora Nueva Lampa 220 kV;12.9;13
-Región del Biobío;Hualpén;CGE DISTRIBUCIÓN S.A.;Obras de Adecuación Línea de Distribución de 15 kV en Santuario de la Naturaleza Península de Hualpén;1;336
-Región Metropolitana de Santiago;Macul;CHILECTRA S.A.;Refuerzo Línea Tap 110 KV Santa Elena (e-seia);0.5;598
-Región del Biobío;Quilaco;TRANSELEC S.A.;Nueva S/E Seccionadora JMA 220 kV;19.1;128
-Región de Antofagasta;María Elena-Sierra Gorda;Compañía Minera Riochilex S.A.;Línea de Transmisión Eléctrica Encuentro - Spence (e-seia);7;70
-Región del Biobío;Mulchén;PE Piedra Amarilla SpA;Línea de Alta Tensión Piedra Amarilla;10;216
-Región Metropolitana de Santiago;Maipú;CHILECTRA S.A.;Línea 110 KV Chena - Cerro Navia Refuerzo Sector Chena - Maipú;0.6;598
-Región del Maule;Parral-Retiro;LUZPARRAL S.A.;SE PASO HONDO, TAP OFF Y LÍNEA DE TRANSMISIÓN;8.4;224
-Región del Libertador Gral. Bernardo O’Higgins;San Fernando;Hidroeléctrica San Andrés Limitada;Optimización Línea de Transmisión San Andrés;9.5;210
-Región de Los Ríos;Panguipulli;ENDESA S.A.;Línea de Alta Tensión S/E Neltume - Pullinque;37.5;294
-Región de Antofagasta;Mejillones;Kelar S.A;Modificación Línea de Transmisión Kelar;10.5;10
-Región de Coquimbo;La Serena;CGE Transmisión S.A.;Subestación Transformadora de Energía Eléctrica Las Compañías 110/138;1.1;60
-Región del Libertador Gral. Bernardo O’Higgins;Machalí;CODELCO CHILE DIVISIÓN EL TENIENTE;Construcción y Operación Subestación Eléctrica Minero 220/110 KV.;18;276
-Región del Biobío;Los Angeles;wpd Duqueco S.p.A.;Modificación LTE Los Angeles Sur - Duqueco;2.8;256
-Región del Biobío;Mulchén-Quilaco-Santa Bárbara;Colbún S.A.;S/E Mulchén;11.7;40
-Región de Antofagasta;Mejillones;E-CL S.A.;Tendido Eléctrico Mejillones-Mantos Blancos;3.2;12
-Región Metropolitana de Santiago;Til Til, Lampa y Colina;Angloamerican Sur S.A.;Modificación Línea Eléctrica Polpaico-Confluencia, Sector El Manzano (e-seia);2;403
-Región de Los Lagos;Osorno;Sistema de Transmisión del Sur S.A.;Proyecto La Misión;19.3;500
-Región del Biobío;Chiguayante-Hualqui;Eduardo Castillo Aguirre;Proyecto Línea 66 kV, Chiguayante-Quilacoya (e-seia);2;104
-Región del Libertador Gral. Bernardo O’Higgins;San Fernando;TRANSNET S.A.;“Nuevo Transformador 154/66 kV S/E San Fernando;1.7;12
-Región del Biobío;Los Angeles;TRANSNET S.A.;Ampliación S/E Duqueco 220/66/23 kV;11.6;192
-Región de Antofagasta;Antofagasta;Empresa Eléctrica de Antofagasta S.A ELECDA;Subestación Eléctrica Sur;1.7;54
-Región de Atacama;Huasco;Compañía Minera del Pacífico S.A.;Ampliación Subestación Eléctrica (S/E) Planta Pellets;4.1;39
-Región de Ñuble;San Ignacio-Bulnes;Sistema de Transmisión del Sur S.A.;Línea de Transmisión 1x66 kV Montenegro - Lucero;6.2;112
-Región de Antofagasta;María Elena-Mejillones-Sierra Gorda;E-CL S.A.;Modificación de Línea de Alta Tensión S/E Chacaya – S/E Crucero;70.5;54
-Región del Libertador Gral. Bernardo O’Higgins;Machalí;CODELCO CHILE DIVISIÓN EL TENIENTE;Ampliación Sistema Eléctrico - Plan de Desarrollo de Teniente;14;54
-Región de Atacama;Diego de Almagro;ACCIONA ENERGÍA CHILE SpA;Modificación de la Línea de Transmisión de la Planta Solar Fotovoltaica Malgarida;4;90
-Región de Antofagasta;Calama;Empresa de Transmisión Eléctrica Transemel S.A.;Ampliación de la Subestación Calama 220 kV;5.7;50
-Región de Atacama;Tierra Amarilla-Copiapó;Compañía Minera del Pacífico S.A.;Regularización LTE 110 kV Cardones - Planta de Magnetita;1.2;150
-Región de Antofagasta;Antofagasta-Mejillones-Sierra Gorda;E-CL S.A.;LÍNEA DE ALTA TENSIÓN S/E CHACAYA  S/E EL COBRE (e-seia);36;98
-Región de Antofagasta;Antofagasta;E-CL S.A.;Ampliación del Sistema de 220 KV del Sector de Antofagasta Obra Nº 2;4.2;22
-Región de Antofagasta;Antofagasta-Mejillones;Transmisora Eléctrica del Norte S.A.;Reforzamiento Mejillones;98.3;92
-Región de Antofagasta;María Elena-Mejillones;Minera Antucoya;“Modificaciones Proyecto Antucoya”;10.1;52
-Región de Los Ríos;Valdivia;TRANSELEC S.A.;Incorporación de barra de transferencia en 220 kV en la S/E Valdivia;10;490
-Región del Maule;San Clemente-Colbún;Empresa Nacional de Electricidad S.A.;LTE CH Los Cóndores - S/E Ancoa;60;231
-Región de Tarapacá;Pica;Compañia Minera Teck Quebrada Blanca S.A;Modificación Parcial Trazado Interconexión Eléctrica al SING;12;26
-Región Metropolitana de Santiago;Til-Til;TRANSELEC S.A.;S/E POLPAICO 220 KV: INSTALACIÓN SEGUNDO AUTOTRANSFORMADOR 750 MVA (e-seia);25.6;533
-Región de Atacama;Vallenar;ENGIE Energía Chile S.A.;Subestación Seccionadora Algarrobal de 200 kV;11.1;111
-Región Metropolitana de Santiago;San Pedro;Empresa Eléctrica de Melipilla, Colchagua y Maule S.A.;Línea de Subtransmisión Eléctrica de 66 kV y Subestación La Manga;0.9;637
-Región de Atacama;Copiapó;ALEXANDROS GEORGIOS SEMERTZAKIS PANDOLFI;INSTALACIÓN DE UN EQUIPO CER EN LA SUBESTACIÓN ELÉCTRICA CARDONES;50;30
-Región del Biobío;Los Angeles;TRANSNET S.A.;Subestación Seccionadora Santa Luisa 154 kV;2.8;184
-Región del Maule;San Clemente;TRANSNET S.A.;Apoyo en 220 kV a S/E Maule;26;49
-Región de Coquimbo;Salamanca-Canela-Ovalle-Coquimbo-Illapel;Centella Transmisión S.A.;Nueva Línea Transmisión 2x220 kV Nueva Pan de Azúcar-Punta Sierra-Centella;140;124
-Región de Los Lagos;Ancud-Calbuco-Maullín;Sistema de Transmisión del Sur S.A.;Construcción Sistema de Transmisión en 220 KV. Puerto Montt  Chiloé. 3era etapa Colaco  Degañ. (e-seia);11;430
-Región de Antofagasta;Sierra Gorda;SIERRA GORDA S.C.M.;LÍNEA 1X220KV SPENCE - SIERRA GORDA;4.1;4
-Región de Valparaíso;Viña del Mar;CGE Transmisión S.A.;Ampliación Subestación Marga Marga 110/13,2 kV (e-seia);0.8;85
-Región de Atacama;Freirina-Vallenar;Ibereólica Cabo Leones II S.A.;Línea de Alta Tensión de Doble Circuito de 220 kV Subestación Domeyko a Subestación Maitencillo;120;129
-Región de Valparaíso;La Cruz-Quillota;Chilquinta Energía S.A;PROYECTO LINEA 2X110kV A SUBESTACIÓN MAYACA;10;110
-Región de Atacama;Tierra Amarilla;TRANSNET S.A.;Sistema de subtransmisión eléctrica 110 kv Minera Atacama Kozan;0.2;45
-Región de Valparaíso;Valparaíso;Casablanca Transmisora de Energía S.A.;Nueva Subestación La Pólvora 220/110 kV;18.2;95
-Región de Valparaíso;Puchuncaví;CGE Transmisión S.A.;Modificación Línea de Transmisión 110 kV Quillota-Illapel, Sector Marbella;0.6;100
-Región del Maule;San Clemente;Hidroeléctrica Río Lircay S.A.;Modificación Central Hidroeléctrica Mariposas .;0.5;147
-Región del Libertador Gral. Bernardo O’Higgins;Machalí;CODELCO CHILE DIVISIÓN EL TENIENTE;Reforzamiento Sistema Eléctrico Mina (e-seia);81;258
-Región de Valparaíso;Puchuncaví-Quintero;Empresa Nacional de Electricidad S.A. ENDESA;Línea de Transmisión Eléctrica Subterránea Central Termoeléctrica Quintero- Terminal Gas Natural Licuado Quintero;5.7;75
-Región de Antofagasta;María Elena-Mejillones-Sierra Gorda;NORGENER S.A.;LÍNEA DE ALTA TENSIÓN ANGAMOS  ENCUENTRO Y OBRAS ANEXAS (e-seia);63.2;4
-Región del Maule;Molina;LENERGIA CHILE SpA;Subestación Eléctrica LNRG2 23/66 kV;10;217
-Región de Valparaíso;Algarrobo-Casablanca;Chilquinta Energía S.A.;Línea de Transmisión Algarrobo Casablanca;0.9;155
-Región del Libertador Gral. Bernardo O’Higgins;Rancagua;CGE Transmisión S.A.;SUBESTACIÓN DE PODER 66/15 kV TUNICHE (e-seia);0.7;240
-Región del Biobío;Mulchén;INVERSIONES LA FRONTERA SUR SpA;Modificación Sistema de Transmisión Central Hidroeléctrica Frontera;12;16
-Región del Libertador Gral. Bernardo O’Higgins;Rengo;TRANSNET S.A.;Subestación 66/15 kV Rosario (e-seia);2;120
-Región de Los Ríos;La Unión-Paillaco;Sistema de Transmisión del Sur S.A.;Línea de Transmisión 2x66 kV Llollelhue - La Unión;10.3;140
-Región del Biobío;Coronel;FRONTEL S.A.;Línea A.T. 66 KV  Coronel-Corcovado-Escuadron;0.4;64
-Región de Antofagasta;Calama;GEOTERMICA DEL NORTE S.A.;Modificación Línea de Transmisión Eléctrica Cerro Pabellón;6;90
-Región de Atacama;Freirina-Vallenar;Ibereólica Cabo Leones I S.A.;Línea de Transmisión Eléctrica de Doble Circuito de 220 kV Cabo Leonés a SE Maitencillo;9.4;93
-Región de Antofagasta;Antofagasta;MINERA ESCONDIDA LIMITADA;Línea de Transmisión de 220 kV S/E Nueva Zaldívar - S/E Sulfuros (e-seia);9.2;86
-Región de La Araucanía;Collipulli-Ercilla;Parque Eólico los Trigales SPA;Modificación Parque Eolico Los Trigales;4;72
-Región de Antofagasta;María Elena;E-CL S.A.;Suministro Eléctrico para las Instalaciones de SOQUIMICH;16.7;80
-Región del Biobío;Talcahuano;Linde Gas Chile S.A.;Construcción de Línea de Alta Tensión 66 KV AGA Bío Bío;0.1;232
-Región Metropolitana de Santiago;Buin-Isla de Maipo-Paine-San Bernardo-Talagante;TRANSNET S.A.;Línea de Transmisión 1 x 66 kV Fátima – Isla de Maipo;5.1;637
-Región del Libertador Gral. Bernardo O’Higgins;Chimbarongo;TRANSELEC S.A.;Modificación de la Línea 2 x 154 kV Itahue  San Fernando. Sector Embalse Convento Viejo. VI Región. (e-seia);1.1;78
-Región del Libertador Gral. Bernardo O’Higgins;San Fernando;Hidroeléctrica El Paso Ltda.;Aumento de Voltaje Línea de Transmisión Eléctrica El Paso, de 110 a 220 kV;16.2;60
-Región Metropolitana de Santiago;Talagante;TRANSNET S.A.,;Conexión Eléctrica Papelera Talagante;2.7;325
-Región de Los Lagos;Llanquihue;Alberto  Schirmer Roth;PROYECTO HIDROELECTRICO: SENDERO DE LA LUZ (e-seia);0.2;250
-Región de La Araucanía;Freire;Empresa Eléctrica Cordillera SpA;Subestación Quepe 220/66 kV;13.2;432
-Región del Maule;San Clemente;Compañía General de Electricidad S.A.;Seccionamiento Línea 2x220 kV Ancoa-Itahue en S/E Santa Isabel;9;217
-Región de Tarapacá;Pozo Almonte;Desarrollos Solares SpA;Modificación Proyecto Parque Fotovoltaico Huatacondo;7.2;48
-Región de Tarapacá;Huara;ORCOMA SpA;Subestación Seccionadora 220/33 kv Orcoma;9;26
-Región del Biobío;Quilleco;Alfa Transmisora de Energía S.A.;Subestación Seccionadora El Arenal y Seccionamiento línea 2x220 kV Quilleco - Rucúe - Charrúa;14.2;176
-Región del Biobío;Coihueco-San Fabián;Astaldi Concessioni S.R.L. Agencia en Chile;Línea de Transmisión 1x220 kV Punilla - San Fabián;9.2;280
-Región de Antofagasta;Calama;Parque Eólico Valle De Los Vientos S.A.;Línea de Interconexión al SING y Aumento de Potencia del Parque Eólico Valle de los Vientos;50.7;84
-Región de Tarapacá;Iquique-Pozo Almonte-Huara-Alto Hospicio;Compañía Minera Cerro Colorado Ltda.;Suministro Hídrico Cerro Colorado;190;20
-Región Metropolitana de Santiago;Cerrillos-La Cisterna-Lo Espejo-San Bernardo;CHILECTRA S.A.;Potenciación de Línea de Transmisión Eléctrica 110 kV Espejo – Ochagavía, tramo Espejo – Tap Cisterna;1.4;247
-Región de La Araucanía;Cunco-Freire-Melipeuco;ENACON S.A.;Linea de Transmisión en postes de Hormigón de 110 Kv Melipeuco-freire;17;198
-Región de Antofagasta;Antofagasta;ENGIE Energía Chile S.A.;Ampliación Subestación Capricornio;12.2;16
-Región de La Araucanía;Renaico;EMPRESA ELECTRICA DE LA FRONTERA S.A.;Conexión Subestación Nahuelbuta en 23/66 KV;2.3;252
-Región de Atacama;Caldera;TRANSNET S.A.;Ampliación S/E Caldera 110/23 kV;3.6;54
-Región de Valparaíso;Villa Alemana-Limache;Chilquinta Energía S.A;Línea 2x110 kV a S/E Marga Marga;9;155
-Región de Valparaíso;Juan Fernández;Ilustre Municipalidad de Juan Fernández;Construcción Planta  Generación Eólica Isla Robinson Crusoe;1.2;185
-Región de Antofagasta;Antofagasta-Mejillones-Sierra Gorda;EMPRESA ELECTRICA ANGAMOS S.A.;PROYECTO LÍNEA DE ALTA TENSIÓN ANGAMOS - LABERINTO (e-seia);46.2;10
-Región de Antofagasta;María Elena;Sociedad Austral de Transmisión Troncal S.A.;Proyecto Subestación Kimal;40;36
-Región del Biobío;Los Angeles;Energia Renovable Verano Tres SpA;Línea de Transmisión 1 x 220 kV Rarinco - Los Varones;7.6;112
-Región de Antofagasta;María Elena;TRANSELEC S.A.;Subestación Frontera 220 kV;18;54
-Región Metropolitana de Santiago;Puente Alto, San Bernardo, Pirque y Buin;CHILECTRA S.A.;Refuerzo del Tramo Buin-La Pintana Línea 110 kV Buin-La Florida;28;611
-Región Aisén del Gral.Carlos Ibáñez del Campo;Lago Verde;Ilustre Municipalidad de Lago Verde, Región de Aysén.;Construcción Línea Media Tensión. Cruce Mina El Toqui-Amengual-La Tapera (e-seia);0.5;165
-Región de Valparaíso;Algarrobo;Chilquinta Energía S.A;Subestación Doble  Barra Tap Algarrobo;6.9;55
-Región de La Araucanía;Freire;Sociedad Austral de Transmisión Troncal S.A.;Subestación Seccionadora Río Toltén 220 kV;13;45
-Región de Valparaíso;Viña del Mar;Compañía Nacional de Fuerza Eléctrica, CONAFE;Subestación Rodelillo;4.8;35
-Región de Coquimbo;La Serena-Vicuña;Compañía Minera Arqueros S.A.;Modificaciones Proyecto Minero Arqueros;3;172
-Región del Biobío;Talcahuano;Petroquim S.A.;Línea de Alimentación Eléctrica de 66 KV desde Subestación Petropower a la Subestación Petroquim;0.4;368
-Región de Antofagasta;Antofagasta;ANDES MAINSTREAM SPA;Extensión LTE Parque Eólico Cerro Tigre;0.7;56
-Región de Atacama;Tierra Amarilla;Empresa Eléctrica Cordillera SpA;Nueva Línea 110 kV Cerrillos - Atacama Kozán;2.2;3
-Región de Antofagasta;Antofagasta;Kelar S.A.;Línea alternativa de evacuación Central Kelar;10.5;12
-Región de La Araucanía;Freire-Pitrufquén;Transmisora Valle Allipen SA;Línea de Transmisión Río Toltén - Nueva Río Toltén;2;162
-Región de Los Lagos;Puyehue;SISTEMA DE TRANSMISIÓN DEL SUR S.A.;Subestación Antillanca 220/110 kV 0 (e-seia);12;160
-Región Metropolitana de Santiago;Pudahuel;CHILECTRA S.A.;Modificación Línea 110 kV Cerro Navia - Lo Aguirre, Sector ENEA;2.7;325
-Región de Atacama;Diego de Almagro;Transmisora Eléctrica del Norte S.A.;Trazado Alternativo sector Río Salado para Proyecto Sistema de Transmisión de 500 kV Mejillones-Cardones;0.3;51
-Región de Tarapacá;Pica;Cia. Minera Doña Inés de Collahuasi;Línea de Transmisión Eléctrica 110 Kv Ujina-Coposa;37;17
-Región de Valparaíso;Puchuncaví-Quillota-Quintero;Empresa Nacional de Electricidad S.A. ENDESA;Línea de Alta Tensión Central Termoeléctrica Quintero - Subestación San Luis (e-seia);8.5;245
-Región de Antofagasta;Antofagasta;AES GENER S.A;MODIFICACIÓN DE LA SUBESTACIÓN ANDES MEDIANTE LA INSTALACIÓN Y OPERACIÓN DE UN SISTEMA DE ALMACENAMIENTO DE ENERGÍA (e-seia);14;96
-Región del Libertador Gral. Bernardo O’Higgins;Chimbarongo;Sociedad Concesionaria Embalse Convento Viejo S.A.;Subestación Seccionadora Convento Viejo y su Conexión al SIC;2.5;144
-Región de Antofagasta;Tocopilla;Electroandina S.A.;Línea de Alta Tensión S/E Tocopilla – S/E Tamayita;6;68
-Región de Atacama;Vallenar;Hidroeléctrica Río Huasco S.A.;Modificación del Proyecto Central Hidroeléctrica Río Huasco Mediante Instalación de Subestación Eléctrica Río Huasco;2;96
-Región del Maule;Colbún-Molina-Pelarco-Río Claro-San Clemente;TRANSELEC S.A.;Línea de Transmisión Eléctrica de 2x220 kv S/E Ancoa  S/E Itahue (Segunda Presentación);14.1;322
-Región de Antofagasta;Antofagasta;E-CL S.A.;SUBESTACION EL COBRE 220 kV (e-seia);17.2;6
-Región de Antofagasta;Tocopilla;COMPAÑIA MINERA MANTOS DE LA LUNA S.A.;Modificación Sistema de Transmisión Eléctrica Acometida Mantos de la Luna (e-seia);0.7;100
-Región de Coquimbo;Los Vilos;Espinos S.A.;Subestación Seccionadora Algarrobos 220 kV;5;36
-Región del Biobío;Laja-Yumbel-Los Angeles;Eólica Monte Redondo S.A.;Sistema de Transmisión Eléctrica Laja1;10.5;352
-Región de Antofagasta;Mejillones;Empresa Eléctrica de Antofagasta S.A ELECDA;Subestación  Electrica Mejillones;0.6;46
-Región de Los Ríos;Valdivia;TRANSELEC S.A.;Ampliación Subestación Nueva Valdivia;4.7;112
-Región Metropolitana de Santiago;Cerro Navia;TRANSELEC S.A.;BANCO DE CONDENSADORES 50 MVAR EN SUBESTACIONES ELECTRICAS ALTO JAHUEL Y CERRO NAVIA;5;117
-Región de Atacama;Alto del Carmen-Vallenar;TRANSNET S.A.;Línea 66 kv Valle - Vallenar;0.7;63
-Región de Los Ríos;San José de la Mariquina;TRANSELEC S.A.;Ampliación S/E Ciruelos 220 kV;3.7;504
-Región de Tarapacá;Iquique;Nor Oeste Pacífico Generación de Energía Limitada, NOPEL;Línea de Transmisión Eléctrica Central Térmica Tarapacá-Subestación Principal Iquique;69;12
-Región de Tarapacá;Huara;Red Eléctrica del Norte S.A.;Variante Sector Huara Proyecto Nuevas Líneas 2x220 kV entre Parinacota y Cóndores;3.1;50
-Región de Coquimbo;Andacollo;TRANSNET S.A.;Modificación de 3,77 km Línea de Transmisión 110 kv El Peñón-Andacollo, sector Carmen de Andacollo (e-seia);0.7;92
-Región de Tarapacá;Pozo Almonte;Red Eléctrica del Norte S.A.;Subestación Seccionadora Nueva Pozo Almonte 220 kV;28;13
-Región de Antofagasta;Antofagasta;ENGIE Energía Chile S.A.;Subestación Seccionadora Nueva La Negra 220/110 kV;14.7;18
+Region;Comuna;Titular;Nombre;Inversion_MMUS;Posicion;Plazo
+Región de Antofagasta;María Elena-Mejillones-Sierra Gorda;NORGENER S.A.;LÍNEA DE ALTA TENSIÓN ANGAMOS  ENCUENTRO Y OBRAS ANEXAS (e-seia);63.2;2;6
+Región del Biobío;Coronel;Empresa Nacional de Electricidad S.A. ENDESA;Ampliación Subestación Bocamina (e-seia);5.4;56;8
+Región del Biobío;Talcahuano;TRANSNET S.A.;Línea de Transmisión 66 KV Talcahuano - Latorre Nº 2;0.5;256;9
+Región de Tarapacá;Iquique;TRANSEMEL;Ampliación del SING-Sistema de Transmisión de 110 kv Iquique;16.3;14;5
+Región del Maule;San Clemente;Colbún S.A.;Línea de Alta Tensión La Mina - Loma Alta y Subestaciones;12.9;126;3
+Región Metropolitana de Santiago;Buin;SOCIEDAD AUSTRAL DE TRANSMISION TRONCAL S.A.;Subestacion Electrica Seccionadora Linderos;16.6;312;4
+Región de Atacama;Vallenar;Eléctrica de Vallenar SpA;Subestación Eléctrica Las Campanas;6;135;1
+Región de Antofagasta;María Elena-Mejillones-Sierra Gorda;E-CL S.A.;Línea de Alta Tensión S/E Chacaya – S/E Crucero;70.5;96;6
+Región de Antofagasta;Sierra Gorda;Enel Green Power Chile Limitada;Modificación de la línea de transmisión eléctrica del proyecto Parque Eólico Sierra Gorda Este;3;88;6
+Región Metropolitana de Santiago;Cerro Navia- Renca;CHILECTRA S.A.;Refuerzo Línea 110 Kv San Cristóbal- Cerro Navia: Tramo Lo Boza-Cerro Navia;0.2;234;3
+Región de Los Lagos;Osorno;Empresa Eléctrica Pilmaiquén S.A.;TAP OFF PICHIRREHUE;19.8;470;6
+Región de Atacama;Diego de Almagro;BESS Halcón 5 SpA;Línea de Transmisión y Central BESS Halcón 5;104.9;54;4
+Región de Coquimbo;Coquimbo;Plus Energia Spa;Sistema de Almacenamiento de Energía Eléctrica Tipo BESS. Camarones;350;88;2
+Región de Ñuble;Chillán;TRANSNET S.A.;Subestación 220/66 kV Monterrico (e-seia);4;80;6
+Región de Atacama;Freirina-Vallenar;DESARROLLO ENERGÉTICO SOLAR CHILE SPA;Subestación Eléctrica y Línea de Transmisión 110 KV desde S/E propia a S/E Maitencillo;4.5;117;6
+Región de Atacama;Copiapó;TRANSELEC S.A.;Ampliación Subestación Carrera Pinto;5.7;21;8
+Región de Coquimbo;Ovalle;Terrazas Solar SpA;Optimización Línea de Transmisión y Nueva Subestación Seccionadora del Parque Fotovoltaico Las Terrazas;290;132;2
+Región de Tarapacá;Alto Hospicio;TRANSELEC S.A.;Ampliación y Cambio de Configuración en S/E Cóndores 220 kV;13.3;16;10
+Región de Los Lagos;Puyehue;SISTEMA DE TRANSMISION DEL SUR S.A.;Línea de Transmisión 110 kV Correntoso – S/E Aihuapi;2.9;20;4
+Región de Antofagasta;María Elena-Mejillones-Sierra Gorda;E-CL S.A.;Modificación de Línea de Alta Tensión S/E Chacaya – S/E Crucero;70.5;68;9
+Región de Antofagasta;Antofagasta;Engie Energía Chile S.A.;Línea Eléctrica Bypass Antofagasta;13.4;20;4
+Región de Los Lagos;Puyehue;SISTEMA DE TRANSMISIÓN DEL SUR S.A.;Subestación Antillanca 220/110 kV 0 (e-seia);12;270;7
+Región del Biobío;Los Alamos;TRANSNET S.A.;Construcción Patio de Maniobras en S/E Tres Pinos;2.1;176;1
+Región Metropolitana de Santiago;Buin;ALEXANDROS GEORGIOS SEMERTZAKIS PANDOLFI;Ampliación de la Subestación Alto Jahuel;9;169;7
+Región de Antofagasta;Mejillones;E-CL S.A.;Tendido Eléctrico Mejillones-Mantos Blancos;3.2;90;9
+Región de Antofagasta;Antofagasta;E-CL S.A.;Ampliación del Sistema de 220 KV del Sector de Antofagasta Obra Nº 2;4.2;50;10
+Región de Los Ríos;Paillaco;Sistema de Transmisión del Sur S.A.;Proyecto Llollelhue;15;42;2
+Región de Valparaíso;Viña del Mar;TRANSNET S.A.;Línea de Transmisión Subterránea 110kV Miraflores - Marga Marga, segundo Circuito (e-seia);3.5;20;8
+Región de Ñuble;San Ignacio;Sistema de Transmisión del Sur S.A.;Subestación seccionadora Montenegro 220-154/66/13,2 kV;10.9;224;3
+Región del Biobío;Los Angeles;Energia Renovable Verano Tres SpA;Línea de Transmisión 1 x 220 kV Rarinco - Los Varones;7.6;368;1
+Región del Maule;Colbún;TRANSELEC S.A.;Ampliación de la Subestación Ancoa;11.5;154;8
+Región Metropolitana de Santiago;Colina-Lampa-Lo Barnechea-Til Til;COLBÚN-MACHICURA S.A.;Línea de Transmisión Polpaico Maitenes 220 kV;15;377;4
+Región de Antofagasta;Calama;ENGIE Energía Chile S.A.;Nueva Línea 2x220 kV S/E Nueva Chuquicamata – S/E Calama, tendido del primer circuito;5.1;4;2
+Región de Antofagasta;Mejillones;Empresa Eléctrica Cochrane S.A;Modificación de Subestación Eléctricay Sistema de Almacenamiento de Energía de Central Termoeléctrica Cochrane;24.5;76;9
+Región de Atacama;Diego de Almagro;Empresa de Desarrollo de Energías Renovables Alen Walung S.A.;LAT 1x220kV  Bella Mónica-Illapa y Conexión de Campos del Sol Norte y Centro a SE Bella Mónica;9;66;9
+Región de Atacama;Copiapó;ALEXANDROS GEORGIOS SEMERTZAKIS PANDOLFI;INSTALACIÓN DE UN EQUIPO CER EN LA SUBESTACIÓN ELÉCTRICA CARDONES;50;93;3
+Región de Valparaíso;Algarrobo;COMPAÑIA TRANSMISORA DEL NORTE GRANDE S.A.;Nueva S/E Seccionadora Los Poetas y Nueva Línea 1x66 Kv Algarrobo -  Los Poetas;5.5;215;3
+Región de Atacama;Huasco;Compañía Minera del Pacífico S.A.;Ampliación Subestación Eléctrica Los Colorados;5.3;123;1
+Región del Libertador Gral. Bernardo O’Higgins;San Fernando;Hydrochile S.A;Sistema de Transmisión Eléctrica San Andrés (e-seia);7.7;72;3
+Región del Biobío;Chillán Viejo;Cooperativa de consumo de energía eléctrica Chillan;Subestación Eléctrica Quilmo II;0.9;88;1
+Región de Los Lagos;Puerto Varas-Puerto Montt-Calbuco-Maullín-Llanquihue-Ancud;Transmisora del Pacífico S.A.;Sistema de Transmisión S/E Tineo - S/E Nueva Ancud;107;210;1
+Región de Valparaíso;Llay Llay;TRANSELEC S.A.;Subestación Seccionadora Río Aconcagua 220/110 kV;8.2;50;8
+Región de Antofagasta;Mejillones;E-CL S.A.;AMPLIACIÓN S/E CHACAYA 110 kV y 220 kV (e-seia);12;28;8
+Región de Antofagasta;Calama;Empresa Geotérmica del Norte S.A;Perforación Geotérmica Profunda El Tatio Fase I;20;10;10
+Región de Coquimbo;Los Vilos;CGE Transmisión S.A.;Subestación de Transformación de 220/110 KV Choapa;3.5;76;6
+Región de Los Ríos;La Unión;Sistema de Transmisión del Sur S.A;Línea Interconexión 2x66 kV Los Tambores;2.1;98;7
+Región del Libertador Gral. Bernardo O’Higgins;Codegua;Colbún S.A.;Nueva Subestación Seccionadora Codegua 110/66 kV;13.2;150;8
+Región de Tarapacá;Pozo Almonte;AIBOA SOLAR SPA;Modificación de la línea eléctrica de evacuación del Parque Solar Fotovoltaico Arrebol;1;15;2
+Región de Los Lagos;Calbuco;SISTEMA DE TRANSMISIÓN DEL SUR S.A.;Construccion y Operacion Subestacion Calbuco (e-seia);1.3;380;1
+Región de Antofagasta;Taltal;Pampa Solar Sur Cinco SpA;Proyecto “Línea de Alta Tensión 1x220 kV, S/E Elevadora Pampa Solar Sur – S/E Seccionadora Pampa Solar Sur;16.6;80;1
+Región de Los Lagos;Ancud-Calbuco;Sistema de Transmisión del Sur S.A.;Cruce Chiloé;19.6;160;9
+Región de Atacama;Tierra Amarilla-Copiapó;Compañía Minera del Pacífico S.A.;Regularización LTE 110 kV Cardones - Planta de Magnetita;1.2;18;2
+Región del Biobío;Mulchén-Quilaco-Santa Bárbara;Colbún S.A.;S/E Mulchén;11.7;112;8
+Región de Los Lagos;Cochamó-Puerto Montt;Eléctrica Los Andes S.A.;Cambio de Conductor Línea Existente 2x220 kV Canutillar - Puerto Montt;15;460;6
+Región del Libertador Gral. Bernardo O’Higgins;Chimbarongo;TRANSNET S.A.;Modificación de la línea 66 kV Teno - San Fernando, Sector Quinta, VI Region (e-seia);0.9;300;9
+Región de Tarapacá;Huara;Red Eléctrica del Norte S.A.;Variante Sector de Huara para el Proyecto Nuevas Líneas 2x220 entre Parinacota y Cóndores;3.1;39;4
+Región de Coquimbo;Los Vilos;Espinos S.A.;Subestación Seccionadora Algarrobos 220 kV;5;88;7
+Región de Los Lagos;Osorno;Sistema de Transmisión del Sur S.A.;Proyecto La Misión;19.3;300;6
+Región de Ñuble;Ninhue-Quirihue-San Carlos-San Nicolás;Empresa Eléctrica de Melipilla Colchagua y Maule S.A.;Transformación de Línea de Transmisión Eléctrica y Subestaciones Eléctricas VIII Región;0.7;624;5
+Región del Maule;Yerbas Buenas-Colbún-Linares;TRANSELEC S.A.;Proyecto San Ambrosio;46.3;112;8
+Región del Biobío;Cabrero;EMPRESA ELECTRICA DE LA FRONTERA S.A.;Modificación Línea Existente 66 Kv. Charrua-Cabrero (e-seia);1.4;48;8
+Región del Libertador Gral. Bernardo O’Higgins;San Fernando-Chimbarongo-Placilla;TRANSELEC S.A;Ampliación Subestación Eléctrica (S/E) Tinguiririca, Segundo Tendido 2x154 kV Tinguiririca-San Fernando, construcción de Paños en S/E San Fernando y Adecuación Línea de Transmisión Eléctrica 2x154 kV Punta de Cortés-Tinguiririca;18.9;300;4
+Región de Antofagasta;Antofagasta;Empresa de Transmisión Eléctrica Transemel S.A.;Regularización y Mejoramiento Tap-Off en 110 KV Respaldo Uribe;0.9;88;3
+Región del Biobío;Hualqui;Mataquito Transmisora de Energía S.A.;Nueva Subestación Seccionadora Hualqui 220/66 kV;14.6;280;4
+Región del Biobío;Mulchén;PE Piedra Amarilla SpA;Línea de Alta Tensión Piedra Amarilla;10;168;4
+Región de Valparaíso;Concón;ENAP Refinerías S.A.;Subestación Mauco y Línea de Transmisión 110 kV para Enap Refinerías Aconcagua (e-seia);10.6;205;5
+Región de Atacama;Vallenar-Freirina;TRANSELEC S.A.;Nueva Línea 1x110 kV Maitencillo-Vallenar;8.6;75;10
+Región de Coquimbo;Combarbalá;TRANSNET S.A.;S/E Seccionadora Lilén 110/23 kV;5.8;20;1
+Región del Libertador Gral. Bernardo O’Higgins;Chimbarongo;TRANSELEC S.A.;Modificación de la Línea 2 x 154 kV Itahue  San Fernando. Sector Embalse Convento Viejo. VI Región. (e-seia);1.1;66;5
+Región del Maule;San Clemente-Colbún;Empresa Nacional de Electricidad S.A.;LTE CH Los Cóndores - S/E Ancoa;60;273;7
+Región de Antofagasta;Antofagasta-Mejillones;Electroandina S.A.;Línea de Transmisión Chacaya - La Negra;22.9;60;4
+Región del Libertador Gral. Bernardo O’Higgins;Rancagua;TRANSELEC S.A.;Línea de Transmisión Eléctrica Punta de Cortes – Tuniche;3.5;288;4
+Región de Antofagasta;Calama;Empresa Eléctrica de Antofagasta S.A ELECDA;Subestación Eléctrica Topater;0.6;86;10
+Región de Los Ríos;Los Lagos-Máfil-San José de la Mariquina;Colbún S.A.;Línea de Alta Tensión San Pedro - S/E Ciruelos (e-seia);22;308;1
+Región de Los Lagos;Frutillar;TRANSELEC S.A.;Subestación Seccionadora Frutillar Norte 220 kV;10;330;5
+Región de Antofagasta;Mejillones;Kelar S.A;Modificación Línea de Transmisión Kelar;10.5;60;4
+Región Metropolitana de Santiago;Buin-Isla de Maipo-Paine-San Bernardo-Talagante;TRANSNET S.A.;Línea de Transmisión 1 x 66 kV Fátima – Isla de Maipo;5.1;533;3
+Región Metropolitana de Santiago;Til Til, Lampa y Colina;Angloamerican Sur S.A.;Modificación Línea Eléctrica Polpaico-Confluencia, Sector El Manzano (e-seia);2;546;9
+Región de Arica y Parinacota;Arica;Empresa de Tansmisión Eléctrica TRANSEMEL S.A;Subestación Seccionadora Azapa y Línea de Seccionamiento 220 kV;12;75;6
+Región del Maule;Teno;PANELES ARAUCO S. A.;Modificación de Línea de Transmisión Eléctrica para Planta Paneles MDP Teno;0.8;196;7
+Región de Antofagasta;Taltal;Colbún S.A.;Ajuste Línea de Transmisión Eléctrica Norte Parque Eólico Horizonte;8.3;82;10
+Región de Antofagasta;Calama;CODELCO CHILE;Proyecto Línea de Transmisión Eléctrica 220 kV S/E Salar - S/E RT Principal;18.4;44;6
+Región del Biobío;Los Angeles;CMPC PULP SpA;Normalización y Ampliación en Subestación María Dolores 220kV;4.5;120;1
+Región de La Araucanía;Renaico;EMPRESA ELECTRICA DE LA FRONTERA S.A.;Conexión Subestación Nahuelbuta en 23/66 KV;2.3;315;6
+Región de Atacama;Freirina-Vallenar;AM Eolica Sarco SpA;LÍNEA DE TRANSMISIÓN ELÉCTRICA 2 X 220 kV, TRAMO SARCO – MAITENCILLO, COMUNAS DE FREIRINA Y VALLENAR, PROVINCIA DEL HUASCO, REGIÓN DE ATACAMA;25;21;4
+Región del Biobío;Concepción-Penco;TRANSNET S.A.;Línea de Transporte 66 KV Alonso de Ribera - Penco;1;96;2
+Región Metropolitana de Santiago;Cerro Navia;TRANSELEC S.A.;Instalación de Equipos de Compensación de Energía Eléctrica en Subestaciones Cerro Navia y Polpaico (e-seia);50;117;3
+Región de Tarapacá;Pozo Almonte;El Solar SpA;Sistema de Transmisión Eléctrica El Solar;11.8;32;7
+Región del Biobío;Coronel;FRONTEL S.A.;Línea A.T. 66 KV  Coronel-Corcovado-Escuadron;0.4;104;1
+Región de Tarapacá;Pozo Almonte;Engie Energía Chile S.A.;Ampliación Subestación Tamarugal;3.2;35;1
+Región de Antofagasta;María Elena;Crucero Oeste Cinco SpA;Línea de Alta Tensión 1x220 kV Nueva SE Crucero FV– SE Encuentro;12.1;66;5
+Región de Coquimbo;La Serena;CGE Transmisión S.A.;Subestación Transformadora de Energía Eléctrica Las Compañías 110/138;1.1;8;8
+Región de La Araucanía;Temuco-Freire-Nueva Imperial-Padre Las Casas;Besalco Transmisión SPA;Línea 2x66 kV Nueva Metrenco-Enlace Imperial;6.8;423;1
+Región del Biobío;Arauco-Coronel-Lota;Parque Eólico Arauco S.A.;Línea de Alta Tensión 1x220 kV, Tubul-Lagunillas;15.4;208;4
+Región de Valparaíso;Quillota;SOCIEDAD AUSTRAL DE TRANSMISION TRONCAL S.A.;SUBESTACIÓN TAP OFF LAS GARZAS;3.2;55;6
+Región de Los Lagos;Castro-Chonchi;SOCIEDAD AUSTRAL DE TRANSMISION TRONCAL S.A.;Nueva Línea 2x220 kV Gamboa - Chonchi;26.4;450;2
+Región de Atacama;Vallenar;ENGIE Energía Chile S.A.;Subestación Seccionadora Algarrobal de 200 kV;11.1;66;6
+Región de Valparaíso;La Cruz-Quillota;Chilquinta Energía S.A;PROYECTO LINEA 2X110kV A SUBESTACIÓN MAYACA;10;165;8
+Región de Atacama;Alto del Carmen-Vallenar;TRANSNET S.A.;Línea 66 kv Valle - Vallenar;0.7;120;8
+Región de Antofagasta;Sierra Gorda;Minera Esperanza;LÍNEA  1 x 220 kV S/E TESORO  S/E ESPERANZA (e-seia);3;30;9
+Región de Ñuble;San Carlos;Empresa de Tansmisión Eléctrica TRANSEMEL S.A;Nueva Subestación Seccionadora Buli;18.9;288;5
+Región de Valparaíso;Valparaíso;Casablanca Transmisora de Energía S.A.;Nueva Subestación La Pólvora 220/110 kV;18.2;75;5
+Región de Atacama;Freirina-Vallenar;Ibereólica Cabo Leones II S.A.;Línea de Alta Tensión de Doble Circuito de 220 kV Subestación Domeyko a Subestación Maitencillo;120;129;7
+Región de Los Lagos;Llanquihue;TRANSELEC S.A.;Reemplazo Tap-Off Aurora por Línea de Transmisión 1x220 kV para conexión con Subestación Nueva Puerto Montt;7.1;60;4
+Región de Antofagasta;Antofagasta;Empresa Eléctrica de Antofagasta S.A ELECDA;Subestación Eléctrica Sur;1.7;48;7
+Región de Atacama;Copiapó;TRANSELEC S.A.;Incorporación de Barra de Transferencia en 220 kV en S/E Carrera Pinto;6.5;54;3
+Región de Antofagasta;Calama;GEOTERMICA DEL NORTE S.A.;Modificación Línea de Transmisión Eléctrica Cerro Pabellón;6;58;10
+Región del Libertador Gral. Bernardo O’Higgins;Malloa-Olivar-Rancagua-Rengo-Requinoa-San Fernando;TRANSELEC S.A.;Cambio de Conductor y Mantención General para Operación en 220 kV de Línea de Transmisión Eléctrica Tinguiririca- Punta de Cortes Mantención y Cambio de Conductor LTEAT 220 kV;10;258;5
+Región de Atacama;Diego de Almagro;AGUAS CHAÑAR S.A.;Suministro de Energía Eléctrica Pozos Emssat Quebrada de Asientos;0.2;84;2
+Región del Biobío;Mulchén;Alfa Transmisora de Energía S.A.;Proyecto Ampliación S/E Mulchén y Seccionamiento de la Línea 1x220 kV Duqueco- Los Peumos;5.2;312;7
+Región de Antofagasta;María Elena;EOSOL NEW ENERGY S.A.;Modificación Línea de Alta Tensión Parque Fotovoltaico Tocopilla;1.7;16;10
+Región Metropolitana de Santiago;Cerro Navia-Lo Prado;CHILECTRA S.A.;POTENCIACIÓN LÍNEA DE TRANSMISIÓN ELÉCTRICA 110 kV CHENA – CERRO NAVIA TRAMO TAP SAN JOSÉ – TAP PUDAHUEL;3.1;234;3
+Región del Biobío;Cabrero;TRANSELEC S.A.;BANCO AUTOTRANSFORMADOR S/E CHARRÚA 500/220 KV, 750 MVA;35.4;376;8
+Región de Valparaíso;La Calera;SOCIEDAD AUSTRAL DE TRANSMISION TRONCAL S.A.;Subestación Eléctrica Seccionadora Pachacama;19.8;25;9
+Región de Los Lagos;Calbuco-Maullín-Puerto Montt;SISTEMA DE TRANSMISIÓN DEL SUR S.A.;Refuerzo Sistema de Transmisión a 220 Kv. Puerto Montt - Chiloé. 1era y 2da Etapa Melipulli - Colaco (e-seia);8.4;330;9
+Región de Antofagasta;María Elena;TSGF SpA;Ampliación en SE Ana María y Seccionamiento Línea 2x220 kV Frontera-María Elena;12;62;6
+Región de La Araucanía;Cunco-Freire-Melipeuco;ENACON S.A.;Linea de Transmisión en postes de Hormigón de 110 Kv Melipeuco-freire;17;279;6
+Región Metropolitana de Santiago;Pudahuel y Curacaví;CHILECTRA S.A.;Segundo Circuito Línea 44 kV Lo Prado - Curacaví;0.8;494;10
+Región del Maule;Colbún-San Clemente;Colbún S.A.;Línea de Transmisión Eléctrica San Clemente-Chiburgo (e-seia);1;196;9
+Región del Libertador Gral. Bernardo O’Higgins;Rancagua;CGE Transmisión S.A.;SUBESTACIÓN DE PODER 66/15 kV TUNICHE (e-seia);0.7;210;6
+Región de Tarapacá;Pozo Almonte;Andes Mainstream SpA;Modificación Línea 110 kV Parque Solar Almonte – S/E Pozo Almonte;35;35;9
+Región Metropolitana de Santiago;Huechuraba;Electrica Huechuraba SpA;Línea de Alta Tensión Huechuraba;5;78;9
+Región de Antofagasta;María Elena-Mejillones;Minera Antucoya;“Modificaciones Proyecto Antucoya”;10.1;16;7
+Región Metropolitana de Santiago;San Bernardo;TRANSELEC S.A.;NORMALIZACIÓN S/ECHENA 220 kV;13.4;299;5
+Región de Antofagasta;Calama;Planta Solar Calama Sur S.A.;Modificación del proyecto Planta Fotovoltaica Calama Sur;105;88;7
+Región de La Araucanía;Pitrufquén;Transmisora Valle Allipén S.A.;Ampliación de Subestación Río Toltén;17;99;4
+Región de Los Lagos;Puerto Montt;Sistema de Transmisión del Sur S.A.;Línea Transmisión 220 kV Melipulli – Plaza de Peajes;1.1;110;5
+Región del Maule;Maule-Pencahue;Empresa Eléctrica de Melipilla Colchagua y Maule S.A.;Línea de Transmisión Eléctrica Talca - Pencahue (e-seia);0.7;84;5
+Región de Atacama;Vallenar;Eléctrica de Vallenar SpA;Proyecto Subestación Morrillos;4.6;54;6
+Región de Antofagasta;Mejillones;TRANSMISORA BAQUEDANO S.A;LTE 1X220KV NUEVA MEJILLONES;9.3;70;5
+Región del Biobío;Los Angeles;TRANSNET S.A.;MODIFICACIÓN SUBESTACIÓN 66/23 kV EL AVELLANO (e-seia);1;48;9
+Región del Biobío;Quilaco;TRANSELEC S.A.;Nueva S/E Seccionadora JMA 220 kV;19.1;168;5
+Región de Valparaíso;Nogales;TRANSELEC S.A.;Subestación Seccionadora Nogales 220 kV (e-seia);13.3;95;9
+Región Metropolitana de Santiago;Maipú;TRANSELEC S.A.;Relocalización de Línea de Alta Tensión 2x220 kV Rapel - Cerro Navia, Sector ENEA;3.4;39;5
+Región del Libertador Gral. Bernardo O’Higgins;Mostazal;AES GENER S.A;Línea de Transmisión Eléctrica San Francisco de Mostazal;1.9;120;3
+Región de Antofagasta;María Elena-Sierra Gorda;Minera Spence S.A;Nueva Línea de Alta Tensión 1x220 kV para Soporte de Suministro Eléctrico Minera Spence;51.5;54;4
+Región del Biobío;Mulchén;Inversiones La Frontera Del Bio Bio SpA;LAT San Carlos – S/E Mulchén;7;240;2
+Región de Los Ríos;Corral;Sistema de Transmisión del Sur S.A.;Construcción S/E Corral 16 MVA 66/13.2 Kv;0.5;672;4
+Región de Los Ríos;San José de la Mariquina;TRANSELEC S.A.;Ampliación S/E Ciruelos 220 kV;3.7;182;3
+Región de Valparaíso;Juan Fernández;Ilustre Municipalidad de Juan Fernández;Construcción Planta  Generación Eólica Isla Robinson Crusoe;1.2;145;9
+Región de Antofagasta;Antofagasta;Engie Energía Chile S.A.;Modificación de Alimentación Eléctrica a Planta Desaladora Norte y Nueva S/E Desalant;8.5;10;10
+Región de La Araucanía;Victoria;Hector Adrian Hernandez Bustos;Declaración de impacto ambiental Subestación Pua;0.8;135;5
+Región de Antofagasta;Calama;Empresa de Transmisión Eléctrica Transemel S.A.;Ampliación de la Subestación Calama 220 kV;5.7;42;6
+Región Metropolitana de Santiago;Estación Central-Lo Prado-Maipú;CHILECTRA S.A.;POTENCIACIÓN DE LÍNEA DE TRANSMISIÓN ELÉCTRICA DE 110 kV CHENA - CERRO NAVIA, TRAMO TAP PAJARITOS - TAP SAN JOSÉ;2.1;572;9
+Región de Los Ríos;Valdivia;TRANSELEC S.A.;Ampliación Subestación Nueva Valdivia;4.7;140;10
+Región de Tarapacá;Pica;Compañia Minera Teck Quebrada Blanca S.A;Modificación Parcial Trazado Interconexión Eléctrica al SING;12;10;3
+Región de Ñuble;Bulnes-Chillán-Chillán Viejo-Quillón-Ranquil;TRANSNET S.A.;Línea de Transmisión 66kV Santa Elvira - Nueva Aldea (e-seia);3.1;528;6
+Región de Atacama;Copiapó;Transmisora Eléctrica del Norte S.A.;Conexión Cardones;84;33;1
+Región de Valparaíso;Quilpué;MERVAL S.A.;Subestación Eléctrica El Sol;3.1;170;5
+Región de Tarapacá;Pozo Almonte;Engie Energía Chile S.A.;Proyecto Ampliación Subestación Tamarugal;3.2;24;10
+Región de Arica y Parinacota;General Lagos-Putre;COOPERATIVA DE ABASTECIMIENTO DE ENERGIA ELECTRICA SOCOROMA LTDA,;CONSTRUCCION ELECTRIFICACION SING COMUNA DE GENERAL LAGOS (e-seia);1.5;225;3
+Región de Antofagasta;Calama;Engie Energía Chile S.A.;Modificación Línea de Transmisión 2 X 220 kV Crucero - El Abra;15;38;4
+Región de Antofagasta;María Elena;Codelco Chile Tocopilla;Tendido Eléctrico Crucero-El Abra;9.5;44;9
+Región del Biobío;Los Angeles;Compañía General de Electricidad S.A.;Ampliación en S/E El Avellano;3.4;152;9
+Región de Antofagasta;María Elena-Mejillones-Sierra Gorda;Nor Oeste Pacífico Generación de Energía Limitada, NOPEL;Línea de Transmisión Eléctrica Central Atacama S/E Encuentro;30;50;6
+Región de Atacama;Copiapó-Freirina-Vallenar;TRANSELEC S.A.;Aumento de capacidad de Línea Maitencillo Cardones 1x220 kV;3.9;27;8
+Región del Biobío;Nacimiento;CMPC Pulp SpA;Nueva S/E Seccionadora Nacimiento y Reconfiguración de las Conexiones del Nodo Nacimiento 220 kV;6.6;152;4
+Región del Biobío;Quilleco;Alfa Transmisora de Energía S.A.;Subestación Seccionadora El Arenal y Seccionamiento línea 2x220 kV Quilleco - Rucúe - Charrúa;14.2;344;3
+Región de Los Lagos;Llanquihue;Sistema de Transmisión del Sur S.A.;Subestación Llanquihue;13.4;60;4
+Región de Antofagasta;Mejillones;E-CL S.A.;Suministro Eléctrico a Molycop, Mejillones (e-seia);1.9;38;9
+Región del Biobío;Yumbel-Cabrero-Florida-Hualqui;Compañía Nacional de Transmisión Eléctrica S.A., Transelec;Modificación Línea Eléctrica Charrúa-Concepción de 154 Kv;4.2;112;8
+Región de Los Ríos;La Unión-Paillaco;Sistema de Transmisión del Sur S.A.;Línea de Transmisión 2x66 kV Llollelhue - La Unión;10.3;266;4
+Región de Atacama;Copiapó-Diego de Almagro-Tierra Amarilla;Eletrans S.A;Tendido de Segundo Circuito, Línea Cardones Diego de Almagro con Seccionamiento en Subestación Carrera Pinto;20;96;4
+Región del Maule;San Rafael;CGE Transmisión S.A.;Subestación San Rafael e Interconexión Líneas de Transmisión Itahue -Talca con San Rafael-Hualañe;1.1;154;8
+Región Metropolitana de Santiago;La Cisterna;CHILECTRA S.A.;Refuerzo Línea Tap 110 KV La Cisterna (e-seia);0.4;572;1
+Región del Biobío;Tucapel;Cholguán Transmisión S.A;Línea de Transmisión 1x154 kV Molino - Tap Off Huépil;6.9;184;2
+Región Metropolitana de Santiago;Cerro Navia;TRANSELEC S.A.;S/E CERRO NAVIA 220 [KV]: INSTALACIÓN DE EQUIPOS DE CONTROL DE FLUJOS;31;390;3
+Región Metropolitana de Santiago;Til-Til;TRANSELEC S.A.;Ampliación Subestación Polpaico;6;247;1
+Región de Coquimbo;La Serena;CGE Transmisión S.A.;Construcción Línea 110 KV entre Subestación San Joaquín y Subestación Marquesa;2;196;3
+Región del Maule;Colbún;TRANSELEC S.A.;Restitución banco de autotransformadores en Subestación Ancoa;21;336;5
+Región del Maule;Colbún;TRANSELEC S.A.;Restitución Banco de Autotransformadores en S/E Ancoa;21;203;8
+Región de Atacama;Copiapó;Transmisora Eléctrica del Norte S.A.;Reforzamiento Cardones;40;36;4
+Región de La Araucanía;Angol;EMPRESA ELECTRICA DE LA FRONTERA S.A.;LÍNEA DE TRANSMISIÓN 66 kV CENTRAL HIDROELÉCTRICA PICOIQUÉN – CRUCE HUEQUÉN;3.4;351;8
+Región de La Araucanía;Pucón;TRANSNET S.A.;Subestación de Poder 66/23 KV Pucón (Modificación Línea de Transmisión 66 K/V, Tramo Volcán) (e-seia);1;216;3
+Región de Los Ríos;Valdivia;Sistema de Transmisión del Sur S.A.;S/E California  2x60 MVA 220/66 Kv.;2.5;518;5
+Región del Libertador Gral. Bernardo O’Higgins;Machalí;CODELCO CHILE DIVISIÓN EL TENIENTE;Levantamiento Vulnerabilidades S/E El Cobre (e-seia);17;60;9
+Región de Los Ríos;Panguipulli;ENDESA S.A.;Línea de Alta Tensión S/E Neltume - Pullinque;37.5;336;7
+Región de Valparaíso;Papudo;QUINQUIMO SOLAR SPA;Modificación de Línea de Transmisión Eléctrica Proyecto Quinquimo Solar;85;175;7
+Región de Antofagasta;Calama;E-CL S.A.;Línea Eléctrica a Planta de Biolixiviación;0.8;86;7
+Región del Maule;San Clemente;Hidroeléctrica Río Lircay S.A.;Modificación Central Hidroeléctrica Mariposas .;0.5;126;9
+Región del Libertador Gral. Bernardo O’Higgins;Litueche-La Estrella-Marchihue;Colbún S.A.;Nueva Subestación Seccionadora Loica y Nueva Línea 2x220 Kv Loica - Portezuelo;31.7;24;6
+Región del Biobío;Mulchén;Parque Eólico Renaico S.p.A;Línea de Transmisión Eléctrica Bureo - Mulchén;6;400;1
+Región de Antofagasta;María Elena-Sierra Gorda;Compañía Minera Riochilex S.A.;Línea de Transmisión Eléctrica Encuentro - Spence (e-seia);7;8;1
+Región de Valparaíso;Viña del Mar-Quilpué-Villa Alemana;Metro Regional de Valparaíso S.A.;Línea de Respaldo de 44 kV Metro de Valparaíso;4.5;205;4
+Región del Maule;Colbún-Molina-Pelarco-Río Claro-San Clemente;TRANSELEC S.A.;Línea de Transmisión Eléctrica de 2x220 kv S/E Ancoa  S/E Itahue (Segunda Presentación);14.1;217;2
+Región de Antofagasta;Calama-Ollagüe;GEOTERMICA DEL NORTE S.A.;Proyecto Línea de Transmisión Eléctrica Cerro Pabellón;20;26;3
+Región del Maule;Constitución-San Javier;Nirivilo Transmisora de Energía S.A.;Nueva Línea 2x66 KV Nueva Nirivilo - Constitución;11.4;259;3
+Región de Valparaíso;Panquehue;Chilquinta Energía S.A.;Subestación Panquehue 44/12kV (e-seia);0.7;150;5
+Región de Atacama;Caldera;TRANSNET S.A.;Ampliación S/E Caldera 110/23 kV;3.6;51;4
+Región de Antofagasta;Taltal;Transelec Holdings Rentas Ltda.;Subestación eléctrica Parinas y línea de transmisión eléctrica Parinas-Taltal;51.3;6;10
+Región de Los Ríos;Los Lagos-Máfil-San José de la Mariquina-Paillaco;Eletrans S.A;Obras Complementarias Línea 2x220 kV Ciruelos-Pichirropulli;11.3;560;10
+Región del Maule;San Clemente;Hidromaule S.A.;Línea Transmisión Lircay- Maule 1 x 66 kV (e-seia);2.6;315;8
+Región de Antofagasta;Antofagasta;MINERA ESCONDIDA LIMITADA;Modificaciones Operacionales en Planta Concentradora Laguna Seca y Nueva Línea Eléctrica Asociada, al Interior de Minera Escondida;2351;8;10
+Región de Valparaíso;Olmué;Chilquinta Energia S.A.;Suministro de Energía Eléctrica Comuna de Olmué;0.8;85;6
+Región de Los Lagos;Castro;SISTEMA DE TRANSMISIÓN DEL SUR S.A.;Construcción y Operación Subestación Eléctrica Pid Pid;0.8;240;7
+Región Metropolitana de Santiago;Puente Alto;Transmisora Eléctrica Cordillera SpA;Aumento capacidad LAT 1x110 Costanera-Puente Alto;2.4;221;9
+Región de Valparaíso;Villa Alemana-Limache;Chilquinta Energía S.A;Línea 2x110 kV a S/E Marga Marga;9;190;4
+Región del Libertador Gral. Bernardo O’Higgins;Chimbarongo;Sociedad Concesionaria Embalse Convento Viejo S.A.;Subestación Seccionadora Convento Viejo y su Conexión al SIC;2.5;138;10
+Región de Atacama;Tierra Amarilla;TRANSNET S.A.;Sistema de subtransmisión eléctrica 110 kv Minera Atacama Kozan;0.2;135;4
+Región de Arica y Parinacota;Arica;Transemel S.A.;Subestación de Poder Eléctrica Principal Arica Arica I Región;5.5;300;4
+Región de La Araucanía;Angol-Los Sauces;EMPRESA ELECTRICA DE LA FRONTERA S.A.;Línea de Transmisión 66 kV Angol – Los Sauces;3.4;135;2
+Región del Biobío;Mulchén;INVERSIONES LA FRONTERA SUR SpA;Modificación Sistema de Transmisión Central Hidroeléctrica Frontera;12;288;6
+Región del Maule;Curicó;Compañía Nacional de Fuerza Eléctrica, CONAFE;Subestación Rauquén;1;350;3
+Región de Antofagasta;San Pedro de Atacama;Chilgener S.A. (hoy GENER);Sistema de Transmisión Eléctrica SICO-S/E Atacama;46;6;3
+Región de Ñuble;Chillán Viejo;Cooperativa de consumo de energía eléctrica Chillan;Subestación Eléctrica Quilmo II;0.9;352;1
+Región de Antofagasta;Mejillones;Transmisora Baquedano Sociedad Anonima;MODIFICACION LTE DE 1X110 KV MEJILLONES;21;86;5
+Región de Antofagasta;María Elena;Sociedad Austral de Transmisión Troncal S.A.;Proyecto Subestación Kimal;40;44;3
+Región de Valparaíso;Puchuncaví-Quintero;GNL Quintero S.A.;Línea de Transmisión Subterránea de 110 KV entre GNL Quintero y AES Gener (e-seia);10.6;165;6
+Región de Antofagasta;Antofagasta;AR Pampa SpA;Modificación Parque Fotovoltaico Tigre;8;86;10
+Región de Antofagasta;Antofagasta;Sociedad Austral de Transmisión Troncal S.A.;Nueva Subestación Guardiamarina 110/23 - 13 kV;14;38;2
+Región de Atacama;Tierra Amarilla;ESEDEI Ingenieros S.A.;Variante Suministro Eléctrico en 110 kV Refugio (e-seia);2;111;5
+Región de Antofagasta;Antofagasta;ENGIE Energía Chile S.A.;Subestación Seccionadora Nueva La Negra 220/110 kV;14.7;62;8
+Región de Antofagasta;Calama;E-CL S.A.;Cambio de Trazado Línea de Transmisión Nº4;1.2;50;8
+Región de Los Ríos;Valdivia;EMPRESA SOCIEDAD AUSTRAL DE TRANSMISION TRONCAL S.A.;Nueva linea 2X66 kV Nueva Valdivia- Picarte, Tendido del Primer Circuito;6.3;630;10
+Región del Libertador Gral. Bernardo O’Higgins;San Fernando;Hidroeléctrica San Andrés Limitada;Optimización Línea de Transmisión San Andrés;9.5;108;10
+Región de Valparaíso;Algarrobo-Casablanca;Chilquinta Energía S.A.;Línea de Transmisión Algarrobo Casablanca;0.9;95;4
+Región Metropolitana de Santiago;Renca;Chilectra S.A.;Potenciación de Línea de Transmisión Eléctrica 110 kV Tap Altamirano;0.2;624;9
+Región del Maule;Constitución;Arauco Generación S.A.;Aumento de Generación Eléctrica en Planta de Celulosa Constitución  Subestación y Linea de Transmisión de Alta Tensión;1;231;6
+Región de Atacama;Copiapó;Transmisora Eléctrica del Norte S.A.;Trazado Alternativo sector Río Copiapó para Proyecto Sistema de Transmisión de 500 kV Mejillones-Cardones;6;144;10
+Región de Valparaíso;Catemu;Chilquinta Energía S.A;Nueva Subestación Seccionadora Chagres 44 kV;5;60;9
+Región de Tarapacá;Pica;Compañia Minera Teck Quebrada Blanca S.A.;Interconexión Eléctrica al SING en 14 MW;3;10;8
+Región del Biobío;Laja-Yumbel-Los Angeles;Eólica Monte Redondo S.A.;Sistema de Transmisión Eléctrica Laja1;10.5;312;1
+Región del Libertador Gral. Bernardo O’Higgins;Marchihue;Empresa Eléctrica Cordillera SpA;Nueva Línea 1x66 kV Portezuelo-Alcones;4.2;42;4
+Región de Antofagasta;Antofagasta;Nor Oeste Pacífico Generación de Energía Limitada, NOPEL;Alimentación Eléctrica a La Compañía Minera El Peñón;6.2;76;10
+Región de Atacama;Caldera;Empresa Eléctrica Cordillera SpA;Nueva Línea 2x110 kV desde S/E Caldera a Línea 1x110 kV Cardones-Punta Padrones;0.4;111;10
+Región Metropolitana de Santiago;Las Condes-Providencia;Sociedad Transmisora Metropolitana II S.A.;Nueva Subestación Providencia, Nueva Línea de Transmisión Subterránea 2x110 kV Vitacura - Providencia y Modificaciones en Subestación Vitacura;43.7;442;6
+Región de Antofagasta;Calama;Codelco Chile, División Chuquicamata;Instalación Tercer Autotransformador 220/100 KV Sistema Eléctrico de Distribución Chuquicamata (e-seia);10.7;42;5
+Región de Tarapacá;Iquique;Empresa Eléctrica Iquique S.A. ELIQSA;Subestación Eléctrica Cerro Dragón;1.2;12;7
+Región de Coquimbo;Salamanca-Canela-Ovalle-Coquimbo-Illapel;Centella Transmisión S.A.;Nueva Línea Transmisión 2x220 kV Nueva Pan de Azúcar-Punta Sierra-Centella;140;68;9
+Región de Valparaíso;Viña del Mar-Concón;CHILQUINTA TRANSMISION S.A.;Línea 1x110 KV Bosquemar - Tap Reñaca - Reñaca;6.4;35;8
+Región de Antofagasta;Mejillones;SOCIEDAD GNL MEJILLONES S.A.;LÍNEAS DE TRANSMISIÓN DE 110 kV Y 220 kV S/E CHACAYA - GNLM (e-seia);3.5;92;8
+Región de Los Lagos;Castro;Sistema de Transmisión del Sur S.A.;Subestación Nueva Gamboa;19;60;4
+Región del Biobío;Lebu;Cristalerías Toro S.A.I.C.;Subestación Eléctrica Parque Eólico Cristoro, Lebu;1;240;10
+Región del Maule;San Clemente;Compañía General de Electricidad S.A.;Seccionamiento Línea 2x220 kV Ancoa-Itahue en S/E Santa Isabel;9;49;2
+Región Metropolitana de Santiago;Colina-Til-Til;Anglo American Sur S.A.;Modificación de Línea de Transmisión Eléctrica 220 kV Polpaico- Confluencia, tramo entre torres E-45 y E-63;10.5;507;5
+Región de Los Ríos;Futrono-La Unión-Paillaco;STAR Transmisión SpA;Sistema de Transmisión Adicional de los Ríos;33;350;10
+Región Metropolitana de Santiago;Huechuraba y Recoleta;CHILECTRA S.A.;Refuerzo Líneas 110 kV San Cristóbal  Cerro Navia, tramo San Cristóbal  Tap Recoleta y El Salto  San Cristóbal, tramo Torre T28  San Cristóbal (e-seia);6.7;104;10
+Región de Antofagasta;Mejillones;CENTRAL ILLAPA S.A.;DIA Modificacion de la Linea de Transmision Central Illapa;4.5;28;8
+Región de La Araucanía;Collipulli;wpd Malleco SPA;Aumento de Tensión Línea Subterránea y Obras Complementarias – Parque Eólico Malleco;500;126;10
+Región de Ñuble;Chillán-Chillán Viejo;cooperativa eléctrica chillan ltda;Línea de transmisión eléctrica de 33 KV Santa Elisa-Confluencia;1.3;688;8
+Región de Atacama;Diego de Almagro;Codelco Chile División Salvador;Modificación Línea 110 kv Diego de Almagro - Potrerillos;4.8;24;1
+Región Metropolitana de Santiago;Paine;TRANSNET S.A.;Arranque Fátima a Línea 66 kV Paine - Buin (e-seia);0.5;403;10
+Región de Antofagasta;Mejillones;Eléctrica Angamos S.p.A.;Independencia Operacional y Mejoramiento Línea de Transmisión Eléctrica Angamos - Kapatur;1.3;2;5
+Región Metropolitana de Santiago;Pudahuel;CHILECTRA S.A.;Modificación Línea 110 kV Cerro Navia - Lo Aguirre, Sector ENEA;2.7;143;7
+Región del Biobío;Mulchén;EMPRESA ELECTRICA DE LA FRONTERA S.A.;LÍNEA INTERCONEXIÓN 220 KV S/E MULCHÉN – S/E PICOLTUÉ;0.3;88;1
+Región de Antofagasta;Antofagasta;MINERA ESCONDIDA LIMITADA;Nuevas Obras Eléctricas y Sanitarias de Minera Escondida;35;88;8
+Región de Antofagasta;Antofagasta;Geotérmica del Norte S.A.;Línea de Transmisión Electrica Cerro Pabellón;20;58;7
+Región del Libertador Gral. Bernardo O’Higgins;Malloa-Quinta de Tilcoco;TRANSNET S.A.;Proyecto Línea de Transmision 66 kv Malloa - Quinta de Tilcoco y Subestación Transformadora 66/15 KV Quinta de Tilcoco;1.7;204;9
+Región Metropolitana de Santiago;Paine;TRANSNET S.A.;Ampliación S/E Fátima 220/66 kV;27.8;169;8
+Región del Biobío;Los Angeles;TRANSNET S.A.;Ampliación S/E Duqueco 220/66/23 kV;11.6;16;6
+Región de Atacama;Diego de Almagro;Diego de Almagro Transmisora de Energía S.A.;Línea Nueva Diego de Almagro - Cumbres 2x220 kV;59.5;9;1
+Región del Maule;Parral-Retiro;LUZPARRAL S.A.;SE PASO HONDO, TAP OFF Y LÍNEA DE TRANSMISIÓN;8.4;147;1
+Región del Biobío;Talcahuano;Petroquim S.A.;Línea de Alimentación Eléctrica de 66 KV desde Subestación Petropower a la Subestación Petroquim;0.4;112;4
+Región del Biobío;Laja;CMPC PULP SpA;Nueva Conexión y Ampliación S/E Celulosa Laja;1.6;368;5
+Región Metropolitana de Santiago;La Florida y Puente Alto;CHILECTRA S.A.;Refuerzo Línea 110 kV Tap a S/E Santa Raquel Exp. Nº071 (e-seia);1.3;260;3
+Región de Valparaíso;Llay Llay;Chilquinta Energía S.A.;PROYECTO LÍNEA DE TRANSMISIÓN DE 110 KV LAS VEGAS - LLAY LLAY (e-seia);1.1;80;2
+Región de Atacama;Tierra Amarilla;ESEDEI Ingenieros S.A.;SUMINISTRO ELÉCTRICO EN 110 kV - REFUGIO (e-seia);2;48;5
+Región de Antofagasta;Antofagasta;Empresa Eléctrica de Antofagasta S.A ELECDA;Subestación Eléctrica Centro;2.5;72;1
+Región de Antofagasta;Tocopilla;E-CL S.A.;Línea 2x110 kV Tocopilla – Tamaya, Circuitos N°2 y N°3;9.8;94;8
+Región de Valparaíso;Puchuncaví-Quintero;Aguas PAcifico SpA;Subestación Puchuncaví 110 kV;8;5;6
+Región del Biobío;Coronel;TRANSNET S.A.;Subestación Seccionadora 66 kV El Manco y Arranque 2x66 kV a Subestación Seccionadora El Manco . (e-seia);3.5;168;6
+Región de La Araucanía;Collipulli;wpd Malleco Transmisión SpA;Línea de Alta Tensión 1x220 S/E Agua Buena- S/E El Salto;13.8;27;10
+Región de Ñuble;Pinto;Empresa Nacional de Geotermia S.A.;EXPLORACION GEOTERMICA PROFUNDA NEVADOS DE CHILLAN SECTOR VALLE DE LAS NIEBLAS;9;384;6
+Región de Antofagasta;María Elena-Mejillones;Minera Antucoya;Línea de Transmisión Eléctrica Minera Antucoya;10;8;2
+Región de Los Ríos;Río Bueno;Sistema de Transmisión del Sur S.A.;Subestación El Mocho;4.5;406;5
+Región de Antofagasta;María Elena;Abengoa Solar Chile SpA.;Subestación Electrica Atacama 1;17;42;7
+Región del Biobío;Arauco;TRANSNET S.A.;Subestación de Maniobras y Transformación Horcones 66/15 Kv;2.4;384;2
+Región de Antofagasta;Antofagasta;E-CL S.A.;Sub Estación Capricornio y Línea de Transmisión Capricornio - Antofagasta;5.6;44;5
+Región de Tarapacá;Huara;Red Eléctrica del Norte S.A.;Variante Sector Huara Proyecto Nuevas Líneas 2x220 kV entre Parinacota y Cóndores;3.1;5;9
+Región de Tarapacá;Pica-Pozo Almonte;Planta Solar Pica S.A.;Línea Eléctrica de Alta Tensión PFV Pica - PFV Pintados;3.5;38;10
+Región de Los Lagos;Llanquihue;Alberto  Schirmer Roth;PROYECTO HIDROELECTRICO: SENDERO DE LA LUZ (e-seia);0.2;430;7
+Región del Libertador Gral. Bernardo O’Higgins;Machalí;Corporacion Nacional del Cobre;Mejoramiento Líneas de Transmisión 110kV Sauzal-Minero;35;294;1
+Región de Atacama;Diego de Almagro;Transmisora Eléctrica del Norte S.A.;Trazado Alternativo sector Río Salado para Proyecto Sistema de Transmisión de 500 kV Mejillones-Cardones;0.3;138;1
+Región del Libertador Gral. Bernardo O’Higgins;Codegua-Machalí-Mostazal;Colbún S.A.;Línea de Transmisión Eléctrica Candelaria Minero 2x220kV;36;90;10
+Región de Antofagasta;Antofagasta-Mejillones-Sierra Gorda;E-CL S.A.;LÍNEA DE ALTA TENSIÓN S/E CHACAYA  S/E EL COBRE (e-seia);36;44;2
+Región de Antofagasta;Mejillones;Empresa Eléctrica de Antofagasta S.A ELECDA;Subestación  Electrica Mejillones;0.6;92;1
+Región de Atacama;Chañaral-Diego de Almagro;TRANSELEC S.A.;Línea de Transmisión Eléctrica 1x110 kV Diego de Almagro-El Salado-Chañaral y Obras Complementarias (e-seia);10.6;111;2
+Región de Los Ríos;Río Bueno;Sistema de Transmisión del Sur S.A.;Modificación Línea de Transmisión 110 kV Casualidad - Licán;8;462;10
+Región del Libertador Gral. Bernardo O’Higgins;San Fernando;HIDROELECTRICA LA CONFLUENCIA S.A.;Línea de Transmisión de  alta Tensión 2 x 220 Kv, La Confluencia-La Higuera (e-seia);5.5;78;10
+Región de Tarapacá;Iquique-Pozo Almonte;Río Seco S.A.;Línea de Transmisión Eléctrica 2x220 Kv CT Pacífico-S/E Lagunas;30;30;2
+Región de Arica y Parinacota;Arica;INVERSIONES FOTOVOLTAICAS SpA;Línea de Conexión Parque Fotovoltaico Willka;20;300;7
+Región de Antofagasta;Antofagasta;ENGIE Energía Chile S.A.;Ampliación Subestación Capricornio;12.2;16;8
+Región Metropolitana de Santiago;Puente Alto-San Bernardo;empresa electrica puente alto s.a.;Seccionamiento Línea Alto Jahuel-Florida a Nueva Subestación Bajos de Mena 110/12 kV;5.9;637;10
+Región de Antofagasta;Antofagasta-Mejillones-Sierra Gorda;EMPRESA ELECTRICA ANGAMOS S.A.;PROYECTO LÍNEA DE ALTA TENSIÓN ANGAMOS - LABERINTO (e-seia);46.2;42;1
+Región del Maule;Molina;LENERGIA CHILE SpA;Subestación Eléctrica LNRG2 23/66 kV;10;182;3
+Región Metropolitana de Santiago;Talagante;TRANSNET S.A.,;Conexión Eléctrica Papelera Talagante;2.7;221;9
+Región de Los Ríos;Río Bueno;Sistema de Transmisión del Sur S.A.;Subestación Mantilhue;1.4;112;7
+Región del Libertador Gral. Bernardo O’Higgins;Machalí;CODELCO CHILE DIVISIÓN EL TENIENTE;Construcción y Operación Subestación Eléctrica Minero 220/110 KV.;18;276;5
+Región de Coquimbo;Ovalle;Parque Eólico El Arrayán SPA;Ampliación Subestación Eléctrica Don Goyo;8.1;172;4
+Región del Maule;San Javier;SAE Volcán Tupungatito SpA;Sistema de Almacenamiento de Energía (SAE) Volcán Tupungatito;45;259;1
+Región de Valparaíso;Viña del Mar;Compañía Nacional de Fuerza Eléctrica, CONAFE;Subestación Rodelillo;4.8;65;1
+Región de Arica y Parinacota;Arica;Empresa de Transmisión Electrica - TransEmel S.A.;Modificación del Sistema de Transmisión Eléctrica a Arica 66kV. Arica-I Región (e-seia);1.2;480;4
+Región de Tarapacá;Iquique;Nor Oeste Pacífico Generación de Energía Limitada, NOPEL;Línea de Transmisión Eléctrica Central Térmica Tarapacá-Subestación Principal Iquique;69;27;3
+Región de Atacama;Copiapó-Diego de Almagro-Tierra Amarilla;Eletrans S.A;Línea 2x 220 kV Cardones- Diego de Almagro;70;63;2
+Región de Atacama;Vallenar;SCM MINERA LUMINA COPPER CHILE;Modificación Línea de Transmisión 2x220 kV Maitencillo – Caserones, Variante Maitencillo Norte;14.4;48;1
+Región de Valparaíso;Algarrobo-El Quisco;Marcelo Hernán Luengo Amar;Línea de Transmisión de 66 kV y Subestacíón El Totoral (e-seia);0.7;15;9
+Región Metropolitana de Santiago;Maipú y Padre Hurtado;TRANSNET S.A.;Línea de transmisión 110 kV Santa Marta- Padre Hurtado y Subestación eléctrica 110/12-23 kV Padre Hurtado (e-seia);13.5;533;10
+Región de Arica y Parinacota;Arica;Reinaldo  Delgadillo Vera;CONSTRUCCION SUBESTACION ESSAT Y LINEAS DE MEDIA TENSION AZAPA  LLUTA, ARICA, PRIMERA REGION (e-seia);0.5;375;10
+Región Metropolitana de Santiago;Cerro Navia-Pudahuel;TRANSELEC S.A.;LÍNEA ALTA TENSIÓN LO AGUIRRE-CERRO NAVIA 2X220 kV “MODERNIZACIÓN SISTEMA TRANSMISIÓN”;100;130;4
+Región Metropolitana de Santiago;Puente Alto-La Florida;Empresa Eléctrica Cordillera SpA;Nueva Subestación Seccionadora Baja Cordillera;35.2;611;9
+Región Metropolitana de Santiago;Cerrillos-La Cisterna-Lo Espejo-San Bernardo;CHILECTRA S.A.;Potenciación de Línea de Transmisión Eléctrica 110 kV Espejo – Ochagavía, tramo Espejo – Tap Cisterna;1.4;182;4
+Región de Arica y Parinacota;Arica;Empresa de Tansmisión Eléctrica TRANSEMEL S.A;Ampliación y cambio de configuración en S/E Parinacota 220 kV;11.6;240;2
+Región de Los Lagos;Ancud-Calbuco-Maullín;Sistema de Transmisión del Sur S.A.;Construcción Sistema de Transmisión en 220 KV. Puerto Montt  Chiloé. 3era etapa Colaco  Degañ. (e-seia);11;440;2
+Región de Antofagasta;Taltal;Transmisora Tal Tal SpA;Línea de Alta Tensión Terra Parinas;40;74;9
+Región Metropolitana de Santiago;Lampa;ENEL DISTRIBUCIÓN S.A.;S/E Seccionadora Nueva Lampa 220 kV;12.9;221;8
+Región Metropolitana de Santiago;Maipú;CHILECTRA S.A.;Refuerzo Tap 110 kV Pajaritos (e-seia);0.7;650;7
+Región de Atacama;Copiapó;TRANSNET S.A.;Linea 2 (110 KV) Cardones- Los Lirios;0.3;105;2
+Región de Valparaíso;Los Andes;Besalco Energía Renovable S.A.;Subestación Seccionadora Nueva San Rafael 110 kV;10.1;175;8
+Región Metropolitana de Santiago;Macul;CHILECTRA S.A.;Refuerzo Línea Tap 110 KV Santa Elena (e-seia);0.5;403;10
+Región del Maule;Yerbas Buenas;Juan Carlos Baeza Muñoz;Subestación Eléctrica Yerbas Buenas 154/13,2 KV de 20 MVA;2.3;336;1
+Región de Antofagasta;Antofagasta;Engie Energía Chile S.A.;Subestación Seccionadora Nueva La Negra 110/220 kV;17.8;24;7
+Región de Los Lagos;Dalcahue;SOCIEDAD AUSTRAL DE ELECTRICIDAD S.A.;Traslado línea AT 110 kV para el nuevo aeródromo de la Isla De Chiloé (e-seia);0.4;270;9
+Región del Biobío;Los Angeles;wpd Duqueco S.p.A.;Modificación LTE Los Angeles Sur - Duqueco;2.8;32;10
+Región de Los Lagos;Puyehue;SISTEMA DE TRANSMISIÓN DEL SUR S.A.;LÍnea de Tansmisión 2 x 110 kV Aihuapi - Antillanca (e-seia);2.7;390;9
+Región del Biobío;Coronel-Lota;TRANSNET S.A.;Subestación Seccionadora Lota;1.9;200;8
+Región de Valparaíso;Quillota;Transmisora Eléctrica de Quillota Ltda.;Ampliación de la Capacidad de Transmisión  de la Subestación Eléctrica San Luis;43;70;9
+Región del Libertador Gral. Bernardo O’Higgins;San Fernando;Compañía General de Electricidad S.A.;Reforzamiento LT 66 KV San Fernando-Placilla;2.1;168;5
+Región de La Araucanía;Pucón;TRANSNET S.A.;Subestación de Poder 66/23 kV Pucón;1.5;18;6
+Región Metropolitana de Santiago;Colina-Huechuraba-Lo Barnechea;CHILECTRA S.A.;Línea de Transmisión 220 kv a subestación de Transmisión El Salto;8.9;13;9
+Región de La Araucanía;Freire-Pitrufquén;Transmisora Valle Allipen SA;Línea de Transmisión Río Toltén - Nueva Río Toltén;2;162;5
+Región de Los Lagos;Ancud-Dalcahue;ALBA S.A.;Línea de Alta Tensión S/E San Pedro - S/E Chiloé;5;140;2
+Región de Atacama;Huasco;Compañía Minera del Pacífico S.A.;Ampliación Subestación Eléctrica (S/E) Planta Pellets;4.1;111;7
+Región del Libertador Gral. Bernardo O’Higgins;Machalí;Pacific Hydro Chacayes S.A.;Optimización de la Línea de Transmisión Eléctrica Existente entre Central Coya - Subestación Tap Off Pangal (e-seia);0.2;84;3
+Región de Los Lagos;Ancud;SISTEMA DE TRANSMISIÓN DEL SUR S.A.;Construcción y Operación Subestación Chiloé (e-seia);9;400;7
+Región de Antofagasta;Sierra Gorda;MINERA QUADRA CHILE LIMITADA;TAP OFF SIERRA GORDA;4.6;62;10
+Región de Atacama;Copiapó-Freirina-Vallenar;Empresa Eléctrica Guacolda S.A.;Segundo Circuito 220 kV Línea Maitencillo - Cardones (e-seia);9;27;3
+Región de Atacama;Freirina-Vallenar;Desarrollo Energético Solar Chile SpA;Subestación eléctrica y Línea de Transmisión Denersol 110KV desde Plantas Fotovoltaicas Canto del Agua (21 MW), Denersol II (7,5 MW) y Denersol III (30 MW), a Subestación Maitencillo, Provincia de Huasco, Comunas de Vallenar y Freirina, Región de Atacama;4.5;141;1
+Región de Arica y Parinacota;Putre;Gobierno Regional de Arica y Parinacota;LÍNEA SOTERRADA DEL SING GENERAL LAGOS;443.5;105;4
+Región Metropolitana de Santiago;Buin-Til Til;TRANSELEC S.A.;LINEA ANCOA-POLPAICO 1X500 kV: SECCIONAMIENTO (e-seia);153;494;6
+Región Metropolitana de Santiago;Pudahuel;ENDESA S.A.;Modificación de Línea de Alta Tensión de 2 x 220kV de ENDESA  Rapel - Cerro Navia;0.3;78;10
+Región de Atacama;Copiapó;Eletrans S.A;Seccionamiento Circuito Nº1 LAT Cardones-Diego de Almagro en Subestación Carrera Pinto;5.5;3;1
+Región del Maule;San Clemente;Hidroeléctrica Río Colorado S.A.;Optimización Proyecto Central Hidroeléctrica Río Colorado;4.8;126;3
+Región Metropolitana de Santiago;Cerrillos-Lo Espejo;Chilectra S.A.;Potenciación de Línea de Transmisión Eléctrica 110 kV Espejo – Ochagavía, tramo Espejo – Tap Cisterna;1.4;13;8
+Región de Tarapacá;Huara;ORCOMA SpA;Subestación Seccionadora 220/33 kv Orcoma;9;20;8
+Región de Antofagasta;Antofagasta-Mejillones;MINERA ESCONDIDA LIMITADA;Modificación Sistema de Transmisión Eléctrica Minera Escondida;100;78;5
+Región de Los Lagos;Puyehue;Empresa Eléctrica Capullo S.A.;Aumento de tensión de 66 kV a 110 kV de Linea de Transmisión SE Copihue - SE Aihuapi, Comuna de Puyehue, Región de Los Lagos;0.8;140;5
+Región de Tarapacá;Iquique;Empresa Eléctrica Iquique S.A. ELIQSA;Subestación Eléctrica Palafitos (segunda presentación);1.6;45;6
+Región de Antofagasta;Taltal;Transmisora Tal Tal SpA;Línea de Alta Tensión Pampas Parinas;18;90;8
+Región de Antofagasta;Calama;Parque Eólico Valle De Los Vientos S.A.;Línea de Interconexión al SING y Aumento de Potencia del Parque Eólico Valle de los Vientos;50.7;82;7
+Región del Maule;Colbún-Molina-Pelarco-Río Claro-San Clemente;TRANSELEC S.A.;Línea de Transmisión Eléctrica de 2x220 KV S/E Ancoa - S/E Itahue (Primera Presentación);14.1;168;2
+Región del Libertador Gral. Bernardo O’Higgins;Machalí;TRANSNET S.A.;SUBESTACIÓN 66/15 kV MACHALÍ (e-seia);2.3;144;4
+Región de Antofagasta;Calama;ACCIONA ENERGÍA CHILE SpA;Línea de Transmisión 1X110 kV, Planta Fotovoltaica Usya a Parque Eólico Valle de los Vientos;2.6;52;1
+Región de Valparaíso;La Calera-Puchuncaví-Quintero-Concón;GNL QUINTERO S.A.;Hidrógeno Verde Bahía de Quintero;30;15;9
+Región de Valparaíso;Los Andes;Hidroeléctrica Guardia Vieja S.A.;Línea de Transmisión Eléctrica 2x220 KV Los Maquis - Saladillo;11;5;2
+Región de Atacama;Vallenar;TRANSELEC S.A;Modificación a la posición de las estructuras T18 a T69 del Proyecto Nueva Línea 1x110 kV  Maitencillo - Vallenar;0.1;75;6
+Región Metropolitana de Santiago;Maipú;CHILECTRA S.A.;Línea 110 KV Chena - Cerro Navia Refuerzo Sector Chena - Maipú;0.6;351;9
+Región de Antofagasta;Taltal;Minera Las Cenizas S.A.;Campamento Minera Las Cenizas - Taltal;5;90;9
+Región de Antofagasta;Taltal;Minera Las Cenizas S.A.;Subestación Eléctrica y Línea de 33 kV Planta de Óxidos Taltal (e-seia);2.6;48;8
+Región del Libertador Gral. Bernardo O’Higgins;Chimbarongo;Colbún Transmisión SA;Subestación Puente Negro;12.1;174;4
+Región del Biobío;Arauco-Curanilahue-Los Alamos;TRANSNET S.A.;Fortalecimiento del Sistema Eléctrico de la Provincia de Arauco;16.2;104;6
+Región de Antofagasta;Calama;Engie Energía Chile S.A.;Tendido segundo circuito Línea 2x220 kV Nueva Chuquicamata - Calama;6.5;50;5
+Región Metropolitana de Santiago;San Bernardo;CHILECTRA S.A.;Subestación 220/110 kV Chena Instalación de Banco de Transformadores Nª2;13;494;1
+Región de Antofagasta;Antofagasta;AES GENER S.A;MODIFICACIÓN DE LA SUBESTACIÓN ANDES MEDIANTE LA INSTALACIÓN Y OPERACIÓN DE UN SISTEMA DE ALMACENAMIENTO DE ENERGÍA (e-seia);14;90;8
+Región del Biobío;Talcahuano;Linde Gas Chile S.A.;Construcción de Línea de Alta Tensión 66 KV AGA Bío Bío;0.1;328;5
+Región de La Araucanía;Curacautín;Corporación Nacional Forestal, Región de la Araucanía;Electrificación Reserva Nacional Malalcahuello (e-seia);0.4;333;8
+Región de Antofagasta;Antofagasta;Atacama Minerals Chile SCM;Línea de transmisión Eléctrica 69 KV S/E Atacama Minerals a S/E Aguas Blancas (e-seia);8.2;10;7
+Región de Antofagasta;Tocopilla;COMPAÑIA MINERA MANTOS DE LA LUNA S.A.;Sistema de transmisión Electrica Acometida Mantos de la Luna (e-seia);1.5;22;5
+Región del Biobío;Los Angeles;AR Alena SpA;Modificación Canalización Subterránea  Parque Eólico Alena;10;256;4
+Región de Los Ríos;Los Lagos;Eletrans S.A;Nueva Subestación Seccionadora Cerros de Huichahue;10.8;686;5
+Región Metropolitana de Santiago;Melipilla;Emelectric S.A.;Ampliación Potencia Subestación Eléctrica Melipilla (e-seia);1.3;104;1
+Región del Maule;Talca;TRANSNET S.A.;Ampliación S/E Panguilemo 66/15 kV;4.2;182;8
+Región de Atacama;Tierra Amarilla-Diego de Almagro-Copiapó;Redabast Chile SpA;ENAPAC Distribución Este;600;96;4
+Región del Libertador Gral. Bernardo O’Higgins;Litueche-La Estrella-Marchihue;Colbún S.A.;NUEVA SUBESTACIÓN SECCIONADORA LOICA Y NUEVA LÍNEA 2X220 KV LOICA-PORTEZUELO;31.7;198;4
+Región de Coquimbo;Vicuña;CGE Transmisión S.A.;Subestación de Poder Eléctrica Sector La Compañía Vicuña IV Región;0.7;92;10
+Región Metropolitana de Santiago;Lampa;ELECTRICA SANTA TERESA SPA;Proyecto Línea de Alta Tensión y Subestación Santa Teresa;30.5;156;3
+Región de Antofagasta;Antofagasta;Kelar S.A.;Línea alternativa de evacuación Central Kelar;10.5;8;4
+Región de Antofagasta;Sierra Gorda;Minera Esperanza;Línea 2x 220 kV S/E El Cobre  S/E Esperanza (e-seia);21.7;24;4
+Región de Antofagasta;Antofagasta;EMPRESA ELECTRICA ANGAMOS S.A.;LÍNEA DE ALTA TENSIÓN ANGAMOS - ATACAMA (e-seia);4;8;9
+Región de Arica y Parinacota;Camarones;ENORCHILE S.A.;Subestación Eléctrica Camarones (e-seia);0.4;525;9
+Región Metropolitana de Santiago;Macul-Peñalolén;CHILECTRA S.A.;Potenciación de Línea de Transmisión Eléctrica 110 kV Ochagavía - Florida, Tramo TAP Santa Elena – TAP Macul;2.3;650;9
+Región de La Araucanía;Villarrica-Loncoche;TRANSNET S.A.;Línea de Transmisión 110 kV Loncoche - Villarrica, Segundo Circuito;5.7;270;5
+Región Metropolitana de Santiago;Puente Alto, San Bernardo, Pirque y Buin;CHILECTRA S.A.;Refuerzo del Tramo Buin-La Pintana Línea 110 kV Buin-La Florida;28;442;8
+Región de Valparaíso;San Antonio;Solek Chile Services SpA;Modificación Parque Fotovoltaico Leyda;3;75;6
+Región del Libertador Gral. Bernardo O’Higgins;Santa Cruz-Placilla-Nancagua;ALTO HUEMUL TRANSMISION SPA;NUEVA LÍNEA DE TRANSMISIÓN ELÉCTRICA 2X154 KV TINGUIRIRICA-SANTA CRUZ;28;156;10
+Región de Antofagasta;Antofagasta;TRANSEMEL S.A.;Sistema de Transmisión Eléctrica a Antofagasta 110 kV;2.2;78;6
+Región de Los Ríos;Valdivia;TRANSELEC S.A.;Incorporación de barra de transferencia en 220 kV en la S/E Valdivia;10;448;2
+Región del Biobío;Los Angeles;ENGIE Energía Chile S.A.;Subestación Seccionadora El Rosal 220 kV;7.1;136;10
+Región de Los Lagos;Osorno;TRANSELEC S.A.;S/E Seccionadora Rahue 220 kV;14;10;5
+Región de La Araucanía;Temuco;TRANSNET S.A.;Subestación de Transformación de 66/15 kV Las Encinas;2.5;63;2
+Región de La Araucanía;Pucón;TRANSNET S.A.;SUBESTACIÓN DE PODER 66/23 kV PUCÓN (e-seia);1.5;351;3
+Región Metropolitana de Santiago;La Reina- Peñalolén;CHILECTRA S.A.;POTENCIACIÓN LÍNEA DE TRANSMISIÓN ELÉCTRICA 110 kV FLORIDA - LOS ALMENDROS TRAMO TAP LA REINA - TAP ANDES;2.2;117;7
+Región del Libertador Gral. Bernardo O’Higgins;Placilla-San Fernando;Hidroeléctrica La Higuera S.A.;Línea de Transmisión Eléctrica TAP-OFF San Fernando (e-seia);0.2;282;5
+Región de Antofagasta;Sierra Gorda;E-CL S.A.;LÍNEA DE TRANSMISIÓN LABERINTO  GABY (e-seia);11.5;22;4
+Región de Los Lagos;Puerto Octay-Pullehue;SISTEMA DE TRANSMISION DEL SUR S.A.;Línea de Transmisión 110 kV Nalcas-S/E Aihuapi;3.9;390;1
+Región Metropolitana de Santiago;San José de Maipo;AES GENER S.A;Líneas de Transmisión Eléctrica S/E Maitenes-S/E Alfalfal y Central Alfalfal II-S/E Alfalfal;13;130;4
+Región Metropolitana de Santiago;Cerro Navia;Enel Distribución Chile S.A..;Ampliación en S/E Cerro Navia;20;559;5
+Región de Los Ríos;Los Lagos-Máfil-Paillaco-San José de la Mariquina;Eletrans S.A;Línea 2x220 kV Ciruelos-Pichirropulli;77;14;8
+Región de La Araucanía;Collipulli-Renaico;Tolpán Transmisión SpA.;Línea de Transmisión Tolpán - Pacífico;17;297;5
+Región de Antofagasta;Antofagasta-San Pedro de Atacama;Norgener S.A.;S/E Laberinto. Sistema de Transmisión S/E Oeste - S/E Atacama - S/E Nueva Zaldivar;32.5;34;8
+Región Metropolitana de Santiago;La Florida-Peñalolén;CHILECTRA S.A.;Modificación de Línea de Transmisión Eléctrica de 110 kV Florida- Los Almendros, Tramo Torre N° 32 a Torre N° 37, Sector Quebrada de Macul;1.2;195;2
+Región de Antofagasta;Sierra Gorda;AES GENER S.A;Ampliación Subestación Eléctrica Laberinto (e-seia);9.8;46;8
+Región de Tarapacá;Pica;Compañia Minera Teck Quebrada Blanca S.A;Interconexión al SING en 14 MW (Segunda Presentación);3;29;1
+Región de Los Lagos;Osorno-San Pablo;Empresa Eléctrica Pilmaiquén S.A.;LÍNEA DE TRANSMISIÓN ELÉCTRICA  2x220 kV OSORNOBARRO BLANCO (e-seia);4.6;210;7
+Región de Antofagasta;María Elena;TRANSELEC S.A.;Subestación Frontera 220 kV;18;10;4
+Región de Los Lagos;Castro-Chonchi;SOCIEDAD AUSTRAL DE TRANSMISION TRONCAL S.A.;Nueva Línea 2x220 kV Gamboa-Chonchi;26.4;210;3
+Región del Libertador Gral. Bernardo O’Higgins;San Fernando;Hidroeléctrica La Higuera S.A.;Línea 154 kV Transformable a 220 kV entre S/E La Higuera y S/E Tinguiririca cercana a San Fernando (e-seia);7.9;36;5
+Región de Antofagasta;Antofagasta-Mejillones;MINERA ESCONDIDA LIMITADA;Proyecto Línea de Transmisión Doble Circuito 2x220 kV Central Angamos a S/E Likanatai  (N) (e-seia);17.3;48;4
+Región de Atacama;Copiapó-Tierra Amarilla;Transmisora Eléctrica del Norte S.A.;Trazado Alternativo Sector Tierra Amarilla para Proyecto Sistema de Transmisión 500 kV Mejillones - Cardones;516;72;9
+Región de Antofagasta;María Elena;E-CL S.A.;Subestación Eléctrica Rica Aventura;86;50;9
+Región de Los Lagos;Puerto Varas;Austrum Energía SpA;Subestación Reductora Crell;0.1;490;7
+Región de La Araucanía;Loncoche;TRANSELEC S.A.;Subestación Seccionadora Lastarria 220/66 kV;8.2;387;2
+Región del Libertador Gral. Bernardo O’Higgins;Machalí;Eléctrica Cipresillos SpA;Subestación Eléctrica Alto Cachapoal 66/23 kV;1.5;198;10
+Región de Atacama;Freirina;Agrocomercial AS Limitada;Subestación Eléctrica Proyecto Norte Huasco Subestación Eléctrica Proyecto Norte Huasco (e-seia);8;69;8
+Región de Antofagasta;María Elena;Nor Oeste Pacífico Generación de Energía Limitada, NOPEL;Línea de Transmisión Eléctrica S/E Encuentro-S/E Crucero;2.4;6;10
+Región del Libertador Gral. Bernardo O’Higgins;Litueche;Statkraft eólico S.A.;Subestación eléctrica y línea de transmisión 1x110 kV Cardonal-Quelentaro;11.5;240;3
+Región de Antofagasta;Taltal;Colbún S.A.;Nueva Subestación Eléctrica Seccionadora Llullaillaco y Línea de Seccionamiento, Ruta 5 Norte Km 1.207;25;100;7
+Región Metropolitana de Santiago;Maipú y Cerrillos;CHILECTRA S.A.;Refuerzo Línea de Transmisión 110 kV Chena - Cerro Navia, S/E Maipú - Tap S/E Pajaritos 001/2006. (e-seia);1.9;91;4
+Región de Atacama;Caldera-Copiapó;Compañía Minera del Pacífico S.A.;LTE Suministro Cerro Negro Norte y Desalinizadora Pta. Totoralillo;33;39;3
+Región del Biobío;Quilleco;Abengoa Chile S.A.;Pangue Línea de Alta Tensión 2 x 220 Kv Santa Bárbara Trupán;5.5;88;8
+Región de Los Lagos;Osorno;Sistema de Transmisión de Los Lagos S.A.;Línea de Transmisión Los Negros-Barro Blanco (e-seia);2.7;10;2
+Región de Antofagasta;Sierra Gorda;Norgener S.A.;Sistema de Transmisión Lomas Bayas;1.2;36;1
+Región del Libertador Gral. Bernardo O’Higgins;Rengo;TRANSNET S.A.;Subestación 66/15 kV Rosario (e-seia);2;222;4
+Región del Libertador Gral. Bernardo O’Higgins;Rancagua;Compañía General de Electricidad S.A.;“AMPLIACIÓN S/E PUNTA DE CORTÉS”;1;138;6
+Región Metropolitana de Santiago;Buin-San Bernardo;TRANSELEC S.A.;LÍNEA DE ENTRADA A ALTO JAHUEL 2X500 kV Exp. 017/2010;9.3;403;9
+Región de Antofagasta;Taltal;Sistema de Transmisión del Sur S.A.;Suministro Eléctrico Complejo Astronómico Paranal – Armazones;12.5;70;9
+Región de La Araucanía;Collipulli-Ercilla;Parque Eólico los Trigales SPA;Modificación Parque Eolico Los Trigales;4;63;6
+Región del Maule;Constitución;TRANSNET S.A.;Conexión Central Viñales - S/E Constitución;1.5;140;2
+Región de Los Lagos;Puyehue;SISTEMA DE TRANSMISION DEL SUR S.A.;Subestación El Encanto;2.6;330;6
+Región Metropolitana de Santiago;La Reina-Las Condes;ENEL DISTRIBUCIÓN S.A.;Potenciación de Línea de Transmisión Eléctrica 110 kV Los Almendros - El Salto, Tramo Los Almendros - Tap Los Domínicos;1.7;117;3
+Región de Ñuble;Ninhue;Gerardo Illanes Carrasco;S/E Hualte 66/33/13,8 kV;2.8;160;6
+Región de Los Ríos;Valdivia;Sistema de Transmisión del Sur S.A.;Modificación del Trazado Línea A. T. 66 Kv. La Unión Picarte Sector Huachocopihue;0.1;378;9
+Región de Los Ríos;Valdivia;TRANSELEC S.A.;Subestación Seccionadora Nueva Valdivia;11.8;602;9
+Región de Tarapacá;Iquique;Nor Oeste Pacífico Generación de Energía Limitada, NOPEL;Ampliación de la S/E Tarapacá I Región;2;21;6
+Región de Valparaíso;Los Andes-Calle Larga;Besalco Energía Renovable S.A.;By Pass 2 x 110 kV San Rafael;3.8;60;2
+Región de Valparaíso;Puchuncaví-Quillota-Quintero;Empresa Nacional de Electricidad S.A. ENDESA;Línea de Alta Tensión Central Termoeléctrica Quintero - Subestación San Luis (e-seia);8.5;5;9
+Región de Arica y Parinacota;Putre;I. Municipalidad de Putre;Electrificación Poblado de Parinacota;0.1;450;10
+Región Metropolitana de Santiago;Puente Alto;Transmisora Eléctrica Cordillera SpA;Construcción Línea de Transmisión 1x110 kV Bajos de Mena-Costanera;7.9;273;4
+Región de Tarapacá;Pozo Almonte;Compañía Eléctrica Tarapaca S.A.;Línea de Distribución Eléctrica Subestaciones Lagunas Minera ACF;0.6;44;7
+Región de Los Lagos;Osorno-Puyehue;SISTEMA DE TRANSMISIÓN DEL SUR S.A.;Línea de Alta Tensión Antillanca - Nueva Barro Blanco (e-seia);8;90;1
+Región de Tarapacá;Pozo Almonte;TRANSELEC S.A.;Nueva Línea 2x220 kV Lagunas Nueva Pozo Almonte, Tendido Primer Circuito;19;9;10
+Región de Atacama;Copiapó-Freirina-Tierra Amarilla-Vallenar;SCM MINERA LUMINA COPPER CHILE;Línea de Transmisión 2x220 kV Maitencillo – Caserones;80;72;3
+Región de Ñuble;Coihueco-San Fabián;Astaldi Concessioni S.R.L. Agencia en Chile;Línea de transmisión 1x220 kV Punilla - San Fabián;9.2;288;6
+Región de La Araucanía;Freire;Sociedad Austral de Transmisión Troncal S.A.;Subestación Seccionadora Río Toltén 220 kV;13;198;3
+Región del Biobío;Los Angeles;Besalco Energía Renovable S.A.;Nueva Subestación Los Varones 220/66 kV;18.1;200;3
+Región de La Araucanía;Villarrica-Loncoche;TRANSNET S.A.;Modificación Línea de Transmisión 110 kV Loncoche-Villarrica, Segundo Circuito;5.7;135;8
+Región del Biobío;Cabrero-Pemuco;TRANSELEC CONCESIONES S.A.;Subestación Nueva Charrúa’;70;224;3
+Región del Biobío;Quilleco-Santa Bárbara;Iberoamericana de Energía ,IBENER S.A.;Sistema de Transmisión Central Peuchén - Central Mampil-S/E Rucue;3.6;400;5
+Región de La Araucanía;Freire;Empresa Eléctrica Cordillera SpA;Subestación Quepe 220/66 kV;13.2;342;9
+Región de Antofagasta;Antofagasta;E-CL S.A.;Línea de Transmisión y Subestación El Negro (e-seia);0.2;58;5
+Región de Atacama;Copiapó;Transmisora Eléctrica del Norte S.A.;Regularización Ambiental de Torres Aprobadas;6.5;12;2
+Región de Antofagasta;Sierra Gorda;Compañía Minera Xstrata Lomas Bayas;Proyecto Obras Complementarias Lomas Bayas;29.1;6;2
+Región Metropolitana de Santiago;Buin-Pirque-Puente Alto;CPMC S.A.;Aumento de Voltaje Línea de Transmisión (66kV a 110kV) desde S/E Maipo a S/E CMPC/Puente Alto y Construcción de Nueva S/E CMPC/Puente Alto;2.4;234;4
+Región del Biobío;Cañete-Los Alamos;EMPRESA ELECTRICA DE LA FRONTERA S.A.;Línea de Transmisión 66 kV Tres Pinos – Cañete;2.5;144;2
+Región del Biobío;Hualpén;CGE DISTRIBUCIÓN S.A.;Obras de Adecuación Línea de Distribución de 15 kV en Santuario de la Naturaleza Península de Hualpén;1;360;9
+Región del Libertador Gral. Bernardo O’Higgins;Marchihue;Compañía General de Electricidad S.A.;Ampliación en subestación Portezuelo;13;132;10
+Región de Atacama;Copiapó;ABC Solar 10 SpA;Modificación línea de transmisión Carrera Pinto – Campos del Sol Sur Oeste;17;78;9
+Región de Antofagasta;María Elena-Mejillones-Sierra Gorda;E-CL S.A.;Línea de Alta Tensión S/E Chacaya. S/E Crucero;42;82;1
+Región de Atacama;Copiapó-Tierra Amarilla;Sociedad de Transmision Campos del Sol;Sistema de Transmisión Campos del Sol;67.5;132;7
+Región del Libertador Gral. Bernardo O’Higgins;Machalí;Pacific Hydro Chile S.A.;LÍNEA DE TRANSMISIÓN ELÉCTRICA 2 x 220 kV CHACAYES – MAITENES;25.5;84;2
+Región Metropolitana de Santiago;Buin-San Bernardo;CHILECTRA S.A.;Proyecto Línea 110 kV Buin-Chena, Refuerzo sector Buin-San Bernardo. (e-seia);3;520;4
+Región Metropolitana de Santiago;Maipú;CHILECTRA S.A.;Línea de Alimentación (110 Kv)a S/E distribución Santa Marta;2;546;4
+Región de Antofagasta;Antofagasta;Domeyko Oeste Cinco SpA;Proyecto Subestación Hades y Línea de Seccionamiento en Alta Tensión 2x220 kV;20.2;26;5
+Región de Valparaíso;La Ligua;Engie Energía Chile S.A.;Nueva S/E La Ligua;24;75;2
+Región de Antofagasta;Sierra Gorda;CENTINELA TRANSMISION S.A.;Subestación Centinela;11.7;4;1
+Región de Antofagasta;María Elena;ATLAS Transmisión;Línea de Transmisión Eléctrica entre Subestación Sol del Desierto y Crucero;2;22;3
+Región de Atacama;Diego de Almagro-Copiapó;Redabast Chile SpA;ENAPAC Distribución Norte;350;141;7
+Región Metropolitana de Santiago;Pedro Aguirre Cerda-San Joaquín-San Miguel;CHILECTRA S.A.;POTENCIACIÓN LÍNEA DE TRANSMISIÓN ELÉCTRICA 110 kV OCHAGAVÍA – FLORIDA TRAMO TAP CLUB HÍPICO – TAP SAN JOAQUÍN;1.7;247;3
+Región de Coquimbo;La Serena-Vicuña;Compañía Minera Arqueros S.A.;Modificaciones Proyecto Minero Arqueros;3;124;4
+Región de Tarapacá;Pozo Almonte;COPEC;Modificación Proyecto Fotovoltaico Granja Solar;7.9;10;8
+Región Metropolitana de Santiago;Colina;EdgeConnex Chile V SpA;Subestación Electrica SCL99;15;455;10
+Región de Arica y Parinacota;Arica;Juan  Clavería Aliste;Línea de Transmisión Arica - Parinacota (e-seia);0.8;645;1
+Región del Maule;Colbún-Linares;Hidroeléctrica Centinela Limitada;Línea de Transmisión 1x220 KV Centinela - Panimávida;16.5;161;5
+Región de Atacama;Freirina-Huasco;Empresa Nacional de Electricidad S.A.;Línea de Transmisión Eléctrica S/E Punta Alcalde - S/E Maitencillo LTE S/E Punta Alcalde- S/E Maitencillo;43;9;4
+Región de Antofagasta;Antofagasta;MINERA ESCONDIDA LIMITADA;Línea de Transmisión de 220 kV S/E Nueva Zaldívar - S/E Sulfuros (e-seia);9.2;94;3
+Región de Arica y Parinacota;Arica;SOLVENTUS CHILE Spa;Línea de Alta Tensión 2X66 kV S/E PV Dos Cruces – S/E Parinacota;5.6;375;1
+Región de Antofagasta;Calama;Empresa de Transmisión Eléctrica Transemel S.A.;Línea de Transmisión 220 kV S/E Salar - S/E Calama;3.8;54;2
+Región de Tarapacá;Colchane;GGE CHILE SpA;EXPLORACIÓN GEOTERMICA PUCHULDIZA SUR 2;35;29;6
+Región del Maule;San Clemente;TRANSNET S.A.;Apoyo en 220 kV a S/E Maule;26;56;5
+Región de Coquimbo;Coquimbo;TRANSNET S.A.;Subestación 66/13.2 kV San Juan (e-seia);0.9;12;5
+Región de Ñuble;Chillán;Hernán Casar Collazo;DECLARACIÓN DE IMPACTO AMBIENTAL EXTENSIÓN LÍNEA ELÉCTRICA 1 X 220 KV CHARRÚA - CHILLÁN / TRAMO ARRANQUE A CHILLÁN - S/E MONTERRICO (e-seia);1;784;2
+Región de Atacama;Tierra Amarilla-Copiapó-Vallenar;COPIAPO SOLAR SpA;Modificación de la LAT del proyecto Central Desierto de Atacama;6.2;18;7
+Región Aisén del Gral.Carlos Ibáñez del Campo;Lago Verde;Ilustre Municipalidad de Lago Verde, Región de Aysén.;Construcción Línea Media Tensión. Cruce Mina El Toqui-Amengual-La Tapera (e-seia);0.5;528;3
+Región del Maule;Curicó;Empresa de Tansmisión Eléctrica TRANSEMEL S.A;Nueva Subestación Seccionadora Buenavista y Líneas de Seccionamiento 154 kV y 66 kV;31;28;5
+Región de Antofagasta;Antofagasta;Transemel S.A.;Sistema de Transmisión Eléctrica a Antofagasta 110 kV (Segunda Presentación);2.2;24;8
+Región Metropolitana de Santiago;La Florida-Peñalolén;CHILECTRA S.A.;Modificación Línea 110 kV S/E Ochagavía-S/E Florida Tramo Derivación Tap S/E Macul-S/E Florida;2;585;1
+Región de Coquimbo;Ovalle;Sociedad Austral de Transmisión Troncal S.A.;Nueva Subestación Seccionadora La Ruca 110 kV;9.5;20;7
+Región de Los Lagos;Calbuco-Maullín-Puerto Montt;SISTEMA DE TRANSMISIÓN DEL SUR S.A.;Modificación Línea existente Melipulli - El Empalme 66 Kv. a 110 Kv. (e-seia);1.8;30;8
+Región de Antofagasta;Antofagasta;MINERA ESCONDIDA LIMITADA;Trazado de Línea de Alta Tensión y Subestación, Área Faena Mina;13.2;48;1
+Región del Libertador Gral. Bernardo O’Higgins;Machalí;CODELCO CHILE DIVISIÓN EL TENIENTE;Ampliación Sistema Eléctrico - Plan de Desarrollo de Teniente;14;102;7
+Región de Arica y Parinacota;Arica;Empresa de Transmisión Electrica - TransEmel S.A.;Sistema de Transmisión Eléctrica a Arica 66 KV;1.4;210;9
+Región de Los Lagos;Ancud-Calbuco-Maullín;SISTEMA DE TRANSMISIÓN DEL SUR S.A.;Construcción Sistema de Transmisión en 220 KV. Puerto Montt  Chiloé. 3era etapa Colaco  Degañ (e-seia);11;140;1
+Región de Valparaíso;Algarrobo;Chilquinta Energía S.A;Subestación Doble  Barra Tap Algarrobo;6.9;160;5
+Región de Antofagasta;Calama-María Elena;Corporación del Cobre de Chile;Línea de Transmisión Eléctrica 220 kv Encuentro - MH;45;44;3
+Región de Arica y Parinacota;Arica;Solar Sky 2 SpA;LÍNEA DE ALTA TENSIÓN 66 KV PAMPA DOS CRUCES;2.4;435;6
+Región del Libertador Gral. Bernardo O’Higgins;Chimbarongo;Hidroeléctrica La Higuera S.A.;Subestación Adicional Puente Negro;14;90;8
+Región de Valparaíso;Puchuncaví;CGE Transmisión S.A.;Modificación Línea de Transmisión 110 kV Quillota-Illapel, Sector Marbella;0.6;180;9
+Región de Tarapacá;Pozo Almonte;Red Eléctrica del Norte S.A.;Subestación Seccionadora Nueva Pozo Almonte 220 kV;28;36;1
+Región del Libertador Gral. Bernardo O’Higgins;Machalí;Pacific Hydro Chacayes S.A.;Proyecto Camino Operación Bocatoma Cipreses;0.5;222;7
+Región del Libertador Gral. Bernardo O’Higgins;San Fernando;Hidroeléctrica El Paso Ltda.;Aumento de Voltaje Línea de Transmisión Eléctrica El Paso, de 110 a 220 kV;16.2;6;3
+Región de Valparaíso;Viña del Mar-Valparaíso;Chilquinta Energía S.A.;Línea de Transmisión 110 kV Agua Santa - Placilla y Subestación 110/12 kV Placilla (e-seia);2.8;235;1
+Región del Biobío;Coihueco-San Fabián;Astaldi Concessioni S.R.L. Agencia en Chile;Línea de Transmisión 1x220 kV Punilla - San Fabián;9.2;120;3
+Región de Coquimbo;Andacollo-Coquimbo;TRANSELEC S.A.;LÍNEA DE TRANSMISIÓN ELECTRICA 1X220 KV PAN DE AZUCAR ANDACOLLO (e-seia);8.3;128;3
+Región de La Araucanía;Melipeuco;Empresa Eléctrica CAREN S.A.;Linea de Transmision Caren Bajo- Melipeuco;3.6;288;8
+Región de Antofagasta;Calama;ENGIE Energía Chile S.A.;Subestación Seccionadora Nueva Chuquicamata 220 kV;11.7;42;6
+Región Metropolitana de Santiago;Colina;CHILECTRA S.A.;Línea de Transmisión Eléctrica de 220 kV Tap a Subestación Chicureo;7.5;325;7
+Región de Valparaíso;Valparaíso;Chilquinta Energía S.A.;Sistema Eléctrico Viña del Mar;14.3;160;3
+Región de Antofagasta;Antofagasta-Mejillones;Transmisora Eléctrica del Norte S.A.;Reforzamiento Mejillones;98.3;36;6
+Región del Biobío;Los Angeles;TRANSNET S.A.;Subestación Seccionadora Santa Luisa 154 kV;2.8;400;6
+Región de Atacama;Vallenar;Hidroeléctrica Río Huasco S.A.;Modificación del Proyecto Central Hidroeléctrica Río Huasco Mediante Instalación de Subestación Eléctrica Río Huasco;2;141;2
+Región Metropolitana de Santiago;Renca;CHILECTRA S.A.;Línea de Alimentación (110 KV ) A Sub-Estación de Distribución Brasil;2.5;195;1
+Región del Libertador Gral. Bernardo O’Higgins;Graneros-Mostazal-Codegua;TRANSELEC S.A.;Nueva Línea 2x220 kV Candelaria - Nueva Tuniche y SE Nueva Tuniche 220 kV;19.5;264;3
+Región de Antofagasta;Antofagasta;AES GENER S.A;Ampliación Subestación Eléctrica Nueva Zaldivar (e-seia);9;12;2
+Región de Los Lagos;Calbuco;SISTEMA DE TRANSMISIÓN DEL SUR S.A.;Construcción Línea  El Empalme - Calbuco 110 kV. (e-seia);1.2;430;1
+Región de Antofagasta;Antofagasta;Empresa Eléctrica de Antofagasta S.A ELECDA;Proyecto Subestación Eléctrica La Portada;1.7;90;9
+Región del Biobío;Cabrero-Chillán-Chillán Viejo-El Carmen-Pemuco-San Ignacio;TRANSELEC S.A.;Línea de Transmisión Eléctrica 1x220 kV S/E Charrúa-Chillán;9.2;304;5
+Región de Tarapacá;Iquique;Empresa Eléctrica Iquique S.A. ELIQSA;Subestación Eléctrica Pacífico;1.2;39;8
+Región de Arica y Parinacota;Camarones;Engie Energía Chile S.A.;Proyecto Nueva Subestación Seccionadora Roncacho;8.5;135;10
+Región de Ñuble;Bulnes;EMPRESA ELECTRICA DE LA FRONTERA S.A.;Proyecto Larqui;12.1;272;10
+Región de Antofagasta;Tocopilla;COMPAÑIA MINERA MANTOS DE LA LUNA S.A.;Modificación Sistema de Transmisión Eléctrica Acometida Mantos de la Luna (e-seia);0.7;96;9
+Región de Antofagasta;Mejillones;ENGIE Energía Chile S.A.;Conexión Unidades CTM-2 y CTM-3 a GIS en S/E Chacaya;3;40;3
+Región de Atacama;Copiapó;TRANSNET S.A.;Subestación Hernán Fuentes Merino (e-seia);0.8;126;8
+Región de Atacama;Copiapó;Empresa Eléctrica Guacolda S.A.;60 MW Sistema de Almacenamiento de Energía BESS-Guacolda;70;12;8
+Región de Antofagasta;Antofagasta;E-CL S.A.;Línea de Alimentación a Planta Desaladora de Antofagasta;0.8;62;9
+Región de Antofagasta;María Elena;TRANSELEC S.A.;Extensión Líneas 2x220 kV Crucero – Lagunas;2;90;3
+Región Metropolitana de Santiago;San Pedro;Empresa Eléctrica de Melipilla, Colchagua y Maule S.A.;Línea de Subtransmisión Eléctrica de 66 kV y Subestación La Manga;0.9;546;1
+Región de Los Lagos;Osorno;SISTEMA DE TRANSMISIÓN DEL SUR S.A.;Subestación Nueva Barro Blanco 220/66 kV (e-seia);14.8;480;4
+Región del Biobío;Yumbel, Cabrero, Coronel, Hualqui;Colbún S.A.;Línea de Alta Tensión Coronel-Charrua 2*220 Kv;43;32;3
+Región de Antofagasta;Antofagasta;E-CL S.A.;SUBESTACION EL COBRE 220 kV (e-seia);17.2;34;5
+Región de Tarapacá;Pozo Almonte;Desarrollos Solares SpA;Modificación Proyecto Parque Fotovoltaico Huatacondo;7.2;1;9
+Región de Los Lagos;Puerto Octay;SISTEMA DE TRANSMISION DEL SUR S.A.;Subestación Río Bonito 23/66/110 kV;14.8;130;9
+Región de Antofagasta;Antofagasta;Engie Energía Chile S.A.;Línea Eléctrica Bypass Antofagasta;13;96;2
+Región de Coquimbo;Salamanca;Centella Transmisión S.A.;Nueva línea 4x220 kV desde S/E Centella a Seccionamiento del segmento de la Línea 2x220 kV Los Piuquenes - Tap Mauro;15;176;7
+Región de Antofagasta;Calama;E-CL S.A.;Proyecto Ampliación Subestación Calama (e-seia);0.3;32;3
+Región del Maule;San Clemente;Enel Generación Chile S.A;Interconexión Internacional de Interés Privado Los Cóndores (CL) - Río Diamante (AR);36;210;8
+Región de Atacama;Copiapó;Sociedad Austral de Transmisión Troncal S.A.;SECCIONAMIENTO DE LA LÍNEA 2 X 220 KV CARDONES – CARRERA PINTO – DIEGO DE ALMAGRO Y NUEVA SUBESTACIÓN SAN ANDRÉS;10.9;102;7
+Región del Libertador Gral. Bernardo O’Higgins;Litueche-La Estrella-Marchihue;Colbún S.A.;Nueva S/E Seccionadora Loica y Nueva Línea 2x220 kV Loica - Portezuelo;31.7;96;1
+Región de Valparaíso;Los Andes;Minera Valparaíso S.A.;Proyecto Subestación Eléctrica Totoralillo y Línea de Alta Tensión;2;30;7
+Región de Valparaíso;San Antonio;Empresa Eléctrica de Melipilla Colchagua y Maule S.A.;SUBESTACIÓN ELECTRICA, LEYDA (e-seia);2.6;215;5
+Región de Valparaíso;Villa Alemana-Limache;Chilquinta Energia S.A.;Línea de Transmisión 2 X 110 Kv a S/E Villa Alemana y S/E Villa Alemana;2.1;110;2
+Región del Biobío;Yumbel-Cabrero-Coronel-Hualqui;TRANSELEC S.A.;Línea de Transmisión Eléctrica 2 x 220 kV Charrúa-Lagunillas y obras asociadas;42.9;272;10
+Región de Antofagasta;María Elena;Parque Solar Fotovoltaico Sol del Desierto SpA;Modificación Línea de Transmisión Parque Solar Fotovoltaico Sol del Desierto;1;16;4
+Región Metropolitana de Santiago;Buin;TRANSELEC;Tercer Banco de Autotransformadores 500/220 kV de 750 MVA, en la S/E Alto Jahuel;44.7;52;4
+Región de Antofagasta;Tocopilla;Compañía  Minera Mantos de la Luna S.A;Sistema de Transmisión Eléctrica Mantos de la Luna;1;100;4
+Región de Atacama;Copiapó;TRANSNET S.A.;Sistema de Transmisión 220/110 kV Copayapu-Galleguillos;55;18;1
+Región del Biobío;Mulchén-Quilaco-Santa Bárbara;Colbún S.A.;LTE Angostura Mulchén;28.9;112;4
+Región de Valparaíso;Quintero;ENAP REFINERIAS S.A;SUBESTACIÓN ELÉCTRICA EL BATO (e-seia);3.7;5;8
+Región de Coquimbo;Coquimbo;TRANSELEC S.A.;Incorporación de Barra de Transferencia en 220 kV en S/E Los Vilos;9;76;6
+Región de Coquimbo;Coquimbo;TRANSNET S.A.;Nuevo transformador 110/66 kV 30 MVA S/E El Peñón;2;80;10
+Región de Antofagasta;Calama;CODELCO Chile, División Radomiro Tomic;Traslado y Reposición Subestación Eléctrica Chamy, División Radomiro Tomic;25;40;5
+Región Metropolitana de Santiago;Padre Hurtado;Electrica Padre hurtado SpA;Línea de Alta Tensión Padre Hurtado;1;507;10
+Región Metropolitana de Santiago;Pudahuel;CHILECTRA S.A.;Modificación de Alta Tensión 110 KV.Cerro Navia-Lo Aguirre;0.3;325;3
+Región de Atacama;Tierra Amarilla;ORION POWER SpA;Sistema de Almacenamiento de Energía Alianza;95;63;8
+Región Metropolitana de Santiago;Renca;CHILECTRA S.A.;Potenciación de Línea de Transmisión Eléctrica 110 kV TAP Lo Boza;0.7;286;3
+Región de Coquimbo;Ovalle-Coquimbo;GOYO TRANSMISORA DE ENERGIA S.A.;Nueva Línea 2x220 kV Don Goyo - La Ruca;21.9;180;6
+Región de Valparaíso;Los Andes;Codelco División Andina;Ampliación de Línea de Transmisión Eléctrica de División Andina Línea Transmisión Eléctrica División Andina (e-seia);26;65;6
+Región Metropolitana de Santiago;Cerro Navia;CHILECTRA S.A.;Línea 110 kV Cerro Navia - Lo Aguirre, Ref. Sector Cerro Navia -Torre 21 (e-seia);1;91;9
+Región de Tarapacá;Colchane;Empresa Eléctrica de Iquique S.A. (ELIQSA);Construcción Red Eléctrica en Parque Nacional Volcán Isluga, Ruta A-95;1.3;27;2
+Región Metropolitana de Santiago;Cerro Navia;TRANSELEC S.A.;BANCO DE CONDENSADORES 50 MVAR EN SUBESTACIONES ELECTRICAS ALTO JAHUEL Y CERRO NAVIA;5;520;2
+Región de Los Lagos;Ancud-Castro-Dalcahue;Sistema de Transmisión del Sur S.A.;Línea Transmisión 220 kV Chiloé - Gamboa;41;150;3
+Región de Antofagasta;Sierra Gorda;Codelco Chile División Gabriela Mistral;SUBESTACIÓN GABY (e-seia);8;14;10
+Región del Biobío;Cabrero;TRANSELEC S.A.;Ampliación de la S/E Charrúa y construcción de 1.000 m de la Línea de Transmisión Eléctrica 500 kV Charrúa - Ancoa 1 y 2 (e-seia);34.7;192;6
+Región de La Araucanía;Padre Las Casas;Hernán Casar Collazo;Seccionamiento de Líneas 220 kV Temuco-Ciruelos y Temuco-Puerto Montt (e-seia);11.4;387;10
+Región de Atacama;Copiapó-Tierra Amarilla;Compañía Minera del Pacífico S.A.;Línea Eléctrica 110 kV Cardones - Planta de Magnetita Línea Eléctrica 110 KV Planta Magnetita (e-seia);1.2;30;9
+Región de Antofagasta;María Elena-Mejillones-Sierra Gorda;Interconexión Los Changos S.A;LÍNEA DE ALTA TENSIÓN 2x500 kV, LOS CHANGOS - KIMAL;160;80;10
+Región del Libertador Gral. Bernardo O’Higgins;San Fernando;HYDROCHILE SA;Sistema de Transmisión Eléctrica San Andrés;8.7;186;4
+Región de Antofagasta;Calama;E-CL S.A.;Variante del Trazado Línea de Transmisión Chuquicamata - Calama;0.9;10;2
+Región Metropolitana de Santiago;Melipilla;Empresa Eléctrica de Melipilla, Colchagua y Maule S.A.;Línea de Subtransmisión Eléctrica de 110 KV y Subestación Bollenar;0.8;91;9
+Región de Atacama;Tierra Amarilla;Empresa Eléctrica Cordillera SpA;Nueva Línea 110 kV Cerrillos-Atacama Kozán;2.2;27;5
+Región de Antofagasta;Mejillones;ABENGOA CHILE;LTE de 1x110kv Mejillones;27;70;10
+Región de La Araucanía;Victoria;TRANSNET S.A.;S/E Los Peumos 220/66 kV;9.5;9;6
+Región de Atacama;Copiapó;ABC Solar 10 SpA;Proyecto Línea de Transmisión Carrera Pinto - Campos del Sol Sur Oeste;1.8;54;9
+Región de Los Lagos;Chonchi;SISTEMA DE TRANSMISIÓN DEL SUR S.A.;Construcción y Operación Subestación Eléctrica Chonchi;0.7;470;8
+Región Metropolitana de Santiago;Las Condes y Vitacura;CHILECTRA S.A.;Refuerzo Línea 110 kV Los Almendros  El Salto, tramo Tap a S/E Dominicos  Tap a S/E Vitacura (e-seia);4.9;13;4
+Región de Atacama;Tierra Amarilla;TRANSNET S.A.;Traslado Parcial Línea 110 kV Sector Relaves Candelaria (e-seia);0.1;21;3
+Región de Antofagasta;Antofagasta;E-CL S.A.;Línea Capricornio-Refimet Sector Salar del Carmen - Refimet;2.1;92;9
+Región Metropolitana de Santiago;Curacaví;N/D;Línea de Alimentación (110 kv) a S/E Chacabuco;1.1;403;4
+Región de Antofagasta;Mejillones;E-CL S.A.;Ampliación Subestación Mejillones 220/23 kV;5.1;100;5
+Región del Libertador Gral. Bernardo O’Higgins;Machalí-Rancagua;TRANSNET S.A.;Línea de Transmisión 66kV Cachapoal - Machalí (e-seia);0.8;234;1
+Región de Antofagasta;María Elena;E-CL S.A.;Suministro Eléctrico para las Instalaciones de SOQUIMICH;16.7;90;2
+Región del Libertador Gral. Bernardo O’Higgins;Marchihue;LENERGIA CHILE SpA;Subestación Eléctrica LNRG1 23/66 kV;10;90;10
+Región de Valparaíso;Viña del Mar;CGE Transmisión S.A.;Ampliación Subestación Marga Marga 110/13,2 kV (e-seia);0.8;90;1
+Región del Biobío;Laja;SOCIEDAD AUSTRAL DE TRANSMISION TRONCAL S.A.;Subestación La Señoraza 220/66 kV;9.8;160;1
+Región Metropolitana de Santiago;Huechuraba;CHILECTRA S.A.;MODIFICACIÓN DE LAS LÍNEAS 110 kV LOS ALMENDROS  EL SALTO Y EL SALTO  SAN CRISTÓBAL Exp. Nº 112/06 (e-seia);2;221;3
+Región de Antofagasta;Mejillones;Caitan SpA;Obra Complementaria a la RCA N° 0217/2017: Subestación Eléctrica Caitan;9.8;4;5
+Región de Antofagasta;María Elena;TRANSELEC S.A.;Ampliación en Subestación Frontera y Seccionamiento Línea 2x220 Encuentro-Laguna;13;10;10
+Región de Tarapacá;Pozo Almonte;Augusto Smith Marín;CONSTRUCCION SISTEMA ELECTRIFICACION COLONIA AGRICOLA DE PINTADOS (e-seia);25.4;18;1
+Región del Libertador Gral. Bernardo O’Higgins;Rengo;Engie Energía Chile S.A.;Nueva S/E Seccionadora Totihue y Nueva Línea 2x66 kV Totihue - Rosario;20.5;60;8
+Región del Biobío;Chiguayante-Hualqui;Eduardo Castillo Aguirre;Proyecto Línea 66 kV, Chiguayante-Quilacoya (e-seia);2;328;3
+Región de Antofagasta;Antofagasta;Domeyko Oeste Cinco SpA;Proyecto “Subestación Hades y Línea de Alta Tensión 1X220 KV- Conexión Subestación Puri”.;14.1;80;9
+Región de Antofagasta;Antofagasta;Empresa Eléctrica de Antofagasta S.A ELECDA;Subestación Eléctrica Uribe;1.7;32;6
+Región de Los Lagos;Frutillar;AR Puelche Sur SpA;Extensión Línea de Transmisión Eléctrica Parque Eólico Puelche Sur;0.7;330;7
+Región de Ñuble;Chillán;TRANSNET S.A.;Interconexión del sistema eléctrico de subtransmisión Chillán;3.2;544;4
+Región de Los Lagos;Puerto Montt;TRANSELEC S.A.;Instalación de Equipo de Compensación Estática de Reactivos (CER) en S/E Puerto Montt CER Transelec Puerto Montt (e-seia);8;270;4
+Región del Libertador Gral. Bernardo O’Higgins;Machalí;CODELCO CHILE DIVISIÓN EL TENIENTE;Reforzamiento Sistema Eléctrico Mina (e-seia);81;264;2
+Región de Antofagasta;María Elena-Sierra Gorda;Empresa Nacional de Electricidad S.A. ENDESA;Línea de Transmisión Eléctrica Encuentro El Tesoro;25;58;5
+Región Metropolitana de Santiago;Pudahuel;TRANSELEC S.A.;Subestación Seccionadora Lo Aguirre Etapa I;69;299;3
+Región del Biobío;San Pedro de la Paz;Besalco Energía Renovable S.A.;Nueva Subestación Seccionadora Guindo 220/66 kV;13.2;336;6
+Región Metropolitana de Santiago;Quilicura;AES GENER S.A;Traslado de Cuatro Torres de Alta Tensión a Zona de Protección Ecológica Fundo San Ignacio (e-seia);0.1;637;8
+Región de Valparaíso;La Cruz-Nogales-Puchuncaví;AES GENER S.A;Línea de Transmisión Ventanas-Nogales 2x220 kV (e-seia);7.9;220;6
+Región de La Araucanía;Angol;TRASNET S.A.;S/E Angol-Construcción Nuevo Patio Maniobras 66 kV;1.9;180;10
+Región de Antofagasta;Antofagasta-Mejillones;Nor Oeste Pacífico Generación de Energía Limitada, NOPEL;Transmisión Eléctrica Central Atacama - Subestación Nueva Antofagasta;10.4;58;3
+Región Metropolitana de Santiago;Alhué y San Pedro;Emelectric S.A.;Subestación y Tendido Eléctrico Sector Alhué (e-seia);3.5;208;1
+Región de Antofagasta;Antofagasta;Fotovoltaica Norte Grande 7 SPA;Proyecto Ampliación Subestación Uribe;6;96;7
+Región Metropolitana de Santiago;Puente Alto;CHILECTRA S.A.;Refuerzo Línea 110 kV Buín - Florida, Tramo La Pintana - Santa Rosa Sur (e-seia);1.3;416;8
+Región de Atacama;Tierra Amarilla;Compañía Minera Maricunga;Línea de Transmisión Eléctrica 110 kV Proyecto Refugio (e-seia);10;117;5
+Región de Los Lagos;Osorno;SISTEMA DE TRANSMISIÓN DEL SUR S.A.;Línea de Transmisión 66 kV Pilauco-Pichil;2;130;10
+Región de Tarapacá;Pozo Almonte;ENGIE Energía Chile S.A.;Ampliación y Cambio de Configuración en S/E Pozo Almonte 200 kV;14;13;2
+Región Metropolitana de Santiago;Estación Central y Lo Prado;TRANSELEC NORTE S.A.;Línea de arranque y Subestación eléctrica Neptuno;21;26;3
+Región Metropolitana de Santiago;Lampa, Til-Til, Colina y Lo Barnechea;Angloamerican Sur S.A.;Línea de Transmisión Eléctrica 220 kV Polpaico  Confluencia;20;351;2
+Región de Valparaíso;Los Andes-Calle Larga;Besalco Energía Renovable S.A.;By Pass 2 X 110 kV San Rafael;3.8;195;8
+Región del Libertador Gral. Bernardo O’Higgins;San Fernando;TRANSNET S.A.;“Nuevo Transformador 154/66 kV S/E San Fernando;1.7;96;8
+Región de Antofagasta;Antofagasta;E-CL S.A.;LÍNEA DE TRANSMISIÓN CAPRICORNIO - SIERRA MIRANDA (e-seia);4.4;8;9
+Región de Los Lagos;Ancud;Transmisora del Pacífico S.A.;Subestación Seccionadora Nueva Ancud 220 kV;12;370;1
+Región del Biobío;Los Angeles;wpd Duqueco S.p.A.;LTE Los Ángeles Sur - Duqueco;2.8;120;6
+Región de Atacama;Tierra Amarilla;Empresa Eléctrica Cordillera SpA;Nueva Línea 110 kV Cerrillos - Atacama Kozán;2.2;117;4
+Región de Valparaíso;Puchuncaví;TRANSNET S.A.;SUBESTACIÓN MARBELLA 110/13,2 kV (e-seia);2.7;250;2
+Región de Atacama;Vallenar;ACCIONA ENERGÍA CHILE SpA;Línea de Interconexión 220 kV, entre los Proyectos Fotovoltaicos El Pelícano y El Romero Solar;1;111;6
+Región de La Araucanía;Padre Las Casas;Besalco Energía Renovable S.A.;Subestación Nueva Metrenco 220/66 kV;13.2;450;7
+Región de Coquimbo;Los Vilos-Salamanca;Minera Los Pelambres;Proyecto Línea Tap Off Mauro 1x220 kV (e-seia);12;164;9
+Región de Tarapacá;Iquique-Pozo Almonte-Huara-Alto Hospicio;Compañía Minera Cerro Colorado Ltda.;Suministro Hídrico Cerro Colorado;190;12;8
+Región de Antofagasta;Taltal;GUANACO COMPAÑÍA MINERA LIMITADA;Modificación Mina Guanaco - Línea Eléctrica 33 kV;18;2;8
+Región de Antofagasta;Antofagasta;MINERA ESCONDIDA LIMITADA;Ampliación Sistema de Transmisión Eléctrico Minera Escondida (e-seia);412;28;5
+Región del Libertador Gral. Bernardo O’Higgins;Las Cabras;CGE Transmisión S.A.;Subestación de Transformación de 66/kV El Manzano;1.3;294;5
+Región de Valparaíso;Concón;Chilquinta Energía S.A;Proyecto Línea de Transmisión 110 kV Concón - Montemar y Subestación 110/23-12Kv Montemar;0.5;10;6
+Región de Antofagasta;Antofagasta;Aguas de Antofagasta S.A.;Construcción Línea de Transmisión Eléctrica Soterrada Alternativa para la Planta Desaladora Antofagasta;0.2;68;5
+Región de Los Ríos;San José de la Mariquina;TRANSELEC NORTE S.A.;Subestación Enlace Ciruelos;215;490;4
+Región de Atacama;Copiapó;Compañía General de Electricidad S.A.;Ampliación en S/E Plantas;10.4;54;7
+Región Metropolitana de Santiago;Melipilla;Transquinta S.A.;Nueva Línea 2x110 Kv Alto Melipilla-Bajo Melipilla Tendido del Primer Circuito;3;221;1
+Región de Antofagasta;María Elena;ANDES MAINSTREAM SPA;Extensión LAT Parque Eólico Tchamma;3;74;5
+Región de Antofagasta;María Elena;Generación Solar S.p.A.;Proyecto Ampliación Subestación María Elena;7.7;74;10
+Región del Maule;Molina;I. Municipalidad de Molina;Instalación de Suministro Energía Eléctrica El Portón-Radal;0.3;301;5
+Región de Atacama;Freirina-Vallenar;Ibereólica Cabo Leones I S.A.;Línea de Transmisión Eléctrica de Doble Circuito de 220 kV Cabo Leonés y Subestación Eléctrica Domeyko;23.1;39;1
+Región del Libertador Gral. Bernardo O’Higgins;San Fernando;HYDROCHILE SA;Línea de Transmisión Eléctrica El Paso;7.8;90;7
+Región de Ñuble;San Ignacio-Bulnes;Sistema de Transmisión del Sur S.A.;Línea de Transmisión 1x66 kV Montenegro - Lucero;6.2;784;6
+Región de Antofagasta;Sierra Gorda;Red Eléctrica del Norte 2 S.A;Seccionamiento Línea 2x220 kV El Cobre - Esperanza y Adecuaciones en S/E Centinela;13;40;6
+Región de Antofagasta;Sierra Gorda;SIERRA GORDA S.C.M.;LÍNEA 1X220KV SPENCE - SIERRA GORDA;4.1;78;9
+Región de La Araucanía;Lautaro;TRANSNET S.A.;Modificación Subestación Eléctrica Lautaro;0.9;234;4
+Región de La Araucanía;Collipulli;TRANSELEC S.A.;Subestación Eléctrica Río Malleco 220 kV;8.2;207;7
+Región Metropolitana de Santiago;San Bernardo, Cerrillos y Lo Espejo;CHILECTRA S.A.;PROYECTO MODIFICACIÓN LÍNEA 110 KV ESPEJO - OCHAGAVÍA TRAMO TORRES N°10 A N°15 044 (e-seia);0.9;299;8
+Región de Los Lagos;Puerto Montt;SISTEMA DE TRANSMISIÓN DEL SUR S.A.;Construcción y Operación de  S/E Melipulli;3.6;30;3
+Región de Coquimbo;Andacollo-Coquimbo;Compañía Minera Carmen de Andacollo;Línea de Transmisión Eléctrica y Subestación de Distribución (e-seia);16.4;64;8
+Región de Antofagasta;Tocopilla;Electroandina S.A.;Línea de Alta Tensión S/E Tocopilla – S/E Tamayita;6;72;1
+Región de Antofagasta;Sierra Gorda;Helio Atacama Tres SpA;Proyecto Ampliación Línea de Alta Tensión 1x220 kV, Nueva Subestación Laberinto FV - Subestación Laberinto;5;10;2
+Región de Antofagasta;Taltal;Pampa Solar Norte Cuatro SpA;Línea de Alta Tensión 1x220 kV,Nueva Subestación FV Elevadora Pampa Solar Norte– Tap Off Pampa Solar Norte;23;98;8
+Región de Valparaíso;Puchuncaví-Quintero;Empresa Nacional de Electricidad S.A. ENDESA;Línea de Transmisión Eléctrica Subterránea Central Termoeléctrica Quintero- Terminal Gas Natural Licuado Quintero;5.7;105;1
+Región del Libertador Gral. Bernardo O’Higgins;Malloa;TRANSNET S.A.;SUBESTACIÓN DE PODER 220-154/66/15 kV MALLOA (e-seia);13.7;210;9
+Región de Coquimbo;Ovalle;SOCIEDAD AUSTRAL DE TRANSMISION TRONCAL S.A.;Ampliación en S/E La Ruca 110 kV (BPS+BT), Nuevo Patio 220 kV (IM) y Nuevo Transformador (ATAT);8;60;3
+Región de Atacama;Diego de Almagro;ACCIONA ENERGÍA CHILE SpA;Modificación de la Línea de Transmisión de la Planta Solar Fotovoltaica Malgarida;4;96;1
+Región de Tarapacá;Pica;Cia. Minera Doña Inés de Collahuasi;Línea de Transmisión Eléctrica 110 Kv Ujina-Coposa;37;7;5
+Región de Valparaíso;Concón;Termoeléctrica Colmito Limitada;DIA Obras complementarias a la central de respaldo Colmito (e-seia);0.3;165;4
+Región Metropolitana de Santiago;Til-Til;TRANSELEC S.A.;S/E POLPAICO 220 KV: INSTALACIÓN SEGUNDO AUTOTRANSFORMADOR 750 MVA (e-seia);25.6;429;10
+Región de Coquimbo;Salamanca;TRANSNET S.A.;Subestación de Poder 110/23 kV Salamanca (e-seia);1.7;80;5
+Región de Antofagasta;Antofagasta-Taltal;Transelec Holdings Rentas Ltda.;Subestación eléctrica Monte Mina y línea de transmisión eléctrica Parinas - Monte Mina;105.6;98;3
+Región Metropolitana de Santiago;Cerro Navia;TRANSELEC S.A.;Ampliación S/E Cerro Navia 220 Kv;3;377;4
+Región Metropolitana de Santiago;Huechuraba;CHILECTRA S.A.;Refuerzo Línea 110kVLos Almendros el Salto, Tramo Tap a S/E La Dehhesa - S/E El Salto (e-seia);0.8;78;2
+Región de Antofagasta;Antofagasta;ANDES MAINSTREAM SPA;Extensión LTE Parque Eólico Cerro Tigre;0.7;34;8
+Región de Ñuble;Ninhue-Quirihue;Empresa Eléctrica de Melipilla Colchagua y Maule S.A.;NUEVA LÍNEA DE SUBTRANSMISIÓN ELÉCTRICA DE 66 KV NINHUE - QUIRIHUE (e-seia);1.5;256;5
+Región Metropolitana de Santiago;San Pedro;Empresa Eléctrica de Melipilla, Colchagua y Maule S.A.;Línea de Subtransmisión Eléctrica de 66 kV y Subestación Santa Rosa;1;78;5
+Región de Ñuble;Bulnes;Cooperativa de consumo de energía eléctrica Chillan;Subestacion Electrica Los Tilos;0.8;144;5
+Región de Tarapacá;Huara;Engie Energía Chile S.A.;Seccionamiento Línea 1x110 kV Arica-Pozo Almonte en Subestación Dolores;3;35;6
+Región de Antofagasta;Antofagasta-Maria Elena;ABENGOA CHILE;LTE 2X220kV Encuentro - Sierra Gorda;43;72;2
+Región de Coquimbo;Andacollo;TRANSNET S.A.;Modificación de 3,77 km Línea de Transmisión 110 kv El Peñón-Andacollo, sector Carmen de Andacollo (e-seia);0.7;200;1
+Región de Atacama;Diego de Almagro;TRANSELEC S.A.;Instalación de Equipos de Compensación de Potencia Reactiva en Subestación Diego de Almagro;20;24;10
+Región del Libertador Gral. Bernardo O’Higgins;Placilla;TRANSELEC S.A.;Instalación de Nuevo Banco de Autotransformadores y Unidad de Reserva en S/E Tinguiririca;14.4;168;1
+Región de Antofagasta;María Elena;TRANSELEC NORTE S.A.;Subestación Seccionadora Miraje;11.8;96;2
+Región de Atacama;Freirina;San Juan S.A.;Proyecto Línea de Transmisión Eléctrica San Juan conexión Sarco;3.4;141;8
+Región Metropolitana de Santiago;San Joaquín;ENEL DISTRIBUCIÓN S.A.;Modificación Línea de Transmisión Eléctrica 110 kV  Ochagavía – Florida, Trazado Torres N° 26 a 29  Interferencia Parque La Aguada;0.8;468;1
+Región Metropolitana de Santiago;Peñalolén;CHILECTRA S.A.;Refuerzo Tap La Reina 110 KV;1.5;221;10
+Región de Los Ríos;Río Bueno;SISTEMA DE TRANSMISION DEL SUR S.A.;Línea de Transmisión 110 kV Casualidad-Licán (e-seia);2.8;140;4
+Región del Maule;Cauquenes-Chanco-San Clemente-San Javier;TRANSNET S.A.;Línea de Transmisión Eléctrica y Subestaciones Eléctricas VII Región;1;273;6
+Región Metropolitana de Santiago;Til-Til;TRANSELEC S.A.;AMPLIACIÓN PATIO 220 kV S/E POLPAICO (e-seia);12;611;7
+Región de Atacama;FreirinaHuasco;Empresa Eléctrica Guacolda S.A.;Línea de Transmisión 2*220 kv Guacolda Maitencillo;11;147;8
+Región de La Araucanía;Renaico-Angol;Enel Green Power Chile S.A.;LAT DE INTERCONEXIÓN S/E LA CABAÑA - S/E RENAICO;5;351;6
+Región Metropolitana de Santiago;Lo Barnechea;Angloamerican Sur S.A.;Línea de Transmisión Eléctrica 220 KV Maitenes-Confluencia (e-seia);7;624;2
+Región del Biobío;Florida-Quillón;Cooperativa de Consumo de Energía Eléctrica Chillán Ltda.;Construcción de Subestación Eléctrica Sector Confluencia;0.1;8;7
+Región de Antofagasta;Antofagasta;Juan  Clavería Aliste;Subestación Salar del Carmen 110 kV (tercera presentación) SUB ESTACION 110 KV (e-seia);1.2;74;10
+Región de Los Lagos;Chonchi-Quellón;SAESA;Modificación Linea Existente Chonchi-Quellón 23 Kv a 110 Kv;1.9;230;3
+Región de Los Lagos;Osorno;SISTEMA DE TRANSMISION DEL SUR S.A.;Subestación Pilauco 220/66 kV;14.8;400;8
+Región de Atacama;Copiapó;TRANSELEC S.A.;LINEA MAITENCILLO-CARDONES 1x220 kV: BARRA DE TRANSFERENCIA EN CARDONES (e-seia);3.1;51;9
+Región de Atacama;Freirina-Vallenar;Ibereólica Cabo Leones I S.A.;Línea de Transmisión Eléctrica de Doble Circuito de 220 kV Cabo Leonés a SE Maitencillo;9.4;51;10
+Región de Antofagasta;Calama;Electroandina S.A.;Reubicación Líneas Eléctricas de Chuquicamata (e-seia);8.6;40;8
+Región de Valparaíso;Concón;ENAP Refinerías S.A.;Subestación de Seccionamiento Torquemada para Abastecimiento de Energía Eléctrica a Enap Refinerías Aconcagua (e-seia);5.8;85;7
+Región del Biobío;Los Angeles-Mulchén;Empresa Electrica de la Frontera S.A.;Línea de Transmisión 66 kV Duqueco - Mulchén;1.9;104;8
+Región de Atacama;Vallenar;Transquinta S.A.;Subestación Seccionadora Agua Amarga 220 KV;10.4;72;4
+Región de Antofagasta;Antofagasta;MINERA ESCONDIDA LIMITADA;Implementación de Nuevas Obras Eléctricas;12.4;12;9
+Región de Coquimbo;Ovalle;SONNEDIX DON GOYO TRANSMISION S.A.;Ampliación en SE Don Goyo, Seccionamiento Línea Nueva Pan de Azúcar-Punta Sierra y Bypass Línea 2x220 kV Pan de Azúcar -La Cebada;11.8;16;3
+Región de Los Lagos;Puerto Montt-Puerto Varas;HIDROELÉCTRICA ENSENADA S. A.;Línea de Transmisión de 110/66 kV, Ensenada-Melipulli;4;500;9

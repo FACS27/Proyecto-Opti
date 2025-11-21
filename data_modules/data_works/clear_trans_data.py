@@ -56,7 +56,7 @@ with open("data_modules/bloated_data/bloated_gen_" \
 
 
 formated_reduced_data = set()
-RegistroReducidoTrans = namedtuple('ReducidoTrans', ['Region', 'Comuna', 'Titular', 'Nombre', 'Inversion_MMUS', 'Posicion'])
+RegistroReducidoTrans = namedtuple('ReducidoTrans', ['Region', 'Comuna', 'Titular', 'Nombre', 'Inversion_MMUS', 'Posicion', 'Plazo'])
 
 #? Se queda solo con las lineas de transmision
 data_ernc = set(filter(lambda x: x.tipo_proyecto in ["Línea de transmisión eléctrica", "Subestación eléctrica"], formated_full_data))
@@ -71,7 +71,8 @@ more_reduced_data = set(filter(lambda x : conyunction(x), semi_reduced_data))
 #Nuevas posiciones
 for s in more_reduced_data:
     posicion = randint(1, 50) * int(s[1])
-    register = RegistroReducidoTrans(s[0], *(s[2:]), posicion)
+    plazo = randint(1, 10)
+    register = RegistroReducidoTrans(s[0], *(s[2:]), posicion, plazo)
     #print(register)
     if float(register.Inversion_MMUS) > 0:
         formated_reduced_data.add(register)
@@ -80,10 +81,10 @@ print(len(formated_reduced_data))
 
 
 with open("data_modules/data/trans_data_real_wh.csv", "w", encoding="utf-8") as file:
-    print('Region', 'Comuna', 'Titular', 'Nombre', 'Inversion_MMUS', 'Posicion', sep =";", file=file)
+    print('Region', 'Comuna', 'Titular', 'Nombre', 'Inversion_MMUS', 'Posicion', 'Plazo', sep =";", file=file)
     for f in formated_reduced_data:
-        print(f.Region, f.Comuna, f.Titular, f.Nombre, f.Inversion_MMUS, f.Posicion, sep=";", file=file)
+        print(*(f), sep=";", file=file)
 
 with open("data_modules/data/trans_data_real.csv", "w", encoding="utf-8") as file:
     for f in formated_reduced_data:
-        print(f.Region, f.Comuna, f.Titular, f.Nombre, f.Inversion_MMUS, f.Posicion, sep=";", file=file)
+        print(*(f), sep=";", file=file)
