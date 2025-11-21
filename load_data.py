@@ -39,7 +39,7 @@ with open("data_modules/data/gen_data_real_wh.csv", "r", encoding="utf-8") as fi
         L.add(new_proyecto.Id)
         E.add(new_proyecto.Titular)
         R.add(new_proyecto.Region)
-        P.add(int(new_proyecto.Posicion))
+        P.add(new_proyecto.Posicion)
 
         proyectos_g[new_proyecto.Id] = new_proyecto
         cont += 1
@@ -48,31 +48,15 @@ with open("data_modules/data/trans_data_real_wh.csv", "r", encoding="utf-8") as 
     lines = [line.strip().split(";") for line in file.readlines()]
     cont = 0
     for l in lines[1:]:
-        new_proyecto = ProyectoGen(cont, *l, None)
+        new_proyecto = ProyectoTrans(cont, *l, 0)
 
-        L.add(new_proyecto.Id)
+        N.add(new_proyecto.Id)
         E.add(new_proyecto.Titular)
         R.add(new_proyecto.Region)
         P.add(new_proyecto.Posicion)
 
-        proyectos_g[new_proyecto.Id] = new_proyecto
+        proyectos_t[new_proyecto.Id] = new_proyecto
         cont += 1
-
-
-#! Faltan los datos de transmision
-#with open("data_modules_data/data/gen_data_real.csv", "r", encoding="utf-8") as file:
-#    lines = [line.strip().split(";") for line in file.readlines()]
-#    cont = 0
-#    for l in lines:
-#        new_proyecto = ProyectoTrans(cont, *l)
-
-#        N.add(new_proyecto.Id)
-#        E.add(new_proyecto.Titular)
-#        R.add(new_proyecto.Region)
-#        P.add(new_proyecto.Posicion)
-
-#        proyectos_t[new_proyecto.Id] = new_proyecto
-#        cont += 1
 
 
 #* PARAMETROS GENERACION
@@ -107,10 +91,10 @@ tec_l = {(l, g) : 1 if g in proyectos_g[l].Tecnologia else 0 for l in L for g in
 costo_n = {n: float(proyectos_t[n].Inversion_MUF) for n in N}
 
 #Tiempo en semestres que el proyecto n estar´ıa terminado desde el semestre en que se inició
-plazo_n = {n: int(proyectos_t[n].Plazo_Semestres) for n in N}
+plazo_n = {n: int(proyectos_t[n].Plazo) for n in N}
 
-#Capacidad de transmisi´on del proyecto n en MW
-trans_n = {n: int(proyectos_t[n].Capacidad_MVA) for n in N}
+##Capacidad de transmisi´on del proyecto n en MW
+#trans_n = {n: int(proyectos_t[n].Capacidad_MVA) for n in N}
 
 #1 Si el proyecto n es propuesto por la empresa e
 emp_n = {(n, e): 1 if proyectos_t[n].Titular == e else 0 for n in N for e in E}
@@ -121,15 +105,12 @@ ubi_n = {(n, p): 1 if proyectos_t[n].Posicion == p else 0 for n in N for p in P}
 #* PARAMETROS GENERALES
 #* ==============================================
 
-#TODO 
 # Cantidad de proyectos que puede desarrollar la empresa e en cada semestre.
 cap_e = {e : randint(1, 5) for e in E}
 
 #Capacidad de generaci´on el´ectrica requerida en MW para cumplir la demanda en el 2050
 REQ = 32350
 
-#TODO 
 #Cantidad m´axima de proyectos que utilizan la tecnolog´ıa g en la regi´on r.
 max = {(r, g) : float("inf") for r in R for g in G}
-
-#30 solar, 5 hidro, 15 eólico
+#? Esto lo mantendré tal cual
