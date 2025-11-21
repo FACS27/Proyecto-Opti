@@ -34,11 +34,11 @@ def modelo():
     model.addConstrs(quicksum(y[l, t] * emp_l[l, e] for l in L) + quicksum(z[n, t] * emp_n[n, e] for n in N) <= cap for e in E for t in T)
 
     #4. No pueden realizarse 2 proyectos en la misma ubicaci´on. N´otese que esto evita que un proyecto se construya 2 veces
-    model.addConstrs(quicksum(x[l, t] * ubi_g[l, p] for l in L for t in T) <= 1 for p in P)
+    model.addConstrs(quicksum(x[l, t] * ubi_l[l, p] for l in L for t in T) <= 1 for p in P)
     model.addConstrs(quicksum(w[n, t] * ubi_n[n, p] for n in N for t in T) <= 1 for p in P)
 
     #5. Para hacer un proyecto de transmisión debe haber uno de generación asociado
-    model.addConstrs(quicksum(x[l, t] * ubi_g[l, p] for l in L for t in T) <= quicksum(w[n, t] * ubi_n[n, p] for n in N for t in T) + quicksum(ubi_n[n_prima, p] for n_prima in N) for p in P)
+    model.addConstrs(quicksum(x[l, t] * ubi_l[l, p] for l in L for t in T) <= quicksum(w[n, t] * ubi_n[n, p] for n in N for t in T) + quicksum(ubi_n[n_prima, p] for n_prima in N) for p in P)
 
     #6. Comportamiento de yℓ,t y de z
     model.addConstrs(x[l, t] <= y[l, t + t_prima] for l in L for t in T for t_prima in range(plazo_g[l]) if t + t_prima <= T[-1]) #revisar lo del if t + t_prima
