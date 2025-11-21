@@ -82,34 +82,21 @@ tec_l = {(l, g) : 1 if g in proyectos_g[l].Tecnologia else 0 for l in L for g in
 plazo_l =  {l: int(proyectos_g[l].Plazo) for l in L}
 
 
+    #L_por_empresa = {e: [] for e in E}
+    #N_por_empresa = {e: [] for e in E}
+
+    #for e in E:
+    #    for l in L:
+    #        if emp_l.get((l, e), 0) == 1:
+    #            L_por_empresa[e].append(l)
+    #            break 
+    #    for n in N:
+    #        if emp_n.get((n, e), 0) == 1:
+    #            N_por_empresa[e].append(n)
+    #            break 
+
 #* PARAMETROS TRANSMISION
 #* ==============================================
-#TODO 
-# Cantidad de proyectos que puede desarrollar la empresa e en cada semestre.
-cap = 1000
-
-#Capacidad de generaci´on el´ectrica requerida en MW para cumplir la demanda en el 2050
-#TODO 
-req = 32350
-
-#TODO 
-#Cantidad m´axima de proyectos que utilizan la tecnolog´ıa g en la regi´on r.
-
-i = 0
-j = 0
-k = 0
-max_t = {}
-for r in R:
-    for g in G:
-        if g == "Solar":
-            max_t[r, g] = 30 - i
-        elif g == "Hidro":
-            max_t[r, g] = 5 + j
-        else:
-            max_t[r, g] = 15 + k
-    i+=2
-    j+=1
-    k+=1
 
 #Costo en UF de realizar el proyecto n en el semestre t
 costo_n = {n: float(proyectos_t[n].Inversion_MUF) for n in N}
@@ -121,4 +108,43 @@ plazo_n = {n: int(proyectos_t[n].Plazo) for n in N}
 emp_n = {(n, e): 1 if proyectos_t[n].Titular == e else 0 for n in N for e in E}
 
 #1 Si el proyecto n esta ubicado en la posici´on p
-ubi_n = {(n, p): int(proyectos_t[n].Posicion) for n in N for p in P}
+ubi_n = {(n, p): 1 if proyectos_t[n].Posicion == p else 0 for n in N for p in P}
+
+#* PARAMETROS GENERALES
+#* ==============================================
+
+# Cantidad de proyectos que puede desarrollar la empresa e en cada semestre.
+cap_e = {e : randint(1, 5) for e in E}
+
+#Capacidad de generaci´on el´ectrica requerida en MW para cumplir la demanda en el 2050
+REQ = 32350
+
+#Cantidad m´axima de proyectos que utilizan la tecnolog´ıa g en la regi´on r.
+max_r = {(r, g) : float("inf") for r in R for g in G}
+#? Esto lo mantendré tal cual
+
+#i = 0
+#j = 0
+#k = 0
+#max_t = {}
+#for r in R:
+#    for g in G:
+#        if g == "Solar":
+#            max_t[r, g] = 30 - i
+#        elif g == "Hidro":
+#            max_t[r, g] = 5 + j
+#        else:
+#            max_t[r, g] = 15 + k
+#    i+=2
+#    j+=1
+#    k+=1
+
+
+L_r = {r : set(x.Id for x in filter(lambda x : x.Region == r, proyectos_g.values())) for r in R}
+
+L_e = {e : set(x.Id for x in filter(lambda x : x.Titular == e, proyectos_g.values())) for e in E}
+N_e = {e : set(x.Id for x in filter(lambda x : x.Titular == e, proyectos_t.values())) for e in E}
+
+
+for l in L_r:
+    print(l)
