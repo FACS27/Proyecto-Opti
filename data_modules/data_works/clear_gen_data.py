@@ -26,6 +26,17 @@ def conyunction(x):
 
 Regiones = set()
 
+PlazosTec = {
+
+    "Solar":        (2, 5),
+    "Hidro":        (2, 6),
+    "Eólica":       (8, 16),
+    "Geotérmica":   (6, 10),
+    "Eólica-Solar": (8, 16),
+    "Hidro-Solar":  (2, 6),
+
+    }
+
 
 def simplify_tech(tech):
     Solar = ("Solar Fotovoltaica", "Concentración Solar de Potencia", "csp-solar fotovoltaico", "solar fotovoltaico y solar csp")
@@ -68,7 +79,7 @@ with open("data_modules/bloated_data/bloated_gen_" \
     Regiones = tuple(Regiones)
 
 formated_reduced_data = set()
-RegistroReducido = namedtuple('Reducido', ['Region', 'Comuna', 'Titular', 'Nombre', 'Tecnologia', 'Inversion_MMUS', 'Capacidad_MW', 'Posicion'])
+RegistroReducido = namedtuple('Reducido', ['Region', 'Comuna', 'Titular', 'Nombre', 'Tecnologia', 'Inversion_MMUS', 'Capacidad_MW', 'Posicion', 'Plazo'])
 
 #? Se queda solo con las energias limpias
 data_ernc = set(filter(lambda x: x.categoria_electrica in ["ERNC", "ER", "Hidroeléctrica convencional", "Renovable convencional"], formated_full_data))
@@ -83,7 +94,8 @@ even_more_reduced_data = set()
 
 for s in more_reduced_data:
     posicion = randint(1, 50) * int(s[1])
-    register = RegistroReducido(s[0], *(s[2:]), posicion)
+    plazo = randint(*(PlazosTec[s[5]]))
+    register = RegistroReducido(s[0], *(s[2:]), posicion, plazo)
     #print(register)
     if isfloat(register.Capacidad_MW) and register.Capacidad_MW != "0.0" and float(register.Inversion_MMUS) > 0:
         formated_reduced_data.add(register)
@@ -92,10 +104,10 @@ print(len(formated_reduced_data))
 
 
 with open("data_modules/data/gen_data_real_wh.csv", "w", encoding="utf-8") as file:
-    print('Region', 'Comuna', 'Titular', 'Nombre', 'Tecnologia', 'Inversion_MMUS', 'Capacidad_MW', "Posicion", sep =";", file=file)
+    print('Region', 'Comuna', 'Titular', 'Nombre', 'Tecnologia', 'Inversion_MMUS', 'Capacidad_MW', 'Posicion', 'Plazo', sep =";", file=file)
     for f in formated_reduced_data:
-        print(f.Region, f.Comuna, f.Titular, f.Nombre, f.Tecnologia, f.Inversion_MMUS, f.Capacidad_MW, f.Posicion, sep=";", file=file)
+        print(*(f), sep=";", file=file)
 
 with open("data_modules/data/gen_data_real.csv", "w", encoding="utf-8") as file:
     for f in formated_reduced_data:
-        print(f.Region, f.Comuna, f.Titular, f.Nombre, f.Tecnologia, f.Inversion_MMUS, f.Capacidad_MW, f.Posicion, sep=";", file=file)
+        print(*(f), sep=";", file=file)
