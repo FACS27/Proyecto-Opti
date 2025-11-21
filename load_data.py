@@ -76,7 +76,7 @@ emp_g = {(l, e) : 1 if proyectos_g[l].Titular == e else 0 for l in L for e in E}
 
 #TODO 
 #1 Si el proyecto ℓ esta ubicado en la posici´on p
-ubi_g = {(l, p) : int(proyectos_g[l].NumeroBanda) for l in L for p in P}
+ubi_g = {(l, p) : 1 if int(proyectos_g[l].NumeroBanda) == p else 0 for l in L for p in P}
 
 #1 Si el proyecto ℓ utiliza la tecnolog´ıa de generaci´on g
 #! Debido a la cantidad de proyectos que tienen 2 tecnologias
@@ -85,7 +85,7 @@ tec = {(l, g) : 1 if g in proyectos_g[l].Tecnologia else 0 for l in L for g in G
 
 #TODO 
 # Cantidad de proyectos que puede desarrollar la empresa e en cada semestre.
-cap = 1
+cap = 1000
 
 #Capacidad de generaci´on el´ectrica requerida en MW para cumplir la demanda en el 2050
 #TODO 
@@ -97,15 +97,15 @@ req = 32350
 i = 0
 j = 0
 k = 0
-max = {}
+max_t = {}
 for r in R:
     for g in G:
         if g == "Solar":
-            max[r, g] = 30 - i
+            max_t[r, g] = 30 - i
         elif g == "Hidro":
-            max[r, g] = 5 + j
+            max_t[r, g] = 5 + j
         else:
-            max[r, g] = 15 + k
+            max_t[r, g] = 15 + k
     i+=2
     j+=1
     k+=1
@@ -123,4 +123,4 @@ trans1 = {n: int(proyectos_t[n].Capacidad_MVA) for n in N}
 emp_n = {(n, e): 1 if proyectos_t[n].Titular == e else 0 for n in N for e in E}
 
 #1 Si el proyecto n esta ubicado en la posici´on p
-ubi_n = {(n, p): int(proyectos_t[n].Posicion) for n in N for p in P}
+ubi_n = {(n, p): 1 if int(proyectos_t[n].Posicion) == p else 0 for n in N for p in P}

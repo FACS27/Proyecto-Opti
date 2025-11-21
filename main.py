@@ -1,7 +1,7 @@
 # %%
 
 from gurobipy import Model, GRB, quicksum
-from load_data import L, N, G, E, P, R, T, costo_g, plazo_g, gen1, emp_g, ubi_g, tec, cap, req, max, costo_n, plazo_n, trans1, emp_n, ubi_n
+from load_data import L, N, G, E, P, R, T, costo_g, plazo_g, gen1, emp_g, ubi_g, tec, cap, req, max_t, costo_n, plazo_n, emp_n, ubi_n, proyectos_g
 
 
 model = Model("GeneracionElectrica")
@@ -19,32 +19,66 @@ model.update()
 #1. La capacidad de generaci´on el´ectrica total es suficiente para satisfacer la demanda energ´etica proyectada para el 2050
 model.addConstr(quicksum((x[l, t] * gen1[l]) for l in L for t in (T)) >= req)
 
+print("Restricción agregada 1")
+
 #2. Todos lo proyectos deben terminarse a mas tardar en diciembre de 2049
 model.addConstrs(x[l, t] * t + plazo_g[l] <= 50 for l in L for t in (T))
 model.addConstrs(w[n, t] * t + plazo_n[n] <= 50 for n in N for t in (T))
 
+print("Restricción agregada 2")
+
 #3. Una empresa solo puede desarrollar tantos proyectos paralelamente como le permite su capacidad.
-model.addConstrs(quicksum(y[l, t] * emp_g[l, e] for l in L) + quicksum(z[n, t] * emp_n[n, e] for n in N) <= 1000 for e in E for t in T)
+L_por_empresa = {e: [] for e in E}
+N_por_empresa = {e: [] for e in E}
+
+for l in L:
+    for e in E:
+        if emp_g.get((l, e), 0) == 1:
+            L_por_empresa[e].append(l)
+            break 
+
+for n in N:
+    for e in E:
+        if emp_n.get((n, e), 0) == 1:
+            N_por_empresa[e].append(n)
+            break
+
+model.addConstrs(
+    (quicksum(y[l, t] for l in L_por_empresa[e]) + quicksum(z[n, t] for n in N_por_empresa[e])) <= cap for e in E for t in T)
+
+print("Restricción agregada 3")
 
 #4. No pueden realizarse 2 proyectos en la misma ubicaci´on. N´otese que esto evita que un proyecto se construya 2 veces
 model.addConstrs(quicksum(x[l, t] * ubi_g[l, p] for l in L for t in T) <= 1 for p in P)
 model.addConstrs(quicksum(w[n, t] * ubi_n[n, p] for n in N for t in T) <= 1 for p in P)
 
+print("Restricción agregada 4")
+
 #5. Para hacer un proyecto de transmisión debe haber uno de generación asociado
-model.addConstrs(quicksum(x[l, t] * ubi_g[l, p] for l in L for t in T) >= quicksum(w[n, t] * ubi_n[n, p] for n in N for t in T) for p in P)
+model.addConstrs(quicksum(x[l, t] * ubi_g[l, p] for l in L for t in T) <= quicksum(w[n, t] * ubi_n[n, p] for n in N for t in T) for p in P)
+
+print("Restricción agregada 5")
 
 #6. Comportamiento de yℓ,t y de z
-model.addConstrs(x[l, t] <= y[l, t + t_prima] for l in L for t in T for t_prima in range(plazo_g[l]) if t + t_prima < len(T)) #revisar lo del if t + t_prima
-model.addConstrs(quicksum(y[l, t] for t in T) == quicksum(x[l, t] * plazo_g[l] for t in T) for l in L)
+model.addConstrs(y[l, t] == quicksum(x[l, tau] for tau in range(max(1, t - plazo_g[l] + 1), t + 1)) for l in L for t in T)
+model.addConstrs(z[n, t] == quicksum(w[n, tau] for tau in range(max(1, t - plazo_n[n] + 1), t + 1)) for n in N for t in T)
 
-model.addConstrs(w[n, t] <= z[n, t + t_prima] for n in N for t in T for t_prima in range(plazo_n[n]) if t + t_prima < len(T)) #revisar lo del if t + t_prima
-model.addConstrs(quicksum(z[n, t] for t in T) == quicksum(w[n, t] * plazo_n[n] for t in T) for n in N) 
+print("Restricción agregada 6")
 
 #7. No construir más proyectos de cierta tecnología que los que te permite la regi´on
-model.addConstrs(quicksum(x[l, t] * tec[l, g] * ubi_g[l, p] for l in L for t in T for p in P) <= max[r, g] for r in R for g in G)
 
-#8. No superar la capacidad de transmisión de cada línea
-model.addConstrs(quicksum(w[n, t] * trans1[n] * ubi_n[n, p] for t in T for n in (N)) >= quicksum(x[l, t] * gen1[l] * ubi_g[l, p] for l in (L) for t in (T)) for p in P)
+proyectos_por_zona = {}
+for l in L:
+    region = proyectos_g[l].Region
+    for g in G:
+        if tec.get((l, g), 0) == 1:
+            if (region, g) not in proyectos_por_zona:
+                proyectos_por_zona[(region, g)] = []
+            proyectos_por_zona[(region, g)].append(l)
+
+model.addConstrs((quicksum(x[l, t] for l in proyectos_por_zona.get((r, g), []) for t in T) <= max_t[r, g]) for r in R for g in G)
+
+print("Restricción agregada 7")
 
 model.update()
 
@@ -56,6 +90,8 @@ model.update()
 print("Iniciando optimización...")
 
 model.optimize()
+
+print(model.status)
 
 if model.Status == GRB.OPTIMAL:
     print("\n¡Solución óptima encontrada!")
@@ -110,26 +146,5 @@ if model.Status == GRB.OPTIMAL:
     for r in sorted(regiones.keys()):
         print(f"La región {r} tiene {regiones[r]} proyectos")
 
-elif model.Status == GRB.INFEASIBLE:
-    print("\nEl modelo es INFACTIBLE.")
-    print("Calculando IIS (Irreducible Inconsistent Subsystem) para encontrar el conflicto...")
-    
-    # Calcular IIS para que Gurobi te diga qué restricciones están en conflicto
-    model.computeIIS()
-    model.write("modelo_infactible.ilp")
-    print("Se ha guardado un archivo 'modelo_infactible.ilp'.")
-    print("Ábrelo para ver las restricciones que causan el conflicto.")
-
-elif model.Status == GRB.UNBOUNDED:
-    print("\nEl modelo es NO ACOTADO (Unbounded).")
-
-elif model.Status == GRB.TIME_LIMIT:
-    print("\nLímite de tiempo alcanzado.")
-    if model.SolCount > 0:
-        print(f"Se encontró una solución (no óptima). Costo: {model.ObjVal:,.2f} UF")
-        # (Aquí podrías duplicar el código para imprimir la solución encontrada)
-    else:
-        print("No se encontró ninguna solución factible antes del límite de tiempo.")
-
 else:
-    print(f"\nOptimización terminada con estado: {model.Status}")
+    print("No se encontró una solución óptima.")
