@@ -1,10 +1,10 @@
-# %%
-
+#%%
+import numpy as np
 from gurobipy import Model, GRB, quicksum
-from load_data import L, N, G, E, P, R, T, costo_g, plazo_g, gen1, emp_g, ubi_g, tec, cap, req, max_t, costo_n, plazo_n, emp_n, ubi_n, proyectos_g
+from load_data import L, N, G, E, P, R, T, costo_l, plazo_l, gen_l, emp_l, ubi_l, tec_l, cap, req, max_t, costo_n, plazo_n, emp_n, ubi_n, proyectos_g
 
 
-model = Model("GeneracionElectrica")
+model = Model("Generación Eléctrica")
 model.setParam('TimeLimit', 1800)
 
 x = model.addVars(L, T, vtype=GRB.BINARY, name="x")
@@ -17,12 +17,12 @@ model.update()
 #Restricciones
 
 #1. La capacidad de generaci´on el´ectrica total es suficiente para satisfacer la demanda energ´etica proyectada para el 2050
-model.addConstr(quicksum((x[l, t] * gen1[l]) for l in L for t in (T)) >= req)
+model.addConstr(quicksum((x[l, t] * gen_l[l]) for l in L for t in (T)) >= req)
 
 print("Restricción agregada 1")
 
 #2. Todos lo proyectos deben terminarse a mas tardar en diciembre de 2049
-model.addConstrs(x[l, t] * t + plazo_g[l] <= 50 for l in L for t in (T))
+model.addConstrs(x[l, t] * t + plazo_l[l] <= 50 for l in L for t in (T))
 model.addConstrs(w[n, t] * t + plazo_n[n] <= 50 for n in N for t in (T))
 
 print("Restricción agregada 2")
@@ -33,7 +33,7 @@ N_por_empresa = {e: [] for e in E}
 
 for l in L:
     for e in E:
-        if emp_g.get((l, e), 0) == 1:
+        if emp_l.get((l, e), 0) == 1:
             L_por_empresa[e].append(l)
             break 
 
@@ -49,29 +49,29 @@ model.addConstrs(
 print("Restricción agregada 3")
 
 #4. No pueden realizarse 2 proyectos en la misma ubicaci´on. N´otese que esto evita que un proyecto se construya 2 veces
-model.addConstrs(quicksum(x[l, t] * ubi_g[l, p] for l in L for t in T) <= 1 for p in P)
+model.addConstrs(quicksum(x[l, t] * ubi_l[l, p] for l in L for t in T) <= 1 for p in P)
 model.addConstrs(quicksum(w[n, t] * ubi_n[n, p] for n in N for t in T) <= 1 for p in P)
 
 print("Restricción agregada 4")
 
 #5. Para hacer un proyecto de transmisión debe haber uno de generación asociado
-model.addConstrs(quicksum(x[l, t] * ubi_g[l, p] for l in L for t in T) <= quicksum(w[n, t] * ubi_n[n, p] for n in N for t in T) for p in P)
+model.addConstrs(quicksum(x[l, t] * ubi_l[l, p] for l in L for t in T) <= quicksum(w[n, t] * ubi_n[n, p] for n in N for t in T) for p in P)
 
 print("Restricción agregada 5")
 
 #6. Comportamiento de yℓ,t y de z
-model.addConstrs(y[l, t] == quicksum(x[l, tau] for tau in range(max(1, t - plazo_g[l] + 1), t + 1)) for l in L for t in T)
+model.addConstrs(y[l, t] == quicksum(x[l, tau] for tau in range(max(1, t - plazo_l[l] + 1), t + 1)) for l in L for t in T)
 model.addConstrs(z[n, t] == quicksum(w[n, tau] for tau in range(max(1, t - plazo_n[n] + 1), t + 1)) for n in N for t in T)
 
 print("Restricción agregada 6")
 
-#7. No construir más proyectos de cierta tecnología que los que te permite la regi´on
+#7. No construir más proyectos de cierta tec_lnología que los que te permite la regi´on
 
 proyectos_por_zona = {}
 for l in L:
     region = proyectos_g[l].Region
     for g in G:
-        if tec.get((l, g), 0) == 1:
+        if tec_l.get((l, g), 0) == 1:
             if (region, g) not in proyectos_por_zona:
                 proyectos_por_zona[(region, g)] = []
             proyectos_por_zona[(region, g)].append(l)
@@ -83,7 +83,7 @@ print("Restricción agregada 7")
 model.update()
 
 #Función objetivo
-model.setObjective(quicksum(costo_g[l] * x[l, t] for l in L for t in T) + quicksum(w[n, t] * costo_n[n] for n in N for t in T), GRB.MINIMIZE)
+model.setObjective(quicksum(costo_l[l] * x[l, t] for l in L for t in T) + quicksum(w[n, t] * costo_n[n] for n in N for t in T), GRB.MINIMIZE)
 
 model.update()
 
@@ -121,7 +121,7 @@ if model.Status == GRB.OPTIMAL:
     empresas_trans = set()
     for l, t in proyectos_gen:
         for e in E:
-            if emp_g[l, e] == 1:
+            if emp_l[l, e] == 1:
                 empresas_gen.add(e)
 
     for n, t in proyectos_trans:
@@ -139,7 +139,7 @@ if model.Status == GRB.OPTIMAL:
     for l, t in proyectos_gen:
         for r in R:
             for p in P:
-                if ubi_g[l, p] == 1:
+                if ubi_l[l, p] == 1:
                     regiones[r] = regiones.get(r, 0) + 1
                     break
 
